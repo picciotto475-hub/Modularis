@@ -1,0 +1,26 @@
+{
+  "load_condition": { "type": "mod_loaded", "mod": "cataclysm" },
+  "translation": {
+    "translate": "material.modularis.cursium"
+  },
+  "icon": {
+    "type": "item",
+    "item": "cataclysm:cursium_ingot"
+  },
+  "groups": ["smithing"],
+  "tier": 6,
+  "hardness": 14,
+  "density": 3.8,
+  "flexibility": 24,
+  "durability": 5000,
+  "enchantability": 15,
+  "armor_toughness": 4.0,
+  "toughness": 4.0,
+  "items": [
+    { "item": "cataclysm:cursium_ingot", "value": 1.0 }
+  ],
+  "color_palette": {
+    "type": "image_generated_item",
+    "item": "cataclysm:cursium_ingot"
+  }
+}

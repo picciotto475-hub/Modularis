@@ -1,0 +1,48 @@
+{
+  "load_condition": { "type": "mod_loaded", "mod": "cataclysm" },
+  "key": "modularis:cataclysm/cursium",
+  "properties": {
+    "blade_medium": {
+      "item_lore": [
+        { "text": { "translate": "modularis.lore.cataclysm.soul_render", "color": "dark_purple" }, "position": "bottom", "priority": 0 },
+        { "text": { "translate": "modularis.lore.cataclysm.soul_render2", "color": "dark_purple" }, "position": "bottom", "priority": 1 }
+      ],
+      "ability_context": [
+        {
+          "id": "modularis:cataclysm_soul_render_copy",
+          "type": "miapi:copy_item",
+          "priority": 0,
+          "data": {
+            "id": "cataclysm:soul_render",
+            "cooldown": 100
+          }
+        }
+      ],
+      "attributes": [
+        { "attribute": "minecraft:entity_interaction_range", "value": "2.0", "operation": "+", "slot": "mainhand" },
+        { "attribute": "minecraft:block_interaction_range", "value": "2.0", "operation": "+", "slot": "mainhand" }
+      ]
+    },
+    "dual_wield": {
+      "item_lore": [
+        { "text": { "translate": "modularis.lore.cataclysm.soul_render", "color": "dark_purple" }, "position": "bottom", "priority": 0 },
+        { "text": { "translate": "modularis.lore.cataclysm.soul_render2", "color": "dark_purple" }, "position": "bottom", "priority": 1 }
+      ],
+      "ability_context": [
+        {
+          "id": "modularis:cataclysm_soul_render_copy",
+          "type": "miapi:copy_item",
+          "priority": 0,
+          "data": {
+            "id": "cataclysm:soul_render",
+            "cooldown": 100
+          }
+        }
+      ],
+      "attributes": [
+        { "attribute": "minecraft:entity_interaction_range", "value": "2.0", "operation": "+", "slot": "mainhand" },
+        { "attribute": "minecraft:block_interaction_range", "value": "2.0", "operation": "+", "slot": "mainhand" }
+      ]
+    }
+  }
+}
