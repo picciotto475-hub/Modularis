@@ -11,10 +11,11 @@
   "tier": 5,
   "hardness": 5,
   "density": 3.8,
-  "flexibility": 1,
+  "flexibility": 0,
   "durability": 735,
   "enchantability": 25,
-  "toughness": 0,
+  "armor_toughness": 2.5,
+  "toughness": 2.5,
   "mining_speed": 8,
   "mining_level": "minecraft:incorrect_for_diamond_tool",
   "items": [

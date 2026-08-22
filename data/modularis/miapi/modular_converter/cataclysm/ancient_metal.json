@@ -29,20 +29,5 @@
                 "child": {}
             }
         }
-    },
-    "cataclysm:ancient_spear": {
-        "key": "tm_arsenal:handle/polearm",
-        "data": {
-            "material": "miapi:wood/wood"
-        },
-        "child": {
-            "0": {
-                "key": "modularis:blade/cataclysm/ancient_spear",
-                "data": {
-                    "material": "modularis:cataclysm/ancient_metal"
-                },
-                "child": {}
-            }
-        }
     }
 }
