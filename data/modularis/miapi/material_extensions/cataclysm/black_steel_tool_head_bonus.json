@@ -1,4 +1,5 @@
 {
+  "load_condition": { "type": "mod_loaded", "mod": "cataclysm" },
   "key": "modularis:cataclysm/black_steel",
   "properties": {
     "axe": {
@@ -9,11 +10,6 @@
     "hoe": {
       "durability": [
         { "operation": "+", "value": "[material.durability]*0.01" }
-      ]
-    },
-    "pickaxe": {
-      "durability": [
-        { "operation": "+", "value": "[material.durability]*0.0025" }
       ]
     }
   }

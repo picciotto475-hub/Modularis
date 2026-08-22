@@ -1,14 +1,14 @@
 {
   "load_condition": { "type": "mod_loaded", "mod": "cataclysm" },
   "translation": {
-    "translate": "material.modularis.black_steel"
+    "translate": "material.modularis.ancient_metal"
   },
   "icon": {
     "type": "item",
-    "item": "cataclysm:black_steel_ingot"
+    "item": "cataclysm:ancient_metal_ingot"
   },
   "groups": ["metal"],
-  "tier": 4,
+  "tier": 5,
   "hardness": 5,
   "density": 3.8,
   "flexibility": 1,
@@ -18,11 +18,11 @@
   "mining_speed": 8,
   "mining_level": "minecraft:incorrect_for_diamond_tool",
   "items": [
-    { "item": "cataclysm:black_steel_ingot", "value": 1.0 },
-    { "item": "cataclysm:black_steel_nugget", "value": 0.11112 }
+    { "item": "cataclysm:ancient_metal_ingot", "value": 1.0 },
+    { "item": "cataclysm:ancient_metal_nugget", "value": 0.11112 }
   ],
   "color_palette": {
     "type": "image_generated_item",
-    "item": "cataclysm:black_steel_ingot"
+    "item": "cataclysm:ancient_metal_ingot"
   }
 }

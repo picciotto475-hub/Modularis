@@ -1,0 +1,131 @@
+{
+    "load_condition": { "type": "mod_loaded", "mod": "cataclysm" },
+    "model": [
+        {
+            "path": "miapi:models/item/sword/blade/spear/[material.texture].json",
+            "color": "[material.color]",
+            "transform": {
+                "rotation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "translation": {
+                    "x": -3,
+                    "y": -3,
+                    "z": -0.001
+                },
+                "scale": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                }
+            }
+        }
+    ],
+    "is_weapon": "true",
+    "module_stats": {
+        "blade_size": 1
+    },
+    "inertia_damage": "3+[material.density]/2",
+    "priority": -13,
+    "repair_priority": -1,
+    "enchantments": {
+        "allowed": [
+            "minecraft:enchantable/sword",
+            "minecraft:enchantable/fire_aspect",
+            "minecraft:enchantable/sharp_weapon",
+            "minecraft:enchantable/weapon",
+            "minecraft:loyalty"
+        ]
+    },
+    "allowed_in_slots": [
+        "polearm_blade"
+    ],
+    "allowed_material": {
+        "allowedMaterials": [
+            "modularis:cataclysm/ancient_metal"
+        ],
+        "cost": 1
+    },
+    "material_indication": {
+        "hardness": {
+            "strength": 2,
+            "info": {
+                "type": "translatable",
+                "translate": "tm_arsenal.material_indication.blade.damage",
+                "color": "dark_gray"
+            }
+        },
+        "durability": 1
+    },
+    "attributes": [
+        {
+            "attribute": "generic.attack_speed",
+            "value": "+0.4",
+            "operation": "+",
+            "slot": "mainhand"
+        },
+        {
+            "attribute": "generic.attack_damage",
+            "value": "[material.hardness]*1.9",
+            "operation": "+",
+            "slot": "mainhand"
+        },
+        {
+            "attribute": "miapi:generic.projectile_piercing",
+            "value": "1",
+            "operation": "+",
+            "slot": "mainhand"
+        }
+    ],
+    "copy_item_on_hit": [
+        "cataclysm:ancient_spear"
+    ],
+    "throw_damage": "[material.hardness]*1.0",
+    "throw_speed": "3.75",
+    "projectile_accuracy": "10",
+    "durability": "[material.durability]*2.428571",
+    "ability_context": {
+        "throw": {}
+    },
+    "water_drag": "0.97",
+    "gui_offset": {
+        "sizeX": -7,
+        "sizeY": -7
+    },
+    "mining_level": {
+        "sword": {
+            "allowed": [
+                "#minecraft:sword_efficient"
+            ],
+            "use_material": false,
+            "speed": "1.5"
+        },
+        "cobweb": {
+            "allowed": [
+                [
+                    "minecraft:cobweb"
+                ]
+            ],
+            "use_material": false,
+            "correct_for_drops": true,
+            "speed": "15"
+        }
+    },
+    "better_combat_config": "bettercombat:spear",
+    "display_name": "miapi.module.modularis.blade.cataclysm.ancient_spear.name",
+    "item_id": "miapi:modular_spear",
+    "module_tag": [
+        "default",
+        "handheld",
+        "blade",
+        "head",
+        "spear",
+        "throwing_weapon",
+        "blade",
+        "polearm_spear",
+        "spear",
+        "sharp"
+    ]
+}

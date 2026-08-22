@@ -1,3 +1,7 @@
 {
-  "material.modularis.black_steel": "Black Steel"
+  "material.modularis.black_steel": "Black Steel",
+  "material.modularis.ancient_metal": "Ancient Metal",
+  "miapi.module.modularis.blade.cataclysm.ancient_spear.name": "Ancient Spear Blade",
+  "miapi.module.modularis.blade.cataclysm.ancient_spear": "Ancient Spear Blade",
+  "miapi.module.modularis.blade.cataclysm.ancient_spear.description": "A polearm head modeled after the ancient spear, forged from ancient metal. Its charged strikes still whip up a burst of sandstorm."
 }

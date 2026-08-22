@@ -1,4 +1,5 @@
 {
+    "load_condition": { "type": "mod_loaded", "mod": "cataclysm" },
     "cataclysm:black_steel_sword": {
         "key": "tm_arsenal:handle/sword",
         "data": {
