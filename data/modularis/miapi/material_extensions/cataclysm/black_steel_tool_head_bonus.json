@@ -1,0 +1,20 @@
+{
+  "key": "modularis:cataclysm/black_steel",
+  "properties": {
+    "axe": {
+      "durability": [
+        { "operation": "+", "value": "[material.durability]*0.01" }
+      ]
+    },
+    "hoe": {
+      "durability": [
+        { "operation": "+", "value": "[material.durability]*0.01" }
+      ]
+    },
+    "pickaxe": {
+      "durability": [
+        { "operation": "+", "value": "[material.durability]*0.0025" }
+      ]
+    }
+  }
+}

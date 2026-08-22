@@ -1,0 +1,27 @@
+{
+  "translation": {
+    "translate": "material.modularis.black_steel"
+  },
+  "icon": {
+    "type": "item",
+    "item": "cataclysm:black_steel_ingot"
+  },
+  "groups": ["metal"],
+  "tier": 4,
+  "hardness": 5,
+  "density": 3.8,
+  "flexibility": 1,
+  "durability": 735,
+  "enchantability": 25,
+  "toughness": 0,
+  "mining_speed": 8,
+  "mining_level": "minecraft:incorrect_for_diamond_tool",
+  "items": [
+    { "item": "cataclysm:black_steel_ingot", "value": 1.0 },
+    { "item": "cataclysm:black_steel_nugget", "value": 0.11112 }
+  ],
+  "color_palette": {
+    "type": "image_generated_item",
+    "item": "cataclysm:black_steel_ingot"
+  }
+}
