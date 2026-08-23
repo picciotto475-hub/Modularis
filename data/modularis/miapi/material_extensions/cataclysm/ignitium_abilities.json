@@ -1,0 +1,46 @@
+{
+  "load_condition": { "type": "mod_loaded", "mod": "cataclysm" },
+  "key": "modularis:cataclysm/ignitium",
+  "properties": {
+    "blade_large": {
+      "ability_context": [
+        {
+          "id": "modularis:cataclysm_flame_strike_copy",
+          "type": "miapi:copy_item",
+          "priority": 0,
+          "data": {
+            "id": "cataclysm:the_incinerator",
+            "cooldown": 400
+          }
+        }
+      ]
+    },
+    "head": {
+      "on_attack_potion": [
+        { "potion": "cataclysm:blazing_brand", "amplifier": 0, "duration": 60, "target_self": false, "probability": 0.15 }
+      ]
+    },
+    "shield": {
+      "item_lore": [
+        { "text": { "translate": "item.cataclysm.bulwark_of_the_flame.desc", "color": "gold" }, "position": "bottom", "priority": 0 },
+        { "text": { "translate": "item.cataclysm.bulwark_of_the_flame2.desc", "color": "gold" }, "position": "bottom", "priority": 1 }
+      ],
+      "ability_context": [
+        {
+          "id": "modularis:cataclysm_bulwark_charge_copy",
+          "type": "miapi:copy_item",
+          "priority": 0,
+          "data": {
+            "id": "cataclysm:bulwark_of_the_flame",
+            "cooldown": 80
+          }
+        }
+      ]
+    },
+    "default_armor": {
+      "on_hit_potion": [
+        { "potion": "cataclysm:blazing_brand", "amplifier": 0, "duration": 100, "target_self": false, "probability": 0.3 }
+      ]
+    }
+  }
+}

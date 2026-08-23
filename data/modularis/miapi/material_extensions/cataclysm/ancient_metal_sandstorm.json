@@ -18,6 +18,11 @@
                     "slot": "mainhand"
                 }
             ]
+        },
+        "default_armor": {
+            "on_hit_potion": [
+                { "potion": "cataclysm:curse_of_desert", "amplifier": 1, "duration": 100, "target_self": false, "probability": 0.3 }
+            ]
         }
     }
 }
