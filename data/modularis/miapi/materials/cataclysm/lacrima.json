@@ -1,0 +1,39 @@
+{
+  "load_condition": { "type": "mod_loaded", "mod": "cataclysm" },
+  "translation": {
+    "translate": "material.modularis.lacrima"
+  },
+  "icon": {
+    "type": "item",
+    "item": "cataclysm:lacrima"
+  },
+  "groups": ["crystal"],
+  "tier": 3,
+  "hardness": 5,
+  "density": 1.8,
+  "flexibility": 0,
+  "durability": 260,
+  "enchantability": 24,
+  "toughness": 1,
+  "mining_speed": 7,
+  "mining_level": "minecraft:incorrect_for_iron_tool",
+  "items": [
+    { "item": "cataclysm:lacrima", "value": 1.0 }
+  ],
+  "properties": {
+    "armor": {
+      "attributes": [
+        {
+          "attribute": "miapi:generic.swim_speed",
+          "value": "0.12",
+          "operation": "*",
+          "slot": "armor"
+        }
+      ]
+    }
+  },
+  "color_palette": {
+    "type": "image_generated_item",
+    "item": "cataclysm:lacrima"
+  }
+}

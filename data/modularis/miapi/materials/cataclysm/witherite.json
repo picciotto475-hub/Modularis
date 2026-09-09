@@ -1,0 +1,25 @@
+{
+  "load_condition": { "type": "mod_loaded", "mod": "cataclysm" },
+  "translation": {
+    "translate": "material.modularis.witherite"
+  },
+  "icon": {
+    "type": "item",
+    "item": "cataclysm:witherite_ingot"
+  },
+  "groups": ["metal"],
+  "tier": 6,
+  "hardness": 7.5,
+  "density": 3.8,
+  "flexibility": 1,
+  "durability": 3000,
+  "enchantability": 16,
+  "toughness": 0,
+  "items": [
+    { "item": "cataclysm:witherite_ingot", "value": 1.0 }
+  ],
+  "color_palette": {
+    "type": "image_generated_item",
+    "item": "cataclysm:witherite_ingot"
+  }
+}

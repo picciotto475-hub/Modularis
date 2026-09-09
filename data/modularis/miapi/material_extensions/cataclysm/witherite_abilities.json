@@ -1,0 +1,27 @@
+{
+  "load_condition": { "type": "mod_loaded", "mod": "cataclysm" },
+  "key": "modularis:cataclysm/witherite",
+  "properties": {
+    "head": {
+      "on_attack_potion": [
+        { "potion": "minecraft:wither", "amplifier": 0, "duration": 60, "target_self": false, "probability": 0.15 }
+      ]
+    },
+    "handheld_item": {
+      "item_lore": [
+        { "text": { "translate": "item.cataclysm.meat_shredder.desc", "color": "dark_gray" }, "position": "bottom", "priority": 0 }
+      ],
+      "ability_context": [
+        {
+          "id": "modularis:cataclysm_meat_shredder_copy",
+          "type": "miapi:copy_item",
+          "priority": 0,
+          "data": {
+            "id": "cataclysm:meat_shredder",
+            "cooldown": 0
+          }
+        }
+      ]
+    }
+  }
+}

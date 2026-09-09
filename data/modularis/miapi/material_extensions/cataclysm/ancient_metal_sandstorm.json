@@ -3,7 +3,6 @@
     "key": "modularis:cataclysm/ancient_metal",
     "properties": {
         "head": {
-            "copy_item_on_hit": ["cataclysm:ancient_spear"],
             "attributes": [
                 {
                     "attribute": "miapi:generic.reach",

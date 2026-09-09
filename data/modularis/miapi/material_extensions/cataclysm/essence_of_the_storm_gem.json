@@ -1,0 +1,22 @@
+{
+  "load_condition": { "type": "mod_loaded", "mod": "cataclysm" },
+  "key": "modularis:cataclysm/essence_of_the_storm",
+  "hidden_groups": ["gem_melee"],
+  "properties": {
+    "gem_melee_handheld": {
+      "damage_command": [
+        {
+          "command": [
+            "execute if predicate modularis:cataclysm/essence_of_the_storm_lightning_chance run summon minecraft:lightning_bolt ~ ~ ~"
+          ],
+          "onMeleeAttack": true,
+          "runAt": "DEFENDER"
+        }
+      ],
+      "item_lore": [
+        { "text": { "translate": "modularis.lore.cataclysm.essence_of_the_storm" }, "color": "aqua", "position": "bottom", "priority": 0 },
+        { "text": { "translate": "modularis.lore.cataclysm.essence_of_the_storm2" }, "color": "aqua", "position": "bottom", "priority": 1 }
+      ]
+    }
+  }
+}

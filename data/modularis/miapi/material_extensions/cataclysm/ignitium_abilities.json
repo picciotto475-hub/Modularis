@@ -3,6 +3,11 @@
   "key": "modularis:cataclysm/ignitium",
   "properties": {
     "blade_large": {
+      "item_lore": [
+        { "text": { "translate": "item.cataclysm.incinerator.desc", "color": "gold" }, "position": "bottom", "priority": 0 },
+        { "text": { "translate": "item.cataclysm.incinerator2.desc", "color": "gold" }, "position": "bottom", "priority": 1 },
+        { "text": { "translate": "item.cataclysm.incinerator3.desc", "color": "gold" }, "position": "bottom", "priority": 2 }
+      ],
       "ability_context": [
         {
           "id": "modularis:cataclysm_flame_strike_copy",
