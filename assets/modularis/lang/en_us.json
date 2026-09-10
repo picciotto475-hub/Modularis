@@ -10,5 +10,8 @@
   "modularis.lore.cataclysm.soul_render": "You can Rush of Render",
   "modularis.lore.cataclysm.soul_render2": "When used while sneaking, it summons Phantom Halberds in a spiral pattern",
   "modularis.lore.cataclysm.essence_of_the_storm": "Bound lightning of the storm titan Scylla",
-  "modularis.lore.cataclysm.essence_of_the_storm2": "20% chance to strike a lightning bolt on hit"
+  "modularis.lore.cataclysm.essence_of_the_storm2": "20% chance to strike a lightning bolt on hit",
+  "material.modularis.koboleton_bone": "Koboleton Bone",
+  "material.modularis.void_jaw": "Void Jaw",
+  "material.modularis.fused_bone": "Fused Bone"
 }

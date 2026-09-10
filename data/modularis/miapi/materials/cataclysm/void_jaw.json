@@ -1,0 +1,35 @@
+{
+  "load_condition": { "type": "mod_loaded", "mod": "cataclysm" },
+  "translation": {
+    "translate": "material.modularis.void_jaw"
+  },
+  "icon": {
+    "type": "item",
+    "item": "cataclysm:void_jaw"
+  },
+  "groups": ["bone"],
+  "tier": 4,
+  "hardness": 7,
+  "density": 4.5,
+  "flexibility": 2,
+  "durability": 380,
+  "enchantability": 8,
+  "toughness": 2,
+  "mining_speed": 4,
+  "mining_level": "minecraft:incorrect_for_gold_tool",
+  "items": [
+    { "item": "cataclysm:void_jaw", "value": 1.0 }
+  ],
+  "properties": {
+    "head": {
+      "on_attack_potion": [
+        { "potion": "minecraft:poison", "amplifier": 0, "duration": 60, "target_self": false, "probability": 0.15 },
+        { "potion": "minecraft:blindness", "amplifier": 0, "duration": 60, "target_self": false, "probability": 0.1 }
+      ]
+    }
+  },
+  "color_palette": {
+    "type": "image_generated_item",
+    "item": "cataclysm:void_jaw"
+  }
+}
