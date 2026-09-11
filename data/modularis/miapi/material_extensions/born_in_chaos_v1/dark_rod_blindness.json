@@ -1,0 +1,18 @@
+{
+  "load_condition": { "type": "mod_loaded", "mod": "born_in_chaos_v1" },
+  "key": "modularis:born_in_chaos_v1/dark_rod",
+  "properties": {
+    "handheld": {
+      "on_attack_potion": [
+        { "potion": "minecraft:blindness", "amplifier": 0, "duration": 60, "target_self": false, "probability": 0.15 }
+      ],
+      "gui_stat": {
+        "dark_rod_blindness_chance": {
+          "value": "15", "min": 15, "max": 15,
+          "header": { "translate": "modularis.material.stat.blindness_chance" },
+          "description": { "translate": "modularis.material.stat.blindness_chance.description" }
+        }
+      }
+    }
+  }
+}

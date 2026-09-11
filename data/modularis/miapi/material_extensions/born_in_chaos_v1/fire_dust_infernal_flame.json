@@ -1,0 +1,18 @@
+{
+  "load_condition": { "type": "mod_loaded", "mod": "born_in_chaos_v1" },
+  "key": "modularis:born_in_chaos_v1/fire_dust",
+  "properties": {
+    "head": {
+      "on_attack_potion": [
+        { "potion": "born_in_chaos_v1:infernal_flame", "amplifier": 0, "duration": 60, "target_self": false, "probability": 0.15 }
+      ],
+      "gui_stat": {
+        "fire_dust_infernal_flame_chance": {
+          "value": "15", "min": 15, "max": 15,
+          "header": { "translate": "modularis.material.stat.infernal_flame_chance" },
+          "description": { "translate": "modularis.material.stat.infernal_flame_chance.description" }
+        }
+      }
+    }
+  }
+}

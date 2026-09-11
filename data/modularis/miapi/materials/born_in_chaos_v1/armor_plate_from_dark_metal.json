@@ -1,0 +1,26 @@
+{
+  "load_condition": { "type": "mod_loaded", "mod": "born_in_chaos_v1" },
+  "translation": {
+    "translate": "material.modularis.armor_plate_from_dark_metal"
+  },
+  "icon": {
+    "type": "item",
+    "item": "born_in_chaos_v1:armor_plate_from_dark_metal"
+  },
+  "groups": ["smithing"],
+  "tier": 5,
+  "hardness": 10,
+  "density": 5,
+  "flexibility": 8,
+  "durability": 2030,
+  "enchantability": 20,
+  "toughness": 3.5,
+  "armor_toughness": 5.0,
+  "items": [
+    { "item": "born_in_chaos_v1:armor_plate_from_dark_metal", "value": 1.0 }
+  ],
+  "color_palette": {
+    "type": "image_generated_item",
+    "item": "born_in_chaos_v1:armor_plate_from_dark_metal"
+  }
+}

@@ -13,5 +13,40 @@
   "modularis.lore.cataclysm.essence_of_the_storm2": "20% chance to strike a lightning bolt on hit",
   "material.modularis.koboleton_bone": "Koboleton Bone",
   "material.modularis.void_jaw": "Void Jaw",
-  "material.modularis.fused_bone": "Fused Bone"
+  "material.modularis.fused_bone": "Fused Bone",
+  "material.modularis.dark_rod": "Dark Rod",
+  "material.modularis.bone_handle": "Bone Handle",
+  "material.modularis.lifestealer_bone": "Lifestealer Bone",
+  "material.modularis.seedof_chaos": "Seed of Chaos",
+  "material.modularis.fire_dust": "Fire Light Dust",
+  "material.modularis.spiritual_dust": "Spiritual Dust",
+
+  "modularis.material.stat.blindness_chance": "Blindness Chance",
+  "modularis.material.stat.blindness_chance.description": "Chance to blind the target on hit",
+  "modularis.material.stat.infernal_flame_chance": "Infernal Flame Chance",
+  "modularis.material.stat.infernal_flame_chance.description": "Chance to afflict the target with Infernal Flame on hit",
+  "modularis.material.stat.soul_stratification_chance": "Soul Stratification Chance",
+  "modularis.material.stat.soul_stratification_chance.description": "Chance to afflict the target with Soul Stratification on hit",
+  "modularis.material.stat.durability_bonus": "Durability Bonus",
+  "modularis.material.stat.durability_bonus.description": "Flat durability bonus granted by this gem",
+  "modularis.material.stat.summon_minions_cooldown": "Summon Minions Cooldown (s)",
+  "modularis.material.stat.summon_minions_cooldown.description": "Right-click to summon 2 controlled baby skeletons; seconds before the ability can be used again",
+
+  "material.modularis.orbofthe_summoner": "Orb of the Summoner",
+  "material.modularis.dark_metal": "Dark Metal",
+  "material.modularis.armor_plate_from_dark_metal": "Dark Metal Armor Plate",
+
+  "miapi.module.modularis.blade.born_in_chaos_v1.darkwarblade.name": "Darkwarblade Blade",
+  "miapi.module.modularis.blade.born_in_chaos_v1.darkwarblade": "Darkwarblade Blade",
+  "miapi.module.modularis.blade.born_in_chaos_v1.darkwarblade.description": "A massive dark metal broadsword blade",
+  "miapi.module.modularis.tool.born_in_chaos_v1.great_reaper_axe.name": "Great Reaper Axe Head",
+  "miapi.module.modularis.tool.born_in_chaos_v1.great_reaper_axe": "Great Reaper Axe Head",
+  "miapi.module.modularis.tool.born_in_chaos_v1.great_reaper_axe.description": "A dark metal axe head shaped like the Great Reaper Axe",
+
+  "modularis.material.stat.bone_fracture_on_hit": "Bone Fracture on Hit",
+  "modularis.material.stat.bone_fracture_on_hit.description": "Sword blades made of this material inflict Bone Fracture (movement/knockback/jump penalty) on hit, like Darkwarblade",
+  "modularis.material.stat.anti_air_stun_on_hit": "Anti-Air Stun on Hit",
+  "modularis.material.stat.anti_air_stun_on_hit.description": "Hammers made of this material stun and launch airborne targets on hit, like Skullbreaker Hammer",
+  "modularis.material.stat.rampant_rampage_chance": "Rampage Chance When Hit",
+  "modularis.material.stat.rampant_rampage_chance.description": "Chance to enter a Rampage (movement/damage/attack speed boost, with a Hunger drawback) when the wearer is hit"
 }

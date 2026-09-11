@@ -1,0 +1,40 @@
+{
+  "load_condition": { "type": "mod_loaded", "mod": "born_in_chaos_v1" },
+  "key": "modularis:born_in_chaos_v1/orbofthe_summoner",
+  "hidden_groups": ["gem_melee"],
+  "properties": {
+    "gem_melee_handheld": {
+      "durability": [
+        { "operation": "+", "value": "200" }
+      ],
+      "ability_context": [
+        {
+          "id": "modularis:born_in_chaos_v1_orb_summon_minions",
+          "type": "miapi:command",
+          "priority": 0,
+          "data": {
+            "command": [
+              "execute anchored eyes run summon born_in_chaos_v1:controlled_baby_skeleton ^-1 ^-1 ^2",
+              "execute anchored eyes run summon born_in_chaos_v1:controlled_baby_skeleton ^1 ^-1 ^2"
+            ],
+            "asPlayer": true,
+            "atPlayer": true,
+            "cooldown": 300
+          }
+        }
+      ],
+      "gui_stat": {
+        "orbofthe_summoner_durability_bonus": {
+          "value": "200", "min": 200, "max": 200,
+          "header": { "translate": "modularis.material.stat.durability_bonus" },
+          "description": { "translate": "modularis.material.stat.durability_bonus.description" }
+        },
+        "orbofthe_summoner_summon_cooldown": {
+          "value": "15", "min": 15, "max": 15,
+          "header": { "translate": "modularis.material.stat.summon_minions_cooldown" },
+          "description": { "translate": "modularis.material.stat.summon_minions_cooldown.description" }
+        }
+      }
+    }
+  }
+}

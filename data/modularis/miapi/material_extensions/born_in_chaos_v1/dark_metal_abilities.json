@@ -1,0 +1,50 @@
+{
+  "load_condition": { "type": "mod_loaded", "mod": "born_in_chaos_v1" },
+  "key": "modularis:born_in_chaos_v1/dark_metal",
+  "properties": {
+    "blade_medium": {
+      "copy_item_on_hit": ["born_in_chaos_v1:darkwarblade"],
+      "attributes": [
+        { "attribute": "generic.attack_speed", "value": "-0.15", "operation": "+", "target_operation": "**", "slot": "mainhand" }
+      ],
+      "gui_stat": {
+        "dark_metal_bone_fracture": {
+          "value": 1, "min": 0, "max": 1,
+          "header": { "translate": "modularis.material.stat.bone_fracture_on_hit" },
+          "description": { "translate": "modularis.material.stat.bone_fracture_on_hit.description" }
+        }
+      }
+    },
+    "blade_large": {
+      "copy_item_on_hit": ["born_in_chaos_v1:darkwarblade"],
+      "attributes": [
+        { "attribute": "generic.attack_speed", "value": "-0.15", "operation": "+", "target_operation": "**", "slot": "mainhand" }
+      ],
+      "gui_stat": {
+        "dark_metal_bone_fracture_large": {
+          "value": 1, "min": 0, "max": 1,
+          "header": { "translate": "modularis.material.stat.bone_fracture_on_hit" },
+          "description": { "translate": "modularis.material.stat.bone_fracture_on_hit.description" }
+        }
+      }
+    },
+    "tm_arsenal:tool/hammer": {
+      "copy_item_on_hit": ["born_in_chaos_v1:skullbreaker_hammer"],
+      "attributes": [
+        { "attribute": "generic.attack_speed", "value": "-0.15", "operation": "+", "target_operation": "**", "slot": "mainhand" }
+      ],
+      "gui_stat": {
+        "dark_metal_anti_air_stun": {
+          "value": 1, "min": 0, "max": 1,
+          "header": { "translate": "modularis.material.stat.anti_air_stun_on_hit" },
+          "description": { "translate": "modularis.material.stat.anti_air_stun_on_hit.description" }
+        }
+      }
+    },
+    "axe_head": {
+      "attributes": [
+        { "attribute": "generic.attack_speed", "value": "-0.15", "operation": "+", "target_operation": "**", "slot": "mainhand" }
+      ]
+    }
+  }
+}

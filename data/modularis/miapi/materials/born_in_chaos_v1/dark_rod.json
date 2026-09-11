@@ -1,0 +1,35 @@
+{
+  "load_condition": { "type": "mod_loaded", "mod": "born_in_chaos_v1" },
+  "translation": {
+    "translate": "material.modularis.dark_rod"
+  },
+  "icon": {
+    "type": "item",
+    "item": "born_in_chaos_v1:dark_rod"
+  },
+  "groups": ["rod"],
+  "tier": 1,
+  "hardness": 2,
+  "density": 2.5,
+  "flexibility": 4.5,
+  "durability": 130,
+  "enchantability": 12,
+  "toughness": 0.5,
+  "mining_speed": 5,
+  "mining_level": "minecraft:incorrect_for_wooden_tool",
+  "items": [
+    { "item": "born_in_chaos_v1:dark_rod", "value": 1.0 }
+  ],
+  "properties": {
+    "handheld": {
+      "durability": {
+        "operation": "**",
+        "value": "0.10"
+      }
+    }
+  },
+  "color_palette": {
+    "type": "image_generated_item",
+    "item": "born_in_chaos_v1:dark_rod"
+  }
+}

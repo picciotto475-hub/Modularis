@@ -1,0 +1,18 @@
+{
+  "load_condition": { "type": "mod_loaded", "mod": "born_in_chaos_v1" },
+  "key": "modularis:born_in_chaos_v1/spiritual_dust",
+  "properties": {
+    "head": {
+      "on_attack_potion": [
+        { "potion": "born_in_chaos_v1:soul_stratification", "amplifier": 0, "duration": 120, "target_self": false, "probability": 0.15 }
+      ],
+      "gui_stat": {
+        "spiritual_dust_soul_stratification_chance": {
+          "value": "15", "min": 15, "max": 15,
+          "header": { "translate": "modularis.material.stat.soul_stratification_chance" },
+          "description": { "translate": "modularis.material.stat.soul_stratification_chance.description" }
+        }
+      }
+    }
+  }
+}

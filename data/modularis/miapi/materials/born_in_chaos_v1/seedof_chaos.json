@@ -1,0 +1,18 @@
+{
+  "load_condition": { "type": "mod_loaded", "mod": "born_in_chaos_v1" },
+  "translation": {
+    "translate": "material.modularis.seedof_chaos"
+  },
+  "icon": {
+    "type": "item",
+    "item": "born_in_chaos_v1:seedof_chaos"
+  },
+  "enchantability": 0,
+  "items": [
+    { "item": "born_in_chaos_v1:seedof_chaos", "value": 1.0 }
+  ],
+  "color_palette": {
+    "type": "image_generated_item",
+    "item": "born_in_chaos_v1:seedof_chaos"
+  }
+}

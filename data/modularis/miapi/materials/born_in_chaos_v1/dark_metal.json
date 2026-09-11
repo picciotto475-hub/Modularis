@@ -1,0 +1,27 @@
+{
+  "load_condition": { "type": "mod_loaded", "mod": "born_in_chaos_v1" },
+  "translation": {
+    "translate": "material.modularis.dark_metal"
+  },
+  "icon": {
+    "type": "item",
+    "item": "born_in_chaos_v1:dark_metal_ingot"
+  },
+  "groups": ["metal"],
+  "tier": 5,
+  "hardness": 10,
+  "density": 5,
+  "flexibility": 3,
+  "durability": 2030,
+  "enchantability": 17,
+  "toughness": 3.5,
+  "mining_speed": 9,
+  "mining_level": "minecraft:incorrect_for_netherite_tool",
+  "items": [
+    { "item": "born_in_chaos_v1:dark_metal_ingot", "value": 1.0 }
+  ],
+  "color_palette": {
+    "type": "image_generated_item",
+    "item": "born_in_chaos_v1:dark_metal_ingot"
+  }
+}
