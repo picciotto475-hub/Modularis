@@ -1,0 +1,27 @@
+{
+  "load_condition": { "type": "mod_loaded", "mod": "born_in_chaos_v1" },
+  "translation": {
+    "translate": "material.modularis.permafrost_shard"
+  },
+  "icon": {
+    "type": "item",
+    "item": "born_in_chaos_v1:permafrost_shard"
+  },
+  "groups": ["crystal"],
+  "tier": 2,
+  "hardness": 3,
+  "density": 2,
+  "flexibility": 3,
+  "durability": 90,
+  "enchantability": 22,
+  "toughness": 0.5,
+  "mining_speed": 4,
+  "mining_level": "minecraft:incorrect_for_gold_tool",
+  "items": [
+    { "item": "born_in_chaos_v1:permafrost_shard", "value": 0.2 }
+  ],
+  "color_palette": {
+    "type": "image_generated_item",
+    "item": "born_in_chaos_v1:permafrost_shard"
+  }
+}

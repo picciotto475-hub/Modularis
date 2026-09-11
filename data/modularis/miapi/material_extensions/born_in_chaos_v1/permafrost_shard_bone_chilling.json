@@ -1,0 +1,16 @@
+{
+  "load_condition": { "type": "mod_loaded", "mod": "born_in_chaos_v1" },
+  "key": "modularis:born_in_chaos_v1/permafrost_shard",
+  "properties": {
+    "blade_medium": {
+      "copy_item_on_hit": ["born_in_chaos_v1:frostbitten_blade"],
+      "gui_stat": {
+        "permafrost_shard_bone_chilling": {
+          "value": 1, "min": 0, "max": 1,
+          "header": { "translate": "modularis.material.stat.bone_chilling_on_hit" },
+          "description": { "translate": "modularis.material.stat.bone_chilling_on_hit.description" }
+        }
+      }
+    }
+  }
+}

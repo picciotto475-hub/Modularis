@@ -31,10 +31,13 @@
   "modularis.material.stat.durability_bonus.description": "Flat durability bonus granted by this gem",
   "modularis.material.stat.summon_minions_cooldown": "Summon Minions Cooldown (s)",
   "modularis.material.stat.summon_minions_cooldown.description": "Right-click to summon 2 controlled baby skeletons; seconds before the ability can be used again",
+  "modularis.material.stat.bone_chilling_on_hit": "Bone Chilling on Hit",
+  "modularis.material.stat.bone_chilling_on_hit.description": "Afflicts the target with a stacking Bone Chilling slow on hit, like Frostbitten Blade",
 
   "material.modularis.orbofthe_summoner": "Orb of the Summoner",
   "material.modularis.dark_metal": "Dark Metal",
   "material.modularis.armor_plate_from_dark_metal": "Dark Metal Armor Plate",
+  "material.modularis.permafrost_shard": "Permafrost Shard",
 
   "miapi.module.modularis.blade.born_in_chaos_v1.darkwarblade.name": "Darkwarblade Blade",
   "miapi.module.modularis.blade.born_in_chaos_v1.darkwarblade": "Darkwarblade Blade",
