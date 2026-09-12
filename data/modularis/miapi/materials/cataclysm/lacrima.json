@@ -13,7 +13,7 @@
   "density": 1.8,
   "flexibility": 0,
   "durability": 260,
-  "enchantability": 24,
+  "enchantability": 20,
   "toughness": 1,
   "mining_speed": 7,
   "mining_level": "minecraft:incorrect_for_iron_tool",

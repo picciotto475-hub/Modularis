@@ -76,5 +76,26 @@
   "modularis.material.stat.anti_air_stun_on_hit": "Anti-Air Stun on Hit",
   "modularis.material.stat.anti_air_stun_on_hit.description": "Hammers made of this material stun and launch airborne targets on hit, like Skullbreaker Hammer",
   "modularis.material.stat.rampant_rampage_chance": "Rampage Chance When Hit",
-  "modularis.material.stat.rampant_rampage_chance.description": "Chance to enter a Rampage (movement/damage/attack speed boost, with a Hunger drawback) when the wearer is hit"
+  "modularis.material.stat.rampant_rampage_chance.description": "Chance to enter a Rampage (movement/damage/attack speed boost, with a Hunger drawback) when the wearer is hit",
+
+  "modularis.material.stat.wither_chance": "Wither Chance",
+  "modularis.material.stat.wither_chance.description": "Chance to afflict the target with Wither on hit",
+  "modularis.material.stat.meat_shredder_ability": "Meat Shredder Ability (Katar/Knuckles/Tonfa/Gauntlet)",
+  "modularis.material.stat.meat_shredder_ability.description": "On katar/knuckles/tonfa/gauntlet handhelds: right-click to channel and repeatedly damage entities in front, like Meat Shredder",
+  "modularis.material.stat.incinerator_ability": "The Incinerator Ability (Large Blade)",
+  "modularis.material.stat.incinerator_ability.description": "On large blades: right-click ability copied from The Incinerator",
+  "modularis.material.stat.blazing_brand_chance": "Blazing Brand Chance",
+  "modularis.material.stat.blazing_brand_chance.description": "Chance to afflict the target with Blazing Brand on hit",
+  "modularis.material.stat.bulwark_ability": "Bulwark of the Flame Ability (Shield)",
+  "modularis.material.stat.bulwark_ability.description": "On shields: right-click ability copied from Bulwark of the Flame",
+  "modularis.material.stat.blazing_brand_retaliation_chance": "Blazing Brand Chance When Hit (Armor)",
+  "modularis.material.stat.blazing_brand_retaliation_chance.description": "Chance to afflict an attacker with Blazing Brand when the wearer is hit",
+  "modularis.material.stat.soul_render_ability": "Soul Render Ability",
+  "modularis.material.stat.soul_render_ability.description": "Right-click ability copied from Soul Render",
+  "modularis.material.stat.bone_fracture_retaliation_chance": "Bone Fracture Chance When Hit (Armor)",
+  "modularis.material.stat.bone_fracture_retaliation_chance.description": "Chance to afflict an attacker with Bone Fracture when the wearer is hit",
+  "modularis.material.stat.lightning_chance": "Lightning Strike Chance",
+  "modularis.material.stat.lightning_chance.description": "Chance to strike a lightning bolt on the target on hit, like Essence of the Storm",
+  "modularis.material.stat.curse_of_desert_chance": "Curse of Desert Chance When Hit (Armor)",
+  "modularis.material.stat.curse_of_desert_chance.description": "Chance to afflict an attacker with Curse of Desert when the wearer is hit"
 }

@@ -5,7 +5,14 @@
     "head": {
       "on_attack_potion": [
         { "potion": "minecraft:wither", "amplifier": 0, "duration": 60, "target_self": false, "probability": 0.15 }
-      ]
+      ],
+      "gui_stat": {
+        "witherite_wither_chance": {
+          "value": "15", "min": 15, "max": 15,
+          "header": { "translate": "modularis.material.stat.wither_chance" },
+          "description": { "translate": "modularis.material.stat.wither_chance.description" }
+        }
+      }
     },
     "handheld_item": {
       "item_lore": [
@@ -21,7 +28,14 @@
             "cooldown": 0
           }
         }
-      ]
+      ],
+      "gui_stat": {
+        "witherite_meat_shredder_ability": {
+          "value": 1, "min": 0, "max": 1,
+          "header": { "translate": "modularis.material.stat.meat_shredder_ability" },
+          "description": { "translate": "modularis.material.stat.meat_shredder_ability.description" }
+        }
+      }
     }
   }
 }

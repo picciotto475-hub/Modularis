@@ -13,7 +13,7 @@
   "density": 2,
   "flexibility": 3,
   "durability": 90,
-  "enchantability": 22,
+  "enchantability": 20,
   "toughness": 0.5,
   "mining_speed": 4,
   "mining_level": "minecraft:incorrect_for_gold_tool",

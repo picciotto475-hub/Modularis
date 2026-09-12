@@ -22,7 +22,7 @@
   "hidden_properties": {
     "handheld": {
       "attributes": [
-        { "attribute": "generic.attack_speed", "value": "0.055", "operation": "**", "slot": "mainhand" }
+        { "attribute": "generic.attack_speed", "value": "0.055", "operation": "+", "target_operation": "**", "slot": "mainhand" }
       ]
     }
   },

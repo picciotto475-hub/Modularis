@@ -18,12 +18,26 @@
             "cooldown": 400
           }
         }
-      ]
+      ],
+      "gui_stat": {
+        "ignitium_incinerator_ability": {
+          "value": 1, "min": 0, "max": 1,
+          "header": { "translate": "modularis.material.stat.incinerator_ability" },
+          "description": { "translate": "modularis.material.stat.incinerator_ability.description" }
+        }
+      }
     },
     "head": {
       "on_attack_potion": [
         { "potion": "cataclysm:blazing_brand", "amplifier": 0, "duration": 60, "target_self": false, "probability": 0.15 }
-      ]
+      ],
+      "gui_stat": {
+        "ignitium_blazing_brand_chance": {
+          "value": "15", "min": 15, "max": 15,
+          "header": { "translate": "modularis.material.stat.blazing_brand_chance" },
+          "description": { "translate": "modularis.material.stat.blazing_brand_chance.description" }
+        }
+      }
     },
     "shield": {
       "item_lore": [
@@ -40,12 +54,26 @@
             "cooldown": 80
           }
         }
-      ]
+      ],
+      "gui_stat": {
+        "ignitium_bulwark_ability": {
+          "value": 1, "min": 0, "max": 1,
+          "header": { "translate": "modularis.material.stat.bulwark_ability" },
+          "description": { "translate": "modularis.material.stat.bulwark_ability.description" }
+        }
+      }
     },
     "default_armor": {
       "on_hit_potion": [
         { "potion": "cataclysm:blazing_brand", "amplifier": 0, "duration": 100, "target_self": false, "probability": 0.3 }
-      ]
+      ],
+      "gui_stat": {
+        "ignitium_blazing_brand_retaliation_chance": {
+          "value": "30", "min": 30, "max": 30,
+          "header": { "translate": "modularis.material.stat.blazing_brand_retaliation_chance" },
+          "description": { "translate": "modularis.material.stat.blazing_brand_retaliation_chance.description" }
+        }
+      }
     }
   }
 }

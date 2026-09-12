@@ -21,7 +21,14 @@
       "attributes": [
         { "attribute": "minecraft:entity_interaction_range", "value": "2.0", "operation": "+", "slot": "mainhand" },
         { "attribute": "minecraft:block_interaction_range", "value": "2.0", "operation": "+", "slot": "mainhand" }
-      ]
+      ],
+      "gui_stat": {
+        "cursium_soul_render_ability_blade": {
+          "value": 1, "min": 0, "max": 1,
+          "header": { "translate": "modularis.material.stat.soul_render_ability" },
+          "description": { "translate": "modularis.material.stat.soul_render_ability.description" }
+        }
+      }
     },
     "dual_wield": {
       "item_lore": [
@@ -42,12 +49,26 @@
       "attributes": [
         { "attribute": "minecraft:entity_interaction_range", "value": "2.0", "operation": "+", "slot": "mainhand" },
         { "attribute": "minecraft:block_interaction_range", "value": "2.0", "operation": "+", "slot": "mainhand" }
-      ]
+      ],
+      "gui_stat": {
+        "cursium_soul_render_ability_dualwield": {
+          "value": 1, "min": 0, "max": 1,
+          "header": { "translate": "modularis.material.stat.soul_render_ability" },
+          "description": { "translate": "modularis.material.stat.soul_render_ability.description" }
+        }
+      }
     },
     "default_armor": {
       "on_hit_potion": [
         { "potion": "cataclysm:bone_fracture", "amplifier": 0, "duration": 100, "target_self": false, "probability": 0.3 }
-      ]
+      ],
+      "gui_stat": {
+        "cursium_bone_fracture_retaliation_chance": {
+          "value": "30", "min": 30, "max": 30,
+          "header": { "translate": "modularis.material.stat.bone_fracture_retaliation_chance" },
+          "description": { "translate": "modularis.material.stat.bone_fracture_retaliation_chance.description" }
+        }
+      }
     }
   }
 }

@@ -16,7 +16,14 @@
       "item_lore": [
         { "text": { "translate": "modularis.lore.cataclysm.essence_of_the_storm" }, "color": "aqua", "position": "bottom", "priority": 0 },
         { "text": { "translate": "modularis.lore.cataclysm.essence_of_the_storm2" }, "color": "aqua", "position": "bottom", "priority": 1 }
-      ]
+      ],
+      "gui_stat": {
+        "essence_of_the_storm_lightning_chance": {
+          "value": "20", "min": 20, "max": 20,
+          "header": { "translate": "modularis.material.stat.lightning_chance" },
+          "description": { "translate": "modularis.material.stat.lightning_chance.description" }
+        }
+      }
     }
   }
 }
