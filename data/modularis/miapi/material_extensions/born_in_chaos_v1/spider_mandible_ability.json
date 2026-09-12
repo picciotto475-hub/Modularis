@@ -1,0 +1,16 @@
+{
+  "load_condition": { "type": "mod_loaded", "mod": "born_in_chaos_v1" },
+  "key": "modularis:born_in_chaos_v1/spider_mandible",
+  "properties": {
+    "blade_medium": {
+      "copy_item_on_hit": ["born_in_chaos_v1:spider_bite_sword"],
+      "gui_stat": {
+        "spider_mandible_bite": {
+          "value": 1, "min": 0, "max": 1,
+          "header": { "translate": "modularis.material.stat.spider_bite_on_hit" },
+          "description": { "translate": "modularis.material.stat.spider_bite_on_hit.description" }
+        }
+      }
+    }
+  }
+}

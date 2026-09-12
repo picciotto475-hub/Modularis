@@ -1,0 +1,33 @@
+{
+  "load_condition": { "type": "mod_loaded", "mod": "born_in_chaos_v1" },
+  "translation": {
+    "translate": "material.modularis.fangofthe_hound_leader"
+  },
+  "icon": {
+    "type": "item",
+    "item": "born_in_chaos_v1:fangofthe_hound_leader"
+  },
+  "groups": ["bone"],
+  "tier": 3,
+  "hardness": 6,
+  "density": 4,
+  "flexibility": 4,
+  "durability": 240,
+  "enchantability": 6,
+  "toughness": 1,
+  "mining_speed": 4,
+  "mining_level": "minecraft:incorrect_for_gold_tool",
+  "items": [
+    { "item": "born_in_chaos_v1:fangofthe_hound_leader", "value": 1.0 }
+  ],
+  "properties": {
+    "head": {
+      "fracturing": "20",
+      "slashing": "2"
+    }
+  },
+  "color_palette": {
+    "type": "image_generated_item",
+    "item": "born_in_chaos_v1:fangofthe_hound_leader"
+  }
+}

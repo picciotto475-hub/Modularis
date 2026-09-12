@@ -1,0 +1,27 @@
+{
+  "load_condition": { "type": "mod_loaded", "mod": "deeperdarker" },
+  "key": "modularis:deeperdarker/heart_of_the_deep",
+  "hidden_groups": ["gem_melee"],
+  "properties": {
+    "gem_melee_handheld": {
+      "durability": [
+        { "operation": "+", "value": "300" }
+      ],
+      "on_attack_potion": [
+        { "potion": "minecraft:blindness", "amplifier": 0, "duration": 60, "target_self": false, "probability": 0.15 }
+      ],
+      "gui_stat": {
+        "heart_of_the_deep_durability_bonus": {
+          "value": "300", "min": 300, "max": 300,
+          "header": { "translate": "modularis.material.stat.durability_bonus" },
+          "description": { "translate": "modularis.material.stat.durability_bonus.description" }
+        },
+        "heart_of_the_deep_blindness_chance": {
+          "value": "15", "min": 15, "max": 15,
+          "header": { "translate": "modularis.material.stat.blindness_chance" },
+          "description": { "translate": "modularis.material.stat.blindness_chance.description" }
+        }
+      }
+    }
+  }
+}

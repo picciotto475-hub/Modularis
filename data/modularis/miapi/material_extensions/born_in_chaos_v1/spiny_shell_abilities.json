@@ -1,0 +1,28 @@
+{
+  "load_condition": { "type": "mod_loaded", "mod": "born_in_chaos_v1" },
+  "key": "modularis:born_in_chaos_v1/spiny_shell",
+  "properties": {
+    "tm_arsenal:tool/hammer": {
+      "copy_item_on_hit": ["born_in_chaos_v1:shell_mace"],
+      "gui_stat": {
+        "spiny_shell_shell_mace": {
+          "value": 1, "min": 0, "max": 1,
+          "header": { "translate": "modularis.material.stat.shell_mace_on_hit" },
+          "description": { "translate": "modularis.material.stat.shell_mace_on_hit.description" }
+        }
+      }
+    },
+    "default_armor": {
+      "on_hit_potion": [
+        { "potion": "minecraft:instant_damage", "amplifier": 0, "duration": 1, "target_self": false, "probability": 0.35 }
+      ],
+      "gui_stat": {
+        "spiny_shell_thorns_chance": {
+          "value": "35", "min": 35, "max": 35,
+          "header": { "translate": "modularis.material.stat.thorns_chance" },
+          "description": { "translate": "modularis.material.stat.thorns_chance.description" }
+        }
+      }
+    }
+  }
+}

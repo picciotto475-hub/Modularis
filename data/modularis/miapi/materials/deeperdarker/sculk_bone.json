@@ -1,0 +1,32 @@
+{
+  "load_condition": { "type": "mod_loaded", "mod": "deeperdarker" },
+  "translation": {
+    "translate": "material.modularis.sculk_bone"
+  },
+  "icon": {
+    "type": "item",
+    "item": "deeperdarker:sculk_bone"
+  },
+  "groups": ["bone"],
+  "tier": 2,
+  "hardness": 5.25,
+  "density": 4.725,
+  "flexibility": 4.2,
+  "durability": 198,
+  "enchantability": 7,
+  "toughness": 1.05,
+  "mining_speed": 4.2,
+  "mining_level": "minecraft:incorrect_for_gold_tool",
+  "items": [
+    { "item": "deeperdarker:sculk_bone", "value": 1.0 }
+  ],
+  "properties": {
+    "head": {
+      "fracturing": "21"
+    }
+  },
+  "color_palette": {
+    "type": "image_generated_item",
+    "item": "deeperdarker:sculk_bone"
+  }
+}

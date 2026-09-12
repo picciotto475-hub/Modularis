@@ -1,0 +1,33 @@
+{
+  "load_condition": { "type": "mod_loaded", "mod": "born_in_chaos_v1" },
+  "translation": {
+    "translate": "material.modularis.spiny_shell"
+  },
+  "icon": {
+    "type": "item",
+    "item": "born_in_chaos_v1:spiny_shell"
+  },
+  "groups": ["bone"],
+  "tier": 3,
+  "hardness": 6,
+  "density": 4,
+  "flexibility": 4,
+  "durability": 464,
+  "enchantability": 20,
+  "toughness": 1,
+  "armor_toughness": 1.0,
+  "mining_speed": 4,
+  "mining_level": "minecraft:incorrect_for_gold_tool",
+  "items": [
+    { "item": "born_in_chaos_v1:spiny_shell", "value": 1.0 }
+  ],
+  "properties": {
+    "head": {
+      "fracturing": "20"
+    }
+  },
+  "color_palette": {
+    "type": "image_generated_item",
+    "item": "born_in_chaos_v1:spiny_shell"
+  }
+}

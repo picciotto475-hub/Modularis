@@ -1,0 +1,18 @@
+{
+  "load_condition": { "type": "mod_loaded", "mod": "deeperdarker" },
+  "key": "modularis:deeperdarker/soul_dust",
+  "properties": {
+    "head": {
+      "on_hit_potion": [
+        { "potion": "deeperdarker:sculk_affinity", "amplifier": 0, "duration": 3600, "target_self": true, "probability": 0.15 }
+      ],
+      "gui_stat": {
+        "soul_dust_sculk_affinity": {
+          "value": "15", "min": 15, "max": 15,
+          "header": { "translate": "modularis.material.stat.sculk_affinity_on_hurt" },
+          "description": { "translate": "modularis.material.stat.sculk_affinity_on_hurt.description" }
+        }
+      }
+    }
+  }
+}

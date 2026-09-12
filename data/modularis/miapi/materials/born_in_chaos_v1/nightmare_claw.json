@@ -1,0 +1,32 @@
+{
+  "load_condition": { "type": "mod_loaded", "mod": "born_in_chaos_v1" },
+  "translation": {
+    "translate": "material.modularis.nightmare_claw"
+  },
+  "icon": {
+    "type": "item",
+    "item": "born_in_chaos_v1:nightmare_claw"
+  },
+  "groups": ["bone"],
+  "tier": 3,
+  "hardness": 7,
+  "density": 5,
+  "flexibility": 2,
+  "durability": 240,
+  "enchantability": 1,
+  "toughness": 0,
+  "mining_speed": 4,
+  "mining_level": "minecraft:incorrect_for_gold_tool",
+  "items": [
+    { "item": "born_in_chaos_v1:nightmare_claw", "value": 1.0 }
+  ],
+  "properties": {
+    "head": {
+      "fracturing": "20"
+    }
+  },
+  "color_palette": {
+    "type": "image_generated_item",
+    "item": "born_in_chaos_v1:nightmare_claw"
+  }
+}

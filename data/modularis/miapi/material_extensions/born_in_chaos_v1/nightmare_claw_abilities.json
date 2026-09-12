@@ -1,0 +1,26 @@
+{
+  "load_condition": { "type": "mod_loaded", "mod": "born_in_chaos_v1" },
+  "key": "modularis:born_in_chaos_v1/nightmare_claw",
+  "properties": {
+    "scythe": {
+      "copy_item_on_hit": ["born_in_chaos_v1:nightmare_scythe"],
+      "gui_stat": {
+        "nightmare_claw_gaze_of_terror": {
+          "value": 1, "min": 0, "max": 1,
+          "header": { "translate": "modularis.material.stat.gaze_of_terror_on_hit" },
+          "description": { "translate": "modularis.material.stat.gaze_of_terror_on_hit.description" }
+        }
+      }
+    },
+    "blade_medium": {
+      "copy_item_on_hit": ["born_in_chaos_v1:soul_cutlass"],
+      "gui_stat": {
+        "nightmare_claw_soul_stratification": {
+          "value": 1, "min": 0, "max": 1,
+          "header": { "translate": "modularis.material.stat.soul_stratification_on_hit" },
+          "description": { "translate": "modularis.material.stat.soul_stratification_on_hit.description" }
+        }
+      }
+    }
+  }
+}

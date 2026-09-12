@@ -1,0 +1,44 @@
+{
+  "load_condition": { "type": "mod_loaded", "mod": "deeperdarker" },
+  "translation": {
+    "translate": "material.modularis.soul_dust"
+  },
+  "icon": {
+    "type": "item",
+    "item": "deeperdarker:soul_dust"
+  },
+  "groups": ["stone"],
+  "tier": 2,
+  "hardness": 3.3,
+  "density": 3.3,
+  "flexibility": 0,
+  "durability": 16.5,
+  "enchantability": 4,
+  "mining_speed": 5.5,
+  "mining_level": "minecraft:incorrect_for_stone_tool",
+  "items": [
+    { "item": "deeperdarker:soul_dust", "value": 1.0 }
+  ],
+  "hidden_properties": {
+    "handheld": {
+      "attributes": [
+        { "attribute": "generic.attack_speed", "value": "0.055", "operation": "**", "slot": "mainhand" }
+      ]
+    }
+  },
+  "display_properties": {
+    "handheld": {
+      "gui_stat": {
+        "soul_dust_speed_buff": {
+          "value": "5.5", "min": 5.5, "max": 5.5,
+          "header": { "translate": "modularis.material.stat.attack_speed_buff" },
+          "description": { "translate": "modularis.material.stat.attack_speed_buff.description" }
+        }
+      }
+    }
+  },
+  "color_palette": {
+    "type": "image_generated_item",
+    "item": "deeperdarker:soul_dust"
+  }
+}
