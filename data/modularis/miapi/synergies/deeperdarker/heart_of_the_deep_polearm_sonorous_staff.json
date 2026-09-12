@@ -1,0 +1,28 @@
+{
+  "load_condition": { "type": "mod_loaded", "mod": "deeperdarker" },
+  "type": "material",
+  "material": "modularis:deeperdarker/heart_of_the_deep",
+  "condition": {
+    "type": "other_module",
+    "condition": { "type": "tag", "tag": "polearm_handle" }
+  },
+  "properties": {
+    "merge": {
+      "ability_context": [
+        {
+          "id": "modularis:deeperdarker_sonorous_staff_copy",
+          "type": "miapi:copy_item",
+          "priority": 0,
+          "data": { "id": "deeperdarker:sonorous_staff", "cooldown": 20 }
+        }
+      ],
+      "gui_stat": {
+        "heart_of_the_deep_sonorous_staff_ability": {
+          "value": 1, "min": 0, "max": 1,
+          "header": { "translate": "modularis.material.stat.sonorous_staff_ability" },
+          "description": { "translate": "modularis.material.stat.sonorous_staff_ability.description" }
+        }
+      }
+    }
+  }
+}

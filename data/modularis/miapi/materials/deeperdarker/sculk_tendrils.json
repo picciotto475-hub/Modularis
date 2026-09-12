@@ -1,0 +1,26 @@
+{
+  "load_condition": { "type": "mod_loaded", "mod": "deeperdarker" },
+  "translation": {
+    "translate": "material.modularis.sculk_tendrils"
+  },
+  "icon": {
+    "type": "item",
+    "item": "deeperdarker:sculk_tendrils"
+  },
+  "groups": ["fabric", "fletching"],
+  "tier": 2,
+  "hardness": 0.35,
+  "density": 0.6,
+  "flexibility": 9,
+  "durability": 90,
+  "enchantability": 10,
+  "mining_speed": 0,
+  "mining_level": "minecraft:incorrect_for_wooden_tool",
+  "items": [
+    { "item": "deeperdarker:sculk_tendrils", "value": 1.0 }
+  ],
+  "color_palette": {
+    "type": "image_generated_item",
+    "item": "deeperdarker:sculk_tendrils"
+  }
+}

@@ -10,6 +10,10 @@
       "on_attack_potion": [
         { "potion": "minecraft:blindness", "amplifier": 0, "duration": 60, "target_self": false, "probability": 0.15 }
       ],
+      "item_lore": [
+        { "text": { "translate": "modularis.lore.deeperdarker.heart_of_the_deep" }, "color": "dark_aqua", "position": "bottom", "priority": 0 },
+        { "text": { "translate": "modularis.lore.deeperdarker.heart_of_the_deep2" }, "color": "dark_aqua", "position": "bottom", "priority": 1 }
+      ],
       "gui_stat": {
         "heart_of_the_deep_durability_bonus": {
           "value": "300", "min": 300, "max": 300,

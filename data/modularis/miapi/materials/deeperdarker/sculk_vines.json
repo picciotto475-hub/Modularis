@@ -1,0 +1,26 @@
+{
+  "load_condition": { "type": "mod_loaded", "mod": "deeperdarker" },
+  "translation": {
+    "translate": "material.modularis.sculk_vines"
+  },
+  "icon": {
+    "type": "item",
+    "item": "deeperdarker:sculk_vines"
+  },
+  "groups": ["fabric", "rope", "fletching"],
+  "tier": 2,
+  "hardness": 0.2,
+  "density": 0.4,
+  "flexibility": 12,
+  "durability": 65,
+  "enchantability": 8,
+  "mining_speed": 0,
+  "mining_level": "minecraft:incorrect_for_wooden_tool",
+  "items": [
+    { "item": "deeperdarker:sculk_vines", "value": 1.0 }
+  ],
+  "color_palette": {
+    "type": "image_generated_item",
+    "item": "deeperdarker:sculk_vines"
+  }
+}

@@ -97,5 +97,14 @@
   "modularis.material.stat.lightning_chance": "Lightning Strike Chance",
   "modularis.material.stat.lightning_chance.description": "Chance to strike a lightning bolt on the target on hit, like Essence of the Storm",
   "modularis.material.stat.curse_of_desert_chance": "Curse of Desert Chance When Hit (Armor)",
-  "modularis.material.stat.curse_of_desert_chance.description": "Chance to afflict an attacker with Curse of Desert when the wearer is hit"
+  "modularis.material.stat.curse_of_desert_chance.description": "Chance to afflict an attacker with Curse of Desert when the wearer is hit",
+
+  "modularis.material.stat.sonorous_staff_ability": "Sonic Boom Ability (Polearm Handle)",
+  "modularis.material.stat.sonorous_staff_ability.description": "Only if assembled with a polearm handle: right-click to unleash a charged Warden sonic boom, like Sonorous Staff - the longer you charge, the stronger it hits",
+
+  "modularis.lore.deeperdarker.heart_of_the_deep": "Echoes of a stilled heart",
+  "modularis.lore.deeperdarker.heart_of_the_deep2": "If mounted on a polearm handle, unleashes a charged Sonic Boom on right-click, like Sonorous Staff",
+
+  "material.modularis.sculk_tendrils": "Sculk Tendrils",
+  "material.modularis.sculk_vines": "Sculk Vines"
 }
