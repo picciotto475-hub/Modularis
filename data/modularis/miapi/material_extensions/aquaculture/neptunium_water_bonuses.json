@@ -1,0 +1,36 @@
+{
+  "load_condition": { "type": "mod_loaded", "mod": "aquaculture" },
+  "key": "miapi:generated/item.aquaculture.neptunium_ingotitem.aquaculture.neptunium_sword",
+  "properties": {
+    "arrow_head": {
+      "water_drag": "0.99",
+      "gui_stat": {
+        "neptunium_no_water_drag": {
+          "value": 1, "min": 0, "max": 1,
+          "header": { "translate": "modularis.material.stat.no_water_drag" },
+          "description": { "translate": "modularis.material.stat.no_water_drag.description" }
+        }
+      }
+    },
+    "helmet": {
+      "attributes": [
+        { "attribute": "minecraft:player.submerged_mining_speed", "value": "1.0", "operation": "+", "slot": "head" }
+      ]
+    },
+    "chest": {
+      "attributes": [
+        { "attribute": "minecraft:generic.oxygen_bonus", "value": "15", "operation": "+", "slot": "chest" }
+      ]
+    },
+    "pants": {
+      "attributes": [
+        { "attribute": "minecraft:generic.water_movement_efficiency", "value": "1.0", "operation": "+", "slot": "legs" }
+      ]
+    },
+    "boot": {
+      "attributes": [
+        { "attribute": "miapi:generic.swim_speed", "value": "1.5", "operation": "*", "target_operation": "*", "slot": "feet" }
+      ]
+    }
+  }
+}

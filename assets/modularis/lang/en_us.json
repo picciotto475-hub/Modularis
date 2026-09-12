@@ -106,5 +106,8 @@
   "modularis.lore.deeperdarker.heart_of_the_deep2": "If mounted on a polearm handle, unleashes a charged Sonic Boom on right-click, like Sonorous Staff",
 
   "material.modularis.sculk_tendrils": "Sculk Tendrils",
-  "material.modularis.sculk_vines": "Sculk Vines"
+  "material.modularis.sculk_vines": "Sculk Vines",
+
+  "modularis.material.stat.no_water_drag": "No Water Drag (Arrowhead)",
+  "modularis.material.stat.no_water_drag.description": "Arrows built with this as the head keep almost full speed underwater, like Neptunium's water arrows"
 }
