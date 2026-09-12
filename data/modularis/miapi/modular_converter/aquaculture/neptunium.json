@@ -1,0 +1,162 @@
+{
+  "load_condition": { "type": "mod_loaded", "mod": "aquaculture" },
+  "aquaculture:neptunium_sword": {
+    "key": "tm_arsenal:handle/sword",
+    "data": { "material": "miapi:wood/wood" },
+    "child": {
+      "guard": {
+        "key": "tm_arsenal:guard/normal",
+        "data": { "material": "modularis:aquaculture/neptunium" },
+        "child": {
+          "blade": {
+            "key": "tm_arsenal:blade/normal",
+            "data": { "material": "modularis:aquaculture/neptunium" },
+            "child": {}
+          }
+        }
+      },
+      "pommel": {
+        "key": "tm_arsenal:pommel/round",
+        "data": { "material": "modularis:aquaculture/neptunium" },
+        "child": {}
+      }
+    }
+  },
+  "aquaculture:neptunium_fillet_knife": {
+    "key": "tm_arsenal:handle/sword",
+    "data": { "material": "miapi:wood/wood" },
+    "child": {
+      "guard": {
+        "key": "tm_arsenal:guard/normal",
+        "data": { "material": "modularis:aquaculture/neptunium" },
+        "child": {
+          "blade": {
+            "key": "tm_arsenal:blade/dagger",
+            "data": { "material": "modularis:aquaculture/neptunium" },
+            "child": {}
+          }
+        }
+      },
+      "pommel": {
+        "key": "tm_arsenal:pommel/round",
+        "data": { "material": "modularis:aquaculture/neptunium" },
+        "child": {}
+      }
+    }
+  },
+  "aquaculture:neptunium_axe": {
+    "key": "tm_arsenal:handle/tool",
+    "data": { "material": "miapi:wood/wood" },
+    "child": {
+      "guard": {
+        "key": "tm_arsenal:guard/tool_adapter",
+        "child": {
+          "tool_head": {
+            "key": "tm_arsenal:tool/axe_front",
+            "data": { "material": "modularis:aquaculture/neptunium" },
+            "child": {
+              "tool_back": {
+                "key": "tm_arsenal:tool/tool_back",
+                "data": { "material": "modularis:aquaculture/neptunium" },
+                "child": {}
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "aquaculture:neptunium_hoe": {
+    "key": "tm_arsenal:handle/tool",
+    "data": { "material": "miapi:wood/wood" },
+    "child": {
+      "guard": {
+        "key": "tm_arsenal:guard/tool_adapter",
+        "child": {
+          "tool_head": {
+            "key": "tm_arsenal:tool/hoe_front",
+            "data": { "material": "modularis:aquaculture/neptunium" },
+            "child": {
+              "tool_back": {
+                "key": "tm_arsenal:tool/tool_back",
+                "data": { "material": "modularis:aquaculture/neptunium" },
+                "child": {}
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "aquaculture:neptunium_shovel": {
+    "key": "tm_arsenal:handle/tool",
+    "data": { "material": "miapi:wood/wood" },
+    "child": {
+      "guard": {
+        "key": "tm_arsenal:guard/tool_adapter",
+        "child": {
+          "tool_head": {
+            "key": "tm_arsenal:tool/shovel",
+            "data": { "material": "modularis:aquaculture/neptunium" },
+            "child": {}
+          }
+        }
+      }
+    }
+  },
+  "aquaculture:neptunium_pickaxe": {
+    "key": "tm_arsenal:handle/tool",
+    "data": { "material": "miapi:wood/wood" },
+    "child": {
+      "guard": {
+        "key": "tm_arsenal:guard/tool_adapter",
+        "child": {
+          "tool_head": {
+            "key": "tm_arsenal:tool/pickaxe_front",
+            "data": { "material": "modularis:aquaculture/neptunium" },
+            "child": {
+              "tool_back": {
+                "key": "tm_arsenal:tool/pickaxe_back",
+                "data": { "material": "modularis:aquaculture/neptunium" },
+                "child": {}
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "aquaculture:neptunium_helmet": {
+    "key": "tm_armory:armor/helmet",
+    "child": {
+      "hat": {
+        "key": "tm_armory:armor/default/helmet",
+        "data": { "properties": { "material": "modularis:aquaculture/neptunium" } }
+      }
+    }
+  },
+  "aquaculture:neptunium_chestplate": {
+    "key": "tm_armory:armor/chestplate",
+    "child": {
+      "chest_front": { "key": "tm_armory:armor/default/front_chest", "data": { "properties": { "material": "modularis:aquaculture/neptunium" } } },
+      "chest_back":  { "key": "tm_armory:armor/default/back_chest",  "data": { "properties": { "material": "modularis:aquaculture/neptunium" } } },
+      "arm_left":    { "key": "tm_armory:armor/default/arm_left",    "data": { "properties": { "material": "modularis:aquaculture/neptunium" } } },
+      "arm_right":   { "key": "tm_armory:armor/default/arm_right",   "data": { "properties": { "material": "modularis:aquaculture/neptunium" } } }
+    }
+  },
+  "aquaculture:neptunium_leggings": {
+    "key": "tm_armory:armor/pants",
+    "child": {
+      "belt":      { "key": "tm_armory:armor/default/belt",      "data": { "properties": { "material": "modularis:aquaculture/neptunium" } } },
+      "leg_left":  { "key": "tm_armory:armor/default/leg_left",  "data": { "properties": { "material": "modularis:aquaculture/neptunium" } } },
+      "leg_right": { "key": "tm_armory:armor/default/leg_right", "data": { "properties": { "material": "modularis:aquaculture/neptunium" } } }
+    }
+  },
+  "aquaculture:neptunium_boots": {
+    "key": "tm_armory:armor/boots",
+    "child": {
+      "boot_left":  { "key": "tm_armory:armor/default/boot_left",  "data": { "properties": { "material": "modularis:aquaculture/neptunium" } } },
+      "boot_right": { "key": "tm_armory:armor/default/boot_right", "data": { "properties": { "material": "modularis:aquaculture/neptunium" } } }
+    }
+  }
+}

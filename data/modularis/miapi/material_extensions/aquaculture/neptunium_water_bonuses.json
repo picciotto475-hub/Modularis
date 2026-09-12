@@ -1,6 +1,6 @@
 {
   "load_condition": { "type": "mod_loaded", "mod": "aquaculture" },
-  "key": "miapi:generated/item.aquaculture.neptunium_ingotitem.aquaculture.neptunium_sword",
+  "key": "modularis:aquaculture/neptunium",
   "properties": {
     "arrow_head": {
       "water_drag": "0.99",

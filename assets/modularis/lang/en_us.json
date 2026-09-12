@@ -109,5 +109,7 @@
   "material.modularis.sculk_vines": "Sculk Vines",
 
   "modularis.material.stat.no_water_drag": "No Water Drag (Arrowhead)",
-  "modularis.material.stat.no_water_drag.description": "Arrows built with this as the head keep almost full speed underwater, like Neptunium's water arrows"
+  "modularis.material.stat.no_water_drag.description": "Arrows built with this as the head keep almost full speed underwater, like Neptunium's water arrows",
+
+  "material.modularis.neptunium": "Neptunium"
 }

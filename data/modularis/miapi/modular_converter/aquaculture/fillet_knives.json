@@ -1,0 +1,113 @@
+{
+  "load_condition": { "type": "mod_loaded", "mod": "aquaculture" },
+  "aquaculture:wooden_fillet_knife": {
+    "key": "tm_arsenal:handle/sword",
+    "data": { "material": "miapi:wood/wood" },
+    "child": {
+      "guard": {
+        "key": "tm_arsenal:guard/normal",
+        "data": { "material": "miapi:wood/wood" },
+        "child": {
+          "blade": {
+            "key": "tm_arsenal:blade/dagger",
+            "data": { "material": "miapi:wood/wood" },
+            "child": {}
+          }
+        }
+      },
+      "pommel": {
+        "key": "tm_arsenal:pommel/round",
+        "data": { "material": "miapi:wood/wood" },
+        "child": {}
+      }
+    }
+  },
+  "aquaculture:stone_fillet_knife": {
+    "key": "tm_arsenal:handle/sword",
+    "data": { "material": "miapi:wood/wood" },
+    "child": {
+      "guard": {
+        "key": "tm_arsenal:guard/normal",
+        "data": { "material": "miapi:stone/stone" },
+        "child": {
+          "blade": {
+            "key": "tm_arsenal:blade/dagger",
+            "data": { "material": "miapi:stone/stone" },
+            "child": {}
+          }
+        }
+      },
+      "pommel": {
+        "key": "tm_arsenal:pommel/round",
+        "data": { "material": "miapi:stone/stone" },
+        "child": {}
+      }
+    }
+  },
+  "aquaculture:iron_fillet_knife": {
+    "key": "tm_arsenal:handle/sword",
+    "data": { "material": "miapi:wood/wood" },
+    "child": {
+      "guard": {
+        "key": "tm_arsenal:guard/normal",
+        "data": { "material": "miapi:metal/iron" },
+        "child": {
+          "blade": {
+            "key": "tm_arsenal:blade/dagger",
+            "data": { "material": "miapi:metal/iron" },
+            "child": {}
+          }
+        }
+      },
+      "pommel": {
+        "key": "tm_arsenal:pommel/round",
+        "data": { "material": "miapi:metal/iron" },
+        "child": {}
+      }
+    }
+  },
+  "aquaculture:gold_fillet_knife": {
+    "key": "tm_arsenal:handle/sword",
+    "data": { "material": "miapi:wood/wood" },
+    "child": {
+      "guard": {
+        "key": "tm_arsenal:guard/normal",
+        "data": { "material": "miapi:metal/gold" },
+        "child": {
+          "blade": {
+            "key": "tm_arsenal:blade/dagger",
+            "data": { "material": "miapi:metal/gold" },
+            "child": {}
+          }
+        }
+      },
+      "pommel": {
+        "key": "tm_arsenal:pommel/round",
+        "data": { "material": "miapi:metal/gold" },
+        "child": {}
+      }
+    }
+  },
+  "aquaculture:diamond_fillet_knife": {
+    "key": "tm_arsenal:handle/sword",
+    "data": { "material": "miapi:wood/wood" },
+    "child": {
+      "guard": {
+        "key": "tm_arsenal:guard/normal",
+        "data": { "material": "miapi:crystal/diamond" },
+        "child": {
+          "blade": {
+            "key": "tm_arsenal:blade/dagger",
+            "data": { "material": "miapi:crystal/diamond" },
+            "child": {}
+          }
+        }
+      },
+      "pommel": {
+        "key": "tm_arsenal:pommel/round",
+        "data": { "material": "miapi:crystal/diamond" },
+        "child": {}
+      }
+    }
+  }
+}
