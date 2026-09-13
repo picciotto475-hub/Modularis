@@ -1,0 +1,29 @@
+{
+  "load_condition": { "type": "mod_loaded", "mod": "twilightforest" },
+  "translation": {
+    "translate": "material.modularis.naga_scale"
+  },
+  "icon": {
+    "type": "item",
+    "item": "twilightforest:naga_scale"
+  },
+  "groups": ["bone"],
+  "tier": 4,
+  "hardness": 5,
+  "density": 3.0,
+  "flexibility": 0,
+  "durability": 280,
+  "armor_durability": 21,
+  "enchantability": 15,
+  "toughness": 0.5,
+  "armor_toughness": 0.5,
+  "mining_speed": 7,
+  "mining_level": "minecraft:incorrect_for_iron_tool",
+  "items": [
+    { "item": "twilightforest:naga_scale", "value": 1.0 }
+  ],
+  "color_palette": {
+    "type": "image_generated_item",
+    "item": "twilightforest:naga_scale"
+  }
+}

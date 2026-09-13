@@ -1,0 +1,34 @@
+{
+  "load_condition": { "type": "mod_loaded", "mod": "twilightforest" },
+  "translation": {
+    "translate": "material.modularis.tanned_leather"
+  },
+  "icon": {
+    "type": "item",
+    "item": "twilightforest:tanned_leather"
+  },
+  "groups": ["fabric", "sinew", "leather"],
+  "tier": 2,
+  "hardness": 3.5,
+  "density": 1.5,
+  "flexibility": 4,
+  "durability": 200,
+  "enchantability": 10,
+  "mining_speed": 0,
+  "mining_level": "minecraft:incorrect_for_wooden_tool",
+  "items": [
+    { "item": "twilightforest:tanned_leather", "value": 1.0 }
+  ],
+  "properties": {
+    "boot": {
+      "can_walk_on_snow": true
+    },
+    "armor": {
+      "fake_item_tag": ["minecraft:freeze_immune_wearables"]
+    }
+  },
+  "color_palette": {
+    "type": "image_generated_item",
+    "item": "twilightforest:tanned_leather"
+  }
+}

@@ -2,6 +2,8 @@
 
 A compatibility datapack for Truly Modular in Minecraft 1.21.
 
+**Materials created so far: 54**
+
 ## Currently supported mods
 
 - Aquaculture 2
@@ -9,3 +11,4 @@ A compatibility datapack for Truly Modular in Minecraft 1.21.
 - Deeper and Darker
 - Ender's Cataclysm
 - Quark
+- Twilight Forest

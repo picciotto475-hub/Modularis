@@ -1,0 +1,36 @@
+{
+  "load_condition": { "type": "mod_loaded", "mod": "twilightforest" },
+  "key": "modularis:twilightforest/carminite",
+  "properties": {
+    "head": {
+      "custom_damage": {
+        "modularis:carminite_overload": {
+          "type": "minecraft:explosion",
+          "on_melee_attack": true,
+          "on_ranged_attack": false,
+          "respect_attack_cooldown": false,
+          "amount": "0.5",
+          "attacker_cooldown": "100",
+          "header": "modularis.material.stat.carminite_overload",
+          "description": "modularis.material.stat.carminite_overload.description"
+        }
+      }
+    },
+    "arrow_head": {
+      "explosion_projectile": {
+        "destroyBlocks": false,
+        "strength": 2,
+        "entityStrength": 2.6,
+        "entityMaxDamage": 2,
+        "entityRadius": 15
+      },
+      "gui_stat": {
+        "carminite_arrow_explosion": {
+          "value": 1, "min": 0, "max": 1,
+          "header": { "translate": "modularis.material.stat.carminite_arrow_explosion" },
+          "description": { "translate": "modularis.material.stat.carminite_arrow_explosion.description" }
+        }
+      }
+    }
+  }
+}

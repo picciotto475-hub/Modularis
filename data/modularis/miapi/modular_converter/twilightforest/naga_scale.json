@@ -1,0 +1,20 @@
+{
+  "load_condition": { "type": "mod_loaded", "mod": "twilightforest" },
+  "twilightforest:naga_chestplate": {
+    "key": "tm_armory:armor/chestplate",
+    "child": {
+      "chest_front": { "key": "tm_armory:armor/default/front_chest", "data": { "properties": { "material": "modularis:twilightforest/naga_scale" } } },
+      "chest_back":  { "key": "tm_armory:armor/default/back_chest",  "data": { "properties": { "material": "modularis:twilightforest/naga_scale" } } },
+      "arm_left":    { "key": "tm_armory:armor/default/arm_left",    "data": { "properties": { "material": "modularis:twilightforest/naga_scale" } } },
+      "arm_right":   { "key": "tm_armory:armor/default/arm_right",   "data": { "properties": { "material": "modularis:twilightforest/naga_scale" } } }
+    }
+  },
+  "twilightforest:naga_leggings": {
+    "key": "tm_armory:armor/pants",
+    "child": {
+      "belt":      { "key": "tm_armory:armor/default/belt",      "data": { "properties": { "material": "modularis:twilightforest/naga_scale" } } },
+      "leg_left":  { "key": "tm_armory:armor/default/leg_left",  "data": { "properties": { "material": "modularis:twilightforest/naga_scale" } } },
+      "leg_right": { "key": "tm_armory:armor/default/leg_right", "data": { "properties": { "material": "modularis:twilightforest/naga_scale" } } }
+    }
+  }
+}

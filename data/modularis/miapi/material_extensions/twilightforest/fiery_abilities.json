@@ -1,0 +1,46 @@
+{
+  "load_condition": { "type": "mod_loaded", "mod": "twilightforest" },
+  "key": "modularis:twilightforest/fiery_ingot",
+  "properties": {
+    "head": {
+      "damage_command": [
+        {
+          "command": [
+            "execute at @s run data merge entity @s {Fire:300}"
+          ],
+          "onMeleeAttack": true,
+          "runAt": "DEFENDER"
+        }
+      ],
+      "gui_stat": {
+        "fiery_ignite_on_hit": {
+          "value": 1, "min": 0, "max": 1,
+          "header": { "translate": "modularis.material.stat.fiery_ignite_on_hit" },
+          "description": { "translate": "modularis.material.stat.fiery_ignite_on_hit.description" }
+        }
+      }
+    },
+    "pickaxe": {
+      "autosmelt": true,
+      "gui_stat": {
+        "fiery_autosmelt": {
+          "value": 1, "min": 0, "max": 1,
+          "header": { "translate": "modularis.material.stat.fiery_autosmelt" },
+          "description": { "translate": "modularis.material.stat.fiery_autosmelt.description" }
+        }
+      }
+    },
+    "default_armor": {
+      "on_hit_potion": [
+        { "potion": "minecraft:instant_damage", "amplifier": 0, "duration": 1, "target_self": false, "probability": 0.8 }
+      ],
+      "gui_stat": {
+        "fiery_armor_retaliation_chance": {
+          "value": "80", "min": 80, "max": 80,
+          "header": { "translate": "modularis.material.stat.fiery_armor_retaliation_chance" },
+          "description": { "translate": "modularis.material.stat.fiery_armor_retaliation_chance.description" }
+        }
+      }
+    }
+  }
+}

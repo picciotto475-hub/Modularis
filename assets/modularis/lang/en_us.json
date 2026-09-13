@@ -128,5 +128,27 @@
   "material.modularis.corundum_indigo": "Indigo Corundum",
   "material.modularis.corundum_violet": "Violet Corundum",
   "material.modularis.corundum_white": "White Corundum",
-  "material.modularis.corundum_black": "Black Corundum"
+  "material.modularis.corundum_black": "Black Corundum",
+  "material.modularis.naga_scale": "Naga Scale",
+  "material.modularis.carminite": "Carminite",
+
+  "modularis.material.stat.carminite_overload": "Carminite Overload Damage",
+  "modularis.material.stat.carminite_overload.description": "Bonus explosion damage on hit, once every 5 seconds",
+  "modularis.material.stat.carminite_arrow_explosion": "Arrowhead Explosion (No Block Damage)",
+  "modularis.material.stat.carminite_arrow_explosion.description": "Arrows built with this as the head explode on impact, damaging nearby entities without destroying blocks",
+
+  "material.modularis.arctic_fur": "Arctic Fur",
+  "material.modularis.alpha_yeti_fur": "Alpha Yeti Fur",
+  "material.modularis.tanned_leather": "Tanned Leather",
+  "material.modularis.fiery_ingot": "Fiery Ingot",
+
+  "modularis.material.stat.fiery_ignite_on_hit": "Ignite Target on Hit",
+  "modularis.material.stat.fiery_ignite_on_hit.description": "Sets the target on fire for 15 seconds on hit",
+  "modularis.material.stat.fiery_autosmelt": "Auto-Smelt",
+  "modularis.material.stat.fiery_autosmelt.description": "Mined blocks are automatically smelted into their furnace result",
+  "modularis.material.stat.fiery_armor_retaliation_chance": "Retaliation Chance When Hit (Armor)",
+  "modularis.material.stat.fiery_armor_retaliation_chance.description": "Chance to deal instant damage back to an attacker when the wearer is hit",
+
+  "modularis.material.stat.yeti_frosted_chance": "Frosted Chance When Hit (Armor)",
+  "modularis.material.stat.yeti_frosted_chance.description": "Chance to afflict an attacker with Frosted when the wearer is hit"
 }

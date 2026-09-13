@@ -1,0 +1,18 @@
+{
+  "load_condition": { "type": "mod_loaded", "mod": "twilightforest" },
+  "key": "modularis:twilightforest/alpha_yeti_fur",
+  "properties": {
+    "default_armor": {
+      "on_hit_potion": [
+        { "potion": "twilightforest:frosted", "amplifier": 3, "duration": 25, "target_self": false, "probability": 1.0 }
+      ],
+      "gui_stat": {
+        "yeti_frosted_chance": {
+          "value": "100", "min": 100, "max": 100,
+          "header": { "translate": "modularis.material.stat.yeti_frosted_chance" },
+          "description": { "translate": "modularis.material.stat.yeti_frosted_chance.description" }
+        }
+      }
+    }
+  }
+}

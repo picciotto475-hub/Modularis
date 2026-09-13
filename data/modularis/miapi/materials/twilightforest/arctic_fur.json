@@ -1,0 +1,29 @@
+{
+  "load_condition": { "type": "mod_loaded", "mod": "twilightforest" },
+  "translation": {
+    "translate": "material.modularis.arctic_fur"
+  },
+  "icon": {
+    "type": "item",
+    "item": "twilightforest:arctic_fur"
+  },
+  "groups": ["fabric"],
+  "tier": 3,
+  "hardness": 5,
+  "density": 2.0,
+  "flexibility": 0,
+  "durability": 250,
+  "armor_durability": 10,
+  "enchantability": 8,
+  "toughness": 2.0,
+  "armor_toughness": 2.0,
+  "mining_speed": 5,
+  "mining_level": "minecraft:incorrect_for_iron_tool",
+  "items": [
+    { "item": "twilightforest:arctic_fur", "value": 1.0 }
+  ],
+  "color_palette": {
+    "type": "image_generated_item",
+    "item": "twilightforest:arctic_fur"
+  }
+}
