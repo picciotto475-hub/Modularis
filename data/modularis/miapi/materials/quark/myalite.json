@@ -1,0 +1,27 @@
+{
+  "load_condition": { "type": "mod_loaded", "mod": "quark" },
+  "translation": {
+    "translate": "material.modularis.myalite"
+  },
+  "icon": {
+    "type": "item",
+    "item": "quark:myalite"
+  },
+  "groups": ["stone"],
+  "tier": 3,
+  "hardness": 4,
+  "density": 3.5,
+  "flexibility": 0,
+  "durability": 116,
+  "enchantability": 9,
+  "toughness": 1,
+  "mining_speed": 4,
+  "mining_level": "minecraft:incorrect_for_stone_tool",
+  "items": [
+    { "item": "quark:myalite", "value": 1.0 }
+  ],
+  "color_palette": {
+    "type": "image_generated_item",
+    "item": "quark:myalite"
+  }
+}

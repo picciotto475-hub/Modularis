@@ -1,0 +1,22 @@
+{
+  "load_condition": { "type": "mod_loaded", "mod": "quark" },
+  "key": "modularis:quark/diamond_heart",
+  "hidden_groups": ["gem_melee"],
+  "properties": {
+    "gem_melee_handheld": {
+      "durability": [
+        { "operation": "+", "value": "900" }
+      ],
+      "attributes": [
+        { "attribute": "generic.attack_damage", "value": "1", "operation": "+", "slot": "mainhand" }
+      ],
+      "gui_stat": {
+        "diamond_heart_durability_bonus": {
+          "value": "900", "min": 900, "max": 900,
+          "header": { "translate": "modularis.material.stat.durability_bonus" },
+          "description": { "translate": "modularis.material.stat.durability_bonus.description" }
+        }
+      }
+    }
+  }
+}

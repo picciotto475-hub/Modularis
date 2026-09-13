@@ -1,0 +1,27 @@
+{
+  "load_condition": { "type": "mod_loaded", "mod": "quark" },
+  "translation": {
+    "translate": "material.modularis.jasper"
+  },
+  "icon": {
+    "type": "item",
+    "item": "quark:jasper"
+  },
+  "groups": ["stone"],
+  "tier": 2,
+  "hardness": 4,
+  "density": 4,
+  "flexibility": 0,
+  "durability": 116,
+  "enchantability": 8,
+  "toughness": 1,
+  "mining_speed": 4,
+  "mining_level": "minecraft:incorrect_for_stone_tool",
+  "items": [
+    { "item": "quark:jasper", "value": 1.0 }
+  ],
+  "color_palette": {
+    "type": "image_generated_item",
+    "item": "quark:jasper"
+  }
+}

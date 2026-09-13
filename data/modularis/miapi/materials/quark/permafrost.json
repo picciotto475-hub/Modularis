@@ -1,0 +1,27 @@
+{
+  "load_condition": { "type": "mod_loaded", "mod": "quark" },
+  "translation": {
+    "translate": "material.modularis.quark_permafrost"
+  },
+  "icon": {
+    "type": "item",
+    "item": "quark:permafrost"
+  },
+  "groups": ["stone"],
+  "tier": 2,
+  "hardness": 4.5,
+  "density": 4,
+  "flexibility": 0,
+  "durability": 140,
+  "enchantability": 5,
+  "toughness": 1.5,
+  "mining_speed": 4,
+  "mining_level": "minecraft:incorrect_for_stone_tool",
+  "items": [
+    { "item": "quark:permafrost", "value": 1.0 }
+  ],
+  "color_palette": {
+    "type": "image_generated_item",
+    "item": "quark:permafrost"
+  }
+}

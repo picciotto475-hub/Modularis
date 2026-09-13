@@ -1,0 +1,40 @@
+{
+  "load_condition": {
+    "type": "mod_loaded",
+    "mod": "quark"
+  },
+  "translation": {
+    "translate": "material.modularis.corundum_violet"
+  },
+  "icon": {
+    "type": "item",
+    "item": "quark:violet_corundum"
+  },
+  "groups": [
+    "crystal",
+    "gem"
+  ],
+  "tier": 2,
+  "hardness": 4,
+  "density": 0.5,
+  "flexibility": 0,
+  "durability": 280,
+  "enchantability": 13,
+  "toughness": 0,
+  "mining_speed": 5,
+  "mining_level": "minecraft:incorrect_for_wooden_tool",
+  "items": [
+    {
+      "item": "quark:violet_corundum",
+      "value": 1.0
+    },
+    {
+      "item": "quark:violet_corundum_cluster",
+      "value": 0.25
+    }
+  ],
+  "color_palette": {
+    "type": "image_generated_item",
+    "item": "quark:violet_corundum"
+  }
+}

@@ -111,5 +111,22 @@
   "modularis.material.stat.no_water_drag": "No Water Drag (Arrowhead)",
   "modularis.material.stat.no_water_drag.description": "Arrows built with this as the head keep almost full speed underwater, like Neptunium's water arrows",
 
-  "material.modularis.neptunium": "Neptunium"
+  "material.modularis.neptunium": "Neptunium",
+  "material.modularis.diamond_heart": "Diamond Heart",
+  "material.modularis.dragon_scale": "Dragon Scale",
+  "material.modularis.crab_shell": "Crab Shell",
+  "material.modularis.jasper": "Jasper",
+  "material.modularis.shale": "Shale",
+  "material.modularis.myalite": "Myalite",
+  "material.modularis.quark_permafrost": "Permafrost",
+
+  "material.modularis.corundum_red": "Red Corundum",
+  "material.modularis.corundum_orange": "Orange Corundum",
+  "material.modularis.corundum_yellow": "Yellow Corundum",
+  "material.modularis.corundum_green": "Green Corundum",
+  "material.modularis.corundum_blue": "Blue Corundum",
+  "material.modularis.corundum_indigo": "Indigo Corundum",
+  "material.modularis.corundum_violet": "Violet Corundum",
+  "material.modularis.corundum_white": "White Corundum",
+  "material.modularis.corundum_black": "Black Corundum"
 }

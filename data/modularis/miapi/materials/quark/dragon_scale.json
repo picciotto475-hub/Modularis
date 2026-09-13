@@ -1,0 +1,37 @@
+{
+  "load_condition": { "type": "mod_loaded", "mod": "quark" },
+  "translation": {
+    "translate": "material.modularis.dragon_scale"
+  },
+  "icon": {
+    "type": "item",
+    "item": "quark:dragon_scale"
+  },
+  "groups": ["metal"],
+  "tier": 6,
+  "hardness": 8,
+  "density": 1.5,
+  "flexibility": 5,
+  "durability": 2500,
+  "enchantability": 20,
+  "toughness": 4.5,
+  "armor_toughness": 4.5,
+  "armor_durability": 55,
+  "mining_speed": 11,
+  "mining_level": "minecraft:incorrect_for_netherite_tool",
+  "items": [
+    { "item": "quark:dragon_scale", "value": 1.0 }
+  ],
+  "properties": {
+    "default": {
+      "fire_proof": true
+    },
+    "head": {
+      "slashing": "6"
+    }
+  },
+  "color_palette": {
+    "type": "image_generated_item",
+    "item": "quark:dragon_scale"
+  }
+}
