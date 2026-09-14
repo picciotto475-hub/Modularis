@@ -1,0 +1,27 @@
+{
+  "load_condition": { "type": "mod_loaded", "mod": "caverns_and_chasms" },
+  "translation": {
+    "translate": "material.modularis.tin_ingot"
+  },
+  "icon": {
+    "type": "item",
+    "item": "caverns_and_chasms:tin_ingot"
+  },
+  "groups": ["metal"],
+  "tier": 3,
+  "hardness": 2.5,
+  "density": 1.85,
+  "flexibility": 0.5,
+  "durability": 3780,
+  "enchantability": 7,
+  "toughness": 0,
+  "mining_speed": 2.5,
+  "mining_level": "minecraft:incorrect_for_iron_tool",
+  "items": [
+    { "item": "caverns_and_chasms:tin_ingot", "value": 1.0 }
+  ],
+  "color_palette": {
+    "type": "image_generated_item",
+    "item": "caverns_and_chasms:tin_ingot"
+  }
+}

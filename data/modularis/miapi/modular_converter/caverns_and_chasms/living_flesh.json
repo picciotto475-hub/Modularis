@@ -1,0 +1,33 @@
+{
+  "load_condition": { "type": "mod_loaded", "mod": "caverns_and_chasms" },
+  "caverns_and_chasms:sanguine_helmet": {
+    "key": "tm_armory:armor/helmet",
+    "child": {
+      "hat": { "key": "tm_armory:armor/default/helmet", "data": { "properties": { "material": "modularis:caverns_and_chasms/living_flesh" } } }
+    }
+  },
+  "caverns_and_chasms:sanguine_chestplate": {
+    "key": "tm_armory:armor/chestplate",
+    "child": {
+      "chest_front": { "key": "tm_armory:armor/default/front_chest", "data": { "properties": { "material": "modularis:caverns_and_chasms/living_flesh" } } },
+      "chest_back":  { "key": "tm_armory:armor/default/back_chest",  "data": { "properties": { "material": "modularis:caverns_and_chasms/living_flesh" } } },
+      "arm_left":    { "key": "tm_armory:armor/default/arm_left",    "data": { "properties": { "material": "modularis:caverns_and_chasms/living_flesh" } } },
+      "arm_right":   { "key": "tm_armory:armor/default/arm_right",   "data": { "properties": { "material": "modularis:caverns_and_chasms/living_flesh" } } }
+    }
+  },
+  "caverns_and_chasms:sanguine_leggings": {
+    "key": "tm_armory:armor/pants",
+    "child": {
+      "belt":      { "key": "tm_armory:armor/default/belt",      "data": { "properties": { "material": "modularis:caverns_and_chasms/living_flesh" } } },
+      "leg_left":  { "key": "tm_armory:armor/default/leg_left",  "data": { "properties": { "material": "modularis:caverns_and_chasms/living_flesh" } } },
+      "leg_right": { "key": "tm_armory:armor/default/leg_right", "data": { "properties": { "material": "modularis:caverns_and_chasms/living_flesh" } } }
+    }
+  },
+  "caverns_and_chasms:sanguine_boots": {
+    "key": "tm_armory:armor/boots",
+    "child": {
+      "boot_left":  { "key": "tm_armory:armor/default/boot_left",  "data": { "properties": { "material": "modularis:caverns_and_chasms/living_flesh" } } },
+      "boot_right": { "key": "tm_armory:armor/default/boot_right", "data": { "properties": { "material": "modularis:caverns_and_chasms/living_flesh" } } }
+    }
+  }
+}

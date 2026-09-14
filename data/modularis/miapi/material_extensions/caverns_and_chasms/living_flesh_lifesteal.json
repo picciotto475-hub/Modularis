@@ -1,0 +1,54 @@
+{
+  "load_condition": { "type": "mod_loaded", "mod": "caverns_and_chasms" },
+  "key": "modularis:caverns_and_chasms/living_flesh",
+  "properties": {
+    "helmet": {
+      "attributes": [
+        { "attribute": "caverns_and_chasms:lifesteal", "value": "0.05", "operation": "+", "slot": "head" }
+      ],
+      "gui_stat": {
+        "living_flesh_lifesteal": {
+          "value": 1, "min": 0, "max": 1,
+          "header": { "translate": "modularis.material.stat.living_flesh_lifesteal" },
+          "description": { "translate": "modularis.material.stat.living_flesh_lifesteal.description" }
+        }
+      }
+    },
+    "chest": {
+      "attributes": [
+        { "attribute": "caverns_and_chasms:lifesteal", "value": "0.0125", "operation": "+", "slot": "chest" }
+      ],
+      "gui_stat": {
+        "living_flesh_lifesteal": {
+          "value": 1, "min": 0, "max": 1,
+          "header": { "translate": "modularis.material.stat.living_flesh_lifesteal" },
+          "description": { "translate": "modularis.material.stat.living_flesh_lifesteal.description" }
+        }
+      }
+    },
+    "pants": {
+      "attributes": [
+        { "attribute": "caverns_and_chasms:lifesteal", "value": "0.016667", "operation": "+", "slot": "legs" }
+      ],
+      "gui_stat": {
+        "living_flesh_lifesteal": {
+          "value": 1, "min": 0, "max": 1,
+          "header": { "translate": "modularis.material.stat.living_flesh_lifesteal" },
+          "description": { "translate": "modularis.material.stat.living_flesh_lifesteal.description" }
+        }
+      }
+    },
+    "boot": {
+      "attributes": [
+        { "attribute": "caverns_and_chasms:lifesteal", "value": "0.025", "operation": "+", "slot": "feet" }
+      ],
+      "gui_stat": {
+        "living_flesh_lifesteal": {
+          "value": 1, "min": 0, "max": 1,
+          "header": { "translate": "modularis.material.stat.living_flesh_lifesteal" },
+          "description": { "translate": "modularis.material.stat.living_flesh_lifesteal.description" }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "load_condition": { "type": "mod_loaded", "mod": "caverns_and_chasms" },
+  "translation": {
+    "translate": "material.modularis.caverns_and_chasms.silver_ingot"
+  },
+  "icon": {
+    "type": "item",
+    "item": "caverns_and_chasms:silver_ingot"
+  },
+  "groups": ["metal"],
+  "tier": 3,
+  "hardness": 2.5,
+  "density": 3.9,
+  "flexibility": 0,
+  "durability": 142,
+  "armor_durability": 11,
+  "enchantability": 17.5,
+  "toughness": 0,
+  "armor_toughness": 0,
+  "mining_speed": 9,
+  "mining_level": "minecraft:incorrect_for_iron_tool",
+  "items": [
+    { "item": "caverns_and_chasms:silver_ingot", "value": 1.0 }
+  ],
+  "color_palette": {
+    "type": "image_generated_item",
+    "item": "caverns_and_chasms:silver_ingot"
+  }
+}

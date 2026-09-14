@@ -1,0 +1,36 @@
+{
+  "load_condition": { "type": "mod_loaded", "mod": "caverns_and_chasms" },
+  "key": "modularis:caverns_and_chasms/silver_ingot",
+  "properties": {
+    "head": {
+      "fake_item_tag": ["caverns_and_chasms:magic_damage_items"],
+      "gui_stat": {
+        "silver_magic_damage": {
+          "value": 1, "min": 0, "max": 1,
+          "header": { "translate": "modularis.material.stat.silver_magic_damage" },
+          "description": { "translate": "modularis.material.stat.silver_magic_damage.description" }
+        }
+      }
+    },
+    "helmet": {
+      "attributes": [
+        { "attribute": "caverns_and_chasms:magic_protection", "value": "0.15", "operation": "+", "slot": "head" }
+      ]
+    },
+    "chest": {
+      "attributes": [
+        { "attribute": "caverns_and_chasms:magic_protection", "value": "0.0375", "operation": "+", "slot": "chest" }
+      ]
+    },
+    "pants": {
+      "attributes": [
+        { "attribute": "caverns_and_chasms:magic_protection", "value": "0.05", "operation": "+", "slot": "legs" }
+      ]
+    },
+    "boot": {
+      "attributes": [
+        { "attribute": "caverns_and_chasms:magic_protection", "value": "0.075", "operation": "+", "slot": "feet" }
+      ]
+    }
+  }
+}

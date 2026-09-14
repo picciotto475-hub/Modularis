@@ -1,0 +1,81 @@
+{
+  "load_condition": { "type": "mod_loaded", "mod": "caverns_and_chasms" },
+  "key": "modularis:caverns_and_chasms/necromium_ingot",
+  "properties": {
+    "head": {
+      "fake_item_tag": ["caverns_and_chasms:slowness_inflicting_items"],
+      "components": { "minecraft:fire_resistant": {} },
+      "gui_stat": {
+        "necromium_slowness_infliction": {
+          "value": 1, "min": 0, "max": 1,
+          "header": { "translate": "modularis.material.stat.necromium_slowness_infliction" },
+          "description": { "translate": "modularis.material.stat.necromium_slowness_infliction.description" }
+        }
+      }
+    },
+    "arrow_head": {
+      "on_attack_potion": [
+        { "potion": "minecraft:slowness", "amplifier": 1, "duration": 120, "target_self": false, "probability": 1.0 }
+      ],
+      "gui_stat": {
+        "necromium_arrow_slowness": {
+          "value": 1, "min": 0, "max": 1,
+          "header": { "translate": "modularis.material.stat.necromium_arrow_slowness" },
+          "description": { "translate": "modularis.material.stat.necromium_arrow_slowness.description" }
+        }
+      }
+    },
+    "helmet": {
+      "components": { "minecraft:fire_resistant": {} },
+      "attributes": [
+        { "attribute": "caverns_and_chasms:slowness_retribution", "value": "1.0", "operation": "+", "slot": "head" }
+      ],
+      "gui_stat": {
+        "necromium_slowness_retribution": {
+          "value": 1, "min": 0, "max": 1,
+          "header": { "translate": "modularis.material.stat.necromium_slowness_retribution" },
+          "description": { "translate": "modularis.material.stat.necromium_slowness_retribution.description" }
+        }
+      }
+    },
+    "chest": {
+      "components": { "minecraft:fire_resistant": {} },
+      "attributes": [
+        { "attribute": "caverns_and_chasms:slowness_retribution", "value": "0.25", "operation": "+", "slot": "chest" }
+      ],
+      "gui_stat": {
+        "necromium_slowness_retribution": {
+          "value": 1, "min": 0, "max": 1,
+          "header": { "translate": "modularis.material.stat.necromium_slowness_retribution" },
+          "description": { "translate": "modularis.material.stat.necromium_slowness_retribution.description" }
+        }
+      }
+    },
+    "pants": {
+      "components": { "minecraft:fire_resistant": {} },
+      "attributes": [
+        { "attribute": "caverns_and_chasms:slowness_retribution", "value": "0.33333", "operation": "+", "slot": "legs" }
+      ],
+      "gui_stat": {
+        "necromium_slowness_retribution": {
+          "value": 1, "min": 0, "max": 1,
+          "header": { "translate": "modularis.material.stat.necromium_slowness_retribution" },
+          "description": { "translate": "modularis.material.stat.necromium_slowness_retribution.description" }
+        }
+      }
+    },
+    "boot": {
+      "components": { "minecraft:fire_resistant": {} },
+      "attributes": [
+        { "attribute": "caverns_and_chasms:slowness_retribution", "value": "0.5", "operation": "+", "slot": "feet" }
+      ],
+      "gui_stat": {
+        "necromium_slowness_retribution": {
+          "value": 1, "min": 0, "max": 1,
+          "header": { "translate": "modularis.material.stat.necromium_slowness_retribution" },
+          "description": { "translate": "modularis.material.stat.necromium_slowness_retribution.description" }
+        }
+      }
+    }
+  }
+}

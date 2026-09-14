@@ -1,0 +1,29 @@
+{
+  "load_condition": { "type": "mod_loaded", "mod": "caverns_and_chasms" },
+  "translation": {
+    "translate": "material.modularis.living_flesh"
+  },
+  "icon": {
+    "type": "item",
+    "item": "caverns_and_chasms:living_flesh"
+  },
+  "groups": ["bone"],
+  "tier": 2,
+  "hardness": 5,
+  "density": 4.5,
+  "flexibility": 0,
+  "durability": 189,
+  "armor_durability": 23,
+  "enchantability": 17,
+  "toughness": 1.0,
+  "armor_toughness": 1.0,
+  "mining_speed": 4,
+  "mining_level": "minecraft:incorrect_for_gold_tool",
+  "items": [
+    { "item": "caverns_and_chasms:living_flesh", "value": 1.0 }
+  ],
+  "color_palette": {
+    "type": "image_generated_item",
+    "item": "caverns_and_chasms:living_flesh"
+  }
+}
