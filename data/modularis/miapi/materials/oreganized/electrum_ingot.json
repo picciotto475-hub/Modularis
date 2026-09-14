@@ -1,0 +1,29 @@
+{
+  "load_condition": { "type": "mod_loaded", "mod": "oreganized" },
+  "translation": {
+    "translate": "material.modularis.electrum_ingot"
+  },
+  "icon": {
+    "type": "item",
+    "item": "oreganized:electrum_ingot"
+  },
+  "groups": ["metal"],
+  "tier": 4,
+  "hardness": 6,
+  "density": 3.0,
+  "flexibility": 0,
+  "durability": 1531,
+  "armor_durability": 33,
+  "enchantability": 14,
+  "toughness": 2.0,
+  "armor_toughness": 2.0,
+  "mining_speed": 8.0,
+  "mining_level": "oreganized:incorrect_for_electrum_tool",
+  "items": [
+    { "item": "oreganized:electrum_ingot", "value": 1.0 }
+  ],
+  "color_palette": {
+    "type": "image_generated_item",
+    "item": "oreganized:electrum_ingot"
+  }
+}

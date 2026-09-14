@@ -1,0 +1,18 @@
+{
+  "load_condition": { "type": "mod_loaded", "mod": "oreganized" },
+  "key": "modularis:oreganized/lead_ingot",
+  "properties": {
+    "head": {
+      "on_attack_potion": [
+        { "potion": "oreganized:stunning", "amplifier": 0, "duration": 80, "target_self": false, "probability": 0.2 }
+      ],
+      "gui_stat": {
+        "lead_stunning_chance": {
+          "value": "20", "min": 20, "max": 20,
+          "header": { "translate": "modularis.material.stat.lead_stunning_chance" },
+          "description": { "translate": "modularis.material.stat.lead_stunning_chance.description" }
+        }
+      }
+    }
+  }
+}

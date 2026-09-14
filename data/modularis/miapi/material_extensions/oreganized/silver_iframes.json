@@ -1,0 +1,26 @@
+{
+  "load_condition": { "type": "mod_loaded", "mod": "oreganized" },
+  "key": "modularis:oreganized/silver_ingot",
+  "properties": {
+    "helmet": {
+      "attributes": [
+        { "attribute": "oreganized:invincibility_frames", "value": "0.2", "operation": "+", "slot": "head" }
+      ]
+    },
+    "chest": {
+      "attributes": [
+        { "attribute": "oreganized:invincibility_frames", "value": "0.05", "operation": "+", "slot": "chest" }
+      ]
+    },
+    "pants": {
+      "attributes": [
+        { "attribute": "oreganized:invincibility_frames", "value": "0.06667", "operation": "+", "slot": "legs" }
+      ]
+    },
+    "boot": {
+      "attributes": [
+        { "attribute": "oreganized:invincibility_frames", "value": "0.1", "operation": "+", "slot": "feet" }
+      ]
+    }
+  }
+}

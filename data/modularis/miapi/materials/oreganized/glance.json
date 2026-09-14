@@ -1,0 +1,27 @@
+{
+  "load_condition": { "type": "mod_loaded", "mod": "oreganized" },
+  "translation": {
+    "translate": "material.modularis.glance"
+  },
+  "icon": {
+    "type": "item",
+    "item": "oreganized:glance"
+  },
+  "groups": ["stone"],
+  "tier": 2.5,
+  "hardness": 4.4,
+  "density": 3.85,
+  "flexibility": 0.5,
+  "durability": 198,
+  "enchantability": 10,
+  "toughness": 0.5,
+  "mining_speed": 5,
+  "mining_level": "minecraft:incorrect_for_stone_tool",
+  "items": [
+    { "item": "oreganized:glance", "value": 1.0 }
+  ],
+  "color_palette": {
+    "type": "image_generated_item",
+    "item": "oreganized:glance"
+  }
+}

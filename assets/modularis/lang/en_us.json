@@ -149,6 +149,16 @@
   "modularis.material.stat.fiery_armor_retaliation_chance": "Retaliation Chance When Hit (Armor)",
   "modularis.material.stat.fiery_armor_retaliation_chance.description": "Chance to deal instant damage back to an attacker when the wearer is hit",
 
+  "material.modularis.lead_ingot": "Lead Ingot",
+  "material.modularis.silver_ingot": "Silver Ingot",
+  "material.modularis.electrum_ingot": "Electrum Ingot",
+  "material.modularis.glance": "Glance",
+
+  "modularis.material.stat.electrum_kinetic_damage": "Kinetic Damage",
+  "modularis.material.stat.electrum_kinetic_damage.description": "Deals bonus damage on hit while sprinting or moving fast, scaling with the weapon's own attack damage",
+  "modularis.material.stat.lead_stunning_chance": "Brain Damage Chance",
+  "modularis.material.stat.lead_stunning_chance.description": "Chance to afflict the target with Brain Damage, a slowness that worsens as its health drops",
+
   "modularis.material.stat.yeti_frosted_chance": "Frosted Chance When Hit (Armor)",
   "modularis.material.stat.yeti_frosted_chance.description": "Chance to afflict an attacker with Frosted when the wearer is hit"
 }

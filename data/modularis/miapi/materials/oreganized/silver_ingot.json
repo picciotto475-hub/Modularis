@@ -1,0 +1,29 @@
+{
+  "load_condition": { "type": "mod_loaded", "mod": "oreganized" },
+  "translation": {
+    "translate": "material.modularis.silver_ingot"
+  },
+  "icon": {
+    "type": "item",
+    "item": "oreganized:silver_ingot"
+  },
+  "groups": ["metal"],
+  "tier": 3,
+  "hardness": 5,
+  "density": 3.9,
+  "flexibility": 1,
+  "durability": 176,
+  "armor_durability": 14,
+  "enchantability": 13,
+  "toughness": 0,
+  "armor_toughness": 0,
+  "mining_speed": 5,
+  "mining_level": "oreganized:incorrect_for_silver_tool",
+  "items": [
+    { "item": "oreganized:silver_ingot", "value": 1.0 }
+  ],
+  "color_palette": {
+    "type": "image_generated_item",
+    "item": "oreganized:silver_ingot"
+  }
+}

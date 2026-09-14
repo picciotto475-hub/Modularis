@@ -1,0 +1,36 @@
+{
+  "load_condition": { "type": "mod_loaded", "mod": "oreganized" },
+  "key": "modularis:oreganized/electrum_ingot",
+  "properties": {
+    "head": {
+      "fake_item_tag": ["oreganized:has_kinetic_damage"],
+      "gui_stat": {
+        "electrum_kinetic_damage": {
+          "value": 1, "min": 0, "max": 1,
+          "header": { "translate": "modularis.material.stat.electrum_kinetic_damage" },
+          "description": { "translate": "modularis.material.stat.electrum_kinetic_damage.description" }
+        }
+      }
+    },
+    "helmet": {
+      "attributes": [
+        { "attribute": "minecraft:generic.movement_speed", "value": "0.05", "operation": "*", "target_operation": "*", "slot": "head" }
+      ]
+    },
+    "chest": {
+      "attributes": [
+        { "attribute": "minecraft:generic.movement_speed", "value": "0.0125", "operation": "*", "target_operation": "*", "slot": "chest" }
+      ]
+    },
+    "pants": {
+      "attributes": [
+        { "attribute": "minecraft:generic.movement_speed", "value": "0.016667", "operation": "*", "target_operation": "*", "slot": "legs" }
+      ]
+    },
+    "boot": {
+      "attributes": [
+        { "attribute": "minecraft:generic.movement_speed", "value": "0.025", "operation": "*", "target_operation": "*", "slot": "feet" }
+      ]
+    }
+  }
+}

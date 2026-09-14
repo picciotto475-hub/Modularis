@@ -1,0 +1,29 @@
+{
+  "load_condition": { "type": "mod_loaded", "mod": "oreganized" },
+  "translation": {
+    "translate": "material.modularis.lead_ingot"
+  },
+  "icon": {
+    "type": "item",
+    "item": "oreganized:lead_ingot"
+  },
+  "groups": ["metal"],
+  "tier": 3,
+  "hardness": 4.8,
+  "density": 3.7,
+  "flexibility": 1,
+  "durability": 280,
+  "armor_durability": 18,
+  "enchantability": 14,
+  "toughness": 0,
+  "armor_toughness": 0,
+  "mining_speed": 6,
+  "mining_level": "minecraft:incorrect_for_iron_tool",
+  "items": [
+    { "item": "oreganized:lead_ingot", "value": 1.0 }
+  ],
+  "color_palette": {
+    "type": "image_generated_item",
+    "item": "oreganized:lead_ingot"
+  }
+}
