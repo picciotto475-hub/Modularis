@@ -155,6 +155,9 @@
   "material.modularis.necromium_ingot": "Necromium Ingot",
   "material.modularis.tin_ingot": "Tin Ingot",
   "material.modularis.living_flesh": "Living Flesh",
+  "material.modularis.ice_crystal": "Ice Crystal",
+  "material.modularis.naga_fang": "Naga Fang",
+  "material.modularis.bluff_rod": "Bluff Rod",
   "material.modularis.electrum_ingot": "Electrum Ingot",
   "material.modularis.glance": "Glance",
   "material.modularis.spinel": "Spinel",
@@ -175,6 +178,10 @@
   "modularis.material.stat.necromium_slowness_retribution.description": "Slows attackers that hit you while you wear this armor piece",
   "modularis.material.stat.living_flesh_lifesteal": "Lifesteal",
   "modularis.material.stat.living_flesh_lifesteal.description": "Heals you for a portion of the damage you deal while wearing this armor piece",
+  "modularis.material.stat.naga_fang_poison": "Poison",
+  "modularis.material.stat.naga_fang_poison.description": "Poisons the target on hit",
+  "modularis.material.stat.ice_crystal_freeze_damage": "Freeze Damage",
+  "modularis.material.stat.ice_crystal_freeze_damage.description": "Deals bonus freeze damage on hit",
 
   "modularis.material.stat.yeti_frosted_chance": "Frosted Chance When Hit (Armor)",
   "modularis.material.stat.yeti_frosted_chance.description": "Chance to afflict an attacker with Frosted when the wearer is hit"

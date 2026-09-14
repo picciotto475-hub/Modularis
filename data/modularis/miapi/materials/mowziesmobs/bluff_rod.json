@@ -1,0 +1,27 @@
+{
+  "load_condition": { "type": "mod_loaded", "mod": "mowziesmobs" },
+  "translation": {
+    "translate": "material.modularis.bluff_rod"
+  },
+  "icon": {
+    "type": "item",
+    "item": "mowziesmobs:bluff_rod"
+  },
+  "groups": ["rod"],
+  "tier": 1,
+  "hardness": 2,
+  "density": 2,
+  "flexibility": 3,
+  "durability": 250,
+  "enchantability": 8,
+  "toughness": 0.5,
+  "mining_speed": 5,
+  "mining_level": "minecraft:incorrect_for_wooden_tool",
+  "items": [
+    { "item": "mowziesmobs:bluff_rod", "value": 1.0 }
+  ],
+  "color_palette": {
+    "type": "image_generated_item",
+    "item": "mowziesmobs:bluff_rod"
+  }
+}

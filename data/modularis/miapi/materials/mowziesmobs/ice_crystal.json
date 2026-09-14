@@ -1,0 +1,17 @@
+{
+  "load_condition": { "type": "mod_loaded", "mod": "mowziesmobs" },
+  "translation": {
+    "translate": "material.modularis.ice_crystal"
+  },
+  "icon": {
+    "type": "item",
+    "item": "mowziesmobs:ice_crystal"
+  },
+  "items": [
+    { "item": "mowziesmobs:ice_crystal", "value": 2.0 }
+  ],
+  "color_palette": {
+    "type": "image_generated_item",
+    "item": "mowziesmobs:ice_crystal"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "load_condition": { "type": "mod_loaded", "mod": "mowziesmobs" },
+  "key": "modularis:mowziesmobs/ice_crystal",
+  "hidden_groups": ["gem_melee"],
+  "properties": {
+    "gem_melee_handheld": {
+      "custom_damage": {
+        "modularis:ice_crystal_freeze": {
+          "type": "minecraft:freeze",
+          "on_melee_attack": true,
+          "on_ranged_attack": false,
+          "respect_attack_cooldown": false,
+          "amount": "5.0",
+          "attacker_cooldown": "0",
+          "header": "modularis.material.stat.ice_crystal_freeze_damage",
+          "description": "modularis.material.stat.ice_crystal_freeze_damage.description"
+        }
+      }
+    }
+  }
+}

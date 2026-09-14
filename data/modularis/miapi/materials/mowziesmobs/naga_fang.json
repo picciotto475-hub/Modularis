@@ -1,0 +1,27 @@
+{
+  "load_condition": { "type": "mod_loaded", "mod": "mowziesmobs" },
+  "translation": {
+    "translate": "material.modularis.naga_fang"
+  },
+  "icon": {
+    "type": "item",
+    "item": "mowziesmobs:naga_fang"
+  },
+  "groups": ["bone"],
+  "tier": 1,
+  "hardness": 1,
+  "density": 4.5,
+  "flexibility": 4,
+  "durability": 116,
+  "enchantability": 7,
+  "toughness": 0,
+  "mining_speed": 4,
+  "mining_level": "minecraft:incorrect_for_gold_tool",
+  "items": [
+    { "item": "mowziesmobs:naga_fang", "value": 1.0 }
+  ],
+  "color_palette": {
+    "type": "image_generated_item",
+    "item": "mowziesmobs:naga_fang"
+  }
+}

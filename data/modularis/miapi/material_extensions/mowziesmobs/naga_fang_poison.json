@@ -1,0 +1,30 @@
+{
+  "load_condition": { "type": "mod_loaded", "mod": "mowziesmobs" },
+  "key": "modularis:mowziesmobs/naga_fang",
+  "properties": {
+    "head": {
+      "on_attack_potion": [
+        { "potion": "minecraft:poison", "amplifier": 3, "duration": 40, "target_self": false, "probability": 1.0 }
+      ],
+      "gui_stat": {
+        "naga_fang_poison": {
+          "value": "100", "min": 100, "max": 100,
+          "header": { "translate": "modularis.material.stat.naga_fang_poison" },
+          "description": { "translate": "modularis.material.stat.naga_fang_poison.description" }
+        }
+      }
+    },
+    "arrow_head": {
+      "on_attack_potion": [
+        { "potion": "minecraft:poison", "amplifier": 3, "duration": 40, "target_self": false, "probability": 1.0 }
+      ],
+      "gui_stat": {
+        "naga_fang_arrow_poison": {
+          "value": "100", "min": 100, "max": 100,
+          "header": { "translate": "modularis.material.stat.naga_fang_poison" },
+          "description": { "translate": "modularis.material.stat.naga_fang_poison.description" }
+        }
+      }
+    }
+  }
+}
