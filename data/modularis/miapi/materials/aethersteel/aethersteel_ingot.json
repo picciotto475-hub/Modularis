@@ -1,0 +1,29 @@
+{
+  "load_condition": { "type": "mod_loaded", "mod": "aethersteel" },
+  "translation": {
+    "translate": "material.modularis.aethersteel_ingot"
+  },
+  "icon": {
+    "type": "item",
+    "item": "aethersteel:aethersteel_ingot"
+  },
+  "groups": ["smithing"],
+  "tier": 6,
+  "hardness": 15,
+  "density": 3.8,
+  "flexibility": 4,
+  "durability": 4047,
+  "armor_durability": 74,
+  "enchantability": 30,
+  "toughness": 6.0,
+  "armor_toughness": 6.0,
+  "mining_speed": 24,
+  "mining_level": "minecraft:incorrect_for_netherite_tool",
+  "items": [
+    { "item": "aethersteel:aethersteel_ingot", "value": 1.0 }
+  ],
+  "color_palette": {
+    "type": "image_generated_item",
+    "item": "aethersteel:aethersteel_ingot"
+  }
+}

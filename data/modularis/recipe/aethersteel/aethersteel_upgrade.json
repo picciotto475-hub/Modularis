@@ -1,0 +1,10 @@
+{
+  "neoforge:conditions": [
+    { "type": "neoforge:mod_loaded", "modid": "aethersteel" }
+  ],
+  "type": "miapi:material_smithing",
+  "template": { "item": "aethersteel:aethersteel_upgrade_smithing_template" },
+  "addition": { "item": "aethersteel:aethersteel_ingot" },
+  "base": "miapi:metal/netherite",
+  "result": "modularis:aethersteel/aethersteel_ingot"
+}

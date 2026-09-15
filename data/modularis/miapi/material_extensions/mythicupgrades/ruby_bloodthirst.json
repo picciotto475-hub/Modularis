@@ -1,0 +1,66 @@
+{
+  "load_condition": { "type": "mod_loaded", "mod": "mythicupgrades" },
+  "key": "modularis:mythicupgrades/ruby_ingot",
+  "properties": {
+    "head": {
+      "on_attack_potion": [
+        { "potion": "minecraft:instant_health", "amplifier": 0, "duration": 1, "target_self": true, "probability": 1.0 }
+      ],
+      "gui_stat": {
+        "ruby_lifesteal": {
+          "value": 1, "min": 0, "max": 1,
+          "header": { "translate": "modularis.material.stat.ruby_lifesteal" },
+          "description": { "translate": "modularis.material.stat.ruby_lifesteal.description" }
+        }
+      }
+    },
+    "helmet": {
+      "on_attack_potion": [
+        { "potion": "minecraft:regeneration", "amplifier": 0, "duration": 20, "target_self": true, "probability": 0.12 }
+      ],
+      "gui_stat": {
+        "ruby_bloodthirst_regen": {
+          "value": "12", "min": 12, "max": 12,
+          "header": { "translate": "modularis.material.stat.ruby_bloodthirst_regen" },
+          "description": { "translate": "modularis.material.stat.ruby_bloodthirst_regen.description" }
+        }
+      }
+    },
+    "chest": {
+      "on_attack_potion": [
+        { "potion": "minecraft:regeneration", "amplifier": 0, "duration": 20, "target_self": true, "probability": 0.18 }
+      ],
+      "gui_stat": {
+        "ruby_bloodthirst_regen": {
+          "value": "18", "min": 18, "max": 18,
+          "header": { "translate": "modularis.material.stat.ruby_bloodthirst_regen" },
+          "description": { "translate": "modularis.material.stat.ruby_bloodthirst_regen.description" }
+        }
+      }
+    },
+    "pants": {
+      "on_attack_potion": [
+        { "potion": "minecraft:regeneration", "amplifier": 0, "duration": 20, "target_self": true, "probability": 0.18 }
+      ],
+      "gui_stat": {
+        "ruby_bloodthirst_regen": {
+          "value": "18", "min": 18, "max": 18,
+          "header": { "translate": "modularis.material.stat.ruby_bloodthirst_regen" },
+          "description": { "translate": "modularis.material.stat.ruby_bloodthirst_regen.description" }
+        }
+      }
+    },
+    "boot": {
+      "on_attack_potion": [
+        { "potion": "minecraft:regeneration", "amplifier": 0, "duration": 20, "target_self": true, "probability": 0.12 }
+      ],
+      "gui_stat": {
+        "ruby_bloodthirst_regen": {
+          "value": "12", "min": 12, "max": 12,
+          "header": { "translate": "modularis.material.stat.ruby_bloodthirst_regen" },
+          "description": { "translate": "modularis.material.stat.ruby_bloodthirst_regen.description" }
+        }
+      }
+    }
+  }
+}

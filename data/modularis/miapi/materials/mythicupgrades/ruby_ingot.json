@@ -1,0 +1,29 @@
+{
+  "load_condition": { "type": "mod_loaded", "mod": "mythicupgrades" },
+  "translation": {
+    "translate": "material.modularis.ruby_ingot"
+  },
+  "icon": {
+    "type": "item",
+    "item": "mythicupgrades:ruby_ingot"
+  },
+  "groups": ["metal"],
+  "tier": 5,
+  "hardness": 7.0,
+  "density": 2.0,
+  "flexibility": 2.25,
+  "durability": 2016,
+  "armor_durability": 37,
+  "enchantability": 15,
+  "toughness": 3.0,
+  "armor_toughness": 3.0,
+  "mining_speed": 9.0,
+  "mining_level": "minecraft:incorrect_for_netherite_tool",
+  "items": [
+    { "item": "mythicupgrades:ruby_ingot", "value": 1.0 }
+  ],
+  "color_palette": {
+    "type": "image_generated_item",
+    "item": "mythicupgrades:ruby_ingot"
+  }
+}
