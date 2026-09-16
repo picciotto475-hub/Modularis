@@ -1,0 +1,68 @@
+{
+  "load_condition": { "type": "mod_loaded", "mod": "mythicupgrades" },
+  "key": "modularis:mythicupgrades/sapphire_ingot",
+  "properties": {
+    "head": {
+      "custom_damage": {
+        "modularis:sapphire_execute": {
+          "type": "minecraft:generic",
+          "on_melee_attack": true,
+          "on_ranged_attack": false,
+          "respect_attack_cooldown": false,
+          "amount": "10.0",
+          "attacker_cooldown": "40",
+          "header": "modularis.material.stat.sapphire_execute",
+          "description": "modularis.material.stat.sapphire_execute.description"
+        }
+      }
+    },
+    "helmet": {
+      "on_attack_potion": [
+        { "potion": "mythicupgrades:damage_deflection", "amplifier": 1, "duration": 200, "target_self": true, "probability": 1.0 }
+      ],
+      "gui_stat": {
+        "sapphire_deflection": {
+          "value": 1, "min": 0, "max": 1,
+          "header": { "translate": "modularis.material.stat.sapphire_deflection" },
+          "description": { "translate": "modularis.material.stat.sapphire_deflection.description" }
+        }
+      }
+    },
+    "chest": {
+      "on_attack_potion": [
+        { "potion": "mythicupgrades:damage_deflection", "amplifier": 2, "duration": 200, "target_self": true, "probability": 1.0 }
+      ],
+      "gui_stat": {
+        "sapphire_deflection": {
+          "value": 1, "min": 0, "max": 1,
+          "header": { "translate": "modularis.material.stat.sapphire_deflection" },
+          "description": { "translate": "modularis.material.stat.sapphire_deflection.description" }
+        }
+      }
+    },
+    "pants": {
+      "on_attack_potion": [
+        { "potion": "mythicupgrades:damage_deflection", "amplifier": 2, "duration": 200, "target_self": true, "probability": 1.0 }
+      ],
+      "gui_stat": {
+        "sapphire_deflection": {
+          "value": 1, "min": 0, "max": 1,
+          "header": { "translate": "modularis.material.stat.sapphire_deflection" },
+          "description": { "translate": "modularis.material.stat.sapphire_deflection.description" }
+        }
+      }
+    },
+    "boot": {
+      "on_attack_potion": [
+        { "potion": "mythicupgrades:damage_deflection", "amplifier": 1, "duration": 200, "target_self": true, "probability": 1.0 }
+      ],
+      "gui_stat": {
+        "sapphire_deflection": {
+          "value": 1, "min": 0, "max": 1,
+          "header": { "translate": "modularis.material.stat.sapphire_deflection" },
+          "description": { "translate": "modularis.material.stat.sapphire_deflection.description" }
+        }
+      }
+    }
+  }
+}

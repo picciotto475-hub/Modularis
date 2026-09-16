@@ -1,11 +1,11 @@
 {
   "load_condition": { "type": "mod_loaded", "mod": "mythicupgrades" },
   "translation": {
-    "translate": "material.modularis.ruby_ingot"
+    "translate": "material.modularis.jade_ingot"
   },
   "icon": {
     "type": "item",
-    "item": "mythicupgrades:ruby_ingot"
+    "item": "mythicupgrades:jade_ingot"
   },
   "groups": ["smithing"],
   "tier": 5,
@@ -20,10 +20,10 @@
   "mining_speed": 9.0,
   "mining_level": "minecraft:incorrect_for_netherite_tool",
   "items": [
-    { "item": "mythicupgrades:ruby_ingot", "value": 1.0 }
+    { "item": "mythicupgrades:jade_ingot", "value": 1.0 }
   ],
   "color_palette": {
     "type": "image_generated_item",
-    "item": "mythicupgrades:ruby_ingot"
+    "item": "mythicupgrades:jade_ingot"
   }
 }

@@ -1,0 +1,66 @@
+{
+  "load_condition": { "type": "mod_loaded", "mod": "mythicupgrades" },
+  "key": "modularis:mythicupgrades/ametrine_ingot",
+  "properties": {
+    "head": {
+      "on_attack_potion": [
+        { "potion": "minecraft:levitation", "amplifier": 2, "duration": 20, "target_self": false, "probability": 1.0 }
+      ],
+      "gui_stat": {
+        "ametrine_levitation": {
+          "value": 1, "min": 0, "max": 1,
+          "header": { "translate": "modularis.material.stat.ametrine_levitation" },
+          "description": { "translate": "modularis.material.stat.ametrine_levitation.description" }
+        }
+      }
+    },
+    "helmet": {
+      "on_hit_potion": [
+        { "potion": "mythicupgrades:arcane_aura", "amplifier": 1, "duration": 200, "target_self": true, "probability": 1.0 }
+      ],
+      "gui_stat": {
+        "ametrine_arcane_aura": {
+          "value": 1, "min": 0, "max": 1,
+          "header": { "translate": "modularis.material.stat.ametrine_arcane_aura" },
+          "description": { "translate": "modularis.material.stat.ametrine_arcane_aura.description" }
+        }
+      }
+    },
+    "chest": {
+      "on_hit_potion": [
+        { "potion": "mythicupgrades:arcane_aura", "amplifier": 2, "duration": 200, "target_self": true, "probability": 1.0 }
+      ],
+      "gui_stat": {
+        "ametrine_arcane_aura": {
+          "value": 1, "min": 0, "max": 1,
+          "header": { "translate": "modularis.material.stat.ametrine_arcane_aura" },
+          "description": { "translate": "modularis.material.stat.ametrine_arcane_aura.description" }
+        }
+      }
+    },
+    "pants": {
+      "on_hit_potion": [
+        { "potion": "mythicupgrades:arcane_aura", "amplifier": 2, "duration": 200, "target_self": true, "probability": 1.0 }
+      ],
+      "gui_stat": {
+        "ametrine_arcane_aura": {
+          "value": 1, "min": 0, "max": 1,
+          "header": { "translate": "modularis.material.stat.ametrine_arcane_aura" },
+          "description": { "translate": "modularis.material.stat.ametrine_arcane_aura.description" }
+        }
+      }
+    },
+    "boot": {
+      "on_hit_potion": [
+        { "potion": "mythicupgrades:arcane_aura", "amplifier": 1, "duration": 200, "target_self": true, "probability": 1.0 }
+      ],
+      "gui_stat": {
+        "ametrine_arcane_aura": {
+          "value": 1, "min": 0, "max": 1,
+          "header": { "translate": "modularis.material.stat.ametrine_arcane_aura" },
+          "description": { "translate": "modularis.material.stat.ametrine_arcane_aura.description" }
+        }
+      }
+    }
+  }
+}

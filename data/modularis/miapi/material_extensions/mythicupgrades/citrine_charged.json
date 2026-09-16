@@ -1,0 +1,67 @@
+{
+  "load_condition": { "type": "mod_loaded", "mod": "mythicupgrades" },
+  "key": "modularis:mythicupgrades/citrine_ingot",
+  "properties": {
+    "head": {
+      "on_attack_potion": [
+        { "potion": "mythicupgrades:charged", "amplifier": 0, "duration": 60, "target_self": false, "probability": 1.0 },
+        { "potion": "mythicupgrades:freeze", "amplifier": 0, "duration": 5, "target_self": false, "probability": 1.0 }
+      ],
+      "gui_stat": {
+        "citrine_charged": {
+          "value": 1, "min": 0, "max": 1,
+          "header": { "translate": "modularis.material.stat.citrine_charged" },
+          "description": { "translate": "modularis.material.stat.citrine_charged.description" }
+        }
+      }
+    },
+    "helmet": {
+      "on_attack_potion": [
+        { "potion": "mythicupgrades:static_field", "amplifier": 1, "duration": 200, "target_self": true, "probability": 1.0 }
+      ],
+      "gui_stat": {
+        "citrine_static_field": {
+          "value": 1, "min": 0, "max": 1,
+          "header": { "translate": "modularis.material.stat.citrine_static_field" },
+          "description": { "translate": "modularis.material.stat.citrine_static_field.description" }
+        }
+      }
+    },
+    "chest": {
+      "on_attack_potion": [
+        { "potion": "mythicupgrades:static_field", "amplifier": 2, "duration": 200, "target_self": true, "probability": 1.0 }
+      ],
+      "gui_stat": {
+        "citrine_static_field": {
+          "value": 1, "min": 0, "max": 1,
+          "header": { "translate": "modularis.material.stat.citrine_static_field" },
+          "description": { "translate": "modularis.material.stat.citrine_static_field.description" }
+        }
+      }
+    },
+    "pants": {
+      "on_attack_potion": [
+        { "potion": "mythicupgrades:static_field", "amplifier": 2, "duration": 200, "target_self": true, "probability": 1.0 }
+      ],
+      "gui_stat": {
+        "citrine_static_field": {
+          "value": 1, "min": 0, "max": 1,
+          "header": { "translate": "modularis.material.stat.citrine_static_field" },
+          "description": { "translate": "modularis.material.stat.citrine_static_field.description" }
+        }
+      }
+    },
+    "boot": {
+      "on_attack_potion": [
+        { "potion": "mythicupgrades:static_field", "amplifier": 1, "duration": 200, "target_self": true, "probability": 1.0 }
+      ],
+      "gui_stat": {
+        "citrine_static_field": {
+          "value": 1, "min": 0, "max": 1,
+          "header": { "translate": "modularis.material.stat.citrine_static_field" },
+          "description": { "translate": "modularis.material.stat.citrine_static_field.description" }
+        }
+      }
+    }
+  }
+}

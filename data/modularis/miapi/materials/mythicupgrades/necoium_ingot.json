@@ -1,0 +1,29 @@
+{
+  "load_condition": { "type": "mod_loaded", "mod": "mythicupgrades" },
+  "translation": {
+    "translate": "material.modularis.necoium_ingot"
+  },
+  "icon": {
+    "type": "item",
+    "item": "mythicupgrades:necoium_ingot"
+  },
+  "groups": ["metal"],
+  "tier": 4,
+  "hardness": 5,
+  "density": 2.0,
+  "flexibility": 2.0,
+  "durability": 1400,
+  "armor_durability": 26,
+  "enchantability": 12,
+  "toughness": 2.0,
+  "armor_toughness": 2.0,
+  "mining_speed": 6,
+  "mining_level": "minecraft:incorrect_for_diamond_tool",
+  "items": [
+    { "item": "mythicupgrades:necoium_ingot", "value": 1.0 }
+  ],
+  "color_palette": {
+    "type": "image_generated_item",
+    "item": "mythicupgrades:necoium_ingot"
+  }
+}

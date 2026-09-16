@@ -1,0 +1,66 @@
+{
+  "load_condition": { "type": "mod_loaded", "mod": "mythicupgrades" },
+  "key": "modularis:mythicupgrades/peridot_ingot",
+  "properties": {
+    "head": {
+      "on_attack_potion": [
+        { "potion": "mythicupgrades:lethal_incubation", "amplifier": 0, "duration": 100, "target_self": false, "probability": 1.0 }
+      ],
+      "gui_stat": {
+        "peridot_incubation": {
+          "value": 1, "min": 0, "max": 1,
+          "header": { "translate": "modularis.material.stat.peridot_incubation" },
+          "description": { "translate": "modularis.material.stat.peridot_incubation.description" }
+        }
+      }
+    },
+    "helmet": {
+      "on_attack_potion": [
+        { "potion": "mythicupgrades:miasma", "amplifier": 1, "duration": 200, "target_self": true, "probability": 1.0 }
+      ],
+      "gui_stat": {
+        "peridot_miasma": {
+          "value": 1, "min": 0, "max": 1,
+          "header": { "translate": "modularis.material.stat.peridot_miasma" },
+          "description": { "translate": "modularis.material.stat.peridot_miasma.description" }
+        }
+      }
+    },
+    "chest": {
+      "on_attack_potion": [
+        { "potion": "mythicupgrades:miasma", "amplifier": 2, "duration": 200, "target_self": true, "probability": 1.0 }
+      ],
+      "gui_stat": {
+        "peridot_miasma": {
+          "value": 1, "min": 0, "max": 1,
+          "header": { "translate": "modularis.material.stat.peridot_miasma" },
+          "description": { "translate": "modularis.material.stat.peridot_miasma.description" }
+        }
+      }
+    },
+    "pants": {
+      "on_attack_potion": [
+        { "potion": "mythicupgrades:miasma", "amplifier": 2, "duration": 200, "target_self": true, "probability": 1.0 }
+      ],
+      "gui_stat": {
+        "peridot_miasma": {
+          "value": 1, "min": 0, "max": 1,
+          "header": { "translate": "modularis.material.stat.peridot_miasma" },
+          "description": { "translate": "modularis.material.stat.peridot_miasma.description" }
+        }
+      }
+    },
+    "boot": {
+      "on_attack_potion": [
+        { "potion": "mythicupgrades:miasma", "amplifier": 1, "duration": 200, "target_self": true, "probability": 1.0 }
+      ],
+      "gui_stat": {
+        "peridot_miasma": {
+          "value": 1, "min": 0, "max": 1,
+          "header": { "translate": "modularis.material.stat.peridot_miasma" },
+          "description": { "translate": "modularis.material.stat.peridot_miasma.description" }
+        }
+      }
+    }
+  }
+}

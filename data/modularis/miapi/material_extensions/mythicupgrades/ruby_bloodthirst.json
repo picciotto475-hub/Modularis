@@ -16,49 +16,49 @@
     },
     "helmet": {
       "on_attack_potion": [
-        { "potion": "minecraft:regeneration", "amplifier": 0, "duration": 20, "target_self": true, "probability": 0.12 }
+        { "potion": "mythicupgrades:blood_thirst", "amplifier": 1, "duration": 200, "target_self": true, "probability": 1.0 }
       ],
       "gui_stat": {
-        "ruby_bloodthirst_regen": {
-          "value": "12", "min": 12, "max": 12,
-          "header": { "translate": "modularis.material.stat.ruby_bloodthirst_regen" },
-          "description": { "translate": "modularis.material.stat.ruby_bloodthirst_regen.description" }
+        "ruby_bloodthirst": {
+          "value": 1, "min": 0, "max": 1,
+          "header": { "translate": "modularis.material.stat.ruby_bloodthirst" },
+          "description": { "translate": "modularis.material.stat.ruby_bloodthirst.description" }
         }
       }
     },
     "chest": {
       "on_attack_potion": [
-        { "potion": "minecraft:regeneration", "amplifier": 0, "duration": 20, "target_self": true, "probability": 0.18 }
+        { "potion": "mythicupgrades:blood_thirst", "amplifier": 2, "duration": 200, "target_self": true, "probability": 1.0 }
       ],
       "gui_stat": {
-        "ruby_bloodthirst_regen": {
-          "value": "18", "min": 18, "max": 18,
-          "header": { "translate": "modularis.material.stat.ruby_bloodthirst_regen" },
-          "description": { "translate": "modularis.material.stat.ruby_bloodthirst_regen.description" }
+        "ruby_bloodthirst": {
+          "value": 1, "min": 0, "max": 1,
+          "header": { "translate": "modularis.material.stat.ruby_bloodthirst" },
+          "description": { "translate": "modularis.material.stat.ruby_bloodthirst.description" }
         }
       }
     },
     "pants": {
       "on_attack_potion": [
-        { "potion": "minecraft:regeneration", "amplifier": 0, "duration": 20, "target_self": true, "probability": 0.18 }
+        { "potion": "mythicupgrades:blood_thirst", "amplifier": 2, "duration": 200, "target_self": true, "probability": 1.0 }
       ],
       "gui_stat": {
-        "ruby_bloodthirst_regen": {
-          "value": "18", "min": 18, "max": 18,
-          "header": { "translate": "modularis.material.stat.ruby_bloodthirst_regen" },
-          "description": { "translate": "modularis.material.stat.ruby_bloodthirst_regen.description" }
+        "ruby_bloodthirst": {
+          "value": 1, "min": 0, "max": 1,
+          "header": { "translate": "modularis.material.stat.ruby_bloodthirst" },
+          "description": { "translate": "modularis.material.stat.ruby_bloodthirst.description" }
         }
       }
     },
     "boot": {
       "on_attack_potion": [
-        { "potion": "minecraft:regeneration", "amplifier": 0, "duration": 20, "target_self": true, "probability": 0.12 }
+        { "potion": "mythicupgrades:blood_thirst", "amplifier": 1, "duration": 200, "target_self": true, "probability": 1.0 }
       ],
       "gui_stat": {
-        "ruby_bloodthirst_regen": {
-          "value": "12", "min": 12, "max": 12,
-          "header": { "translate": "modularis.material.stat.ruby_bloodthirst_regen" },
-          "description": { "translate": "modularis.material.stat.ruby_bloodthirst_regen.description" }
+        "ruby_bloodthirst": {
+          "value": 1, "min": 0, "max": 1,
+          "header": { "translate": "modularis.material.stat.ruby_bloodthirst" },
+          "description": { "translate": "modularis.material.stat.ruby_bloodthirst.description" }
         }
       }
     }

@@ -1,0 +1,80 @@
+{
+  "load_condition": { "type": "mod_loaded", "mod": "mythicupgrades" },
+  "key": "modularis:mythicupgrades/aquamarine_ingot",
+  "properties": {
+    "head": {
+      "on_attack_potion": [
+        { "potion": "minecraft:slowness", "amplifier": 0, "duration": 60, "target_self": false, "probability": 1.0 },
+        { "potion": "mythicupgrades:freeze", "amplifier": 0, "duration": 18, "target_self": false, "probability": 1.0 },
+        { "potion": "mythicupgrades:ice_bomb", "amplifier": 0, "duration": 60, "target_self": false, "probability": 1.0 }
+      ],
+      "custom_damage": {
+        "modularis:aquamarine_freeze": {
+          "type": "minecraft:freeze",
+          "on_melee_attack": true,
+          "on_ranged_attack": false,
+          "respect_attack_cooldown": false,
+          "amount": "2.0",
+          "attacker_cooldown": "20",
+          "header": "modularis.material.stat.aquamarine_freeze_damage",
+          "description": "modularis.material.stat.aquamarine_freeze_damage.description"
+        }
+      },
+      "gui_stat": {
+        "aquamarine_slowness": {
+          "value": 1, "min": 0, "max": 1,
+          "header": { "translate": "modularis.material.stat.aquamarine_slowness" },
+          "description": { "translate": "modularis.material.stat.aquamarine_slowness.description" }
+        }
+      }
+    },
+    "helmet": {
+      "on_hit_potion": [
+        { "potion": "mythicupgrades:freeze", "amplifier": 0, "duration": 10, "target_self": false, "probability": 1.0 }
+      ],
+      "gui_stat": {
+        "aquamarine_iceshield": {
+          "value": 1, "min": 0, "max": 1,
+          "header": { "translate": "modularis.material.stat.aquamarine_iceshield" },
+          "description": { "translate": "modularis.material.stat.aquamarine_iceshield.description" }
+        }
+      }
+    },
+    "chest": {
+      "on_hit_potion": [
+        { "potion": "mythicupgrades:freeze", "amplifier": 0, "duration": 10, "target_self": false, "probability": 1.0 }
+      ],
+      "gui_stat": {
+        "aquamarine_iceshield": {
+          "value": 1, "min": 0, "max": 1,
+          "header": { "translate": "modularis.material.stat.aquamarine_iceshield" },
+          "description": { "translate": "modularis.material.stat.aquamarine_iceshield.description" }
+        }
+      }
+    },
+    "pants": {
+      "on_hit_potion": [
+        { "potion": "mythicupgrades:freeze", "amplifier": 0, "duration": 10, "target_self": false, "probability": 1.0 }
+      ],
+      "gui_stat": {
+        "aquamarine_iceshield": {
+          "value": 1, "min": 0, "max": 1,
+          "header": { "translate": "modularis.material.stat.aquamarine_iceshield" },
+          "description": { "translate": "modularis.material.stat.aquamarine_iceshield.description" }
+        }
+      }
+    },
+    "boot": {
+      "on_hit_potion": [
+        { "potion": "mythicupgrades:freeze", "amplifier": 0, "duration": 10, "target_self": false, "probability": 1.0 }
+      ],
+      "gui_stat": {
+        "aquamarine_iceshield": {
+          "value": 1, "min": 0, "max": 1,
+          "header": { "translate": "modularis.material.stat.aquamarine_iceshield" },
+          "description": { "translate": "modularis.material.stat.aquamarine_iceshield.description" }
+        }
+      }
+    }
+  }
+}
