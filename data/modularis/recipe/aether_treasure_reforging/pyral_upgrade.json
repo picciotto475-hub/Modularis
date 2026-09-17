@@ -1,0 +1,10 @@
+{
+  "neoforge:conditions": [
+    { "type": "neoforge:mod_loaded", "modid": "aether_treasure_reforging" }
+  ],
+  "type": "miapi:material_smithing",
+  "template": { "item": "aether_treasure_reforging:phoenix_upgrade_smithing_template" },
+  "addition": { "item": "aether_treasure_reforging:pyral_ingot" },
+  "base": "modularis:aether/enchanted_gravitite",
+  "result": "modularis:aether_treasure_reforging/pyral_ingot"
+}

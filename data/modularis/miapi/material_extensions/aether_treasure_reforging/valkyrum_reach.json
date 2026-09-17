@@ -1,0 +1,12 @@
+{
+  "load_condition": { "type": "mod_loaded", "mod": "aether_treasure_reforging" },
+  "key": "modularis:aether_treasure_reforging/valkyrum_ingot",
+  "properties": {
+    "head": {
+      "attributes": [
+        { "attribute": "minecraft:player.entity_interaction_range", "value": "3.5", "operation": "+", "slot": "mainhand" },
+        { "attribute": "minecraft:player.block_interaction_range", "value": "3.5", "operation": "+", "slot": "mainhand" }
+      ]
+    }
+  }
+}

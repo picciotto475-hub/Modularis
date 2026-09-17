@@ -1,0 +1,29 @@
+{
+  "load_condition": { "type": "mod_loaded", "mod": "aether" },
+  "translation": {
+    "translate": "material.modularis.enchanted_gravitite"
+  },
+  "icon": {
+    "type": "item",
+    "item": "aether:enchanted_gravitite"
+  },
+  "groups": ["metal"],
+  "tier": 4,
+  "hardness": 6,
+  "density": 3.0,
+  "flexibility": 8,
+  "durability": 1546,
+  "armor_durability": 10,
+  "enchantability": 10,
+  "toughness": 2.0,
+  "armor_toughness": 2.0,
+  "mining_speed": 8.0,
+  "mining_level": "minecraft:incorrect_for_diamond_tool",
+  "items": [
+    { "item": "aether:enchanted_gravitite", "value": 1.0 }
+  ],
+  "color_palette": {
+    "type": "image_generated_item",
+    "item": "aether:enchanted_gravitite"
+  }
+}

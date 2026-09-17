@@ -1,0 +1,27 @@
+{
+  "load_condition": { "type": "mod_loaded", "mod": "deep_aether" },
+  "translation": {
+    "translate": "material.modularis.bio_crystal"
+  },
+  "icon": {
+    "type": "item",
+    "item": "deep_aether:bio_crystal"
+  },
+  "groups": ["crystal"],
+  "tier": 2,
+  "hardness": 3,
+  "density": 2,
+  "flexibility": 1,
+  "durability": 90,
+  "enchantability": 10,
+  "toughness": 0,
+  "mining_speed": 4,
+  "mining_level": "minecraft:incorrect_for_stone_tool",
+  "items": [
+    { "item": "deep_aether:bio_crystal", "value": 1.0 }
+  ],
+  "color_palette": {
+    "type": "image_generated_item",
+    "item": "deep_aether:bio_crystal"
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "load_condition": { "type": "mod_loaded", "mod": "deep_aether" },
+  "deep_aether:stormforged_helmet": {
+    "key": "tm_armory:armor/helmet",
+    "child": {
+      "hat": { "key": "tm_armory:armor/default/helmet", "data": { "properties": { "material": "modularis:deep_aether/squall_plate" } } }
+    }
+  },
+  "deep_aether:stormforged_chestplate": {
+    "key": "tm_armory:armor/chestplate",
+    "child": {
+      "chest_front": { "key": "tm_armory:armor/default/front_chest", "data": { "properties": { "material": "modularis:deep_aether/squall_plate" } } },
+      "chest_back":  { "key": "tm_armory:armor/default/back_chest",  "data": { "properties": { "material": "modularis:deep_aether/squall_plate" } } },
+      "arm_left":    { "key": "tm_armory:armor/default/arm_left",    "data": { "properties": { "material": "modularis:deep_aether/squall_plate" } } },
+      "arm_right":   { "key": "tm_armory:armor/default/arm_right",   "data": { "properties": { "material": "modularis:deep_aether/squall_plate" } } }
+    }
+  },
+  "deep_aether:stormforged_leggings": {
+    "key": "tm_armory:armor/pants",
+    "child": {
+      "belt":      { "key": "tm_armory:armor/default/belt",      "data": { "properties": { "material": "modularis:deep_aether/squall_plate" } } },
+      "leg_left":  { "key": "tm_armory:armor/default/leg_left",  "data": { "properties": { "material": "modularis:deep_aether/squall_plate" } } },
+      "leg_right": { "key": "tm_armory:armor/default/leg_right", "data": { "properties": { "material": "modularis:deep_aether/squall_plate" } } }
+    }
+  },
+  "deep_aether:stormforged_boots": {
+    "key": "tm_armory:armor/boots",
+    "child": {
+      "boot_left":  { "key": "tm_armory:armor/default/boot_left",  "data": { "properties": { "material": "modularis:deep_aether/squall_plate" } } },
+      "boot_right": { "key": "tm_armory:armor/default/boot_right", "data": { "properties": { "material": "modularis:deep_aether/squall_plate" } } }
+    }
+  },
+  "deep_aether:storm_sword": {
+    "key": "tm_arsenal:handle/sword",
+    "data": { "material": "miapi:wood/wood" },
+    "child": {
+      "guard": {
+        "key": "tm_arsenal:guard/normal",
+        "data": { "material": "modularis:deep_aether/squall_plate" },
+        "child": {
+          "blade": {
+            "key": "tm_arsenal:blade/normal",
+            "data": { "material": "modularis:deep_aether/squall_plate" },
+            "child": {}
+          }
+        }
+      },
+      "pommel": {
+        "key": "tm_arsenal:pommel/round",
+        "data": { "material": "modularis:deep_aether/squall_plate" },
+        "child": {}
+      }
+    }
+  },
+  "deep_aether:storm_bow": {
+    "key": "tm_archery:bow/handle/normal",
+    "data": { "material": "miapi:wood/wood" },
+    "child": {
+      "arms": {
+        "key": "tm_archery:bow/arm/normal",
+        "data": { "material": "modularis:deep_aether/squall_plate" },
+        "child": {
+          "string": {
+            "key": "tm_archery:bow/string/normal",
+            "data": { "material": "miapi:rope/string" }
+          }
+        }
+      }
+    }
+  }
+}

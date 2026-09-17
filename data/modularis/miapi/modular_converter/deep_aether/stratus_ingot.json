@@ -1,0 +1,137 @@
+{
+  "load_condition": { "type": "mod_loaded", "mod": "deep_aether" },
+  "deep_aether:stratus_helmet": {
+    "key": "tm_armory:armor/helmet",
+    "child": {
+      "hat": { "key": "tm_armory:armor/default/helmet", "data": { "properties": { "material": "modularis:deep_aether/stratus_ingot" } } }
+    }
+  },
+  "deep_aether:stratus_chestplate": {
+    "key": "tm_armory:armor/chestplate",
+    "child": {
+      "chest_front": { "key": "tm_armory:armor/default/front_chest", "data": { "properties": { "material": "modularis:deep_aether/stratus_ingot" } } },
+      "chest_back":  { "key": "tm_armory:armor/default/back_chest",  "data": { "properties": { "material": "modularis:deep_aether/stratus_ingot" } } },
+      "arm_left":    { "key": "tm_armory:armor/default/arm_left",    "data": { "properties": { "material": "modularis:deep_aether/stratus_ingot" } } },
+      "arm_right":   { "key": "tm_armory:armor/default/arm_right",   "data": { "properties": { "material": "modularis:deep_aether/stratus_ingot" } } }
+    }
+  },
+  "deep_aether:stratus_leggings": {
+    "key": "tm_armory:armor/pants",
+    "child": {
+      "belt":      { "key": "tm_armory:armor/default/belt",      "data": { "properties": { "material": "modularis:deep_aether/stratus_ingot" } } },
+      "leg_left":  { "key": "tm_armory:armor/default/leg_left",  "data": { "properties": { "material": "modularis:deep_aether/stratus_ingot" } } },
+      "leg_right": { "key": "tm_armory:armor/default/leg_right", "data": { "properties": { "material": "modularis:deep_aether/stratus_ingot" } } }
+    }
+  },
+  "deep_aether:stratus_boots": {
+    "key": "tm_armory:armor/boots",
+    "child": {
+      "boot_left":  { "key": "tm_armory:armor/default/boot_left",  "data": { "properties": { "material": "modularis:deep_aether/stratus_ingot" } } },
+      "boot_right": { "key": "tm_armory:armor/default/boot_right", "data": { "properties": { "material": "modularis:deep_aether/stratus_ingot" } } }
+    }
+  },
+  "deep_aether:stratus_sword": {
+    "key": "tm_arsenal:handle/sword",
+    "data": { "material": "miapi:wood/wood" },
+    "child": {
+      "guard": {
+        "key": "tm_arsenal:guard/normal",
+        "data": { "material": "modularis:deep_aether/stratus_ingot" },
+        "child": {
+          "blade": {
+            "key": "tm_arsenal:blade/normal",
+            "data": { "material": "modularis:deep_aether/stratus_ingot" },
+            "child": {}
+          }
+        }
+      },
+      "pommel": {
+        "key": "tm_arsenal:pommel/round",
+        "data": { "material": "modularis:deep_aether/stratus_ingot" },
+        "child": {}
+      }
+    }
+  },
+  "deep_aether:stratus_shovel": {
+    "key": "tm_arsenal:handle/tool",
+    "data": { "material": "miapi:wood/wood" },
+    "child": {
+      "guard": {
+        "key": "tm_arsenal:guard/tool_adapter",
+        "child": {
+          "tool_head": {
+            "key": "tm_arsenal:tool/shovel",
+            "data": { "material": "modularis:deep_aether/stratus_ingot" },
+            "child": {}
+          }
+        }
+      }
+    }
+  },
+  "deep_aether:stratus_pickaxe": {
+    "key": "tm_arsenal:handle/tool",
+    "data": { "material": "miapi:wood/wood" },
+    "child": {
+      "guard": {
+        "key": "tm_arsenal:guard/tool_adapter",
+        "child": {
+          "tool_head": {
+            "key": "tm_arsenal:tool/pickaxe_front",
+            "data": { "material": "modularis:deep_aether/stratus_ingot" },
+            "child": {
+              "tool_back": {
+                "key": "tm_arsenal:tool/pickaxe_back",
+                "data": { "material": "modularis:deep_aether/stratus_ingot" },
+                "child": {}
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "deep_aether:stratus_axe": {
+    "key": "tm_arsenal:handle/tool",
+    "data": { "material": "miapi:wood/wood" },
+    "child": {
+      "guard": {
+        "key": "tm_arsenal:guard/tool_adapter",
+        "child": {
+          "tool_head": {
+            "key": "tm_arsenal:tool/axe_front",
+            "data": { "material": "modularis:deep_aether/stratus_ingot" },
+            "child": {
+              "tool_back": {
+                "key": "tm_arsenal:tool/tool_back",
+                "data": { "material": "modularis:deep_aether/stratus_ingot" },
+                "child": {}
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "deep_aether:stratus_hoe": {
+    "key": "tm_arsenal:handle/tool",
+    "data": { "material": "miapi:wood/wood" },
+    "child": {
+      "guard": {
+        "key": "tm_arsenal:guard/tool_adapter",
+        "child": {
+          "tool_head": {
+            "key": "tm_arsenal:tool/hoe_front",
+            "data": { "material": "modularis:deep_aether/stratus_ingot" },
+            "child": {
+              "tool_back": {
+                "key": "tm_arsenal:tool/tool_back",
+                "data": { "material": "modularis:deep_aether/stratus_ingot" },
+                "child": {}
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

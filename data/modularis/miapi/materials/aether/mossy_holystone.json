@@ -1,0 +1,27 @@
+{
+  "load_condition": { "type": "mod_loaded", "mod": "aether" },
+  "translation": {
+    "translate": "material.modularis.mossy_holystone"
+  },
+  "icon": {
+    "type": "item",
+    "item": "aether:mossy_holystone"
+  },
+  "groups": ["stone"],
+  "tier": 2,
+  "hardness": 4,
+  "density": 4,
+  "flexibility": 0,
+  "durability": 120,
+  "enchantability": 6,
+  "toughness": 1,
+  "mining_speed": 4,
+  "mining_level": "minecraft:incorrect_for_stone_tool",
+  "items": [
+    { "item": "aether:mossy_holystone", "value": 1.0 }
+  ],
+  "color_palette": {
+    "type": "image_generated_item",
+    "item": "aether:mossy_holystone"
+  }
+}

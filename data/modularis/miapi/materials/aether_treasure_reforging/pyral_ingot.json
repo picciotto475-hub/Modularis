@@ -1,0 +1,29 @@
+{
+  "load_condition": { "type": "mod_loaded", "mod": "aether_treasure_reforging" },
+  "translation": {
+    "translate": "material.modularis.pyral_ingot"
+  },
+  "icon": {
+    "type": "item",
+    "item": "aether_treasure_reforging:pyral_ingot"
+  },
+  "groups": ["smithing"],
+  "tier": 5,
+  "hardness": 6,
+  "density": 3.5,
+  "flexibility": 0,
+  "durability": 300,
+  "armor_durability": 10,
+  "enchantability": 16,
+  "toughness": 2.0,
+  "armor_toughness": 2.0,
+  "mining_speed": 7,
+  "mining_level": "minecraft:incorrect_for_diamond_tool",
+  "items": [
+    { "item": "aether_treasure_reforging:pyral_ingot", "value": 1.0 }
+  ],
+  "color_palette": {
+    "type": "image_generated_item",
+    "item": "aether_treasure_reforging:pyral_ingot"
+  }
+}

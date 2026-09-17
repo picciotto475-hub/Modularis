@@ -1,0 +1,16 @@
+{
+  "load_condition": { "type": "mod_loaded", "mod": "aether" },
+  "key": "modularis:aether/zanite_gemstone",
+  "properties": {
+    "axe": {
+      "fake_item_tag": ["aether:golden_amber_harvesters"],
+      "gui_stat": {
+        "zanite_golden_amber": {
+          "value": 1, "min": 0, "max": 1,
+          "header": { "translate": "modularis.material.stat.zanite_golden_amber" },
+          "description": { "translate": "modularis.material.stat.zanite_golden_amber.description" }
+        }
+      }
+    }
+  }
+}

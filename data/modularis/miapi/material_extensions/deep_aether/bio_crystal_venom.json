@@ -1,0 +1,18 @@
+{
+  "load_condition": { "type": "mod_loaded", "mod": "deep_aether" },
+  "key": "modularis:deep_aether/bio_crystal",
+  "properties": {
+    "head": {
+      "on_attack_potion": [
+        { "potion": "minecraft:poison", "amplifier": 0, "duration": 60, "target_self": false, "probability": 0.15 }
+      ],
+      "gui_stat": {
+        "bio_crystal_poison_chance": {
+          "value": "15", "min": 15, "max": 15,
+          "header": { "translate": "modularis.material.stat.bio_crystal_poison_chance" },
+          "description": { "translate": "modularis.material.stat.bio_crystal_poison_chance.description" }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "load_condition": { "type": "mod_loaded", "mod": "deep_aether" },
+  "key": "modularis:deep_aether/squall_plate",
+  "properties": {
+    "head": {
+      "attributes": [
+        { "attribute": "minecraft:generic.attack_knockback", "value": "1.5", "operation": "+", "slot": "mainhand" }
+      ]
+    }
+  }
+}

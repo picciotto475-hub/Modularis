@@ -1,0 +1,26 @@
+{
+  "load_condition": { "type": "mod_loaded", "mod": "deep_aether" },
+  "key": "modularis:deep_aether/stratus_ingot",
+  "properties": {
+    "helmet": {
+      "attributes": [
+        { "attribute": "minecraft:generic.jump_strength", "value": "0.3", "operation": "*", "target_operation": "*", "slot": "head" }
+      ]
+    },
+    "chest": {
+      "attributes": [
+        { "attribute": "minecraft:generic.jump_strength", "value": "0.075", "operation": "*", "target_operation": "*", "slot": "chest" }
+      ]
+    },
+    "pants": {
+      "attributes": [
+        { "attribute": "minecraft:generic.jump_strength", "value": "0.1", "operation": "*", "target_operation": "*", "slot": "legs" }
+      ]
+    },
+    "boot": {
+      "attributes": [
+        { "attribute": "minecraft:generic.jump_strength", "value": "0.15", "operation": "*", "target_operation": "*", "slot": "feet" }
+      ]
+    }
+  }
+}

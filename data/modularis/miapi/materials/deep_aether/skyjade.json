@@ -1,0 +1,29 @@
+{
+  "load_condition": { "type": "mod_loaded", "mod": "deep_aether" },
+  "translation": {
+    "translate": "material.modularis.skyjade"
+  },
+  "icon": {
+    "type": "item",
+    "item": "deep_aether:skyjade"
+  },
+  "groups": ["crystal"],
+  "tier": 2,
+  "hardness": 5,
+  "density": 2.0,
+  "flexibility": 0,
+  "durability": 135,
+  "armor_durability": 10,
+  "enchantability": 0,
+  "toughness": 0,
+  "armor_toughness": 0,
+  "mining_speed": 10.0,
+  "mining_level": "minecraft:incorrect_for_gold_tool",
+  "items": [
+    { "item": "deep_aether:skyjade", "value": 1.0 }
+  ],
+  "color_palette": {
+    "type": "image_generated_item",
+    "item": "deep_aether:skyjade"
+  }
+}

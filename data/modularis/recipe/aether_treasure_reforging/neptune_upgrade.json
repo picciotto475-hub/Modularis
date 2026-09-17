@@ -1,0 +1,10 @@
+{
+  "neoforge:conditions": [
+    { "type": "neoforge:mod_loaded", "modid": "aether_treasure_reforging" }
+  ],
+  "type": "miapi:material_smithing",
+  "template": { "item": "aether_treasure_reforging:neptune_upgrade_smithing_template" },
+  "addition": { "item": "aether_treasure_reforging:neptune_mesh" },
+  "base": "modularis:aether/zanite_gemstone",
+  "result": "modularis:aether_treasure_reforging/neptune_mesh"
+}

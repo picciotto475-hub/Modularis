@@ -1,0 +1,30 @@
+{
+  "load_condition": { "type": "mod_loaded", "mod": "deep_aether" },
+  "key": "modularis:deep_aether/skyjade",
+  "properties": {
+    "helmet": {
+      "attributes": [
+        { "attribute": "minecraft:generic.step_height", "value": "1.0", "operation": "+", "slot": "head" },
+        { "attribute": "minecraft:generic.movement_speed", "value": "0.2", "operation": "*", "target_operation": "*", "slot": "head" }
+      ]
+    },
+    "chest": {
+      "attributes": [
+        { "attribute": "minecraft:generic.step_height", "value": "0.25", "operation": "+", "slot": "chest" },
+        { "attribute": "minecraft:generic.movement_speed", "value": "0.05", "operation": "*", "target_operation": "*", "slot": "chest" }
+      ]
+    },
+    "pants": {
+      "attributes": [
+        { "attribute": "minecraft:generic.step_height", "value": "0.33333", "operation": "+", "slot": "legs" },
+        { "attribute": "minecraft:generic.movement_speed", "value": "0.066667", "operation": "*", "target_operation": "*", "slot": "legs" }
+      ]
+    },
+    "boot": {
+      "attributes": [
+        { "attribute": "minecraft:generic.step_height", "value": "0.5", "operation": "+", "slot": "feet" },
+        { "attribute": "minecraft:generic.movement_speed", "value": "0.1", "operation": "*", "target_operation": "*", "slot": "feet" }
+      ]
+    }
+  }
+}

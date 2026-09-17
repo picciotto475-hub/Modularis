@@ -1,0 +1,29 @@
+{
+  "load_condition": { "type": "mod_loaded", "mod": "aether_treasure_reforging" },
+  "translation": {
+    "translate": "material.modularis.neptune_mesh"
+  },
+  "icon": {
+    "type": "item",
+    "item": "aether_treasure_reforging:neptune_mesh"
+  },
+  "groups": ["smithing"],
+  "tier": 4,
+  "hardness": 6,
+  "density": 2.5,
+  "flexibility": 0,
+  "durability": 250,
+  "armor_durability": 10,
+  "enchantability": 12,
+  "toughness": 1.0,
+  "armor_toughness": 1.0,
+  "mining_speed": 6,
+  "mining_level": "minecraft:incorrect_for_iron_tool",
+  "items": [
+    { "item": "aether_treasure_reforging:neptune_mesh", "value": 1.0 }
+  ],
+  "color_palette": {
+    "type": "image_generated_item",
+    "item": "aether_treasure_reforging:neptune_mesh"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "load_condition": { "type": "mod_loaded", "mod": "aether_treasure_reforging" },
+  "translation": {
+    "translate": "material.modularis.valkyrum_ingot"
+  },
+  "icon": {
+    "type": "item",
+    "item": "aether_treasure_reforging:valkyrum_ingot"
+  },
+  "groups": ["smithing"],
+  "tier": 5,
+  "hardness": 5,
+  "density": 3.2,
+  "flexibility": 0,
+  "durability": 1546,
+  "armor_durability": 10,
+  "enchantability": 10,
+  "toughness": 2.0,
+  "armor_toughness": 2.0,
+  "mining_speed": 8.0,
+  "mining_level": "minecraft:incorrect_for_diamond_tool",
+  "items": [
+    { "item": "aether_treasure_reforging:valkyrum_ingot", "value": 1.0 }
+  ],
+  "color_palette": {
+    "type": "image_generated_item",
+    "item": "aether_treasure_reforging:valkyrum_ingot"
+  }
+}

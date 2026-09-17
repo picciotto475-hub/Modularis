@@ -1,0 +1,10 @@
+{
+  "neoforge:conditions": [
+    { "type": "neoforge:mod_loaded", "modid": "deep_aether" }
+  ],
+  "type": "miapi:material_smithing",
+  "template": { "item": "deep_aether:stratus_smithing_template" },
+  "addition": { "item": "deep_aether:stratus_ingot" },
+  "base": "modularis:aether/enchanted_gravitite",
+  "result": "modularis:deep_aether/stratus_ingot"
+}

@@ -1,0 +1,29 @@
+{
+  "load_condition": { "type": "mod_loaded", "mod": "deep_aether" },
+  "translation": {
+    "translate": "material.modularis.stratus_ingot"
+  },
+  "icon": {
+    "type": "item",
+    "item": "deep_aether:stratus_ingot"
+  },
+  "groups": ["smithing"],
+  "tier": 6,
+  "hardness": 7,
+  "density": 3.8,
+  "flexibility": 4,
+  "durability": 2016,
+  "armor_durability": 15,
+  "enchantability": 15,
+  "toughness": 1.5,
+  "armor_toughness": 1.5,
+  "mining_speed": 9.0,
+  "mining_level": "minecraft:incorrect_for_netherite_tool",
+  "items": [
+    { "item": "deep_aether:stratus_ingot", "value": 1.0 }
+  ],
+  "color_palette": {
+    "type": "image_generated_item",
+    "item": "deep_aether:stratus_ingot"
+  }
+}

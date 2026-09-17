@@ -1,0 +1,107 @@
+{
+  "load_condition": { "type": "mod_loaded", "mod": "aether_treasure_reforging" },
+  "aether:valkyrie_lance": {
+    "key": "tm_arsenal:handle/sword",
+    "data": { "material": "miapi:wood/wood" },
+    "child": {
+      "guard": {
+        "key": "tm_arsenal:guard/normal",
+        "data": { "material": "modularis:aether_treasure_reforging/valkyrum_ingot" },
+        "child": {
+          "blade": {
+            "key": "tm_arsenal:blade/normal",
+            "data": { "material": "modularis:aether_treasure_reforging/valkyrum_ingot" },
+            "child": {}
+          }
+        }
+      },
+      "pommel": {
+        "key": "tm_arsenal:pommel/round",
+        "data": { "material": "modularis:aether_treasure_reforging/valkyrum_ingot" },
+        "child": {}
+      }
+    }
+  },
+  "aether:valkyrie_shovel": {
+    "key": "tm_arsenal:handle/tool",
+    "data": { "material": "miapi:wood/wood" },
+    "child": {
+      "guard": {
+        "key": "tm_arsenal:guard/tool_adapter",
+        "child": {
+          "tool_head": {
+            "key": "tm_arsenal:tool/shovel",
+            "data": { "material": "modularis:aether_treasure_reforging/valkyrum_ingot" },
+            "child": {}
+          }
+        }
+      }
+    }
+  },
+  "aether:valkyrie_pickaxe": {
+    "key": "tm_arsenal:handle/tool",
+    "data": { "material": "miapi:wood/wood" },
+    "child": {
+      "guard": {
+        "key": "tm_arsenal:guard/tool_adapter",
+        "child": {
+          "tool_head": {
+            "key": "tm_arsenal:tool/pickaxe_front",
+            "data": { "material": "modularis:aether_treasure_reforging/valkyrum_ingot" },
+            "child": {
+              "tool_back": {
+                "key": "tm_arsenal:tool/pickaxe_back",
+                "data": { "material": "modularis:aether_treasure_reforging/valkyrum_ingot" },
+                "child": {}
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "aether:valkyrie_axe": {
+    "key": "tm_arsenal:handle/tool",
+    "data": { "material": "miapi:wood/wood" },
+    "child": {
+      "guard": {
+        "key": "tm_arsenal:guard/tool_adapter",
+        "child": {
+          "tool_head": {
+            "key": "tm_arsenal:tool/axe_front",
+            "data": { "material": "modularis:aether_treasure_reforging/valkyrum_ingot" },
+            "child": {
+              "tool_back": {
+                "key": "tm_arsenal:tool/tool_back",
+                "data": { "material": "modularis:aether_treasure_reforging/valkyrum_ingot" },
+                "child": {}
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "aether:valkyrie_hoe": {
+    "key": "tm_arsenal:handle/tool",
+    "data": { "material": "miapi:wood/wood" },
+    "child": {
+      "guard": {
+        "key": "tm_arsenal:guard/tool_adapter",
+        "child": {
+          "tool_head": {
+            "key": "tm_arsenal:tool/hoe_front",
+            "data": { "material": "modularis:aether_treasure_reforging/valkyrum_ingot" },
+            "child": {
+              "tool_back": {
+                "key": "tm_arsenal:tool/tool_back",
+                "data": { "material": "modularis:aether_treasure_reforging/valkyrum_ingot" },
+                "child": {}
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

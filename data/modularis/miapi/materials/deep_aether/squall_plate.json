@@ -1,0 +1,29 @@
+{
+  "load_condition": { "type": "mod_loaded", "mod": "deep_aether" },
+  "translation": {
+    "translate": "material.modularis.squall_plate"
+  },
+  "icon": {
+    "type": "item",
+    "item": "deep_aether:squall_plate"
+  },
+  "groups": ["smithing"],
+  "tier": 3,
+  "hardness": 6,
+  "density": 3.0,
+  "flexibility": 4,
+  "durability": 487,
+  "armor_durability": 15,
+  "enchantability": 10,
+  "toughness": 0,
+  "armor_toughness": 0,
+  "mining_speed": 8.0,
+  "mining_level": "minecraft:incorrect_for_iron_tool",
+  "items": [
+    { "item": "deep_aether:squall_plate", "value": 1.0 }
+  ],
+  "color_palette": {
+    "type": "image_generated_item",
+    "item": "deep_aether:squall_plate"
+  }
+}

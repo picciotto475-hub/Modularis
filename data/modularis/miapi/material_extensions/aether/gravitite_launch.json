@@ -1,0 +1,11 @@
+{
+  "load_condition": { "type": "mod_loaded", "mod": "aether" },
+  "key": "modularis:aether/enchanted_gravitite",
+  "properties": {
+    "head": {
+      "attributes": [
+        { "attribute": "minecraft:generic.attack_knockback", "value": "0.5", "operation": "+", "slot": "mainhand" }
+      ]
+    }
+  }
+}

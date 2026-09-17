@@ -1,0 +1,31 @@
+{
+  "load_condition": { "type": "mod_loaded", "mod": "aether" },
+  "key": "modularis:aether/zanite_gemstone",
+  "hidden_groups": ["gem_melee", "gem_armor"],
+  "properties": {
+    "gem_melee_handheld": {
+      "durability": [
+        { "value": "[material.durability] + [module.gem_power]*30", "operation": "+" }
+      ],
+      "gui_stat": {
+        "zanite_gem_durability": {
+          "value": "235", "min": 235, "max": 235,
+          "header": { "translate": "modularis.material.stat.durability_bonus" },
+          "description": { "translate": "modularis.material.stat.durability_bonus.description" }
+        }
+      }
+    },
+    "gem_armor_generic": {
+      "durability": [
+        { "value": "[material.durability] + [module.gem_power]*30", "operation": "+" }
+      ],
+      "gui_stat": {
+        "zanite_gem_durability_armor": {
+          "value": "235", "min": 235, "max": 235,
+          "header": { "translate": "modularis.material.stat.durability_bonus" },
+          "description": { "translate": "modularis.material.stat.durability_bonus.description" }
+        }
+      }
+    }
+  }
+}

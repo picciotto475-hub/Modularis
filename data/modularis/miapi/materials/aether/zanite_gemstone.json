@@ -1,0 +1,30 @@
+{
+  "load_condition": { "type": "mod_loaded", "mod": "aether" },
+  "translation": {
+    "translate": "material.modularis.zanite_gemstone"
+  },
+  "icon": {
+    "type": "item",
+    "item": "aether:zanite_gemstone"
+  },
+  "groups": ["crystal", "gem"],
+  "tier": 3,
+  "hardness": 5.0,
+  "density": 3.0,
+  "flexibility": 1.5,
+  "durability": 235,
+  "armor_durability": 9,
+  "enchantability": 14,
+  "toughness": 0,
+  "armor_toughness": 0,
+  "mining_speed": 6.0,
+  "mining_level": "minecraft:incorrect_for_iron_tool",
+  "items": [
+    { "item": "aether:zanite_gemstone", "value": 1.0 },
+    { "tag": "aether:zanite_repairing", "value": 1.0 }
+  ],
+  "color_palette": {
+    "type": "image_generated_item",
+    "item": "aether:zanite_gemstone"
+  }
+}

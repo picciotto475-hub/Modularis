@@ -1,0 +1,27 @@
+{
+  "load_condition": { "type": "mod_loaded", "mod": "deep_aether" },
+  "translation": {
+    "translate": "material.modularis.clorite"
+  },
+  "icon": {
+    "type": "item",
+    "item": "deep_aether:clorite"
+  },
+  "groups": ["stone"],
+  "tier": 2,
+  "hardness": 3,
+  "density": 3.5,
+  "flexibility": 1,
+  "durability": 100,
+  "enchantability": 6,
+  "toughness": 1,
+  "mining_speed": 5,
+  "mining_level": "minecraft:incorrect_for_stone_tool",
+  "items": [
+    { "item": "deep_aether:clorite", "value": 1.0 }
+  ],
+  "color_palette": {
+    "type": "image_generated_item",
+    "item": "deep_aether:clorite"
+  }
+}
