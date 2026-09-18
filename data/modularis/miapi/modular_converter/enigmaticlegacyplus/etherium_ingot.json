@@ -1,0 +1,33 @@
+{
+  "load_condition": { "type": "mod_loaded", "mod": "enigmaticlegacyplus" },
+  "enigmaticlegacyplus:etherium_helmet": {
+    "key": "tm_armory:armor/helmet",
+    "child": {
+      "hat": { "key": "tm_armory:armor/default/helmet", "data": { "properties": { "material": "modularis:enigmaticlegacyplus/etherium_ingot" } } }
+    }
+  },
+  "enigmaticlegacyplus:etherium_chestplate": {
+    "key": "tm_armory:armor/chestplate",
+    "child": {
+      "chest_front": { "key": "tm_armory:armor/default/front_chest", "data": { "properties": { "material": "modularis:enigmaticlegacyplus/etherium_ingot" } } },
+      "chest_back":  { "key": "tm_armory:armor/default/back_chest",  "data": { "properties": { "material": "modularis:enigmaticlegacyplus/etherium_ingot" } } },
+      "arm_left":    { "key": "tm_armory:armor/default/arm_left",    "data": { "properties": { "material": "modularis:enigmaticlegacyplus/etherium_ingot" } } },
+      "arm_right":   { "key": "tm_armory:armor/default/arm_right",   "data": { "properties": { "material": "modularis:enigmaticlegacyplus/etherium_ingot" } } }
+    }
+  },
+  "enigmaticlegacyplus:etherium_leggings": {
+    "key": "tm_armory:armor/pants",
+    "child": {
+      "belt":      { "key": "tm_armory:armor/default/belt",      "data": { "properties": { "material": "modularis:enigmaticlegacyplus/etherium_ingot" } } },
+      "leg_left":  { "key": "tm_armory:armor/default/leg_left",  "data": { "properties": { "material": "modularis:enigmaticlegacyplus/etherium_ingot" } } },
+      "leg_right": { "key": "tm_armory:armor/default/leg_right", "data": { "properties": { "material": "modularis:enigmaticlegacyplus/etherium_ingot" } } }
+    }
+  },
+  "enigmaticlegacyplus:etherium_boots": {
+    "key": "tm_armory:armor/boots",
+    "child": {
+      "boot_left":  { "key": "tm_armory:armor/default/boot_left",  "data": { "properties": { "material": "modularis:enigmaticlegacyplus/etherium_ingot" } } },
+      "boot_right": { "key": "tm_armory:armor/default/boot_right", "data": { "properties": { "material": "modularis:enigmaticlegacyplus/etherium_ingot" } } }
+    }
+  }
+}

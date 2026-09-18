@@ -1,0 +1,18 @@
+{
+  "load_condition": { "type": "mod_loaded", "mod": "enigmaticlegacyplus" },
+  "key": "modularis:enigmaticlegacyplus/infernal_cinder",
+  "properties": {
+    "head": {
+      "on_attack_potion": [
+        { "potion": "enigmaticlegacyplus:blazing_might", "amplifier": 0, "duration": 200, "target_self": true, "probability": 0.5 }
+      ],
+      "gui_stat": {
+        "infernal_cinder_blazing_might": {
+          "value": "50", "min": 50, "max": 50,
+          "header": { "translate": "modularis.material.stat.blazing_might_chance" },
+          "description": { "translate": "modularis.material.stat.blazing_might_chance.description" }
+        }
+      }
+    }
+  }
+}

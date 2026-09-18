@@ -1,0 +1,18 @@
+{
+  "load_condition": { "type": "mod_loaded", "mod": "enigmaticlegacyplus" },
+  "key": "modularis:enigmaticlegacyplus/earth_heart_fragment",
+  "properties": {
+    "head": {
+      "attributes": [
+        { "attribute": "minecraft:generic.max_health", "value": "2", "operation": "+", "slot": "mainhand" }
+      ],
+      "gui_stat": {
+        "earth_heart_fragment_vitality": {
+          "value": "2", "min": 2, "max": 2,
+          "header": { "translate": "modularis.material.stat.max_health_bonus" },
+          "description": { "translate": "modularis.material.stat.max_health_bonus.description" }
+        }
+      }
+    }
+  }
+}

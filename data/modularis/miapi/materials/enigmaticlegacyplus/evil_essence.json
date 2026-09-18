@@ -1,0 +1,29 @@
+{
+  "load_condition": { "type": "mod_loaded", "mod": "enigmaticlegacyplus" },
+  "translation": {
+    "translate": "material.modularis.evil_essence"
+  },
+  "icon": {
+    "type": "item",
+    "item": "enigmaticlegacyplus:evil_essence"
+  },
+  "groups": ["crystal"],
+  "tier": 5,
+  "hardness": 7,
+  "density": 2,
+  "flexibility": 3,
+  "durability": 1861,
+  "armor_durability": 30,
+  "enchantability": 12,
+  "toughness": 0,
+  "armor_toughness": 0,
+  "mining_speed": 8.5,
+  "mining_level": "minecraft:incorrect_for_diamond_tool",
+  "items": [
+    { "item": "enigmaticlegacyplus:evil_essence", "value": 1.0 }
+  ],
+  "color_palette": {
+    "type": "image_generated_item",
+    "item": "enigmaticlegacyplus:evil_essence"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "load_condition": { "type": "mod_loaded", "mod": "enigmaticlegacyplus" },
+  "key": "modularis:enigmaticlegacyplus/evil_ingot",
+  "properties": {
+    "head": {
+      "entity_damage": {
+        "modularis:evil_ingot_end_slayer_echo": {
+          "entities": [
+            "minecraft:enderman",
+            "minecraft:shulker",
+            "minecraft:endermite",
+            "minecraft:ender_dragon"
+          ],
+          "strength": "2",
+          "name": { "translate": "modularis.material.stat.end_slayer" }
+        }
+      },
+      "on_attack_potion": [
+        { "potion": "minecraft:wither", "amplifier": 0, "duration": 60, "target_self": false, "probability": 0.15 }
+      ],
+      "gui_stat": {
+        "evil_ingot_wither": {
+          "value": "15", "min": 15, "max": 15,
+          "header": { "translate": "modularis.material.stat.wither_chance" },
+          "description": { "translate": "modularis.material.stat.wither_chance.description" }
+        }
+      }
+    }
+  }
+}

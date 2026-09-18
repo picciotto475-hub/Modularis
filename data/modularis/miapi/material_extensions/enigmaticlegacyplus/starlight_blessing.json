@@ -1,0 +1,89 @@
+{
+  "load_condition": { "type": "mod_loaded", "mod": "enigmaticlegacyplus" },
+  "key": "modularis:enigmaticlegacyplus/starlight_ingot",
+  "properties": {
+    "helmet": {
+      "attributes": [
+        { "attribute": "minecraft:generic.luck", "value": "1.0", "operation": "+", "slot": "head" },
+        { "attribute": "enigmaticlegacyplus:etherium_shield", "value": "0.025", "operation": "+", "slot": "head" }
+      ],
+      "gui_stat": {
+        "starlight_shield": {
+          "value": "2.5", "min": 2.5, "max": 2.5,
+          "header": { "translate": "modularis.material.stat.etherium_shield" },
+          "description": { "translate": "modularis.material.stat.etherium_shield.description" }
+        }
+      }
+    },
+    "chest": {
+      "attributes": [
+        { "attribute": "minecraft:generic.luck", "value": "1.0", "operation": "+", "slot": "chest" },
+        { "attribute": "enigmaticlegacyplus:etherium_shield", "value": "0.025", "operation": "+", "slot": "chest" }
+      ],
+      "gui_stat": {
+        "starlight_shield": {
+          "value": "2.5", "min": 2.5, "max": 2.5,
+          "header": { "translate": "modularis.material.stat.etherium_shield" },
+          "description": { "translate": "modularis.material.stat.etherium_shield.description" }
+        }
+      }
+    },
+    "pants": {
+      "attributes": [
+        { "attribute": "minecraft:generic.luck", "value": "1.0", "operation": "+", "slot": "legs" },
+        { "attribute": "enigmaticlegacyplus:etherium_shield", "value": "0.025", "operation": "+", "slot": "legs" }
+      ],
+      "gui_stat": {
+        "starlight_shield": {
+          "value": "2.5", "min": 2.5, "max": 2.5,
+          "header": { "translate": "modularis.material.stat.etherium_shield" },
+          "description": { "translate": "modularis.material.stat.etherium_shield.description" }
+        }
+      }
+    },
+    "boot": {
+      "attributes": [
+        { "attribute": "minecraft:generic.luck", "value": "1.0", "operation": "+", "slot": "feet" },
+        { "attribute": "enigmaticlegacyplus:etherium_shield", "value": "0.025", "operation": "+", "slot": "feet" }
+      ],
+      "gui_stat": {
+        "starlight_shield": {
+          "value": "2.5", "min": 2.5, "max": 2.5,
+          "header": { "translate": "modularis.material.stat.etherium_shield" },
+          "description": { "translate": "modularis.material.stat.etherium_shield.description" }
+        }
+      }
+    },
+    "head": {
+      "attributes": [
+        { "attribute": "minecraft:generic.luck", "value": "1.0", "operation": "+", "slot": "mainhand" },
+        { "attribute": "enigmaticlegacyplus:etherium_shield", "value": "0.025", "operation": "+", "slot": "mainhand" }
+      ],
+      "gui_stat": {
+        "starlight_shield": {
+          "value": "2.5", "min": 2.5, "max": 2.5,
+          "header": { "translate": "modularis.material.stat.etherium_shield" },
+          "description": { "translate": "modularis.material.stat.etherium_shield.description" }
+        }
+      }
+    },
+    "bow_arms": {
+      "attributes": [
+        { "attribute": "minecraft:generic.luck", "value": "1.0", "operation": "+", "slot": "mainhand" },
+        { "attribute": "enigmaticlegacyplus:etherium_shield", "value": "0.025", "operation": "+", "slot": "mainhand" }
+      ],
+      "gui_stat": {
+        "starlight_shield": {
+          "value": "2.5", "min": 2.5, "max": 2.5,
+          "header": { "translate": "modularis.material.stat.etherium_shield" },
+          "description": { "translate": "modularis.material.stat.etherium_shield.description" }
+        }
+      }
+    },
+    "arrow_head": {
+      "attributes": [
+        { "attribute": "minecraft:generic.luck", "value": "1.0", "operation": "+", "slot": "mainhand" }
+      ]
+    }
+  }
+}

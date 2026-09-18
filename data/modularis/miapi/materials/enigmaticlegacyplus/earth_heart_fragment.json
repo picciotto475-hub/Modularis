@@ -1,0 +1,29 @@
+{
+  "load_condition": { "type": "mod_loaded", "mod": "enigmaticlegacyplus" },
+  "translation": {
+    "translate": "material.modularis.earth_heart_fragment"
+  },
+  "icon": {
+    "type": "item",
+    "item": "enigmaticlegacyplus:earth_heart_fragment"
+  },
+  "groups": ["stone"],
+  "tier": 3,
+  "hardness": 5,
+  "density": 3.8,
+  "flexibility": 1,
+  "durability": 235,
+  "armor_durability": 15,
+  "enchantability": 14,
+  "toughness": 0,
+  "armor_toughness": 0,
+  "mining_speed": 6,
+  "mining_level": "minecraft:incorrect_for_iron_tool",
+  "items": [
+    { "item": "enigmaticlegacyplus:earth_heart_fragment", "value": 0.125 }
+  ],
+  "color_palette": {
+    "type": "image_generated_item",
+    "item": "enigmaticlegacyplus:earth_heart_fragment"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "load_condition": { "type": "mod_loaded", "mod": "enigmaticlegacyplus" },
+  "translation": {
+    "translate": "material.modularis.ichor_droplet"
+  },
+  "icon": {
+    "type": "item",
+    "item": "enigmaticlegacyplus:ichor_droplet"
+  },
+  "groups": ["metal"],
+  "tier": 2,
+  "hardness": 4,
+  "density": 2.0,
+  "flexibility": 2,
+  "durability": 400,
+  "armor_durability": 8,
+  "enchantability": 10,
+  "toughness": 0,
+  "armor_toughness": 0,
+  "mining_speed": 4.0,
+  "mining_level": "minecraft:incorrect_for_stone_tool",
+  "items": [
+    { "item": "enigmaticlegacyplus:ichor_droplet", "value": 1.0 }
+  ],
+  "color_palette": {
+    "type": "image_generated_item",
+    "item": "enigmaticlegacyplus:ichor_droplet"
+  }
+}

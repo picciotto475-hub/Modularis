@@ -1,0 +1,11 @@
+{
+  "load_condition": { "type": "mod_loaded", "mod": "enigmaticlegacyplus" },
+  "key": "modularis:enigmaticlegacyplus/spellstone_debris",
+  "properties": {
+    "head": {
+      "attributes": [
+        { "attribute": "minecraft:generic.luck", "value": "1", "operation": "+", "slot": "mainhand" }
+      ]
+    }
+  }
+}

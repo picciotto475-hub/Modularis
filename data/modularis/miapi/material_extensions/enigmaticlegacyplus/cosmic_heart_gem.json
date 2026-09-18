@@ -1,0 +1,37 @@
+{
+  "load_condition": { "type": "mod_loaded", "mod": "enigmaticlegacyplus" },
+  "key": "modularis:enigmaticlegacyplus/cosmic_heart",
+  "hidden_groups": ["gem_armor", "gem_melee"],
+  "properties": {
+    "gem_armor_generic": {
+      "on_hit_potion": [
+        { "potion": "minecraft:resistance", "amplifier": 0, "duration": 60, "target_self": true, "probability": 0.1 },
+        { "potion": "minecraft:absorption", "amplifier": 0, "duration": 100, "target_self": true, "probability": 0.1 }
+      ],
+      "gui_stat": {
+        "cosmic_heart_resistance": {
+          "value": "10", "min": 10, "max": 10,
+          "header": { "translate": "modularis.material.stat.cosmic_resistance_chance" },
+          "description": { "translate": "modularis.material.stat.cosmic_resistance_chance.description" }
+        },
+        "cosmic_heart_absorption": {
+          "value": "10", "min": 10, "max": 10,
+          "header": { "translate": "modularis.material.stat.cosmic_absorption_chance" },
+          "description": { "translate": "modularis.material.stat.cosmic_absorption_chance.description" }
+        }
+      }
+    },
+    "gem_melee_handheld": {
+      "on_attack_potion": [
+        { "potion": "minecraft:strength", "amplifier": 0, "duration": 100, "target_self": true, "probability": 0.1 }
+      ],
+      "gui_stat": {
+        "cosmic_heart_strength": {
+          "value": "10", "min": 10, "max": 10,
+          "header": { "translate": "modularis.material.stat.cosmic_strength_chance" },
+          "description": { "translate": "modularis.material.stat.cosmic_strength_chance.description" }
+        }
+      }
+    }
+  }
+}

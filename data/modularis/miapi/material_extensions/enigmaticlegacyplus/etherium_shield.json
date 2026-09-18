@@ -1,0 +1,19 @@
+{
+  "load_condition": { "type": "mod_loaded", "mod": "enigmaticlegacyplus" },
+  "key": "modularis:enigmaticlegacyplus/etherium_ingot",
+  "properties": {
+    "head": {
+      "attributes": [
+        { "attribute": "enigmaticlegacyplus:etherium_shield", "value": "0.04", "operation": "+", "slot": "mainhand" },
+        { "attribute": "minecraft:player.entity_interaction_range", "value": "1.0", "operation": "+", "slot": "mainhand" }
+      ],
+      "gui_stat": {
+        "etherium_shield": {
+          "value": "4", "min": 4, "max": 4,
+          "header": { "translate": "modularis.material.stat.etherium_shield" },
+          "description": { "translate": "modularis.material.stat.etherium_shield.description" }
+        }
+      }
+    }
+  }
+}

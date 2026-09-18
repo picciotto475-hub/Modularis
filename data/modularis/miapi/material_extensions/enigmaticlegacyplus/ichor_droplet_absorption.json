@@ -1,0 +1,18 @@
+{
+  "load_condition": { "type": "mod_loaded", "mod": "enigmaticlegacyplus" },
+  "key": "modularis:enigmaticlegacyplus/ichor_droplet",
+  "properties": {
+    "trident": {
+      "on_attack_potion": [
+        { "potion": "minecraft:absorption", "amplifier": 0, "duration": 360, "target_self": true, "probability": 0.15 }
+      ],
+      "gui_stat": {
+        "ichor_droplet_absorption": {
+          "value": "15", "min": 15, "max": 15,
+          "header": { "translate": "modularis.material.stat.ichor_absorption_chance" },
+          "description": { "translate": "modularis.material.stat.ichor_absorption_chance.description" }
+        }
+      }
+    }
+  }
+}

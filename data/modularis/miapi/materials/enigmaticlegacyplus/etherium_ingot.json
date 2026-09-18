@@ -1,0 +1,31 @@
+{
+  "load_condition": { "type": "mod_loaded", "mod": "enigmaticlegacyplus" },
+  "translation": {
+    "translate": "material.modularis.etherium_ingot"
+  },
+  "icon": {
+    "type": "item",
+    "item": "enigmaticlegacyplus:etherium_ingot"
+  },
+  "groups": ["metal"],
+  "tier": 7,
+  "hardness": 11,
+  "density": 3.8,
+  "flexibility": 16,
+  "durability": 2779,
+  "armor_durability": 132,
+  "enchantability": 24,
+  "toughness": 4.0,
+  "armor_toughness": 4.0,
+  "mining_speed": 8.0,
+  "mining_level": "minecraft:incorrect_for_netherite_tool",
+  "items": [
+    { "item": "enigmaticlegacyplus:etherium_ingot", "value": 1.0 },
+    { "item": "enigmaticlegacyplus:raw_etherium", "value": 1.0 },
+    { "item": "enigmaticlegacyplus:etherium_nugget", "value": 0.11112 }
+  ],
+  "color_palette": {
+    "type": "image_generated_item",
+    "item": "enigmaticlegacyplus:etherium_ingot"
+  }
+}

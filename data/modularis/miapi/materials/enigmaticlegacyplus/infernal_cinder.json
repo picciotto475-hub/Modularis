@@ -1,0 +1,29 @@
+{
+  "load_condition": { "type": "mod_loaded", "mod": "enigmaticlegacyplus" },
+  "translation": {
+    "translate": "material.modularis.infernal_cinder"
+  },
+  "icon": {
+    "type": "item",
+    "item": "enigmaticlegacyplus:infernal_cinder"
+  },
+  "groups": ["stone"],
+  "tier": 3,
+  "hardness": 4,
+  "density": 3.5,
+  "flexibility": 1,
+  "durability": 150,
+  "armor_durability": 7,
+  "enchantability": 22,
+  "toughness": 0,
+  "armor_toughness": 0.1,
+  "mining_speed": 12,
+  "mining_level": "minecraft:incorrect_for_gold_tool",
+  "items": [
+    { "item": "enigmaticlegacyplus:infernal_cinder", "value": 1.0 }
+  ],
+  "color_palette": {
+    "type": "image_generated_item",
+    "item": "enigmaticlegacyplus:infernal_cinder"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "load_condition": { "type": "mod_loaded", "mod": "enigmaticlegacyplus" },
+  "key": "modularis:enigmaticlegacyplus/evil_essence",
+  "properties": {
+    "head": {
+      "entity_damage": {
+        "modularis:evil_essence_end_slayer": {
+          "entities": [
+            "minecraft:enderman",
+            "minecraft:shulker",
+            "minecraft:endermite",
+            "minecraft:ender_dragon"
+          ],
+          "strength": "3",
+          "name": { "translate": "modularis.material.stat.end_slayer" }
+        }
+      }
+    }
+  }
+}

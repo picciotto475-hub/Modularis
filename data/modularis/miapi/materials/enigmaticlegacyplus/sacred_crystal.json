@@ -1,0 +1,29 @@
+{
+  "load_condition": { "type": "mod_loaded", "mod": "enigmaticlegacyplus" },
+  "translation": {
+    "translate": "material.modularis.sacred_crystal"
+  },
+  "icon": {
+    "type": "item",
+    "item": "enigmaticlegacyplus:sacred_crystal"
+  },
+  "groups": ["metal", "crystal"],
+  "tier": 4,
+  "hardness": 6,
+  "density": 2.0,
+  "flexibility": 0,
+  "durability": 1546,
+  "armor_durability": 33,
+  "enchantability": 10,
+  "toughness": 2,
+  "armor_toughness": 2,
+  "mining_speed": 8,
+  "mining_level": "minecraft:incorrect_for_diamond_tool",
+  "items": [
+    { "item": "enigmaticlegacyplus:sacred_crystal", "value": 1.0 }
+  ],
+  "color_palette": {
+    "type": "image_generated_item",
+    "item": "enigmaticlegacyplus:sacred_crystal"
+  }
+}

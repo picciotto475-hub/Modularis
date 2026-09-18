@@ -1,0 +1,29 @@
+{
+  "load_condition": { "type": "mod_loaded", "mod": "enigmaticlegacyplus" },
+  "translation": {
+    "translate": "material.modularis.spellstone_debris"
+  },
+  "icon": {
+    "type": "item",
+    "item": "enigmaticlegacyplus:spellstone_debris"
+  },
+  "groups": ["stone"],
+  "tier": 4,
+  "hardness": 6,
+  "density": 2.0,
+  "flexibility": 0,
+  "durability": 1546,
+  "armor_durability": 33,
+  "enchantability": 10,
+  "toughness": 2.0,
+  "armor_toughness": 2.0,
+  "mining_speed": 8,
+  "mining_level": "minecraft:incorrect_for_diamond_tool",
+  "items": [
+    { "item": "enigmaticlegacyplus:spellstone_debris", "value": 0.16667 }
+  ],
+  "color_palette": {
+    "type": "image_generated_item",
+    "item": "enigmaticlegacyplus:spellstone_debris"
+  }
+}

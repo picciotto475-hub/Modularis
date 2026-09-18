@@ -1,0 +1,18 @@
+{
+  "load_condition": { "type": "mod_loaded", "mod": "enigmaticlegacyplus" },
+  "key": "modularis:enigmaticlegacyplus/sacred_crystal",
+  "properties": {
+    "head": {
+      "on_attack_potion": [
+        { "potion": "enigmaticlegacyplus:blood_chalice", "amplifier": 0, "duration": 200, "target_self": true, "probability": 0.15 }
+      ],
+      "gui_stat": {
+        "sacred_crystal_blood_chalice": {
+          "value": "15", "min": 15, "max": 15,
+          "header": { "translate": "modularis.material.stat.blood_chalice_chance" },
+          "description": { "translate": "modularis.material.stat.blood_chalice_chance.description" }
+        }
+      }
+    }
+  }
+}
