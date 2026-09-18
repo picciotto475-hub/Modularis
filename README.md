@@ -2,7 +2,7 @@
 
 A compatibility datapack for Truly Modular in Minecraft 1.21.
 
-**Materials created so far: 93**
+**Materials created so far: 104**
 
 ## Currently supported mods
 
@@ -14,6 +14,7 @@ A compatibility datapack for Truly Modular in Minecraft 1.21.
 - Caverns and Chasms
 - Deep Aether
 - Deeper and Darker
+- Enigmatic Legacy Plus
 - Ender's Cataclysm
 - Mowzie's Mobs
 - MythicUpgrades
