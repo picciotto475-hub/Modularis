@@ -2,7 +2,7 @@
 
 A compatibility datapack for Truly Modular in Minecraft 1.21.
 
-**Materials created so far: 104**
+**Materials created so far: 111**
 
 ## Currently supported mods
 
@@ -19,5 +19,6 @@ A compatibility datapack for Truly Modular in Minecraft 1.21.
 - Mowzie's Mobs
 - MythicUpgrades
 - Oreganized
+- Primal
 - Quark
 - Twilight Forest

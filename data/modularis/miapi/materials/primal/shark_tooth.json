@@ -1,0 +1,27 @@
+{
+  "load_condition": { "type": "mod_loaded", "mod": "primal" },
+  "translation": {
+    "translate": "material.modularis.shark_tooth"
+  },
+  "icon": {
+    "type": "item",
+    "item": "primal:shark_tooth"
+  },
+  "groups": ["bone"],
+  "tier": 2,
+  "hardness": 6,
+  "density": 3.5,
+  "flexibility": 5,
+  "durability": 160,
+  "enchantability": 7,
+  "toughness": 1,
+  "mining_speed": 4,
+  "mining_level": "minecraft:incorrect_for_gold_tool",
+  "items": [
+    { "item": "primal:shark_tooth", "value": 1.0 }
+  ],
+  "color_palette": {
+    "type": "image_generated_item",
+    "item": "primal:shark_tooth"
+  }
+}

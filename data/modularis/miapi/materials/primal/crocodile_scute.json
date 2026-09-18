@@ -1,0 +1,27 @@
+{
+  "load_condition": { "type": "mod_loaded", "mod": "primal" },
+  "translation": {
+    "translate": "material.modularis.crocodile_scute"
+  },
+  "icon": {
+    "type": "item",
+    "item": "primal:crocodile_scute"
+  },
+  "groups": ["bone"],
+  "tier": 2,
+  "hardness": 4.5,
+  "density": 5.5,
+  "flexibility": 2,
+  "durability": 230,
+  "enchantability": 7,
+  "toughness": 1.5,
+  "mining_speed": 4,
+  "mining_level": "minecraft:incorrect_for_gold_tool",
+  "items": [
+    { "item": "primal:crocodile_scute", "value": 1.0 }
+  ],
+  "color_palette": {
+    "type": "image_generated_item",
+    "item": "primal:crocodile_scute"
+  }
+}

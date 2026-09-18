@@ -1,0 +1,27 @@
+{
+  "load_condition": { "type": "mod_loaded", "mod": "primal" },
+  "translation": {
+    "translate": "material.modularis.whitetail_deer_antler"
+  },
+  "icon": {
+    "type": "item",
+    "item": "primal:whitetail_deer_antler"
+  },
+  "groups": ["bone"],
+  "tier": 2,
+  "hardness": 5,
+  "density": 4.5,
+  "flexibility": 4,
+  "durability": 189,
+  "enchantability": 7,
+  "toughness": 1,
+  "mining_speed": 4,
+  "mining_level": "minecraft:incorrect_for_gold_tool",
+  "items": [
+    { "item": "primal:whitetail_deer_antler", "value": 1.0 }
+  ],
+  "color_palette": {
+    "type": "image_generated_item",
+    "item": "primal:whitetail_deer_antler"
+  }
+}
