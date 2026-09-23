@@ -25,7 +25,7 @@ A compatibility datapack for Truly Modular in Minecraft 1.21.
 - Quark
 - Twilight Forest
 
-## Maybe u dont like hpw i did things and want plain materials only, with no special effects?
+## Maybe u dont like how i did things and want plain materials only, with no special effects?
 
 Every material in this pack is made of a few separate pieces, split across different folders under
 `data/modularis/miapi/`:
