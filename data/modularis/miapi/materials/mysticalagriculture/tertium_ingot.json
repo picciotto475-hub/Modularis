@@ -1,0 +1,21 @@
+{
+  "load_condition": { "type": "mod_loaded", "mod": "mysticalagriculture" },
+  "translation": { "translate": "material.modularis.tertium_ingot" },
+  "icon": { "type": "item", "item": "mysticalagriculture:tertium_ingot" },
+  "groups": ["metal"],
+  "tier": 7,
+  "hardness": 11,
+  "density": 2.8,
+  "flexibility": 5,
+  "durability": 3635,
+  "armor_durability": 5.0,
+  "enchantability": 14,
+  "toughness": 2.5,
+  "armor_toughness": 2.5,
+  "mining_speed": 14.0,
+  "mining_level": "mysticalagriculture:incorrect_for_tertium_tool",
+  "items": [
+    { "item": "mysticalagriculture:tertium_ingot", "value": 1.0 }
+  ],
+  "color_palette": { "type": "image_generated_item", "item": "mysticalagriculture:tertium_ingot" }
+}

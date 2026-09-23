@@ -1,0 +1,21 @@
+{
+  "load_condition": { "type": "mod_loaded", "mod": "mysticalagriculture" },
+  "translation": { "translate": "material.modularis.soulium_gemstone" },
+  "icon": { "type": "item", "item": "mysticalagriculture:soulium_gemstone" },
+  "groups": ["crystal"],
+  "tier": 5,
+  "hardness": 5.5,
+  "density": 1.5,
+  "flexibility": 6,
+  "durability": 370,
+  "armor_durability": 3.0,
+  "enchantability": 17,
+  "toughness": 1.5,
+  "armor_toughness": 1.5,
+  "mining_speed": 5.0,
+  "mining_level": "mysticalagriculture:incorrect_for_soulium_tool",
+  "items": [
+    { "item": "mysticalagriculture:soulium_gemstone", "value": 1.0 }
+  ],
+  "color_palette": { "type": "image_generated_item", "item": "mysticalagriculture:soulium_gemstone" }
+}

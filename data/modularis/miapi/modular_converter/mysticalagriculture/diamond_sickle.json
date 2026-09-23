@@ -1,0 +1,20 @@
+{
+  "load_condition": { "type": "mod_loaded", "mod": "mysticalagriculture" },
+  "mysticalagriculture:diamond_sickle": {
+    "key": "tm_arsenal:handle/sword",
+    "data": { "material": "miapi:wood/wood" },
+    "child": {
+      "guard": {
+        "key": "tm_arsenal:guard/normal",
+        "data": { "material": "miapi:crystal/diamond" },
+        "child": { "blade": { "key": "tm_arsenal:blade/sickle", "data": { "material": "miapi:crystal/diamond" }, "child": {} } }
+      },
+      "pommel": { "key": "tm_arsenal:pommel/round", "data": { "material": "miapi:crystal/diamond" }, "child": {} }
+    }
+  },
+  "mysticalagriculture:diamond_scythe": {
+    "key": "tm_arsenal:handle/polearm",
+    "data": { "material": "miapi:wood/wood" },
+    "child": { "0": { "key": "tm_arsenal:blade/scythe", "data": { "material": "miapi:crystal/diamond" }, "child": {} } }
+  }
+}

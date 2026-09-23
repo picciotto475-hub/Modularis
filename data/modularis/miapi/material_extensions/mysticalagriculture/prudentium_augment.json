@@ -1,0 +1,9 @@
+{
+  "load_condition": { "type": "mod_loaded", "mod": "mysticalagriculture" },
+  "key": "modularis:mysticalagriculture/prudentium_gemstone",
+  "properties": {
+    "head": {
+      "bludgeon": "3"
+    }
+  }
+}

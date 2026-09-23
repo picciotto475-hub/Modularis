@@ -1,0 +1,85 @@
+{
+  "load_condition": { "type": "mod_loaded", "mod": "mysticalagriculture" },
+  "mysticalagriculture:supremium_helmet": {
+    "key": "tm_armory:armor/helmet",
+    "child": { "hat": { "key": "tm_armory:armor/default/helmet", "data": { "properties": { "material": "modularis:mysticalagriculture/supremium_ingot" } } } }
+  },
+  "mysticalagriculture:supremium_chestplate": {
+    "key": "tm_armory:armor/chestplate",
+    "child": {
+      "chest_front": { "key": "tm_armory:armor/default/front_chest", "data": { "properties": { "material": "modularis:mysticalagriculture/supremium_ingot" } } },
+      "chest_back":  { "key": "tm_armory:armor/default/back_chest",  "data": { "properties": { "material": "modularis:mysticalagriculture/supremium_ingot" } } },
+      "arm_left":    { "key": "tm_armory:armor/default/arm_left",    "data": { "properties": { "material": "modularis:mysticalagriculture/supremium_ingot" } } },
+      "arm_right":   { "key": "tm_armory:armor/default/arm_right",   "data": { "properties": { "material": "modularis:mysticalagriculture/supremium_ingot" } } }
+    }
+  },
+  "mysticalagriculture:supremium_leggings": {
+    "key": "tm_armory:armor/pants",
+    "child": {
+      "belt":      { "key": "tm_armory:armor/default/belt",      "data": { "properties": { "material": "modularis:mysticalagriculture/supremium_ingot" } } },
+      "leg_left":  { "key": "tm_armory:armor/default/leg_left",  "data": { "properties": { "material": "modularis:mysticalagriculture/supremium_ingot" } } },
+      "leg_right": { "key": "tm_armory:armor/default/leg_right", "data": { "properties": { "material": "modularis:mysticalagriculture/supremium_ingot" } } }
+    }
+  },
+  "mysticalagriculture:supremium_boots": {
+    "key": "tm_armory:armor/boots",
+    "child": {
+      "boot_left":  { "key": "tm_armory:armor/default/boot_left",  "data": { "properties": { "material": "modularis:mysticalagriculture/supremium_ingot" } } },
+      "boot_right": { "key": "tm_armory:armor/default/boot_right", "data": { "properties": { "material": "modularis:mysticalagriculture/supremium_ingot" } } }
+    }
+  },
+  "mysticalagriculture:supremium_sword": {
+    "key": "tm_arsenal:handle/sword",
+    "data": { "material": "miapi:wood/wood" },
+    "child": {
+      "guard": {
+        "key": "tm_arsenal:guard/normal",
+        "data": { "material": "modularis:mysticalagriculture/supremium_ingot" },
+        "child": { "blade": { "key": "tm_arsenal:blade/normal", "data": { "material": "modularis:mysticalagriculture/supremium_gemstone" }, "child": {} } }
+      },
+      "pommel": { "key": "tm_arsenal:pommel/round", "data": { "material": "modularis:mysticalagriculture/supremium_ingot" }, "child": {} }
+    }
+  },
+  "mysticalagriculture:supremium_pickaxe": {
+    "key": "tm_arsenal:handle/tool",
+    "data": { "material": "miapi:wood/wood" },
+    "child": { "guard": { "key": "tm_arsenal:guard/tool_adapter", "child": { "tool_head": { "key": "tm_arsenal:tool/pickaxe_front", "data": { "material": "modularis:mysticalagriculture/supremium_gemstone" }, "child": { "tool_back": { "key": "tm_arsenal:tool/pickaxe_back", "data": { "material": "modularis:mysticalagriculture/supremium_ingot" }, "child": {} } } } } } }
+  },
+  "mysticalagriculture:supremium_axe": {
+    "key": "tm_arsenal:handle/tool",
+    "data": { "material": "miapi:wood/wood" },
+    "child": { "guard": { "key": "tm_arsenal:guard/tool_adapter", "child": { "tool_head": { "key": "tm_arsenal:tool/axe_front", "data": { "material": "modularis:mysticalagriculture/supremium_gemstone" }, "child": { "tool_back": { "key": "tm_arsenal:tool/tool_back", "data": { "material": "modularis:mysticalagriculture/supremium_ingot" }, "child": {} } } } } } }
+  },
+  "mysticalagriculture:supremium_shovel": {
+    "key": "tm_arsenal:handle/tool",
+    "data": { "material": "miapi:wood/wood" },
+    "child": { "guard": { "key": "tm_arsenal:guard/tool_adapter", "child": { "tool_head": { "key": "tm_arsenal:tool/shovel", "data": { "material": "modularis:mysticalagriculture/supremium_gemstone" }, "child": {} } } } }
+  },
+  "mysticalagriculture:supremium_hoe": {
+    "key": "tm_arsenal:handle/tool",
+    "data": { "material": "miapi:wood/wood" },
+    "child": { "guard": { "key": "tm_arsenal:guard/tool_adapter", "child": { "tool_head": { "key": "tm_arsenal:tool/hoe_front", "data": { "material": "modularis:mysticalagriculture/supremium_gemstone" }, "child": { "tool_back": { "key": "tm_arsenal:tool/tool_back", "data": { "material": "modularis:mysticalagriculture/supremium_ingot" }, "child": {} } } } } } }
+  },
+  "mysticalagriculture:supremium_sickle": {
+    "key": "tm_arsenal:handle/sword",
+    "data": { "material": "miapi:wood/wood" },
+    "child": {
+      "guard": {
+        "key": "tm_arsenal:guard/normal",
+        "data": { "material": "modularis:mysticalagriculture/supremium_ingot" },
+        "child": { "blade": { "key": "tm_arsenal:blade/sickle", "data": { "material": "modularis:mysticalagriculture/supremium_gemstone" }, "child": {} } }
+      },
+      "pommel": { "key": "tm_arsenal:pommel/round", "data": { "material": "modularis:mysticalagriculture/supremium_ingot" }, "child": {} }
+    }
+  },
+  "mysticalagriculture:supremium_scythe": {
+    "key": "tm_arsenal:handle/polearm",
+    "data": { "material": "miapi:wood/wood" },
+    "child": { "0": { "key": "tm_arsenal:blade/scythe", "data": { "material": "modularis:mysticalagriculture/supremium_gemstone" }, "child": {} } }
+  },
+  "mysticalagriculture:supremium_bow": {
+    "key": "tm_archery:bow/handle/normal",
+    "data": { "material": "miapi:wood/wood" },
+    "child": { "arms": { "key": "tm_archery:bow/arm/normal", "data": { "material": "modularis:mysticalagriculture/supremium_gemstone" }, "child": { "string": { "key": "tm_archery:bow/string/normal", "data": { "material": "miapi:rope/string" } } } } }
+  }
+}

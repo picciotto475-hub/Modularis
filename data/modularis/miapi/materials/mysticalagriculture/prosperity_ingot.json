@@ -1,0 +1,21 @@
+{
+  "load_condition": { "type": "mod_loaded", "mod": "mysticalagriculture" },
+  "translation": { "translate": "material.modularis.prosperity_ingot" },
+  "icon": { "type": "item", "item": "mysticalagriculture:prosperity_ingot" },
+  "groups": ["metal"],
+  "tier": 4,
+  "hardness": 6.5,
+  "density": 2.2,
+  "flexibility": 2,
+  "durability": 1750,
+  "armor_durability": 2.3,
+  "enchantability": 11,
+  "toughness": 2.1,
+  "armor_toughness": 2.1,
+  "mining_speed": 8.2,
+  "mining_level": "minecraft:incorrect_for_diamond_tool",
+  "items": [
+    { "item": "mysticalagriculture:prosperity_ingot", "value": 1.0 }
+  ],
+  "color_palette": { "type": "image_generated_item", "item": "mysticalagriculture:prosperity_ingot" }
+}

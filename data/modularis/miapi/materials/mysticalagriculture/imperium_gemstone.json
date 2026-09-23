@@ -1,0 +1,21 @@
+{
+  "load_condition": { "type": "mod_loaded", "mod": "mysticalagriculture" },
+  "translation": { "translate": "material.modularis.imperium_gemstone" },
+  "icon": { "type": "item", "item": "mysticalagriculture:imperium_gemstone" },
+  "groups": ["crystal"],
+  "tier": 8,
+  "hardness": 10.5,
+  "density": 2.2,
+  "flexibility": 5,
+  "durability": 4055,
+  "armor_durability": 8.75,
+  "enchantability": 20,
+  "toughness": 2.75,
+  "armor_toughness": 2.75,
+  "mining_speed": 19.0,
+  "mining_level": "mysticalagriculture:incorrect_for_imperium_tool",
+  "items": [
+    { "item": "mysticalagriculture:imperium_gemstone", "value": 1.0 }
+  ],
+  "color_palette": { "type": "image_generated_item", "item": "mysticalagriculture:imperium_gemstone" }
+}

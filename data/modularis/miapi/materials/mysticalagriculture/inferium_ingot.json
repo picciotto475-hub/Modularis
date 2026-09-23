@@ -1,0 +1,21 @@
+{
+  "load_condition": { "type": "mod_loaded", "mod": "mysticalagriculture" },
+  "translation": { "translate": "material.modularis.inferium_ingot" },
+  "icon": { "type": "item", "item": "mysticalagriculture:inferium_ingot" },
+  "groups": ["metal"],
+  "tier": 5,
+  "hardness": 7,
+  "density": 2.4,
+  "flexibility": 3,
+  "durability": 1935,
+  "armor_durability": 2.5,
+  "enchantability": 10,
+  "toughness": 2.0,
+  "armor_toughness": 2.0,
+  "mining_speed": 9.0,
+  "mining_level": "mysticalagriculture:incorrect_for_inferium_tool",
+  "items": [
+    { "item": "mysticalagriculture:inferium_ingot", "value": 1.0 }
+  ],
+  "color_palette": { "type": "image_generated_item", "item": "mysticalagriculture:inferium_ingot" }
+}

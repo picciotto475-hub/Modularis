@@ -1,0 +1,21 @@
+{
+  "load_condition": { "type": "mod_loaded", "mod": "mysticalagriculture" },
+  "translation": { "translate": "material.modularis.inferium_gemstone" },
+  "icon": { "type": "item", "item": "mysticalagriculture:inferium_gemstone" },
+  "groups": ["crystal"],
+  "tier": 5,
+  "hardness": 5,
+  "density": 1.6,
+  "flexibility": 2,
+  "durability": 1405,
+  "armor_durability": 2.5,
+  "enchantability": 14,
+  "toughness": 2.0,
+  "armor_toughness": 2.0,
+  "mining_speed": 9.0,
+  "mining_level": "mysticalagriculture:incorrect_for_inferium_tool",
+  "items": [
+    { "item": "mysticalagriculture:inferium_gemstone", "value": 1.0 }
+  ],
+  "color_palette": { "type": "image_generated_item", "item": "mysticalagriculture:inferium_gemstone" }
+}

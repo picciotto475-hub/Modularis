@@ -1,0 +1,15 @@
+{
+  "load_condition": { "type": "mod_loaded", "mod": "mysticalagriculture" },
+  "key": "modularis:mysticalagriculture/imperium_gemstone",
+  "properties": {
+    "head": {
+      "entity_damage": {
+        "modularis:imperium_undead_bonus": {
+          "entities": [ "#minecraft:undead" ],
+          "strength": "4",
+          "name": { "translate": "modularis.material.stat.imperium_undead_bonus" }
+        }
+      }
+    }
+  }
+}

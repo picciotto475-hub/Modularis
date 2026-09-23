@@ -1,0 +1,21 @@
+{
+  "load_condition": { "type": "mod_loaded", "mod": "mysticalagriculture" },
+  "translation": { "translate": "material.modularis.prudentium_ingot" },
+  "icon": { "type": "item", "item": "mysticalagriculture:prudentium_ingot" },
+  "groups": ["metal"],
+  "tier": 6,
+  "hardness": 8.5,
+  "density": 2.6,
+  "flexibility": 4,
+  "durability": 2635,
+  "armor_durability": 3.75,
+  "enchantability": 12,
+  "toughness": 2.25,
+  "armor_toughness": 2.25,
+  "mining_speed": 11.0,
+  "mining_level": "mysticalagriculture:incorrect_for_prudentium_tool",
+  "items": [
+    { "item": "mysticalagriculture:prudentium_ingot", "value": 1.0 }
+  ],
+  "color_palette": { "type": "image_generated_item", "item": "mysticalagriculture:prudentium_ingot" }
+}

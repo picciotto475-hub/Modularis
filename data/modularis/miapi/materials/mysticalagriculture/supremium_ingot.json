@@ -1,0 +1,21 @@
+{
+  "load_condition": { "type": "mod_loaded", "mod": "mysticalagriculture" },
+  "translation": { "translate": "material.modularis.supremium_ingot" },
+  "icon": { "type": "item", "item": "mysticalagriculture:supremium_ingot" },
+  "groups": ["metal"],
+  "tier": 9,
+  "hardness": 19.5,
+  "density": 3.2,
+  "flexibility": 8,
+  "durability": 7985,
+  "armor_durability": 17.5,
+  "enchantability": 18,
+  "toughness": 3.0,
+  "armor_toughness": 3.0,
+  "mining_speed": 25.0,
+  "mining_level": "mysticalagriculture:incorrect_for_supremium_tool",
+  "items": [
+    { "item": "mysticalagriculture:supremium_ingot", "value": 1.0 }
+  ],
+  "color_palette": { "type": "image_generated_item", "item": "mysticalagriculture:supremium_ingot" }
+}

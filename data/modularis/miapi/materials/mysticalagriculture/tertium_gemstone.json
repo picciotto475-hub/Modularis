@@ -1,0 +1,21 @@
+{
+  "load_condition": { "type": "mod_loaded", "mod": "mysticalagriculture" },
+  "translation": { "translate": "material.modularis.tertium_gemstone" },
+  "icon": { "type": "item", "item": "mysticalagriculture:tertium_gemstone" },
+  "groups": ["crystal"],
+  "tier": 7,
+  "hardness": 8,
+  "density": 2.0,
+  "flexibility": 4,
+  "durability": 2705,
+  "armor_durability": 5.0,
+  "enchantability": 18,
+  "toughness": 2.5,
+  "armor_toughness": 2.5,
+  "mining_speed": 14.0,
+  "mining_level": "mysticalagriculture:incorrect_for_tertium_tool",
+  "items": [
+    { "item": "mysticalagriculture:tertium_gemstone", "value": 1.0 }
+  ],
+  "color_palette": { "type": "image_generated_item", "item": "mysticalagriculture:tertium_gemstone" }
+}

@@ -1,0 +1,21 @@
+{
+  "load_condition": { "type": "mod_loaded", "mod": "mysticalagriculture" },
+  "translation": { "translate": "material.modularis.awakened_supremium_ingot" },
+  "icon": { "type": "item", "item": "mysticalagriculture:awakened_supremium_ingot" },
+  "groups": ["metal"],
+  "tier": 10,
+  "hardness": 24,
+  "density": 3.4,
+  "flexibility": 10,
+  "durability": 10285,
+  "armor_durability": 20.0,
+  "enchantability": 20,
+  "toughness": 3.5,
+  "armor_toughness": 3.5,
+  "mining_speed": 30.0,
+  "mining_level": "mysticalagriculture:incorrect_for_awakened_supremium_tool",
+  "items": [
+    { "item": "mysticalagriculture:awakened_supremium_ingot", "value": 1.0 }
+  ],
+  "color_palette": { "type": "image_generated_item", "item": "mysticalagriculture:awakened_supremium_ingot" }
+}

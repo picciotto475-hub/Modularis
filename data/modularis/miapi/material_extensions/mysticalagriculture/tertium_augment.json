@@ -1,0 +1,9 @@
+{
+  "load_condition": { "type": "mod_loaded", "mod": "mysticalagriculture" },
+  "key": "modularis:mysticalagriculture/tertium_gemstone",
+  "properties": {
+    "head": {
+      "fracturing": "15"
+    }
+  }
+}

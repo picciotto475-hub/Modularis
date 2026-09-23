@@ -1,0 +1,18 @@
+{
+  "load_condition": { "type": "mod_loaded", "mod": "mysticalagriculture" },
+  "key": "modularis:mysticalagriculture/supremium_gemstone",
+  "properties": {
+    "head": {
+      "on_attack_potion": [
+        { "potion": "minecraft:strength", "amplifier": 0, "duration": 100, "target_self": true, "probability": 0.2 }
+      ],
+      "gui_stat": {
+        "supremium_strength_chance": {
+          "value": "20", "min": 20, "max": 20,
+          "header": { "translate": "modularis.material.stat.supremium_strength_chance" },
+          "description": { "translate": "modularis.material.stat.supremium_strength_chance.description" }
+        }
+      }
+    }
+  }
+}

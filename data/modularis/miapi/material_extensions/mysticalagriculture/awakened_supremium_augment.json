@@ -1,0 +1,25 @@
+{
+  "load_condition": { "type": "mod_loaded", "mod": "mysticalagriculture" },
+  "key": "modularis:mysticalagriculture/awakened_supremium_gemstone",
+  "properties": {
+    "head": {
+      "on_attack_potion": [
+        { "potion": "minecraft:strength", "amplifier": 1, "duration": 140, "target_self": true, "probability": 0.3 }
+      ],
+      "entity_damage": {
+        "modularis:awakened_supremium_undead_bonus": {
+          "entities": [ "#minecraft:undead" ],
+          "strength": "8",
+          "name": { "translate": "modularis.material.stat.awakened_supremium_undead_bonus" }
+        }
+      },
+      "gui_stat": {
+        "awakened_supremium_strength_chance": {
+          "value": "30", "min": 30, "max": 30,
+          "header": { "translate": "modularis.material.stat.supremium_strength_chance" },
+          "description": { "translate": "modularis.material.stat.supremium_strength_chance.description" }
+        }
+      }
+    }
+  }
+}

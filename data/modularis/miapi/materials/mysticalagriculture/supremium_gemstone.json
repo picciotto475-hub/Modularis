@@ -1,0 +1,21 @@
+{
+  "load_condition": { "type": "mod_loaded", "mod": "mysticalagriculture" },
+  "translation": { "translate": "material.modularis.supremium_gemstone" },
+  "icon": { "type": "item", "item": "mysticalagriculture:supremium_gemstone" },
+  "groups": ["crystal"],
+  "tier": 9,
+  "hardness": 14.5,
+  "density": 2.4,
+  "flexibility": 6,
+  "durability": 5955,
+  "armor_durability": 17.5,
+  "enchantability": 22,
+  "toughness": 3.0,
+  "armor_toughness": 3.0,
+  "mining_speed": 25.0,
+  "mining_level": "mysticalagriculture:incorrect_for_supremium_tool",
+  "items": [
+    { "item": "mysticalagriculture:supremium_gemstone", "value": 1.0 }
+  ],
+  "color_palette": { "type": "image_generated_item", "item": "mysticalagriculture:supremium_gemstone" }
+}
