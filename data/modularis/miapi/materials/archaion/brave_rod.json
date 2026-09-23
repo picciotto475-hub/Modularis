@@ -1,0 +1,29 @@
+{
+  "load_condition": { "type": "mod_loaded", "mod": "archaion" },
+  "translation": {
+    "translate": "material.modularis.brave_rod"
+  },
+  "icon": {
+    "type": "item",
+    "item": "archaion:brave_rod"
+  },
+  "groups": ["rod"],
+  "tier": 3,
+  "hardness": 6,
+  "density": 3.5,
+  "flexibility": 2,
+  "durability": 235,
+  "armor_durability": 18,
+  "enchantability": 12,
+  "toughness": 1,
+  "armor_toughness": 1,
+  "mining_speed": 6,
+  "mining_level": "minecraft:incorrect_for_iron_tool",
+  "items": [
+    { "item": "archaion:brave_rod", "value": 1.0 }
+  ],
+  "color_palette": {
+    "type": "image_generated_item",
+    "item": "archaion:brave_rod"
+  }
+}

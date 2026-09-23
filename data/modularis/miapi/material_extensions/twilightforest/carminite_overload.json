@@ -21,8 +21,8 @@
         "destroyBlocks": false,
         "strength": 2,
         "entityStrength": 2.6,
-        "entityMaxDamage": 2,
-        "entityRadius": 15
+        "entityMaxDamage": 15,
+        "entityRadius": 2
       },
       "gui_stat": {
         "carminite_arrow_explosion": {

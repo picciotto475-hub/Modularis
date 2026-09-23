@@ -2,7 +2,7 @@
 
 A compatibility datapack for Truly Modular in Minecraft 1.21.
 
-**Materials created so far: 111**
+**Materials created so far: 114**
 
 ## Currently supported mods
 
@@ -10,6 +10,7 @@ A compatibility datapack for Truly Modular in Minecraft 1.21.
 - Aether Treasure Reforging
 - Aethersteel
 - Aquaculture 2
+- Archaion
 - Born in Chaos
 - Caverns and Chasms
 - Deep Aether

@@ -1,0 +1,27 @@
+{
+  "load_condition": { "type": "mod_loaded", "mod": "archaion" },
+  "key": "modularis:archaion/brave_rod",
+  "properties": {
+    "tm_arsenal:tool/hammer": {
+      "ability_context": [
+        {
+          "id": "modularis:archaion_echo_mace_copy",
+          "type": "miapi:copy_item",
+          "priority": 0,
+          "data": {
+            "id": "archaion:echo_mace",
+            "cooldown": 40,
+            "fake_item_identity": true
+          }
+        }
+      ],
+      "gui_stat": {
+        "brave_rod_ricochet": {
+          "value": 1, "min": 0, "max": 1,
+          "header": { "translate": "modularis.material.stat.ricochet_ability" },
+          "description": { "translate": "modularis.material.stat.ricochet_ability.description" }
+        }
+      }
+    }
+  }
+}
