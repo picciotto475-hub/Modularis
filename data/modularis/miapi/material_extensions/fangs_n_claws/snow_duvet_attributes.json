@@ -1,0 +1,13 @@
+{
+  "load_condition": { "type": "mod_loaded", "mod": "fangs_n_claws" },
+  "key": "modularis:fangs_n_claws/snow_duvet",
+  "properties": {
+    "armor": {
+      "attributes": [
+        { "attribute": "minecraft:generic.jump_strength", "value": "0.05", "operation": "**", "slot": "armor" },
+        { "attribute": "minecraft:generic.safe_fall_distance", "value": "0.05", "operation": "**", "slot": "armor" },
+        { "attribute": "minecraft:generic.fall_damage_multiplier", "value": "-0.05", "operation": "**", "slot": "armor" }
+      ]
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "neoforge:conditions": [
+    { "type": "neoforge:mod_loaded", "modid": "fangs_n_claws" }
+  ],
+  "fabric:load_conditions": [
+    { "condition": "fabric:all_mods_loaded", "values": ["fangs_n_claws"] }
+  ],
+  "type": "miapi:material_smithing",
+  "template": { "item": "fangs_n_claws:shrike_upgrade_smithing_template" },
+  "addition": { "item": "fangs_n_claws:snow_duvet" },
+  "base": "modularis:fangs_n_claws/giant_feather",
+  "result": "modularis:fangs_n_claws/snow_duvet"
+}

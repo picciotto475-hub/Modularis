@@ -1,0 +1,21 @@
+{
+  "load_condition": { "type": "mod_loaded", "mod": "fangs_n_claws" },
+  "translation": { "translate": "material.modularis.chitin" },
+  "icon": { "type": "item", "item": "fangs_n_claws:chitin" },
+  "groups": ["bone"],
+  "tier": 2,
+  "hardness": 5,
+  "density": 4.2,
+  "flexibility": 4,
+  "durability": 200,
+  "armor_durability": 13.6,
+  "enchantability": 7,
+  "toughness": 0.5,
+  "armor_toughness": 0.5,
+  "mining_speed": 3,
+  "mining_level": "minecraft:incorrect_for_stone_tool",
+  "items": [
+    { "item": "fangs_n_claws:chitin", "value": 1.0 }
+  ],
+  "color_palette": { "type": "image_generated_item", "item": "fangs_n_claws:chitin" }
+}

@@ -1,0 +1,19 @@
+{
+  "load_condition": { "type": "mod_loaded", "mod": "fangs_n_claws" },
+  "translation": { "translate": "material.modularis.heavy_claw" },
+  "icon": { "type": "item", "item": "fangs_n_claws:heavy_claw" },
+  "groups": ["bone"],
+  "tier": 2,
+  "hardness": 2.0,
+  "density": 1.0,
+  "flexibility": 4,
+  "durability": 256,
+  "enchantability": 7,
+  "toughness": 1.0,
+  "mining_speed": 3,
+  "mining_level": "minecraft:incorrect_for_stone_tool",
+  "items": [
+    { "item": "fangs_n_claws:heavy_claw", "value": 1.0 }
+  ],
+  "color_palette": { "type": "image_generated_item", "item": "fangs_n_claws:heavy_claw" }
+}

@@ -1,0 +1,21 @@
+{
+  "load_condition": { "type": "mod_loaded", "mod": "fangs_n_claws" },
+  "translation": { "translate": "material.modularis.snow_duvet" },
+  "icon": { "type": "item", "item": "fangs_n_claws:snow_duvet" },
+  "groups": ["smithing"],
+  "tier": 4,
+  "hardness": 8,
+  "density": 2.0,
+  "flexibility": 8,
+  "durability": 600,
+  "armor_durability": 33,
+  "enchantability": 20,
+  "toughness": 2.0,
+  "armor_toughness": 2.0,
+  "mining_speed": 0,
+  "mining_level": "minecraft:incorrect_for_wooden_tool",
+  "items": [
+    { "item": "fangs_n_claws:snow_duvet", "value": 1.0 }
+  ],
+  "color_palette": { "type": "image_generated_item", "item": "fangs_n_claws:snow_duvet" }
+}

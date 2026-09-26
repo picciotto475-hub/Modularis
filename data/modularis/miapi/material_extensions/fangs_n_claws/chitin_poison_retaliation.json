@@ -1,0 +1,18 @@
+{
+  "load_condition": { "type": "mod_loaded", "mod": "fangs_n_claws" },
+  "key": "modularis:fangs_n_claws/chitin",
+  "properties": {
+    "armor": {
+      "on_hit_potion": [
+        { "potion": "minecraft:poison", "amplifier": 0, "duration": 40, "target_self": false, "probability": 0.15 }
+      ],
+      "gui_stat": {
+        "chitin_poison_retaliation_chance": {
+          "value": "15", "min": 15, "max": 15,
+          "header": { "translate": "modularis.material.stat.chitin_poison_retaliation_chance" },
+          "description": { "translate": "modularis.material.stat.chitin_poison_retaliation_chance.description" }
+        }
+      }
+    }
+  }
+}

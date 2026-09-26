@@ -1,0 +1,25 @@
+{
+  "load_condition": { "type": "mod_loaded", "mod": "fangs_n_claws" },
+  "fangs_n_claws:fang_dagger": {
+    "key": "tm_arsenal:handle/sword",
+    "data": { "material": "miapi:wood/wood" },
+    "child": {
+      "guard": {
+        "key": "tm_arsenal:guard/normal",
+        "data": { "material": "modularis:fangs_n_claws/long_fang" },
+        "child": {
+          "blade": {
+            "key": "tm_arsenal:blade/dagger",
+            "data": { "material": "modularis:fangs_n_claws/long_fang" },
+            "child": {}
+          }
+        }
+      },
+      "pommel": {
+        "key": "tm_arsenal:pommel/round",
+        "data": { "material": "modularis:fangs_n_claws/long_fang" },
+        "child": {}
+      }
+    }
+  }
+}

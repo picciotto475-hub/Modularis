@@ -1,0 +1,19 @@
+{
+  "load_condition": { "type": "mod_loaded", "mod": "fangs_n_claws" },
+  "translation": { "translate": "material.modularis.long_fang" },
+  "icon": { "type": "item", "item": "fangs_n_claws:long_fang" },
+  "groups": ["bone"],
+  "tier": 3,
+  "hardness": 5.0,
+  "density": 4.0,
+  "flexibility": 0,
+  "durability": 875,
+  "enchantability": 8,
+  "toughness": 1.0,
+  "mining_speed": 4,
+  "mining_level": "minecraft:incorrect_for_stone_tool",
+  "items": [
+    { "item": "fangs_n_claws:long_fang", "value": 1.0 }
+  ],
+  "color_palette": { "type": "image_generated_item", "item": "fangs_n_claws:long_fang" }
+}

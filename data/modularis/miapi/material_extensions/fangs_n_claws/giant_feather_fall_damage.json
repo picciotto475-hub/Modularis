@@ -1,0 +1,16 @@
+{
+  "load_condition": { "type": "mod_loaded", "mod": "fangs_n_claws" },
+  "key": "modularis:fangs_n_claws/giant_feather",
+  "properties": {
+    "armor": {
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.fall_damage_multiplier",
+          "value": "-0.12",
+          "operation": "**",
+          "slot": "armor"
+        }
+      ]
+    }
+  }
+}
