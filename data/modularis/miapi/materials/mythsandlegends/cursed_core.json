@@ -1,0 +1,24 @@
+{
+  "load_condition": {
+    "type": "mod_loaded",
+    "mod": "mythsandlegends"
+  },
+  "translation": {
+    "translate": "material.modularis.cursed_core"
+  },
+  "icon": {
+    "type": "item",
+    "item": "mythsandlegends:cursed_core"
+  },
+  "enchantability": 0,
+  "items": [
+    {
+      "item": "mythsandlegends:cursed_core",
+      "value": 1.0
+    }
+  ],
+  "color_palette": {
+    "type": "image_generated_item",
+    "item": "mythsandlegends:cursed_core"
+  }
+}

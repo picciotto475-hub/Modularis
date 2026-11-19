@@ -1,0 +1,35 @@
+{
+  "load_condition": {
+    "type": "mod_loaded",
+    "mod": "mythsandlegends"
+  },
+  "translation": {
+    "translate": "material.modularis.gargoyle_fragment"
+  },
+  "icon": {
+    "type": "item",
+    "item": "mythsandlegends:gargoyle_fragment"
+  },
+  "groups": [
+    "stone"
+  ],
+  "tier": 4,
+  "hardness": 5,
+  "density": 6,
+  "flexibility": 0,
+  "durability": 672,
+  "enchantability": 5,
+  "toughness": 3,
+  "mining_speed": 3,
+  "mining_level": "minecraft:incorrect_for_stone_tool",
+  "items": [
+    {
+      "item": "mythsandlegends:gargoyle_fragment",
+      "value": 1.0
+    }
+  ],
+  "color_palette": {
+    "type": "image_generated_item",
+    "item": "mythsandlegends:gargoyle_fragment"
+  }
+}

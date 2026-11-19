@@ -1,0 +1,81 @@
+{
+  "load_condition": {
+    "type": "mod_loaded",
+    "mod": "mythsandlegends"
+  },
+  "key": "modularis:mythsandlegends/cursed_core",
+  "hidden_groups": [
+    "gem_melee",
+    "gem_armor"
+  ],
+  "properties": {
+    "gem_melee_handheld": {
+      "on_attack_potion": [
+        {
+          "potion": "minecraft:wither",
+          "amplifier": 0,
+          "duration": 60,
+          "target_self": false,
+          "probability": 0.3
+        }
+      ],
+      "leeching": "30",
+      "gui_stat": {
+        "cursed_core_wither_chance": {
+          "value": "30",
+          "min": 30,
+          "max": 30,
+          "header": {
+            "translate": "modularis.material.stat.cursed_core_wither_chance"
+          },
+          "description": {
+            "translate": "modularis.material.stat.cursed_core_wither_chance.description"
+          }
+        }
+      }
+    },
+    "gem_armor_handheld": {
+      "on_hit_potion": [
+        {
+          "potion": "minecraft:wither",
+          "amplifier": 0,
+          "duration": 60,
+          "target_self": false,
+          "probability": 0.3
+        }
+      ],
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.max_health",
+          "value": "[module.gem_power]*4",
+          "operation": "+",
+          "slot": "armor"
+        }
+      ],
+      "gui_stat": {
+        "cursed_core_wither_retaliation_chance": {
+          "value": "30",
+          "min": 30,
+          "max": 30,
+          "header": {
+            "translate": "modularis.material.stat.cursed_core_wither_retaliation_chance"
+          },
+          "description": {
+            "translate": "modularis.material.stat.cursed_core_wither_retaliation_chance.description"
+          }
+        },
+        "cursed_core_max_health_bonus": {
+          "value": "[module.gem_power]*4",
+          "min": 4,
+          "max": 20,
+          "header": {
+            "translate": "modularis.material.stat.cursed_core_max_health_bonus"
+          },
+          "description": {
+            "translate": "modularis.material.stat.cursed_core_max_health_bonus.description"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "load_condition": {
+    "type": "mod_loaded",
+    "mod": "mythsandlegends"
+  },
+  "key": "modularis:mythsandlegends/refined_tenebrite",
+  "properties": {
+    "head": {
+      "ability_context": [
+        {
+          "id": "modularis:refined_tenebrite_umbral_copy",
+          "type": "miapi:copy_item",
+          "priority": 0,
+          "data": {
+            "id": "mythsandlegends:noctifer_tenebris",
+            "cooldown": 200,
+            "fake_item_identity": true
+          }
+        }
+      ],
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.luck",
+          "value": "0.1",
+          "operation": "**",
+          "slot": "mainhand"
+        }
+      ],
+      "gui_stat": {
+        "refined_tenebrite_umbral_ability": {
+          "value": 1,
+          "min": 0,
+          "max": 1,
+          "header": {
+            "translate": "modularis.material.stat.refined_tenebrite_umbral_ability"
+          },
+          "description": {
+            "translate": "modularis.material.stat.refined_tenebrite_umbral_ability.description"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "load_condition": {
+    "type": "mod_loaded",
+    "mod": "mythsandlegends"
+  },
+  "translation": {
+    "translate": "material.modularis.refined_tenebrite"
+  },
+  "icon": {
+    "type": "item",
+    "item": "mythsandlegends:refined_tenebrite"
+  },
+  "groups": [
+    "crystal"
+  ],
+  "tier": 5,
+  "hardness": 7,
+  "density": 3.5,
+  "flexibility": 2,
+  "durability": 1546,
+  "enchantability": 12,
+  "toughness": 0,
+  "mining_speed": 8,
+  "mining_level": "minecraft:incorrect_for_iron_tool",
+  "items": [
+    {
+      "item": "mythsandlegends:refined_tenebrite",
+      "value": 1.0
+    }
+  ],
+  "color_palette": {
+    "type": "image_generated_item",
+    "item": "mythsandlegends:refined_tenebrite"
+  }
+}

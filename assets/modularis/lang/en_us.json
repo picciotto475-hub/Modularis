@@ -327,5 +327,24 @@
   "modularis.material.stat.scorpion_sting_poison_chance": "Poison Chance",
   "modularis.material.stat.scorpion_sting_poison_chance.description": "Chance to poison the target on hit",
   "modularis.material.stat.chitin_poison_retaliation_chance": "Poison Chance When Hit (Armor)",
-  "modularis.material.stat.chitin_poison_retaliation_chance.description": "Chance to poison an attacker when the wearer is hit"
+  "modularis.material.stat.chitin_poison_retaliation_chance.description": "Chance to poison an attacker when the wearer is hit",
+
+  "material.modularis.cursed_core": "Cursed Core",
+  "modularis.material.stat.cursed_core_wither_chance": "Wither Chance",
+  "modularis.material.stat.cursed_core_wither_chance.description": "Chance to afflict the target with Wither on hit",
+  "modularis.material.stat.cursed_core_wither_retaliation_chance": "Wither Chance When Hit (Armor)",
+  "modularis.material.stat.cursed_core_wither_retaliation_chance.description": "Chance to afflict an attacker with Wither when the wearer is hit",
+  "modularis.material.stat.cursed_core_max_health_bonus": "Max Health Bonus (Armor)",
+  "modularis.material.stat.cursed_core_max_health_bonus.description": "Extra max health while worn, scales with gem size",
+
+  "material.modularis.bound_soul_ingot": "Bound Soul Ingot",
+  "modularis.material.stat.bound_soul_ingot_strength_chance": "Strength Chance When Hit (Armor)",
+  "modularis.material.stat.bound_soul_ingot_strength_chance.description": "Chance to gain Strength when the wearer is hit",
+
+  "material.modularis.gargoyle_shard": "Gargoyle Shard",
+  "material.modularis.gargoyle_fragment": "Gargoyle Fragment",
+
+  "material.modularis.refined_tenebrite": "Refined Tenebrite",
+  "modularis.material.stat.refined_tenebrite_umbral_ability": "Umbral Orb / Umbral Hand",
+  "modularis.material.stat.refined_tenebrite_umbral_ability.description": "Right-click to fire a dark projectile that deals magic damage, shift+right-click an entity to summon a hand that restrains it"
 }
