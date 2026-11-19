@@ -345,6 +345,8 @@
   "material.modularis.gargoyle_fragment": "Gargoyle Fragment",
 
   "material.modularis.refined_tenebrite": "Refined Tenebrite",
-  "modularis.material.stat.refined_tenebrite_umbral_ability": "Umbral Orb / Umbral Hand",
-  "modularis.material.stat.refined_tenebrite_umbral_ability.description": "Right-click to fire a dark projectile that deals magic damage, shift+right-click an entity to summon a hand that restrains it"
+  "modularis.material.stat.refined_tenebrite_umbral_grasp": "Umbral Grasp Chance",
+  "modularis.material.stat.refined_tenebrite_umbral_grasp.description": "Chance to apply Slowness II to the target for 3 seconds on hit",
+  "modularis.material.stat.refined_tenebrite_umbral_strike": "Umbral Strike",
+  "modularis.material.stat.refined_tenebrite_umbral_strike.description": "Deals bonus magic damage on hit, at most once every 3 seconds"
 }
