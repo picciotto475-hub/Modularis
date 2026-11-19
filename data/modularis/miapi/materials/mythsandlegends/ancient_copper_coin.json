@@ -1,0 +1,19 @@
+{
+  "load_condition": { "type": "mod_loaded", "mod": "mythsandlegends" },
+  "translation": { "translate": "material.modularis.ancient_copper_coin" },
+  "icon": { "type": "item", "item": "mythsandlegends:ancient_copper_coin" },
+  "groups": ["metal"],
+  "tier": 2.5,
+  "hardness": 4.5,
+  "density": 3.6,
+  "flexibility": 1,
+  "durability": 175,
+  "enchantability": 13,
+  "toughness": 0,
+  "mining_speed": 5.0,
+  "mining_level": "mythsandlegends:incorrect_for_glacial_tool",
+  "items": [
+    { "item": "mythsandlegends:ancient_copper_coin", "value": 1.0 }
+  ],
+  "color_palette": { "type": "image_generated_item", "item": "mythsandlegends:ancient_copper_coin" }
+}

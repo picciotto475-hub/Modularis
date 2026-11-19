@@ -1,0 +1,81 @@
+{
+  "load_condition": {
+    "type": "mod_loaded",
+    "mod": "mythsandlegends"
+  },
+  "key": "modularis:mythsandlegends/core_of_abaddon",
+  "properties": {
+    "gauntlets": {
+      "damage_command": [
+        {
+          "command": [
+            "execute if predicate modularis:mythsandlegends/core_of_abaddon_ignite_chance run data merge entity @s {Fire:40}"
+          ],
+          "onMeleeAttack": true,
+          "runAt": "DEFENDER"
+        }
+      ],
+      "custom_damage": {
+        "modularis:core_of_abaddon_molten_thorns": {
+          "type": "minecraft:indirect_magic",
+          "on_melee_attack": true,
+          "on_ranged_attack": false,
+          "respect_attack_cooldown": false,
+          "amount": "6.0",
+          "attacker_cooldown": "160",
+          "header": "modularis.material.stat.core_of_abaddon_molten_thorns",
+          "description": "modularis.material.stat.core_of_abaddon_molten_thorns.description"
+        }
+      },
+      "gui_stat": {
+        "core_of_abaddon_ignite_chance": {
+          "value": "20",
+          "min": 20,
+          "max": 20,
+          "header": {
+            "translate": "modularis.material.stat.core_of_abaddon_ignite_chance"
+          },
+          "description": {
+            "translate": "modularis.material.stat.core_of_abaddon_ignite_chance.description"
+          }
+        }
+      }
+    },
+    "tonfa": {
+      "damage_command": [
+        {
+          "command": [
+            "execute if predicate modularis:mythsandlegends/core_of_abaddon_ignite_chance run data merge entity @s {Fire:40}"
+          ],
+          "onMeleeAttack": true,
+          "runAt": "DEFENDER"
+        }
+      ],
+      "custom_damage": {
+        "modularis:core_of_abaddon_molten_thorns": {
+          "type": "minecraft:indirect_magic",
+          "on_melee_attack": true,
+          "on_ranged_attack": false,
+          "respect_attack_cooldown": false,
+          "amount": "6.0",
+          "attacker_cooldown": "160",
+          "header": "modularis.material.stat.core_of_abaddon_molten_thorns",
+          "description": "modularis.material.stat.core_of_abaddon_molten_thorns.description"
+        }
+      },
+      "gui_stat": {
+        "core_of_abaddon_ignite_chance": {
+          "value": "20",
+          "min": 20,
+          "max": 20,
+          "header": {
+            "translate": "modularis.material.stat.core_of_abaddon_ignite_chance"
+          },
+          "description": {
+            "translate": "modularis.material.stat.core_of_abaddon_ignite_chance.description"
+          }
+        }
+      }
+    }
+  }
+}

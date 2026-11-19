@@ -1,0 +1,35 @@
+{
+  "load_condition": {
+    "type": "mod_loaded",
+    "mod": "mythsandlegends"
+  },
+  "translation": {
+    "translate": "material.modularis.glacial_binding"
+  },
+  "icon": {
+    "type": "item",
+    "item": "mythsandlegends:glacial_binding"
+  },
+  "groups": [
+    "crystal"
+  ],
+  "tier": 2.5,
+  "hardness": 4.5,
+  "density": 2.5,
+  "flexibility": 0,
+  "durability": 175,
+  "enchantability": 13,
+  "toughness": 0,
+  "mining_speed": 5.0,
+  "mining_level": "mythsandlegends:incorrect_for_glacial_tool",
+  "items": [
+    {
+      "item": "mythsandlegends:glacial_binding",
+      "value": 1.0
+    }
+  ],
+  "color_palette": {
+    "type": "image_generated_item",
+    "item": "mythsandlegends:glacial_binding"
+  }
+}

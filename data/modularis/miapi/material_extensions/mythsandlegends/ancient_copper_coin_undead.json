@@ -1,0 +1,23 @@
+{
+  "load_condition": { "type": "mod_loaded", "mod": "mythsandlegends" },
+  "key": "modularis:mythsandlegends/ancient_copper_coin",
+  "properties": {
+    "blade": {
+      "entity_damage": {
+        "modularis:ancient_copper_coin_undead_bonus": {
+          "entities": ["#minecraft:undead"],
+          "strength": "4",
+          "name": { "translate": "modularis.material.stat.ancient_copper_coin_undead_bonus" }
+        }
+      },
+      "attributes": [
+        {
+          "attribute": "minecraft:player.entity_interaction_range",
+          "value": "1.0",
+          "operation": "+",
+          "slot": "mainhand"
+        }
+      ]
+    }
+  }
+}

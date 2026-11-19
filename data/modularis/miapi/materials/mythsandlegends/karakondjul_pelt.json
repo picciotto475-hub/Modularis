@@ -1,0 +1,21 @@
+{
+  "load_condition": { "type": "mod_loaded", "mod": "mythsandlegends" },
+  "translation": { "translate": "material.modularis.karakondjul_pelt" },
+  "icon": { "type": "item", "item": "mythsandlegends:karakondjul_pelt" },
+  "groups": ["fabric"],
+  "tier": 2,
+  "hardness": 4,
+  "density": 1.8,
+  "flexibility": 4,
+  "durability": 170,
+  "armor_durability": 15,
+  "enchantability": 15,
+  "toughness": 2.0,
+  "armor_toughness": 2.0,
+  "mining_speed": 0,
+  "mining_level": "minecraft:incorrect_for_wooden_tool",
+  "items": [
+    { "item": "mythsandlegends:karakondjul_pelt", "value": 1.0 }
+  ],
+  "color_palette": { "type": "image_generated_item", "item": "mythsandlegends:karakondjul_pelt" }
+}

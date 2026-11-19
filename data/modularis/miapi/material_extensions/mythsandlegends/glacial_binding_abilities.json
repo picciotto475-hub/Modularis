@@ -1,0 +1,101 @@
+{
+  "load_condition": {
+    "type": "mod_loaded",
+    "mod": "mythsandlegends"
+  },
+  "key": "modularis:mythsandlegends/glacial_binding",
+  "properties": {
+    "axe": {
+      "on_attack_potion": [
+        {
+          "potion": "minecraft:slowness",
+          "amplifier": 0,
+          "duration": 60,
+          "target_self": false,
+          "probability": 1.0
+        }
+      ],
+      "gui_stat": {
+        "glacial_binding_axe_slowness": {
+          "value": "100",
+          "min": 100,
+          "max": 100,
+          "header": {
+            "translate": "modularis.material.stat.glacial_binding_axe_slowness"
+          },
+          "description": {
+            "translate": "modularis.material.stat.glacial_binding_axe_slowness.description"
+          }
+        }
+      }
+    },
+    "pickaxe": {
+      "attributes": [
+        {
+          "attribute": "minecraft:player.block_break_speed",
+          "value": "0.1",
+          "operation": "+",
+          "target_operation": "**",
+          "slot": "mainhand"
+        }
+      ]
+    },
+    "shovel": {
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.movement_speed",
+          "value": "0.1",
+          "operation": "+",
+          "target_operation": "**",
+          "slot": "mainhand"
+        }
+      ]
+    },
+    "hoe": {
+      "fake_enchants": {
+        "minecraft:fortune": "[old_level]+1"
+      },
+      "gui_stat": {
+        "glacial_binding_hoe_fortune": {
+          "value": 1,
+          "min": 1,
+          "max": 1,
+          "header": {
+            "translate": "modularis.material.stat.glacial_binding_hoe_fortune"
+          },
+          "description": {
+            "translate": "modularis.material.stat.glacial_binding_hoe_fortune.description"
+          }
+        }
+      }
+    },
+    "tm_arsenal:blade/dagger": {
+      "custom_damage": {
+        "modularis:glacial_binding_frost": {
+          "type": "minecraft:magic",
+          "on_melee_attack": true,
+          "on_ranged_attack": false,
+          "respect_attack_cooldown": false,
+          "amount": "6.0",
+          "attacker_cooldown": "40",
+          "header": "modularis.material.stat.glacial_binding_frost",
+          "description": "modularis.material.stat.glacial_binding_frost.description"
+        }
+      }
+    },
+    "tm_arsenal:handheld/katar": {
+      "custom_damage": {
+        "modularis:glacial_binding_frost": {
+          "type": "minecraft:magic",
+          "on_melee_attack": true,
+          "on_ranged_attack": false,
+          "respect_attack_cooldown": false,
+          "amount": "6.0",
+          "attacker_cooldown": "40",
+          "header": "modularis.material.stat.glacial_binding_frost",
+          "description": "modularis.material.stat.glacial_binding_frost.description"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "load_condition": { "type": "mod_loaded", "mod": "mythsandlegends" },
+  "mythsandlegends:copper_coin_sword": {
+    "key": "tm_arsenal:handle/sword",
+    "data": { "material": "miapi:wood/wood" },
+    "child": {
+      "guard": {
+        "key": "tm_arsenal:guard/normal",
+        "data": { "material": "modularis:mythsandlegends/ancient_copper_coin" },
+        "child": {
+          "blade": {
+            "key": "tm_arsenal:blade/normal",
+            "data": { "material": "modularis:mythsandlegends/ancient_copper_coin" },
+            "child": {}
+          }
+        }
+      },
+      "pommel": {
+        "key": "tm_arsenal:pommel/round",
+        "data": { "material": "modularis:mythsandlegends/ancient_copper_coin" },
+        "child": {}
+      }
+    }
+  }
+}

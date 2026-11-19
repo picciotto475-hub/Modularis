@@ -348,5 +348,23 @@
   "modularis.material.stat.refined_tenebrite_umbral_grasp": "Umbral Grasp Chance",
   "modularis.material.stat.refined_tenebrite_umbral_grasp.description": "Chance to apply Slowness II to the target for 3 seconds on hit",
   "modularis.material.stat.refined_tenebrite_umbral_strike": "Umbral Strike",
-  "modularis.material.stat.refined_tenebrite_umbral_strike.description": "Deals bonus magic damage on hit, at most once every 3 seconds"
+  "modularis.material.stat.refined_tenebrite_umbral_strike.description": "Deals bonus magic damage on hit, at most once every 3 seconds",
+
+  "material.modularis.karakondjul_pelt": "Karakondjul Pelt",
+  "material.modularis.ancient_copper_coin": "Ancient Copper Coin",
+  "material.modularis.scorched_bone": "Scorched Bone",
+  "material.modularis.scorched_skin": "Scorched Skin",
+  "material.modularis.core_of_abaddon": "Core of Abaddon",
+  "modularis.material.stat.core_of_abaddon_ignite_chance": "Ignite Chance (Gauntlet, Tonfa)",
+  "modularis.material.stat.core_of_abaddon_ignite_chance.description": "Chance to set the target on fire for 2 seconds on hit",
+  "modularis.material.stat.core_of_abaddon_molten_thorns": "Molten Thorns (Gauntlet, Tonfa)",
+  "modularis.material.stat.core_of_abaddon_molten_thorns.description": "Deals bonus magic damage on hit, at most once every 8 seconds",
+  "modularis.material.stat.ancient_copper_coin_undead_bonus": "Bonus vs Undead",
+  "material.modularis.glacial_binding": "Glacial Binding",
+  "modularis.material.stat.glacial_binding_axe_slowness": "Slowness Chance (Axe)",
+  "modularis.material.stat.glacial_binding_axe_slowness.description": "Axes apply Slowness to the target for 3 seconds on hit",
+  "modularis.material.stat.glacial_binding_hoe_fortune": "Fortune Bonus (Hoe)",
+  "modularis.material.stat.glacial_binding_hoe_fortune.description": "Hoes gain one extra level of Fortune",
+  "modularis.material.stat.glacial_binding_frost": "Frost (Dagger, Katar)",
+  "modularis.material.stat.glacial_binding_frost.description": "Daggers and katars deal bonus magic damage on hit, at most once every 2 seconds"
 }

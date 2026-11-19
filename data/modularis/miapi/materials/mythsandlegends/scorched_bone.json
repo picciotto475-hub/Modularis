@@ -1,0 +1,42 @@
+{
+  "load_condition": {
+    "type": "mod_loaded",
+    "mod": "mythsandlegends"
+  },
+  "translation": {
+    "translate": "material.modularis.scorched_bone"
+  },
+  "icon": {
+    "type": "item",
+    "item": "mythsandlegends:scorched_bone"
+  },
+  "groups": [
+    "bone"
+  ],
+  "tier": 3,
+  "hardness": 5,
+  "density": 4.5,
+  "flexibility": 4,
+  "durability": 235,
+  "armor_durability": 15,
+  "enchantability": 14,
+  "toughness": 1,
+  "armor_toughness": 0,
+  "mining_speed": 6,
+  "mining_level": "minecraft:incorrect_for_iron_tool",
+  "items": [
+    {
+      "item": "mythsandlegends:scorched_bone",
+      "value": 1.0
+    }
+  ],
+  "color_palette": {
+    "type": "image_generated_item",
+    "item": "mythsandlegends:scorched_bone"
+  },
+  "properties": {
+    "default": {
+      "fire_proof": true
+    }
+  }
+}

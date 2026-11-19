@@ -1,0 +1,110 @@
+{
+  "load_condition": {
+    "type": "mod_loaded",
+    "mod": "mythsandlegends"
+  },
+  "mythsandlegends:nightfrost_dagger": {
+    "key": "tm_arsenal:handle/sword",
+    "data": { "material": "miapi:wood/wood" },
+    "child": {
+      "guard": {
+        "key": "tm_arsenal:guard/normal",
+        "data": { "material": "modularis:mythsandlegends/glacial_binding" },
+        "child": {
+          "blade": {
+            "key": "tm_arsenal:blade/dagger",
+            "data": { "material": "modularis:mythsandlegends/glacial_binding" },
+            "child": {}
+          }
+        }
+      },
+      "pommel": {
+        "key": "tm_arsenal:pommel/round",
+        "data": { "material": "modularis:mythsandlegends/glacial_binding" },
+        "child": {}
+      }
+    }
+  },
+  "mythsandlegends:nightfrost_pickaxe": {
+    "key": "tm_arsenal:handle/tool",
+    "data": { "material": "miapi:wood/wood" },
+    "child": {
+      "guard": {
+        "key": "tm_arsenal:guard/tool_adapter",
+        "child": {
+          "tool_head": {
+            "key": "tm_arsenal:tool/pickaxe_front",
+            "data": { "material": "modularis:mythsandlegends/glacial_binding" },
+            "child": {
+              "tool_back": {
+                "key": "tm_arsenal:tool/pickaxe_back",
+                "data": { "material": "modularis:mythsandlegends/glacial_binding" },
+                "child": {}
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "mythsandlegends:nightfrost_axe": {
+    "key": "tm_arsenal:handle/tool",
+    "data": { "material": "miapi:wood/wood" },
+    "child": {
+      "guard": {
+        "key": "tm_arsenal:guard/tool_adapter",
+        "child": {
+          "tool_head": {
+            "key": "tm_arsenal:tool/axe_front",
+            "data": { "material": "modularis:mythsandlegends/glacial_binding" },
+            "child": {
+              "tool_back": {
+                "key": "tm_arsenal:tool/tool_back",
+                "data": { "material": "modularis:mythsandlegends/glacial_binding" },
+                "child": {}
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "mythsandlegends:nightfrost_shovel": {
+    "key": "tm_arsenal:handle/tool",
+    "data": { "material": "miapi:wood/wood" },
+    "child": {
+      "guard": {
+        "key": "tm_arsenal:guard/tool_adapter",
+        "child": {
+          "tool_head": {
+            "key": "tm_arsenal:tool/shovel",
+            "data": { "material": "modularis:mythsandlegends/glacial_binding" },
+            "child": {}
+          }
+        }
+      }
+    }
+  },
+  "mythsandlegends:nightfrost_hoe": {
+    "key": "tm_arsenal:handle/tool",
+    "data": { "material": "miapi:wood/wood" },
+    "child": {
+      "guard": {
+        "key": "tm_arsenal:guard/tool_adapter",
+        "child": {
+          "tool_head": {
+            "key": "tm_arsenal:tool/hoe_front",
+            "data": { "material": "modularis:mythsandlegends/glacial_binding" },
+            "child": {
+              "tool_back": {
+                "key": "tm_arsenal:tool/tool_back",
+                "data": { "material": "modularis:mythsandlegends/glacial_binding" },
+                "child": {}
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

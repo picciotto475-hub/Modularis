@@ -2,7 +2,7 @@
 
 A compatibility datapack for Truly Modular in Minecraft 1.21.
 
-**Materials created so far: 143**
+**Materials created so far: 149**
 
 ## Currently supported mods
 
