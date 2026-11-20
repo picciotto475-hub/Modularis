@@ -1,0 +1,9 @@
+{
+  "load_condition": { "type": "mod_loaded", "mod": "luminous_nether" },
+  "key": "modularis:luminous_nether/ghostly_essence",
+  "properties": {
+    "head": {
+      "armor_pen": "10"
+    }
+  }
+}

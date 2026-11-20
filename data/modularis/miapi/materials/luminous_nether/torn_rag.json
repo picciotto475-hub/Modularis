@@ -1,0 +1,26 @@
+{
+  "load_condition": { "type": "mod_loaded", "mod": "luminous_nether" },
+  "translation": {
+    "translate": "material.modularis.torn_rag"
+  },
+  "icon": {
+    "type": "item",
+    "item": "luminous_nether:torn_rag"
+  },
+  "groups": ["fabric"],
+  "tier": 1,
+  "hardness": 0.5,
+  "density": 1.5,
+  "flexibility": 6,
+  "durability": 130,
+  "enchantability": 8,
+  "mining_speed": 0,
+  "mining_level": "minecraft:incorrect_for_wooden_tool",
+  "items": [
+    { "item": "luminous_nether:torn_rag", "value": 1.0 }
+  ],
+  "color_palette": {
+    "type": "image_generated_item",
+    "item": "luminous_nether:torn_rag"
+  }
+}

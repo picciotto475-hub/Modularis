@@ -1,0 +1,33 @@
+{
+  "load_condition": { "type": "mod_loaded", "mod": "luminous_nether" },
+  "translation": {
+    "translate": "material.modularis.soul_bone"
+  },
+  "icon": {
+    "type": "item",
+    "item": "luminous_nether:soul_bone"
+  },
+  "groups": ["bone"],
+  "tier": 2,
+  "hardness": 5.5,
+  "density": 4.5,
+  "flexibility": 4,
+  "durability": 220,
+  "enchantability": 9,
+  "toughness": 1,
+  "mining_speed": 4,
+  "mining_level": "minecraft:incorrect_for_gold_tool",
+  "items": [
+    { "item": "luminous_nether:soul_bone", "value": 1.0 },
+    { "item": "luminous_nether:soul_bone_block", "value": 4.0 }
+  ],
+  "properties": {
+    "head": {
+      "fracturing": "20"
+    }
+  },
+  "color_palette": {
+    "type": "image_generated_item",
+    "item": "luminous_nether:soul_bone"
+  }
+}

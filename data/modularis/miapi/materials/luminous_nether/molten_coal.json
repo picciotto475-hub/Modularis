@@ -1,0 +1,27 @@
+{
+  "load_condition": { "type": "mod_loaded", "mod": "luminous_nether" },
+  "translation": {
+    "translate": "material.modularis.molten_coal"
+  },
+  "icon": {
+    "type": "item",
+    "item": "luminous_nether:molten_coal"
+  },
+  "groups": ["stone"],
+  "tier": 3,
+  "hardness": 5.5,
+  "density": 3,
+  "flexibility": 0,
+  "durability": 735,
+  "enchantability": 12,
+  "toughness": 1,
+  "mining_speed": 7,
+  "mining_level": "minecraft:incorrect_for_iron_tool",
+  "items": [
+    { "item": "luminous_nether:molten_coal", "value": 9.0 }
+  ],
+  "color_palette": {
+    "type": "image_generated_item",
+    "item": "luminous_nether:molten_coal"
+  }
+}

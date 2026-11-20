@@ -464,5 +464,11 @@
   "modularis.material.stat.pyrite_explosion": "Fiery Blast (Arrow Head)",
   "modularis.material.stat.pyrite_explosion.description": "Arrows explode on impact, damaging nearby mobs without breaking blocks",
   "modularis.material.stat.pyrite_ignite": "Ignite (Arrow Head, seconds)",
-  "modularis.material.stat.pyrite_ignite.description": "Arrows set the target on fire for 3 seconds"
+  "modularis.material.stat.pyrite_ignite.description": "Arrows set the target on fire for 3 seconds",
+  "material.modularis.torn_rag": "Torn Rag",
+  "material.modularis.soul_bone": "Soul Bone",
+  "material.modularis.ghostly_essence": "Ghostly Essence",
+  "material.modularis.molten_coal": "Molten Coal",
+  "modularis.material.stat.torn_rag_speed_chance": "Speed Chance When Hit (Armor)",
+  "modularis.material.stat.torn_rag_speed_chance.description": "Chance to gain Speed I for 2 seconds when the wearer is hit (each armor part rolls separately)"
 }

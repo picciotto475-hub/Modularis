@@ -1,0 +1,27 @@
+{
+  "load_condition": { "type": "mod_loaded", "mod": "luminous_nether" },
+  "translation": {
+    "translate": "material.modularis.ghostly_essence"
+  },
+  "icon": {
+    "type": "item",
+    "item": "luminous_nether:ghostly_essence"
+  },
+  "groups": ["crystal"],
+  "tier": 2,
+  "hardness": 5,
+  "density": 0.5,
+  "flexibility": 0,
+  "durability": 300,
+  "enchantability": 12,
+  "toughness": 0,
+  "mining_speed": 5,
+  "mining_level": "minecraft:incorrect_for_stone_tool",
+  "items": [
+    { "item": "luminous_nether:ghostly_essence", "value": 1.0 }
+  ],
+  "color_palette": {
+    "type": "image_generated_item",
+    "item": "luminous_nether:ghostly_essence"
+  }
+}

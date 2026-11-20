@@ -1,0 +1,11 @@
+{
+  "load_condition": { "type": "mod_loaded", "mod": "luminous_nether" },
+  "key": "modularis:luminous_nether/soul_bone",
+  "properties": {
+    "head": {
+      "fake_enchants": {
+        "minecraft:smite": "max([old_level],1)"
+      }
+    }
+  }
+}

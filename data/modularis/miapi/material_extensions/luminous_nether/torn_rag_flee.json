@@ -1,0 +1,30 @@
+{
+  "load_condition": { "type": "mod_loaded", "mod": "luminous_nether" },
+  "key": "modularis:luminous_nether/torn_rag",
+  "properties": {
+    "armor": {
+      "on_hit_potion": [
+        {
+          "potion": "minecraft:speed",
+          "amplifier": 0,
+          "duration": 40,
+          "target_self": true,
+          "probability": 0.05
+        }
+      ],
+      "gui_stat": {
+        "torn_rag_speed_chance": {
+          "value": "5",
+          "min": 5,
+          "max": 5,
+          "header": {
+            "translate": "modularis.material.stat.torn_rag_speed_chance"
+          },
+          "description": {
+            "translate": "modularis.material.stat.torn_rag_speed_chance.description"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "load_condition": { "type": "mod_loaded", "mod": "luminous_nether" },
+  "key": "modularis:luminous_nether/molten_coal",
+  "properties": {
+    "default": {
+      "fire_proof": true
+    },
+    "handheld": {
+      "immolate": "12"
+    }
+  }
+}

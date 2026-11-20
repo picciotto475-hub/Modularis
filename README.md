@@ -2,7 +2,7 @@
 
 A compatibility datapack for Truly Modular in Minecraft 1.21.
 
-**Materials created so far: 177**
+**Materials created so far: 181**
 
 ## Currently supported mods
 
@@ -18,6 +18,7 @@ A compatibility datapack for Truly Modular in Minecraft 1.21.
 - Enigmatic Legacy Plus
 - Ender's Cataclysm
 - Fangs 'n' Claws
+- Luminous Nether
 - Mowzie's Mobs
 - Myths and Legends
 - Mystical Agriculture
