@@ -1,12 +1,108 @@
 {
-  "load_condition": { "type": "mod_loaded", "mod": "fangs_n_claws" },
+  "load_condition": {
+    "type": "mod_loaded",
+    "mod": "fangs_n_claws"
+  },
   "key": "modularis:fangs_n_claws/snow_duvet",
   "properties": {
-    "armor": {
+    "helmet": {
       "attributes": [
-        { "attribute": "minecraft:generic.jump_strength", "value": "0.05", "operation": "**", "slot": "armor" },
-        { "attribute": "minecraft:generic.safe_fall_distance", "value": "0.05", "operation": "**", "slot": "armor" },
-        { "attribute": "minecraft:generic.fall_damage_multiplier", "value": "-0.05", "operation": "**", "slot": "armor" }
+        {
+          "attribute": "minecraft:generic.jump_strength",
+          "value": "0.05",
+          "operation": "*",
+          "slot": "head",
+          "target_operation": "*"
+        },
+        {
+          "attribute": "minecraft:generic.safe_fall_distance",
+          "value": "0.05",
+          "operation": "*",
+          "slot": "head",
+          "target_operation": "*"
+        },
+        {
+          "attribute": "minecraft:generic.fall_damage_multiplier",
+          "value": "-0.05",
+          "operation": "*",
+          "slot": "head",
+          "target_operation": "*"
+        }
+      ]
+    },
+    "front_chest": {
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.jump_strength",
+          "value": "0.05",
+          "operation": "*",
+          "slot": "chest",
+          "target_operation": "*"
+        },
+        {
+          "attribute": "minecraft:generic.safe_fall_distance",
+          "value": "0.05",
+          "operation": "*",
+          "slot": "chest",
+          "target_operation": "*"
+        },
+        {
+          "attribute": "minecraft:generic.fall_damage_multiplier",
+          "value": "-0.05",
+          "operation": "*",
+          "slot": "chest",
+          "target_operation": "*"
+        }
+      ]
+    },
+    "belt": {
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.jump_strength",
+          "value": "0.05",
+          "operation": "*",
+          "slot": "legs",
+          "target_operation": "*"
+        },
+        {
+          "attribute": "minecraft:generic.safe_fall_distance",
+          "value": "0.05",
+          "operation": "*",
+          "slot": "legs",
+          "target_operation": "*"
+        },
+        {
+          "attribute": "minecraft:generic.fall_damage_multiplier",
+          "value": "-0.05",
+          "operation": "*",
+          "slot": "legs",
+          "target_operation": "*"
+        }
+      ]
+    },
+    "boot_left": {
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.jump_strength",
+          "value": "0.05",
+          "operation": "*",
+          "slot": "feet",
+          "target_operation": "*"
+        },
+        {
+          "attribute": "minecraft:generic.safe_fall_distance",
+          "value": "0.05",
+          "operation": "*",
+          "slot": "feet",
+          "target_operation": "*"
+        },
+        {
+          "attribute": "minecraft:generic.fall_damage_multiplier",
+          "value": "-0.05",
+          "operation": "*",
+          "slot": "feet",
+          "target_operation": "*"
+        }
       ]
     }
   }

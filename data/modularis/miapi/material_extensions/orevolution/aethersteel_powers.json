@@ -37,11 +37,6 @@
         }
       }
     },
-    "armor": {
-      "fake_enchants": {
-        "minecraft:protection": "max([old_level],2)"
-      }
-    },
     "helmet": {
       "attributes": [
         {
@@ -80,6 +75,9 @@
             "translate": "modularis.material.stat.aethersteel_knockback.description"
           }
         }
+      },
+      "fake_enchants": {
+        "minecraft:protection": "max([old_level],2)"
       }
     },
     "chest": {
@@ -200,6 +198,21 @@
             "translate": "modularis.material.stat.aethersteel_knockback.description"
           }
         }
+      }
+    },
+    "front_chest": {
+      "fake_enchants": {
+        "minecraft:protection": "max([old_level],2)"
+      }
+    },
+    "belt": {
+      "fake_enchants": {
+        "minecraft:protection": "max([old_level],2)"
+      }
+    },
+    "boot_left": {
+      "fake_enchants": {
+        "minecraft:protection": "max([old_level],2)"
       }
     }
   }

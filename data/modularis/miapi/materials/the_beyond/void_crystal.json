@@ -1,0 +1,28 @@
+{
+  "load_condition": { "type": "mod_loaded", "mod": "the_beyond" },
+  "translation": {
+    "translate": "material.modularis.void_crystal"
+  },
+  "icon": {
+    "type": "item",
+    "item": "the_beyond:void_crystal"
+  },
+  "groups": ["crystal"],
+  "tier": 2,
+  "hardness": 5.7,
+  "density": 0.5,
+  "flexibility": 0,
+  "durability": 356,
+  "armor_durability": 12,
+  "enchantability": 11,
+  "toughness": 0,
+  "mining_speed": 5,
+  "mining_level": "minecraft:incorrect_for_wooden_tool",
+  "items": [
+    { "item": "the_beyond:void_crystal", "value": 1.0 }
+  ],
+  "color_palette": {
+    "type": "image_generated_item",
+    "item": "the_beyond:void_crystal"
+  }
+}

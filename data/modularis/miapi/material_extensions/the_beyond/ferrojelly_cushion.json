@@ -1,0 +1,26 @@
+{
+  "load_condition": { "type": "mod_loaded", "mod": "the_beyond" },
+  "key": "modularis:the_beyond/ferrojelly",
+  "properties": {
+    "helmet": {
+      "attributes": [
+        { "attribute": "minecraft:generic.fall_damage_multiplier", "value": "-0.08", "operation": "*", "target_operation": "*", "slot": "head" }
+      ]
+    },
+    "chest": {
+      "attributes": [
+        { "attribute": "minecraft:generic.fall_damage_multiplier", "value": "-0.02", "operation": "*", "target_operation": "*", "slot": "chest" }
+      ]
+    },
+    "pants": {
+      "attributes": [
+        { "attribute": "minecraft:generic.fall_damage_multiplier", "value": "-0.026667", "operation": "*", "target_operation": "*", "slot": "legs" }
+      ]
+    },
+    "boot": {
+      "attributes": [
+        { "attribute": "minecraft:generic.fall_damage_multiplier", "value": "-0.04", "operation": "*", "target_operation": "*", "slot": "feet" }
+      ]
+    }
+  }
+}

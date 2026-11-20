@@ -1,0 +1,29 @@
+{
+  "load_condition": { "type": "mod_loaded", "mod": "the_beyond" },
+  "translation": {
+    "translate": "material.modularis.ferropetal"
+  },
+  "icon": {
+    "type": "item",
+    "item": "the_beyond:ferropetal"
+  },
+  "groups": ["metal"],
+  "tier": 3,
+  "hardness": 4.5,
+  "density": 3.8,
+  "flexibility": 1,
+  "durability": 157,
+  "armor_durability": 10,
+  "enchantability": 20,
+  "toughness": 0,
+  "armor_toughness": 0.5,
+  "mining_speed": 6,
+  "mining_level": "minecraft:incorrect_for_iron_tool",
+  "items": [
+    { "item": "the_beyond:ferropetal", "value": 1.0 }
+  ],
+  "color_palette": {
+    "type": "image_generated_item",
+    "item": "the_beyond:ferropetal"
+  }
+}

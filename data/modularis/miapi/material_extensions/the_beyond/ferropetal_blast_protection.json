@@ -1,0 +1,18 @@
+{
+  "load_condition": { "type": "mod_loaded", "mod": "the_beyond" },
+  "key": "modularis:the_beyond/ferropetal",
+  "properties": {
+    "helmet": {
+      "fake_enchants": { "minecraft:blast_protection": "[old_level]+1" }
+    },
+    "front_chest": {
+      "fake_enchants": { "minecraft:blast_protection": "[old_level]+1" }
+    },
+    "belt": {
+      "fake_enchants": { "minecraft:blast_protection": "[old_level]+1" }
+    },
+    "boot_left": {
+      "fake_enchants": { "minecraft:blast_protection": "[old_level]+1" }
+    }
+  }
+}

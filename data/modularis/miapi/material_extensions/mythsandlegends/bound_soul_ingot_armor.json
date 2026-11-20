@@ -5,7 +5,16 @@
   },
   "key": "modularis:mythsandlegends/bound_soul_ingot",
   "properties": {
-    "armor": {
+    "helmet": {
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.movement_speed",
+          "value": "0.2",
+          "operation": "*",
+          "target_operation": "*",
+          "slot": "head"
+        }
+      ],
       "on_hit_potion": [
         {
           "potion": "minecraft:strength",
@@ -28,17 +37,6 @@
           }
         }
       }
-    },
-    "helmet": {
-      "attributes": [
-        {
-          "attribute": "minecraft:generic.movement_speed",
-          "value": "0.2",
-          "operation": "*",
-          "target_operation": "*",
-          "slot": "head"
-        }
-      ]
     },
     "chest": {
       "attributes": [
@@ -72,6 +70,78 @@
           "slot": "feet"
         }
       ]
+    },
+    "front_chest": {
+      "on_hit_potion": [
+        {
+          "potion": "minecraft:strength",
+          "amplifier": 2,
+          "duration": 80,
+          "target_self": true,
+          "probability": 0.2
+        }
+      ],
+      "gui_stat": {
+        "bound_soul_ingot_strength_chance": {
+          "value": "20",
+          "min": 20,
+          "max": 20,
+          "header": {
+            "translate": "modularis.material.stat.bound_soul_ingot_strength_chance"
+          },
+          "description": {
+            "translate": "modularis.material.stat.bound_soul_ingot_strength_chance.description"
+          }
+        }
+      }
+    },
+    "belt": {
+      "on_hit_potion": [
+        {
+          "potion": "minecraft:strength",
+          "amplifier": 2,
+          "duration": 80,
+          "target_self": true,
+          "probability": 0.2
+        }
+      ],
+      "gui_stat": {
+        "bound_soul_ingot_strength_chance": {
+          "value": "20",
+          "min": 20,
+          "max": 20,
+          "header": {
+            "translate": "modularis.material.stat.bound_soul_ingot_strength_chance"
+          },
+          "description": {
+            "translate": "modularis.material.stat.bound_soul_ingot_strength_chance.description"
+          }
+        }
+      }
+    },
+    "boot_left": {
+      "on_hit_potion": [
+        {
+          "potion": "minecraft:strength",
+          "amplifier": 2,
+          "duration": 80,
+          "target_self": true,
+          "probability": 0.2
+        }
+      ],
+      "gui_stat": {
+        "bound_soul_ingot_strength_chance": {
+          "value": "20",
+          "min": 20,
+          "max": 20,
+          "header": {
+            "translate": "modularis.material.stat.bound_soul_ingot_strength_chance"
+          },
+          "description": {
+            "translate": "modularis.material.stat.bound_soul_ingot_strength_chance.description"
+          }
+        }
+      }
     }
   }
 }

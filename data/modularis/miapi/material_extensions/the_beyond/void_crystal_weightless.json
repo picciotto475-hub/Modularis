@@ -1,0 +1,18 @@
+{
+  "load_condition": { "type": "mod_loaded", "mod": "the_beyond" },
+  "key": "modularis:the_beyond/void_crystal",
+  "properties": {
+    "arrow_head": {
+      "on_attack_potion": [
+        { "potion": "the_beyond:weightless", "amplifier": 0, "duration": 100, "target_self": false, "probability": 0.25 }
+      ],
+      "gui_stat": {
+        "void_crystal_weightless_chance": {
+          "value": "25", "min": 25, "max": 25,
+          "header": { "translate": "modularis.material.stat.weightless_chance" },
+          "description": { "translate": "modularis.material.stat.weightless_chance.description" }
+        }
+      }
+    }
+  }
+}

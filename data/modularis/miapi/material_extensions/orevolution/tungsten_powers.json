@@ -26,12 +26,6 @@
         "minecraft:unbreaking": "max([old_level],6)"
       }
     },
-    "armor": {
-      "is_piglin_gold": true,
-      "fake_enchants": {
-        "minecraft:protection": "max([old_level],1)"
-      }
-    },
     "helmet": {
       "attributes": [
         {
@@ -53,6 +47,10 @@
             "translate": "modularis.material.stat.tungsten_knockback.description"
           }
         }
+      },
+      "is_piglin_gold": true,
+      "fake_enchants": {
+        "minecraft:protection": "max([old_level],1)"
       }
     },
     "chest": {
@@ -122,6 +120,24 @@
             "translate": "modularis.material.stat.tungsten_knockback.description"
           }
         }
+      }
+    },
+    "front_chest": {
+      "is_piglin_gold": true,
+      "fake_enchants": {
+        "minecraft:protection": "max([old_level],1)"
+      }
+    },
+    "belt": {
+      "is_piglin_gold": true,
+      "fake_enchants": {
+        "minecraft:protection": "max([old_level],1)"
+      }
+    },
+    "boot_left": {
+      "is_piglin_gold": true,
+      "fake_enchants": {
+        "minecraft:protection": "max([old_level],1)"
       }
     }
   }

@@ -1,0 +1,29 @@
+{
+  "load_condition": { "type": "mod_loaded", "mod": "the_beyond" },
+  "translation": {
+    "translate": "material.modularis.ferrojelly"
+  },
+  "icon": {
+    "type": "item",
+    "item": "the_beyond:ferrojelly"
+  },
+  "groups": ["metal"],
+  "tier": 2,
+  "hardness": 4.2,
+  "density": 3.6,
+  "flexibility": 1,
+  "durability": 200,
+  "armor_durability": 12,
+  "enchantability": 13,
+  "toughness": 0,
+  "mining_speed": 5,
+  "mining_level": "minecraft:incorrect_for_iron_tool",
+  "items": [
+    { "item": "the_beyond:ferrojelly", "value": 1.0 },
+    { "item": "the_beyond:ferrojelly_block", "value": 9.0 }
+  ],
+  "color_palette": {
+    "type": "image_generated_item",
+    "item": "the_beyond:ferrojelly"
+  }
+}

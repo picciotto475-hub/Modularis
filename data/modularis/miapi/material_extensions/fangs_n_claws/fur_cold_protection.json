@@ -1,12 +1,32 @@
 {
-  "load_condition": { "type": "mod_loaded", "mod": "fangs_n_claws" },
+  "load_condition": {
+    "type": "mod_loaded",
+    "mod": "fangs_n_claws"
+  },
   "key": "modularis:fangs_n_claws/fur",
   "properties": {
     "boot": {
       "can_walk_on_snow": true
     },
-    "armor": {
-      "fake_item_tag": ["minecraft:freeze_immune_wearables"]
+    "helmet": {
+      "fake_item_tag": [
+        "minecraft:freeze_immune_wearables"
+      ]
+    },
+    "front_chest": {
+      "fake_item_tag": [
+        "minecraft:freeze_immune_wearables"
+      ]
+    },
+    "belt": {
+      "fake_item_tag": [
+        "minecraft:freeze_immune_wearables"
+      ]
+    },
+    "boot_left": {
+      "fake_item_tag": [
+        "minecraft:freeze_immune_wearables"
+      ]
     }
   }
 }

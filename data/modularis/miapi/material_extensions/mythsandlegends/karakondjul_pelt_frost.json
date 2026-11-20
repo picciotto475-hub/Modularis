@@ -1,12 +1,32 @@
 {
-  "load_condition": { "type": "mod_loaded", "mod": "mythsandlegends" },
+  "load_condition": {
+    "type": "mod_loaded",
+    "mod": "mythsandlegends"
+  },
   "key": "modularis:mythsandlegends/karakondjul_pelt",
   "properties": {
     "boot": {
       "can_walk_on_snow": true
     },
-    "armor": {
-      "fake_item_tag": ["minecraft:freeze_immune_wearables"]
+    "helmet": {
+      "fake_item_tag": [
+        "minecraft:freeze_immune_wearables"
+      ]
+    },
+    "front_chest": {
+      "fake_item_tag": [
+        "minecraft:freeze_immune_wearables"
+      ]
+    },
+    "belt": {
+      "fake_item_tag": [
+        "minecraft:freeze_immune_wearables"
+      ]
+    },
+    "boot_left": {
+      "fake_item_tag": [
+        "minecraft:freeze_immune_wearables"
+      ]
     }
   }
 }
