@@ -1,0 +1,206 @@
+{
+  "load_condition": {
+    "type": "mod_loaded",
+    "mod": "orevolution"
+  },
+  "key": "modularis:orevolution/aethersteel",
+  "properties": {
+    "blade": {
+      "executioner": 50,
+      "gui_stat": {
+        "aethersteel_execute": {
+          "value": "50",
+          "min": "50",
+          "max": "50",
+          "header": {
+            "translate": "modularis.material.stat.aethersteel_execute"
+          },
+          "description": {
+            "translate": "modularis.material.stat.aethersteel_execute.description"
+          }
+        }
+      }
+    },
+    "tool_head": {
+      "autosmelt": true,
+      "gui_stat": {
+        "aethersteel_autosmelt": {
+          "value": 1,
+          "min": 1,
+          "max": 1,
+          "header": {
+            "translate": "modularis.material.stat.aethersteel_autosmelt"
+          },
+          "description": {
+            "translate": "modularis.material.stat.aethersteel_autosmelt.description"
+          }
+        }
+      }
+    },
+    "armor": {
+      "fake_enchants": {
+        "minecraft:protection": "max([old_level],2)"
+      }
+    },
+    "helmet": {
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.max_health",
+          "value": "2.0",
+          "operation": "+",
+          "slot": "head"
+        },
+        {
+          "attribute": "minecraft:generic.knockback_resistance",
+          "value": "0.2",
+          "operation": "+",
+          "slot": "head"
+        }
+      ],
+      "gui_stat": {
+        "aethersteel_health": {
+          "value": "2",
+          "min": "2",
+          "max": "2",
+          "header": {
+            "translate": "modularis.material.stat.aethersteel_health"
+          },
+          "description": {
+            "translate": "modularis.material.stat.aethersteel_health.description"
+          }
+        },
+        "aethersteel_knockback": {
+          "value": "20",
+          "min": "20",
+          "max": "20",
+          "header": {
+            "translate": "modularis.material.stat.aethersteel_knockback"
+          },
+          "description": {
+            "translate": "modularis.material.stat.aethersteel_knockback.description"
+          }
+        }
+      }
+    },
+    "chest": {
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.max_health",
+          "value": "0.5",
+          "operation": "+",
+          "slot": "chest"
+        },
+        {
+          "attribute": "minecraft:generic.knockback_resistance",
+          "value": "0.05",
+          "operation": "+",
+          "slot": "chest"
+        }
+      ],
+      "gui_stat": {
+        "aethersteel_health": {
+          "value": "2",
+          "min": "2",
+          "max": "2",
+          "header": {
+            "translate": "modularis.material.stat.aethersteel_health"
+          },
+          "description": {
+            "translate": "modularis.material.stat.aethersteel_health.description"
+          }
+        },
+        "aethersteel_knockback": {
+          "value": "20",
+          "min": "20",
+          "max": "20",
+          "header": {
+            "translate": "modularis.material.stat.aethersteel_knockback"
+          },
+          "description": {
+            "translate": "modularis.material.stat.aethersteel_knockback.description"
+          }
+        }
+      }
+    },
+    "pants": {
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.max_health",
+          "value": "0.666667",
+          "operation": "+",
+          "slot": "legs"
+        },
+        {
+          "attribute": "minecraft:generic.knockback_resistance",
+          "value": "0.066667",
+          "operation": "+",
+          "slot": "legs"
+        }
+      ],
+      "gui_stat": {
+        "aethersteel_health": {
+          "value": "2",
+          "min": "2",
+          "max": "2",
+          "header": {
+            "translate": "modularis.material.stat.aethersteel_health"
+          },
+          "description": {
+            "translate": "modularis.material.stat.aethersteel_health.description"
+          }
+        },
+        "aethersteel_knockback": {
+          "value": "20",
+          "min": "20",
+          "max": "20",
+          "header": {
+            "translate": "modularis.material.stat.aethersteel_knockback"
+          },
+          "description": {
+            "translate": "modularis.material.stat.aethersteel_knockback.description"
+          }
+        }
+      }
+    },
+    "boot": {
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.max_health",
+          "value": "1.0",
+          "operation": "+",
+          "slot": "feet"
+        },
+        {
+          "attribute": "minecraft:generic.knockback_resistance",
+          "value": "0.1",
+          "operation": "+",
+          "slot": "feet"
+        }
+      ],
+      "gui_stat": {
+        "aethersteel_health": {
+          "value": "2",
+          "min": "2",
+          "max": "2",
+          "header": {
+            "translate": "modularis.material.stat.aethersteel_health"
+          },
+          "description": {
+            "translate": "modularis.material.stat.aethersteel_health.description"
+          }
+        },
+        "aethersteel_knockback": {
+          "value": "20",
+          "min": "20",
+          "max": "20",
+          "header": {
+            "translate": "modularis.material.stat.aethersteel_knockback"
+          },
+          "description": {
+            "translate": "modularis.material.stat.aethersteel_knockback.description"
+          }
+        }
+      }
+    }
+  }
+}

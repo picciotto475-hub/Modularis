@@ -1,0 +1,422 @@
+{
+  "load_condition": {
+    "type": "mod_loaded",
+    "mod": "orevolution"
+  },
+  "key": "modularis:orevolution/steel",
+  "properties": {
+    "handheld": {
+      "module_stats": {
+        "modularis_steel_part": 1
+      },
+      "attributes": [
+        {
+          "attribute": "miapi:generic.crit_damage",
+          "value": "0.6*(1-0.5^[collect.add.module.modularis_steel_part])/[collect.add.module.modularis_steel_part]",
+          "operation": "+",
+          "target_operation": "**",
+          "slot": "mainhand"
+        }
+      ],
+      "gui_stat": {
+        "steel_crit_damage": {
+          "value": "60*(1-0.5^[collect.add.module.modularis_steel_part])",
+          "min": "0",
+          "max": "60",
+          "header": {
+            "translate": "modularis.material.stat.steel_crit_damage"
+          },
+          "description": {
+            "translate": "modularis.material.stat.steel_crit_damage.description"
+          }
+        }
+      }
+    },
+    "blade": {
+      "module_stats": {
+        "modularis_steel_blade": 1
+      },
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.attack_speed",
+          "value": "-0.5/[collect.add.module.modularis_steel_blade]",
+          "operation": "+",
+          "target_operation": "**",
+          "slot": "mainhand"
+        }
+      ]
+    },
+    "pickaxe": {
+      "module_stats": {
+        "modularis_steel_pickaxe": 1
+      },
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.attack_speed",
+          "value": "-0.6/[collect.add.module.modularis_steel_pickaxe]",
+          "operation": "+",
+          "target_operation": "**",
+          "slot": "mainhand"
+        }
+      ]
+    },
+    "axe": {
+      "module_stats": {
+        "modularis_steel_axe": 1
+      },
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.attack_speed",
+          "value": "-0.78/[collect.add.module.modularis_steel_axe]",
+          "operation": "+",
+          "target_operation": "**",
+          "slot": "mainhand"
+        }
+      ]
+    },
+    "shovel": {
+      "module_stats": {
+        "modularis_steel_shovel": 1
+      },
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.attack_speed",
+          "value": "-0.4/[collect.add.module.modularis_steel_shovel]",
+          "operation": "+",
+          "target_operation": "**",
+          "slot": "mainhand"
+        }
+      ]
+    },
+    "hoe": {
+      "module_stats": {
+        "modularis_steel_hoe": 1
+      },
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.attack_speed",
+          "value": "-0.8/[collect.add.module.modularis_steel_hoe]",
+          "operation": "+",
+          "target_operation": "**",
+          "slot": "mainhand"
+        }
+      ]
+    },
+    "tm_arsenal:tool/pickaxe_front": {
+      "mining_shape": [
+        {
+          "condition": {
+            "type": "block_tag",
+            "tags": [
+              "mineable/pickaxe"
+            ]
+          },
+          "modifier": {
+            "require_same": true
+          },
+          "mode": {
+            "type": "instant",
+            "durability_break_chance": 1.0
+          },
+          "shape": {
+            "type": "cube",
+            "width": 3,
+            "height": 3,
+            "depth": 1
+          }
+        }
+      ],
+      "gui_stat": {
+        "steel_multi_break": {
+          "value": 1,
+          "min": 1,
+          "max": 1,
+          "header": {
+            "translate": "modularis.material.stat.steel_multi_break"
+          },
+          "description": {
+            "translate": "modularis.material.stat.steel_multi_break.description"
+          }
+        }
+      }
+    },
+    "tm_arsenal:tool/axe_front": {
+      "mining_shape": [
+        {
+          "condition": {
+            "type": "block_tag",
+            "tags": [
+              "mineable/axe"
+            ]
+          },
+          "modifier": {
+            "require_same": true
+          },
+          "mode": {
+            "type": "instant",
+            "durability_break_chance": 1.0
+          },
+          "shape": {
+            "type": "cube",
+            "width": 3,
+            "height": 3,
+            "depth": 1
+          }
+        }
+      ],
+      "gui_stat": {
+        "steel_multi_break": {
+          "value": 1,
+          "min": 1,
+          "max": 1,
+          "header": {
+            "translate": "modularis.material.stat.steel_multi_break"
+          },
+          "description": {
+            "translate": "modularis.material.stat.steel_multi_break.description"
+          }
+        }
+      }
+    },
+    "tm_arsenal:tool/shovel": {
+      "mining_shape": [
+        {
+          "condition": {
+            "type": "block_tag",
+            "tags": [
+              "mineable/shovel"
+            ]
+          },
+          "modifier": {
+            "require_same": true
+          },
+          "mode": {
+            "type": "instant",
+            "durability_break_chance": 1.0
+          },
+          "shape": {
+            "type": "cube",
+            "width": 3,
+            "height": 3,
+            "depth": 1
+          }
+        }
+      ],
+      "gui_stat": {
+        "steel_multi_break": {
+          "value": 1,
+          "min": 1,
+          "max": 1,
+          "header": {
+            "translate": "modularis.material.stat.steel_multi_break"
+          },
+          "description": {
+            "translate": "modularis.material.stat.steel_multi_break.description"
+          }
+        }
+      }
+    },
+    "tm_arsenal:tool/hoe_front": {
+      "mining_shape": [
+        {
+          "condition": {
+            "type": "block_tag",
+            "tags": [
+              "mineable/hoe"
+            ]
+          },
+          "modifier": {
+            "require_same": true
+          },
+          "mode": {
+            "type": "instant",
+            "durability_break_chance": 1.0
+          },
+          "shape": {
+            "type": "cube",
+            "width": 3,
+            "height": 3,
+            "depth": 1
+          }
+        }
+      ],
+      "gui_stat": {
+        "steel_multi_break": {
+          "value": 1,
+          "min": 1,
+          "max": 1,
+          "header": {
+            "translate": "modularis.material.stat.steel_multi_break"
+          },
+          "description": {
+            "translate": "modularis.material.stat.steel_multi_break.description"
+          }
+        }
+      }
+    },
+    "helmet": {
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.armor",
+          "value": "1.5",
+          "operation": "+",
+          "slot": "head"
+        },
+        {
+          "attribute": "minecraft:generic.movement_speed",
+          "value": "-0.1",
+          "operation": "+",
+          "target_operation": "**",
+          "slot": "head"
+        }
+      ],
+      "gui_stat": {
+        "steel_plating_armor": {
+          "value": "1.5",
+          "min": "1.5",
+          "max": "1.5",
+          "header": {
+            "translate": "modularis.material.stat.steel_plating_armor"
+          },
+          "description": {
+            "translate": "modularis.material.stat.steel_plating_armor.description"
+          }
+        },
+        "steel_plating_speed": {
+          "value": "-10",
+          "min": "-10",
+          "max": "-10",
+          "header": {
+            "translate": "modularis.material.stat.steel_plating_speed"
+          },
+          "description": {
+            "translate": "modularis.material.stat.steel_plating_speed.description"
+          }
+        }
+      }
+    },
+    "chest": {
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.armor",
+          "value": "0.375",
+          "operation": "+",
+          "slot": "chest"
+        },
+        {
+          "attribute": "minecraft:generic.movement_speed",
+          "value": "-0.025",
+          "operation": "+",
+          "target_operation": "**",
+          "slot": "chest"
+        }
+      ],
+      "gui_stat": {
+        "steel_plating_armor": {
+          "value": "1.5",
+          "min": "1.5",
+          "max": "1.5",
+          "header": {
+            "translate": "modularis.material.stat.steel_plating_armor"
+          },
+          "description": {
+            "translate": "modularis.material.stat.steel_plating_armor.description"
+          }
+        },
+        "steel_plating_speed": {
+          "value": "-10",
+          "min": "-10",
+          "max": "-10",
+          "header": {
+            "translate": "modularis.material.stat.steel_plating_speed"
+          },
+          "description": {
+            "translate": "modularis.material.stat.steel_plating_speed.description"
+          }
+        }
+      }
+    },
+    "pants": {
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.armor",
+          "value": "0.5",
+          "operation": "+",
+          "slot": "legs"
+        },
+        {
+          "attribute": "minecraft:generic.movement_speed",
+          "value": "-0.033333",
+          "operation": "+",
+          "target_operation": "**",
+          "slot": "legs"
+        }
+      ],
+      "gui_stat": {
+        "steel_plating_armor": {
+          "value": "1.5",
+          "min": "1.5",
+          "max": "1.5",
+          "header": {
+            "translate": "modularis.material.stat.steel_plating_armor"
+          },
+          "description": {
+            "translate": "modularis.material.stat.steel_plating_armor.description"
+          }
+        },
+        "steel_plating_speed": {
+          "value": "-10",
+          "min": "-10",
+          "max": "-10",
+          "header": {
+            "translate": "modularis.material.stat.steel_plating_speed"
+          },
+          "description": {
+            "translate": "modularis.material.stat.steel_plating_speed.description"
+          }
+        }
+      }
+    },
+    "boot": {
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.armor",
+          "value": "0.75",
+          "operation": "+",
+          "slot": "feet"
+        },
+        {
+          "attribute": "minecraft:generic.movement_speed",
+          "value": "-0.05",
+          "operation": "+",
+          "target_operation": "**",
+          "slot": "feet"
+        }
+      ],
+      "gui_stat": {
+        "steel_plating_armor": {
+          "value": "1.5",
+          "min": "1.5",
+          "max": "1.5",
+          "header": {
+            "translate": "modularis.material.stat.steel_plating_armor"
+          },
+          "description": {
+            "translate": "modularis.material.stat.steel_plating_armor.description"
+          }
+        },
+        "steel_plating_speed": {
+          "value": "-10",
+          "min": "-10",
+          "max": "-10",
+          "header": {
+            "translate": "modularis.material.stat.steel_plating_speed"
+          },
+          "description": {
+            "translate": "modularis.material.stat.steel_plating_speed.description"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,140 @@
+{
+  "load_condition": {
+    "type": "mod_loaded",
+    "mod": "orevolution"
+  },
+  "orevolution:steel_heavywork_sword": {
+    "key": "tm_arsenal:handle/sword",
+    "data": {
+      "material": "miapi:wood/wood"
+    },
+    "child": {
+      "guard": {
+        "key": "tm_arsenal:guard/normal",
+        "data": {
+          "material": "modularis:orevolution/steel"
+        },
+        "child": {
+          "blade": {
+            "key": "tm_arsenal:blade/normal",
+            "data": {
+              "material": "modularis:orevolution/steel"
+            },
+            "child": {}
+          }
+        }
+      },
+      "pommel": {
+        "key": "tm_arsenal:pommel/round",
+        "data": {
+          "material": "modularis:orevolution/steel"
+        },
+        "child": {}
+      }
+    }
+  },
+  "orevolution:steel_heavywork_pickaxe": {
+    "key": "tm_arsenal:handle/tool",
+    "data": {
+      "material": "miapi:wood/wood"
+    },
+    "child": {
+      "guard": {
+        "key": "tm_arsenal:guard/tool_adapter",
+        "child": {
+          "tool_head": {
+            "key": "tm_arsenal:tool/pickaxe_front",
+            "data": {
+              "material": "modularis:orevolution/steel"
+            },
+            "child": {
+              "tool_back": {
+                "key": "tm_arsenal:tool/pickaxe_back",
+                "data": {
+                  "material": "modularis:orevolution/steel"
+                },
+                "child": {}
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "orevolution:steel_heavywork_axe": {
+    "key": "tm_arsenal:handle/tool",
+    "data": {
+      "material": "miapi:wood/wood"
+    },
+    "child": {
+      "guard": {
+        "key": "tm_arsenal:guard/tool_adapter",
+        "child": {
+          "tool_head": {
+            "key": "tm_arsenal:tool/axe_front",
+            "data": {
+              "material": "modularis:orevolution/steel"
+            },
+            "child": {
+              "tool_back": {
+                "key": "tm_arsenal:tool/tool_back",
+                "data": {
+                  "material": "modularis:orevolution/steel"
+                },
+                "child": {}
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "orevolution:steel_heavywork_shovel": {
+    "key": "tm_arsenal:handle/tool",
+    "data": {
+      "material": "miapi:wood/wood"
+    },
+    "child": {
+      "guard": {
+        "key": "tm_arsenal:guard/tool_adapter",
+        "child": {
+          "tool_head": {
+            "key": "tm_arsenal:tool/shovel",
+            "data": {
+              "material": "modularis:orevolution/steel"
+            },
+            "child": {}
+          }
+        }
+      }
+    }
+  },
+  "orevolution:steel_heavywork_hoe": {
+    "key": "tm_arsenal:handle/tool",
+    "data": {
+      "material": "miapi:wood/wood"
+    },
+    "child": {
+      "guard": {
+        "key": "tm_arsenal:guard/tool_adapter",
+        "child": {
+          "tool_head": {
+            "key": "tm_arsenal:tool/hoe_front",
+            "data": {
+              "material": "modularis:orevolution/steel"
+            },
+            "child": {
+              "tool_back": {
+                "key": "tm_arsenal:tool/tool_back",
+                "data": {
+                  "material": "modularis:orevolution/steel"
+                },
+                "child": {}
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,293 @@
+{
+  "load_condition": {
+    "type": "mod_loaded",
+    "mod": "orevolution"
+  },
+  "key": "modularis:orevolution/moonstone",
+  "properties": {
+    "blade": {
+      "damage_command": [
+        {
+          "command": [
+            "execute if entity @s[type=!minecraft:player] run effect give @s orevolution:purification 8 1",
+            "execute if entity @s[type=!minecraft:player] run effect give @s minecraft:weakness 8 1"
+          ],
+          "onMeleeAttack": true,
+          "runAt": "DEFENDER"
+        }
+      ],
+      "gui_stat": {
+        "moonstone_purify": {
+          "value": 1,
+          "min": 1,
+          "max": 1,
+          "header": {
+            "translate": "modularis.material.stat.moonstone_purify"
+          },
+          "description": {
+            "translate": "modularis.material.stat.moonstone_purify.description"
+          }
+        }
+      }
+    },
+    "tool_head": {
+      "module_stats": {
+        "modularis_moonstone_xp": 1
+      },
+      "luminious_learning": "10/[collect.add.module.modularis_moonstone_xp]",
+      "gui_stat": {
+        "moonstone_xp": {
+          "value": 1,
+          "min": 1,
+          "max": 1,
+          "header": {
+            "translate": "modularis.material.stat.moonstone_xp"
+          },
+          "description": {
+            "translate": "modularis.material.stat.moonstone_xp.description"
+          }
+        }
+      }
+    },
+    "helmet": {
+      "on_hit_potion": [
+        {
+          "potion": "minecraft:strength",
+          "amplifier": 1,
+          "duration": 100,
+          "target_self": true,
+          "probability": 0.5
+        }
+      ],
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.attack_speed",
+          "value": "0.25",
+          "operation": "+",
+          "slot": "head"
+        },
+        {
+          "attribute": "minecraft:generic.knockback_resistance",
+          "value": "0.1",
+          "operation": "+",
+          "slot": "head"
+        }
+      ],
+      "gui_stat": {
+        "moonstone_strength": {
+          "value": "50",
+          "min": "50",
+          "max": "50",
+          "header": {
+            "translate": "modularis.material.stat.moonstone_strength"
+          },
+          "description": {
+            "translate": "modularis.material.stat.moonstone_strength.description"
+          }
+        },
+        "moonstone_quickness": {
+          "value": "0.25",
+          "min": "0.25",
+          "max": "0.25",
+          "header": {
+            "translate": "modularis.material.stat.moonstone_quickness"
+          },
+          "description": {
+            "translate": "modularis.material.stat.moonstone_quickness.description"
+          }
+        },
+        "moonstone_knockback": {
+          "value": "10",
+          "min": "10",
+          "max": "10",
+          "header": {
+            "translate": "modularis.material.stat.moonstone_knockback"
+          },
+          "description": {
+            "translate": "modularis.material.stat.moonstone_knockback.description"
+          }
+        }
+      }
+    },
+    "chest": {
+      "on_hit_potion": [
+        {
+          "potion": "minecraft:strength",
+          "amplifier": 1,
+          "duration": 100,
+          "target_self": true,
+          "probability": 0.125
+        }
+      ],
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.attack_speed",
+          "value": "0.0625",
+          "operation": "+",
+          "slot": "chest"
+        },
+        {
+          "attribute": "minecraft:generic.knockback_resistance",
+          "value": "0.025",
+          "operation": "+",
+          "slot": "chest"
+        }
+      ],
+      "gui_stat": {
+        "moonstone_strength": {
+          "value": "50",
+          "min": "50",
+          "max": "50",
+          "header": {
+            "translate": "modularis.material.stat.moonstone_strength"
+          },
+          "description": {
+            "translate": "modularis.material.stat.moonstone_strength.description"
+          }
+        },
+        "moonstone_quickness": {
+          "value": "0.25",
+          "min": "0.25",
+          "max": "0.25",
+          "header": {
+            "translate": "modularis.material.stat.moonstone_quickness"
+          },
+          "description": {
+            "translate": "modularis.material.stat.moonstone_quickness.description"
+          }
+        },
+        "moonstone_knockback": {
+          "value": "10",
+          "min": "10",
+          "max": "10",
+          "header": {
+            "translate": "modularis.material.stat.moonstone_knockback"
+          },
+          "description": {
+            "translate": "modularis.material.stat.moonstone_knockback.description"
+          }
+        }
+      }
+    },
+    "pants": {
+      "on_hit_potion": [
+        {
+          "potion": "minecraft:strength",
+          "amplifier": 1,
+          "duration": 100,
+          "target_self": true,
+          "probability": 0.166667
+        }
+      ],
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.attack_speed",
+          "value": "0.083333",
+          "operation": "+",
+          "slot": "legs"
+        },
+        {
+          "attribute": "minecraft:generic.knockback_resistance",
+          "value": "0.033333",
+          "operation": "+",
+          "slot": "legs"
+        }
+      ],
+      "gui_stat": {
+        "moonstone_strength": {
+          "value": "50",
+          "min": "50",
+          "max": "50",
+          "header": {
+            "translate": "modularis.material.stat.moonstone_strength"
+          },
+          "description": {
+            "translate": "modularis.material.stat.moonstone_strength.description"
+          }
+        },
+        "moonstone_quickness": {
+          "value": "0.25",
+          "min": "0.25",
+          "max": "0.25",
+          "header": {
+            "translate": "modularis.material.stat.moonstone_quickness"
+          },
+          "description": {
+            "translate": "modularis.material.stat.moonstone_quickness.description"
+          }
+        },
+        "moonstone_knockback": {
+          "value": "10",
+          "min": "10",
+          "max": "10",
+          "header": {
+            "translate": "modularis.material.stat.moonstone_knockback"
+          },
+          "description": {
+            "translate": "modularis.material.stat.moonstone_knockback.description"
+          }
+        }
+      }
+    },
+    "boot": {
+      "on_hit_potion": [
+        {
+          "potion": "minecraft:strength",
+          "amplifier": 1,
+          "duration": 100,
+          "target_self": true,
+          "probability": 0.25
+        }
+      ],
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.attack_speed",
+          "value": "0.125",
+          "operation": "+",
+          "slot": "feet"
+        },
+        {
+          "attribute": "minecraft:generic.knockback_resistance",
+          "value": "0.05",
+          "operation": "+",
+          "slot": "feet"
+        }
+      ],
+      "gui_stat": {
+        "moonstone_strength": {
+          "value": "50",
+          "min": "50",
+          "max": "50",
+          "header": {
+            "translate": "modularis.material.stat.moonstone_strength"
+          },
+          "description": {
+            "translate": "modularis.material.stat.moonstone_strength.description"
+          }
+        },
+        "moonstone_quickness": {
+          "value": "0.25",
+          "min": "0.25",
+          "max": "0.25",
+          "header": {
+            "translate": "modularis.material.stat.moonstone_quickness"
+          },
+          "description": {
+            "translate": "modularis.material.stat.moonstone_quickness.description"
+          }
+        },
+        "moonstone_knockback": {
+          "value": "10",
+          "min": "10",
+          "max": "10",
+          "header": {
+            "translate": "modularis.material.stat.moonstone_knockback"
+          },
+          "description": {
+            "translate": "modularis.material.stat.moonstone_knockback.description"
+          }
+        }
+      }
+    }
+  }
+}

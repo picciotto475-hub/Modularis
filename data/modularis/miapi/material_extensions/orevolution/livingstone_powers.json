@@ -1,0 +1,56 @@
+{
+  "load_condition": {
+    "type": "mod_loaded",
+    "mod": "orevolution"
+  },
+  "key": "modularis:orevolution/livingstone",
+  "properties": {
+    "default": {
+      "fake_enchants": {
+        "minecraft:unbreaking": "[old_level]+1"
+      }
+    },
+    "blade": {
+      "on_attack_potion": [
+        {
+          "potion": "orevolution:petrified",
+          "amplifier": 1,
+          "duration": 160,
+          "target_self": false,
+          "probability": 0.6
+        }
+      ],
+      "gui_stat": {
+        "livingstone_petrify_chance": {
+          "value": "60",
+          "min": "60",
+          "max": "60",
+          "header": {
+            "translate": "modularis.material.stat.livingstone_petrify_chance"
+          },
+          "description": {
+            "translate": "modularis.material.stat.livingstone_petrify_chance.description"
+          }
+        }
+      }
+    },
+    "hoe": {
+      "fake_enchants": {
+        "minecraft:fortune": "[old_level]+1"
+      },
+      "gui_stat": {
+        "livingstone_hoe_fortune": {
+          "value": 1,
+          "min": 1,
+          "max": 1,
+          "header": {
+            "translate": "modularis.material.stat.livingstone_hoe_fortune"
+          },
+          "description": {
+            "translate": "modularis.material.stat.livingstone_hoe_fortune.description"
+          }
+        }
+      }
+    }
+  }
+}

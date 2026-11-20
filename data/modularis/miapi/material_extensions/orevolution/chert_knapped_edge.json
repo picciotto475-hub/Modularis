@@ -1,0 +1,14 @@
+{
+  "load_condition": {
+    "type": "mod_loaded",
+    "mod": "orevolution"
+  },
+  "key": "modularis:orevolution/chert",
+  "properties": {
+    "default": {
+      "fake_enchants": {
+        "minecraft:sharpness": "[old_level]+1"
+      }
+    }
+  }
+}

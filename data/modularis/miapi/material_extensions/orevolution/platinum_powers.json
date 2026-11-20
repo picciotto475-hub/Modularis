@@ -1,0 +1,149 @@
+{
+  "load_condition": {
+    "type": "mod_loaded",
+    "mod": "orevolution"
+  },
+  "key": "modularis:orevolution/platinum",
+  "properties": {
+    "blade": {
+      "damage_command": [
+        {
+          "command": [
+            "execute if entity @s[type=#minecraft:undead] run effect give @s orevolution:purification 8 0",
+            "execute if entity @s[type=#minecraft:undead] run effect give @s minecraft:weakness 8 0"
+          ],
+          "onMeleeAttack": true,
+          "runAt": "DEFENDER"
+        }
+      ],
+      "gui_stat": {
+        "platinum_purify": {
+          "value": 1,
+          "min": 1,
+          "max": 1,
+          "header": {
+            "translate": "modularis.material.stat.platinum_purify"
+          },
+          "description": {
+            "translate": "modularis.material.stat.platinum_purify.description"
+          }
+        }
+      }
+    },
+    "tool_head": {
+      "module_stats": {
+        "modularis_platinum_xp": 1
+      },
+      "luminious_learning": "3/[collect.add.module.modularis_platinum_xp]",
+      "gui_stat": {
+        "platinum_xp": {
+          "value": 1,
+          "min": 1,
+          "max": 1,
+          "header": {
+            "translate": "modularis.material.stat.platinum_xp"
+          },
+          "description": {
+            "translate": "modularis.material.stat.platinum_xp.description"
+          }
+        }
+      }
+    },
+    "helmet": {
+      "on_hit_potion": [
+        {
+          "potion": "minecraft:strength",
+          "amplifier": 1,
+          "duration": 100,
+          "target_self": true,
+          "probability": 0.5
+        }
+      ],
+      "gui_stat": {
+        "platinum_strength": {
+          "value": "50",
+          "min": "50",
+          "max": "50",
+          "header": {
+            "translate": "modularis.material.stat.platinum_strength"
+          },
+          "description": {
+            "translate": "modularis.material.stat.platinum_strength.description"
+          }
+        }
+      }
+    },
+    "chest": {
+      "on_hit_potion": [
+        {
+          "potion": "minecraft:strength",
+          "amplifier": 1,
+          "duration": 100,
+          "target_self": true,
+          "probability": 0.125
+        }
+      ],
+      "gui_stat": {
+        "platinum_strength": {
+          "value": "50",
+          "min": "50",
+          "max": "50",
+          "header": {
+            "translate": "modularis.material.stat.platinum_strength"
+          },
+          "description": {
+            "translate": "modularis.material.stat.platinum_strength.description"
+          }
+        }
+      }
+    },
+    "pants": {
+      "on_hit_potion": [
+        {
+          "potion": "minecraft:strength",
+          "amplifier": 1,
+          "duration": 100,
+          "target_self": true,
+          "probability": 0.166667
+        }
+      ],
+      "gui_stat": {
+        "platinum_strength": {
+          "value": "50",
+          "min": "50",
+          "max": "50",
+          "header": {
+            "translate": "modularis.material.stat.platinum_strength"
+          },
+          "description": {
+            "translate": "modularis.material.stat.platinum_strength.description"
+          }
+        }
+      }
+    },
+    "boot": {
+      "on_hit_potion": [
+        {
+          "potion": "minecraft:strength",
+          "amplifier": 1,
+          "duration": 100,
+          "target_self": true,
+          "probability": 0.25
+        }
+      ],
+      "gui_stat": {
+        "platinum_strength": {
+          "value": "50",
+          "min": "50",
+          "max": "50",
+          "header": {
+            "translate": "modularis.material.stat.platinum_strength"
+          },
+          "description": {
+            "translate": "modularis.material.stat.platinum_strength.description"
+          }
+        }
+      }
+    }
+  }
+}

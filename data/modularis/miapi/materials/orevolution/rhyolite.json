@@ -1,0 +1,36 @@
+{
+  "load_condition": {
+    "type": "mod_loaded",
+    "mod": "orevolution"
+  },
+  "translation": {
+    "translate": "material.modularis.rhyolite"
+  },
+  "icon": {
+    "type": "item",
+    "item": "orevolution:rhyolite"
+  },
+  "groups": [
+    "stone"
+  ],
+  "tier": 2,
+  "hardness": 5,
+  "density": 3,
+  "flexibility": 0,
+  "durability": 167,
+  "armor_durability": 10,
+  "enchantability": 5,
+  "toughness": 1,
+  "mining_speed": 4,
+  "mining_level": "minecraft:incorrect_for_stone_tool",
+  "items": [
+    {
+      "item": "orevolution:rhyolite",
+      "value": 1.0
+    }
+  ],
+  "color_palette": {
+    "type": "image_generated_item",
+    "item": "orevolution:rhyolite"
+  }
+}

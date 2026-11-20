@@ -1,0 +1,56 @@
+{
+  "load_condition": {
+    "type": "mod_loaded",
+    "mod": "orevolution"
+  },
+  "key": "modularis:orevolution/verdite",
+  "properties": {
+    "default": {
+      "fake_enchants": {
+        "minecraft:unbreaking": "[old_level]+1"
+      }
+    },
+    "blade": {
+      "on_attack_potion": [
+        {
+          "potion": "minecraft:saturation",
+          "amplifier": 0,
+          "duration": 2,
+          "target_self": true,
+          "probability": 0.2
+        }
+      ],
+      "gui_stat": {
+        "verdite_saturation_chance": {
+          "value": "20",
+          "min": "20",
+          "max": "20",
+          "header": {
+            "translate": "modularis.material.stat.verdite_saturation_chance"
+          },
+          "description": {
+            "translate": "modularis.material.stat.verdite_saturation_chance.description"
+          }
+        }
+      }
+    },
+    "hoe": {
+      "fake_enchants": {
+        "minecraft:fortune": "[old_level]+1"
+      },
+      "gui_stat": {
+        "verdite_hoe_fortune": {
+          "value": 1,
+          "min": 1,
+          "max": 1,
+          "header": {
+            "translate": "modularis.material.stat.verdite_hoe_fortune"
+          },
+          "description": {
+            "translate": "modularis.material.stat.verdite_hoe_fortune.description"
+          }
+        }
+      }
+    }
+  }
+}

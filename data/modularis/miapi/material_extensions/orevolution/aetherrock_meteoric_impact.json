@@ -1,0 +1,14 @@
+{
+  "load_condition": {
+    "type": "mod_loaded",
+    "mod": "orevolution"
+  },
+  "key": "modularis:orevolution/aetherrock",
+  "properties": {
+    "blade": {
+      "fake_enchants": {
+        "minecraft:knockback": "[old_level]+1"
+      }
+    }
+  }
+}

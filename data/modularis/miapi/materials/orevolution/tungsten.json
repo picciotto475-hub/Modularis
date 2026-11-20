@@ -1,0 +1,46 @@
+{
+  "load_condition": {
+    "type": "mod_loaded",
+    "mod": "orevolution"
+  },
+  "translation": {
+    "translate": "material.modularis.tungsten"
+  },
+  "icon": {
+    "type": "item",
+    "item": "orevolution:tungsten_ingot"
+  },
+  "groups": [
+    "metal"
+  ],
+  "tier": 1,
+  "hardness": 3,
+  "density": 3,
+  "flexibility": 0,
+  "durability": 241,
+  "armor_durability": 14,
+  "enchantability": 15,
+  "toughness": 0.1,
+  "armor_toughness": 0.1,
+  "mining_speed": 12.0,
+  "mining_level": "orevolution:incorrect_for_tin_tool",
+  "items": [
+    {
+      "item": "orevolution:tungsten_ingot",
+      "value": 1.0
+    },
+    {
+      "item": "orevolution:tungsten_nugget",
+      "value": 0.111111
+    }
+  ],
+  "color_palette": {
+    "type": "image_generated_item",
+    "item": "orevolution:tungsten_ingot"
+  },
+  "properties": {
+    "default": {
+      "fire_proof": true
+    }
+  }
+}

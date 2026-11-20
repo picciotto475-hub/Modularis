@@ -1,0 +1,36 @@
+{
+  "load_condition": {
+    "type": "mod_loaded",
+    "mod": "orevolution"
+  },
+  "translation": {
+    "translate": "material.modularis.aetherrock"
+  },
+  "icon": {
+    "type": "item",
+    "item": "orevolution:aetherrock"
+  },
+  "groups": [
+    "stone"
+  ],
+  "tier": 2,
+  "hardness": 5,
+  "density": 4,
+  "flexibility": 0,
+  "durability": 250,
+  "armor_durability": 12,
+  "enchantability": 7,
+  "toughness": 1,
+  "mining_speed": 5,
+  "mining_level": "orevolution:incorrect_for_tin_tool",
+  "items": [
+    {
+      "item": "orevolution:aetherrock",
+      "value": 1.0
+    }
+  ],
+  "color_palette": {
+    "type": "image_generated_item",
+    "item": "orevolution:aetherrock"
+  }
+}

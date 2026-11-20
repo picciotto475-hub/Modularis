@@ -1,0 +1,41 @@
+{
+  "load_condition": {
+    "type": "mod_loaded",
+    "mod": "orevolution"
+  },
+  "translation": {
+    "translate": "material.modularis.verdite"
+  },
+  "icon": {
+    "type": "item",
+    "item": "orevolution:verdite_ingot"
+  },
+  "groups": [
+    "metal"
+  ],
+  "tier": 3,
+  "hardness": 5,
+  "density": 3,
+  "flexibility": 1,
+  "durability": 433,
+  "armor_durability": 24,
+  "enchantability": 16,
+  "toughness": 0.1,
+  "armor_toughness": 0.1,
+  "mining_speed": 6.0,
+  "mining_level": "orevolution:incorrect_for_platinum_tool",
+  "items": [
+    {
+      "item": "orevolution:verdite_ingot",
+      "value": 1.0
+    },
+    {
+      "item": "orevolution:verdite_nugget",
+      "value": 0.111111
+    }
+  ],
+  "color_palette": {
+    "type": "image_generated_item",
+    "item": "orevolution:verdite_ingot"
+  }
+}

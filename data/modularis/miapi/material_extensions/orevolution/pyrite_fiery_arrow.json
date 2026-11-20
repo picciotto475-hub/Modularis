@@ -1,0 +1,52 @@
+{
+  "load_condition": {
+    "type": "mod_loaded",
+    "mod": "orevolution"
+  },
+  "key": "modularis:orevolution/pyrite",
+  "properties": {
+    "arrow_head": {
+      "explosion_projectile": {
+        "strength": 2,
+        "chance": 1,
+        "destroyBlocks": false,
+        "entityStrength": 10,
+        "entityMaxDamage": 5,
+        "entityRadius": 2
+      },
+      "damage_command": [
+        {
+          "command": [
+            "data merge entity @s {Fire:60}"
+          ],
+          "onRangedAttack": true,
+          "runAt": "DEFENDER"
+        }
+      ],
+      "gui_stat": {
+        "pyrite_explosion": {
+          "value": 1,
+          "min": 1,
+          "max": 1,
+          "header": {
+            "translate": "modularis.material.stat.pyrite_explosion"
+          },
+          "description": {
+            "translate": "modularis.material.stat.pyrite_explosion.description"
+          }
+        },
+        "pyrite_ignite": {
+          "value": 3,
+          "min": 3,
+          "max": 3,
+          "header": {
+            "translate": "modularis.material.stat.pyrite_ignite"
+          },
+          "description": {
+            "translate": "modularis.material.stat.pyrite_ignite.description"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "load_condition": {
+    "type": "mod_loaded",
+    "mod": "orevolution"
+  },
+  "translation": {
+    "translate": "material.modularis.celestite"
+  },
+  "icon": {
+    "type": "item",
+    "item": "orevolution:celestite_block"
+  },
+  "groups": [
+    "crystal"
+  ],
+  "tier": 2,
+  "hardness": 4.5,
+  "density": 0.8,
+  "flexibility": 0,
+  "durability": 200,
+  "armor_durability": 9,
+  "enchantability": 11,
+  "toughness": 0,
+  "mining_speed": 4,
+  "mining_level": "minecraft:incorrect_for_stone_tool",
+  "items": [
+    {
+      "item": "orevolution:celestite_block",
+      "value": 1.0
+    }
+  ],
+  "color_palette": {
+    "type": "image_generated_item",
+    "item": "orevolution:celestite_block"
+  }
+}

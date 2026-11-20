@@ -1,0 +1,41 @@
+{
+  "load_condition": {
+    "type": "mod_loaded",
+    "mod": "orevolution"
+  },
+  "translation": {
+    "translate": "material.modularis.livingstone"
+  },
+  "icon": {
+    "type": "item",
+    "item": "orevolution:livingstone_shard"
+  },
+  "groups": [
+    "stone"
+  ],
+  "tier": 2,
+  "hardness": 4,
+  "density": 2,
+  "flexibility": 1,
+  "durability": 177,
+  "armor_durability": 13,
+  "enchantability": 12,
+  "toughness": 0.05,
+  "armor_toughness": 0.05,
+  "mining_speed": 4.0,
+  "mining_level": "orevolution:incorrect_for_tin_tool",
+  "items": [
+    {
+      "item": "orevolution:livingstone_block",
+      "value": 1.0
+    },
+    {
+      "item": "orevolution:livingstone_shard",
+      "value": 0.111111
+    }
+  ],
+  "color_palette": {
+    "type": "image_generated_item",
+    "item": "orevolution:livingstone_shard"
+  }
+}

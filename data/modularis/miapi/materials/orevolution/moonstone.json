@@ -1,0 +1,37 @@
+{
+  "load_condition": {
+    "type": "mod_loaded",
+    "mod": "orevolution"
+  },
+  "translation": {
+    "translate": "material.modularis.moonstone"
+  },
+  "icon": {
+    "type": "item",
+    "item": "orevolution:moonstone"
+  },
+  "groups": [
+    "smithing"
+  ],
+  "tier": 3,
+  "hardness": 5,
+  "density": 3,
+  "flexibility": 1,
+  "durability": 1521,
+  "armor_durability": 29,
+  "enchantability": 18,
+  "toughness": 4.0,
+  "armor_toughness": 4.0,
+  "mining_speed": 7.0,
+  "mining_level": "minecraft:incorrect_for_diamond_tool",
+  "items": [
+    {
+      "item": "orevolution:moonstone",
+      "value": 1.0
+    }
+  ],
+  "color_palette": {
+    "type": "image_generated_item",
+    "item": "orevolution:moonstone"
+  }
+}

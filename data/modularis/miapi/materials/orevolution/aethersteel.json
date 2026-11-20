@@ -1,0 +1,37 @@
+{
+  "load_condition": {
+    "type": "mod_loaded",
+    "mod": "orevolution"
+  },
+  "translation": {
+    "translate": "material.modularis.orevolution_aethersteel"
+  },
+  "icon": {
+    "type": "item",
+    "item": "orevolution:aethersteel_ingot"
+  },
+  "groups": [
+    "smithing"
+  ],
+  "tier": 6,
+  "hardness": 8,
+  "density": 2,
+  "flexibility": 1,
+  "durability": 3185,
+  "armor_durability": 42,
+  "enchantability": 16,
+  "toughness": 4.5,
+  "armor_toughness": 4.5,
+  "mining_speed": 10.0,
+  "mining_level": "orevolution:incorrect_for_aethersteel_tool",
+  "items": [
+    {
+      "item": "orevolution:aethersteel_ingot",
+      "value": 1.0
+    }
+  ],
+  "color_palette": {
+    "type": "image_generated_item",
+    "item": "orevolution:aethersteel_ingot"
+  }
+}

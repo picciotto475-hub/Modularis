@@ -2,7 +2,7 @@
 
 A compatibility datapack for Truly Modular in Minecraft 1.21.
 
-**Materials created so far: 149**
+**Materials created so far: 163**
 
 ## Currently supported mods
 
@@ -23,6 +23,7 @@ A compatibility datapack for Truly Modular in Minecraft 1.21.
 - Mystical Agriculture
 - MythicUpgrades
 - Oreganized
+- Orevolution
 - Primal
 - Quark
 - Twilight Forest

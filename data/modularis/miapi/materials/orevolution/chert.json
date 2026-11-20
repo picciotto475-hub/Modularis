@@ -1,0 +1,36 @@
+{
+  "load_condition": {
+    "type": "mod_loaded",
+    "mod": "orevolution"
+  },
+  "translation": {
+    "translate": "material.modularis.chert"
+  },
+  "icon": {
+    "type": "item",
+    "item": "orevolution:chert"
+  },
+  "groups": [
+    "stone"
+  ],
+  "tier": 2,
+  "hardness": 4,
+  "density": 4,
+  "flexibility": 0,
+  "durability": 131,
+  "armor_durability": 8,
+  "enchantability": 5,
+  "toughness": 1,
+  "mining_speed": 4,
+  "mining_level": "minecraft:incorrect_for_stone_tool",
+  "items": [
+    {
+      "item": "orevolution:chert",
+      "value": 1.0
+    }
+  ],
+  "color_palette": {
+    "type": "image_generated_item",
+    "item": "orevolution:chert"
+  }
+}

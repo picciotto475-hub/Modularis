@@ -1,0 +1,128 @@
+{
+  "load_condition": {
+    "type": "mod_loaded",
+    "mod": "orevolution"
+  },
+  "key": "modularis:orevolution/tungsten",
+  "properties": {
+    "blade": {
+      "luminious_learning": 2.5,
+      "gui_stat": {
+        "tungsten_xp": {
+          "value": "100",
+          "min": "100",
+          "max": "100",
+          "header": {
+            "translate": "modularis.material.stat.tungsten_xp"
+          },
+          "description": {
+            "translate": "modularis.material.stat.tungsten_xp.description"
+          }
+        }
+      }
+    },
+    "tool_head": {
+      "fake_enchants": {
+        "minecraft:unbreaking": "max([old_level],6)"
+      }
+    },
+    "armor": {
+      "is_piglin_gold": true,
+      "fake_enchants": {
+        "minecraft:protection": "max([old_level],1)"
+      }
+    },
+    "helmet": {
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.knockback_resistance",
+          "value": "0.3",
+          "operation": "+",
+          "slot": "head"
+        }
+      ],
+      "gui_stat": {
+        "tungsten_knockback": {
+          "value": "30",
+          "min": "30",
+          "max": "30",
+          "header": {
+            "translate": "modularis.material.stat.tungsten_knockback"
+          },
+          "description": {
+            "translate": "modularis.material.stat.tungsten_knockback.description"
+          }
+        }
+      }
+    },
+    "chest": {
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.knockback_resistance",
+          "value": "0.075",
+          "operation": "+",
+          "slot": "chest"
+        }
+      ],
+      "gui_stat": {
+        "tungsten_knockback": {
+          "value": "30",
+          "min": "30",
+          "max": "30",
+          "header": {
+            "translate": "modularis.material.stat.tungsten_knockback"
+          },
+          "description": {
+            "translate": "modularis.material.stat.tungsten_knockback.description"
+          }
+        }
+      }
+    },
+    "pants": {
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.knockback_resistance",
+          "value": "0.1",
+          "operation": "+",
+          "slot": "legs"
+        }
+      ],
+      "gui_stat": {
+        "tungsten_knockback": {
+          "value": "30",
+          "min": "30",
+          "max": "30",
+          "header": {
+            "translate": "modularis.material.stat.tungsten_knockback"
+          },
+          "description": {
+            "translate": "modularis.material.stat.tungsten_knockback.description"
+          }
+        }
+      }
+    },
+    "boot": {
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.knockback_resistance",
+          "value": "0.15",
+          "operation": "+",
+          "slot": "feet"
+        }
+      ],
+      "gui_stat": {
+        "tungsten_knockback": {
+          "value": "30",
+          "min": "30",
+          "max": "30",
+          "header": {
+            "translate": "modularis.material.stat.tungsten_knockback"
+          },
+          "description": {
+            "translate": "modularis.material.stat.tungsten_knockback.description"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "load_condition": {
+    "type": "mod_loaded",
+    "mod": "orevolution"
+  },
+  "key": "modularis:orevolution/tin",
+  "properties": {
+    "blade": {
+      "on_attack_potion": [
+        {
+          "potion": "minecraft:poison",
+          "amplifier": 0,
+          "duration": 240,
+          "target_self": false,
+          "probability": 0.45
+        }
+      ],
+      "gui_stat": {
+        "tin_poison_chance": {
+          "value": "45",
+          "min": "45",
+          "max": "45",
+          "header": {
+            "translate": "modularis.material.stat.tin_poison_chance"
+          },
+          "description": {
+            "translate": "modularis.material.stat.tin_poison_chance.description"
+          }
+        }
+      }
+    },
+    "helmet": {
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.max_health",
+          "value": "0.5",
+          "operation": "+",
+          "slot": "head"
+        }
+      ],
+      "gui_stat": {
+        "tin_ward": {
+          "value": 1,
+          "min": 1,
+          "max": 1,
+          "header": {
+            "translate": "modularis.material.stat.tin_ward"
+          },
+          "description": {
+            "translate": "modularis.material.stat.tin_ward.description"
+          }
+        }
+      }
+    },
+    "chest": {
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.max_health",
+          "value": "0.125",
+          "operation": "+",
+          "slot": "chest"
+        }
+      ],
+      "gui_stat": {
+        "tin_ward": {
+          "value": 1,
+          "min": 1,
+          "max": 1,
+          "header": {
+            "translate": "modularis.material.stat.tin_ward"
+          },
+          "description": {
+            "translate": "modularis.material.stat.tin_ward.description"
+          }
+        }
+      }
+    },
+    "pants": {
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.max_health",
+          "value": "0.166667",
+          "operation": "+",
+          "slot": "legs"
+        }
+      ],
+      "gui_stat": {
+        "tin_ward": {
+          "value": 1,
+          "min": 1,
+          "max": 1,
+          "header": {
+            "translate": "modularis.material.stat.tin_ward"
+          },
+          "description": {
+            "translate": "modularis.material.stat.tin_ward.description"
+          }
+        }
+      }
+    },
+    "boot": {
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.max_health",
+          "value": "0.25",
+          "operation": "+",
+          "slot": "feet"
+        }
+      ],
+      "gui_stat": {
+        "tin_ward": {
+          "value": 1,
+          "min": 1,
+          "max": 1,
+          "header": {
+            "translate": "modularis.material.stat.tin_ward"
+          },
+          "description": {
+            "translate": "modularis.material.stat.tin_ward.description"
+          }
+        }
+      }
+    }
+  }
+}

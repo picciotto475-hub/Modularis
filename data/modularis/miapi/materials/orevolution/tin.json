@@ -1,0 +1,41 @@
+{
+  "load_condition": {
+    "type": "mod_loaded",
+    "mod": "orevolution"
+  },
+  "translation": {
+    "translate": "material.modularis.tin"
+  },
+  "icon": {
+    "type": "item",
+    "item": "orevolution:tin_ingot"
+  },
+  "groups": [
+    "metal"
+  ],
+  "tier": 2,
+  "hardness": 4,
+  "density": 4,
+  "flexibility": 1,
+  "durability": 497,
+  "armor_durability": 8,
+  "enchantability": 7,
+  "toughness": 0,
+  "armor_toughness": 0,
+  "mining_speed": 5.0,
+  "mining_level": "orevolution:incorrect_for_tin_tool",
+  "items": [
+    {
+      "item": "orevolution:tin_ingot",
+      "value": 1.0
+    },
+    {
+      "item": "orevolution:tin_nugget",
+      "value": 0.111111
+    }
+  ],
+  "color_palette": {
+    "type": "image_generated_item",
+    "item": "orevolution:tin_ingot"
+  }
+}

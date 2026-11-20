@@ -1,0 +1,27 @@
+{
+  "load_condition": {
+    "type": "mod_loaded",
+    "mod": "orevolution"
+  },
+  "key": "modularis:orevolution/celestite",
+  "properties": {
+    "default": {
+      "emissive": {
+        "block": 9
+      },
+      "gui_stat": {
+        "celestite_glow": {
+          "value": 9,
+          "min": 9,
+          "max": 9,
+          "header": {
+            "translate": "modularis.material.stat.celestite_glow"
+          },
+          "description": {
+            "translate": "modularis.material.stat.celestite_glow.description"
+          }
+        }
+      }
+    }
+  }
+}

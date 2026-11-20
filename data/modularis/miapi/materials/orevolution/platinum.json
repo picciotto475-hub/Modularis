@@ -1,0 +1,41 @@
+{
+  "load_condition": {
+    "type": "mod_loaded",
+    "mod": "orevolution"
+  },
+  "translation": {
+    "translate": "material.modularis.platinum"
+  },
+  "icon": {
+    "type": "item",
+    "item": "orevolution:platinum_ingot"
+  },
+  "groups": [
+    "metal"
+  ],
+  "tier": 3,
+  "hardness": 5,
+  "density": 3,
+  "flexibility": 1,
+  "durability": 753,
+  "armor_durability": 26,
+  "enchantability": 18,
+  "toughness": 0.5,
+  "armor_toughness": 0.5,
+  "mining_speed": 7.0,
+  "mining_level": "orevolution:incorrect_for_platinum_tool",
+  "items": [
+    {
+      "item": "orevolution:platinum_ingot",
+      "value": 1.0
+    },
+    {
+      "item": "orevolution:platinum_nugget",
+      "value": 0.111111
+    }
+  ],
+  "color_palette": {
+    "type": "image_generated_item",
+    "item": "orevolution:platinum_ingot"
+  }
+}
