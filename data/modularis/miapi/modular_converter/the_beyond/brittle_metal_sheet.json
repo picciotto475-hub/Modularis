@@ -1,0 +1,137 @@
+{
+    "load_condition": { "type": "mod_loaded", "mod": "the_beyond" },
+    "the_beyond:brittle_sword": {
+        "key": "tm_arsenal:handle/sword",
+        "data": {
+            "material": "miapi:wood/wood"
+        },
+        "child": {
+            "guard": {
+                "key": "tm_arsenal:guard/normal",
+                "data": {
+                    "material": "modularis:the_beyond/brittle_metal_sheet"
+                },
+                "child": {
+                    "blade": {
+                        "key": "tm_arsenal:blade/normal",
+                        "data": {
+                            "material": "modularis:the_beyond/brittle_metal_sheet"
+                        },
+                        "child": {}
+                    }
+                }
+            },
+            "pommel": {
+                "key": "tm_arsenal:pommel/round",
+                "data": {
+                    "material": "modularis:the_beyond/brittle_metal_sheet"
+                },
+                "child": {}
+            }
+        }
+    },
+    "the_beyond:brittle_axe": {
+        "key": "tm_arsenal:handle/tool",
+        "data": {
+            "material": "miapi:wood/wood"
+        },
+        "child": {
+            "guard": {
+                "key": "tm_arsenal:guard/tool_adapter",
+                "child": {
+                    "tool_head": {
+                        "key": "tm_arsenal:tool/axe_front",
+                        "data": {
+                            "material": "modularis:the_beyond/brittle_metal_sheet"
+                        },
+                        "child": {
+                            "tool_back": {
+                                "key": "tm_arsenal:tool/tool_back",
+                                "data": {
+                                    "material": "modularis:the_beyond/brittle_metal_sheet"
+                                },
+                                "child": {}
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "the_beyond:brittle_pickaxe": {
+        "key": "tm_arsenal:handle/tool",
+        "data": {
+            "material": "miapi:wood/wood"
+        },
+        "child": {
+            "guard": {
+                "key": "tm_arsenal:guard/tool_adapter",
+                "child": {
+                    "tool_head": {
+                        "key": "tm_arsenal:tool/pickaxe_front",
+                        "data": {
+                            "material": "modularis:the_beyond/brittle_metal_sheet"
+                        },
+                        "child": {
+                            "tool_back": {
+                                "key": "tm_arsenal:tool/pickaxe_back",
+                                "data": {
+                                    "material": "modularis:the_beyond/brittle_metal_sheet"
+                                },
+                                "child": {}
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "the_beyond:brittle_shovel": {
+        "key": "tm_arsenal:handle/tool",
+        "data": {
+            "material": "miapi:wood/wood"
+        },
+        "child": {
+            "guard": {
+                "key": "tm_arsenal:guard/tool_adapter",
+                "child": {
+                    "tool_head": {
+                        "key": "tm_arsenal:tool/shovel",
+                        "data": {
+                            "material": "modularis:the_beyond/brittle_metal_sheet"
+                        },
+                        "child": {}
+                    }
+                }
+            }
+        }
+    },
+    "the_beyond:brittle_hoe": {
+        "key": "tm_arsenal:handle/tool",
+        "data": {
+            "material": "miapi:wood/wood"
+        },
+        "child": {
+            "guard": {
+                "key": "tm_arsenal:guard/tool_adapter",
+                "child": {
+                    "tool_head": {
+                        "key": "tm_arsenal:tool/hoe_front",
+                        "data": {
+                            "material": "modularis:the_beyond/brittle_metal_sheet"
+                        },
+                        "child": {
+                            "tool_back": {
+                                "key": "tm_arsenal:tool/tool_back",
+                                "data": {
+                                    "material": "modularis:the_beyond/brittle_metal_sheet"
+                                },
+                                "child": {}
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

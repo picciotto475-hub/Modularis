@@ -1,0 +1,9 @@
+{
+  "load_condition": { "type": "mod_loaded", "mod": "the_beyond" },
+  "key": "modularis:the_beyond/abyssal_shroud",
+  "properties": {
+    "belt": {
+      "fake_enchants": { "minecraft:swift_sneak": "max([old_level],1)" }
+    }
+  }
+}

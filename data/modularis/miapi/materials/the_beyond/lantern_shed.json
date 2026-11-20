@@ -1,0 +1,26 @@
+{
+  "load_condition": { "type": "mod_loaded", "mod": "the_beyond" },
+  "translation": {
+    "translate": "material.modularis.lantern_shed"
+  },
+  "icon": {
+    "type": "item",
+    "item": "the_beyond:lantern_shed"
+  },
+  "groups": ["fabric"],
+  "tier": 1,
+  "hardness": 3,
+  "density": 1.5,
+  "flexibility": 5,
+  "durability": 150,
+  "armor_durability": 5,
+  "enchantability": 10,
+  "mining_speed": 0,
+  "items": [
+    { "item": "the_beyond:lantern_shed", "value": 1.0 }
+  ],
+  "color_palette": {
+    "type": "image_generated_item",
+    "item": "the_beyond:lantern_shed"
+  }
+}

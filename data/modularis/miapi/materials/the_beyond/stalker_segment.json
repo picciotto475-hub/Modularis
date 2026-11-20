@@ -1,0 +1,26 @@
+{
+  "load_condition": { "type": "mod_loaded", "mod": "the_beyond" },
+  "translation": {
+    "translate": "material.modularis.stalker_segment"
+  },
+  "icon": {
+    "type": "item",
+    "item": "the_beyond:stalker_segment"
+  },
+  "groups": ["rod"],
+  "tier": 1,
+  "hardness": 3,
+  "density": 3,
+  "flexibility": 3,
+  "durability": 59,
+  "enchantability": 15,
+  "mining_speed": 2,
+  "mining_level": "minecraft:incorrect_for_wooden_tool",
+  "items": [
+    { "item": "the_beyond:stalker_segment", "value": 1.0 }
+  ],
+  "color_palette": {
+    "type": "image_generated_item",
+    "item": "the_beyond:stalker_segment"
+  }
+}

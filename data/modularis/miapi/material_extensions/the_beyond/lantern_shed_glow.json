@@ -1,0 +1,16 @@
+{
+  "load_condition": { "type": "mod_loaded", "mod": "the_beyond" },
+  "key": "modularis:the_beyond/lantern_shed",
+  "properties": {
+    "default": {
+      "emissive": { "block": 6 },
+      "gui_stat": {
+        "lantern_shed_glow": {
+          "value": 6, "min": 6, "max": 6,
+          "header": { "translate": "modularis.material.stat.lantern_shed_glow" },
+          "description": { "translate": "modularis.material.stat.lantern_shed_glow.description" }
+        }
+      }
+    }
+  }
+}

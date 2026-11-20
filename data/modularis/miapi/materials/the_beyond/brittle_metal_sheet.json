@@ -1,0 +1,29 @@
+{
+  "load_condition": { "type": "mod_loaded", "mod": "the_beyond" },
+  "translation": {
+    "translate": "material.modularis.brittle_metal_sheet"
+  },
+  "icon": {
+    "type": "item",
+    "item": "the_beyond:brittle_metal_sheet"
+  },
+  "groups": ["metal"],
+  "tier": 4,
+  "hardness": 5,
+  "density": 3.8,
+  "flexibility": 1,
+  "durability": 235,
+  "armor_durability": 15,
+  "enchantability": 2,
+  "toughness": 0,
+  "armor_toughness": 0,
+  "mining_speed": 6,
+  "mining_level": "minecraft:incorrect_for_diamond_tool",
+  "items": [
+    { "item": "the_beyond:brittle_metal_sheet", "value": 1.0 }
+  ],
+  "color_palette": {
+    "type": "image_generated_item",
+    "item": "the_beyond:brittle_metal_sheet"
+  }
+}

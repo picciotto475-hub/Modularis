@@ -1,0 +1,16 @@
+{
+  "load_condition": { "type": "mod_loaded", "mod": "the_beyond" },
+  "key": "modularis:the_beyond/brittle_metal_sheet",
+  "properties": {
+    "axe": {
+      "durability": [
+        { "operation": "+", "value": "[material.durability]*0.01" }
+      ]
+    },
+    "hoe": {
+      "durability": [
+        { "operation": "+", "value": "[material.durability]*0.01" }
+      ]
+    }
+  }
+}
