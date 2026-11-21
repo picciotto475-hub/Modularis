@@ -1,0 +1,81 @@
+{
+  "load_condition": {
+    "type": "mod_loaded",
+    "mod": "tconstruct"
+  },
+  "key": "modularis:tconstruct/amethyst_bronze",
+  "properties": {
+    "normal_handle": {
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.attack_speed",
+          "value": "0.05",
+          "operation": "+",
+          "target_operation": "**",
+          "slot": "mainhand"
+        },
+        {
+          "attribute": "minecraft:player.block_break_speed",
+          "value": "0.1",
+          "operation": "+",
+          "target_operation": "**",
+          "slot": "mainhand"
+        }
+      ]
+    },
+    "polearm_handle": {
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.attack_speed",
+          "value": "0.05",
+          "operation": "+",
+          "target_operation": "**",
+          "slot": "mainhand"
+        },
+        {
+          "attribute": "minecraft:player.block_break_speed",
+          "value": "0.1",
+          "operation": "+",
+          "target_operation": "**",
+          "slot": "mainhand"
+        }
+      ]
+    },
+    "tool_handle": {
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.attack_speed",
+          "value": "0.05",
+          "operation": "+",
+          "target_operation": "**",
+          "slot": "mainhand"
+        },
+        {
+          "attribute": "minecraft:player.block_break_speed",
+          "value": "0.1",
+          "operation": "+",
+          "target_operation": "**",
+          "slot": "mainhand"
+        }
+      ]
+    },
+    "twin_handle": {
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.attack_speed",
+          "value": "0.05",
+          "operation": "+",
+          "target_operation": "**",
+          "slot": "mainhand"
+        },
+        {
+          "attribute": "minecraft:player.block_break_speed",
+          "value": "0.1",
+          "operation": "+",
+          "target_operation": "**",
+          "slot": "mainhand"
+        }
+      ]
+    }
+  }
+}

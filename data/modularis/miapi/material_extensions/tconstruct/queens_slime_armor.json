@@ -1,0 +1,49 @@
+{
+  "load_condition": {
+    "type": "mod_loaded",
+    "mod": "tconstruct"
+  },
+  "key": "modularis:tconstruct/queens_slime",
+  "properties": {
+    "helmet": {
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.knockback_resistance",
+          "value": "-0.1",
+          "operation": "+",
+          "slot": "head"
+        }
+      ]
+    },
+    "front_chest": {
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.knockback_resistance",
+          "value": "-0.1",
+          "operation": "+",
+          "slot": "chest"
+        }
+      ]
+    },
+    "belt": {
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.knockback_resistance",
+          "value": "-0.1",
+          "operation": "+",
+          "slot": "legs"
+        }
+      ]
+    },
+    "boot_left": {
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.knockback_resistance",
+          "value": "-0.1",
+          "operation": "+",
+          "slot": "feet"
+        }
+      ]
+    }
+  }
+}

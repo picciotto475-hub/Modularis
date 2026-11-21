@@ -1,0 +1,45 @@
+{
+  "load_condition": {
+    "type": "mod_loaded",
+    "mod": "tconstruct"
+  },
+  "translation": {
+    "translate": "material.modularis.manyullyn"
+  },
+  "icon": {
+    "type": "item",
+    "item": "tconstruct:manyullyn_ingot"
+  },
+  "groups": [
+    "metal"
+  ],
+  "tier": 5,
+  "hardness": 7.3,
+  "density": 3.8,
+  "flexibility": 1,
+  "durability": 1360,
+  "armor_durability": 35,
+  "enchantability": 14,
+  "toughness": 0,
+  "armor_toughness": 3.0,
+  "mining_speed": 6.5,
+  "mining_level": "minecraft:incorrect_for_netherite_tool",
+  "items": [
+    {
+      "item": "tconstruct:manyullyn_ingot",
+      "value": 1.0
+    },
+    {
+      "item": "tconstruct:manyullyn_nugget",
+      "value": 0.11112
+    },
+    {
+      "item": "tconstruct:manyullyn_block",
+      "value": 9.0
+    }
+  ],
+  "color_palette": {
+    "type": "image_generated_item",
+    "item": "tconstruct:manyullyn_ingot"
+  }
+}

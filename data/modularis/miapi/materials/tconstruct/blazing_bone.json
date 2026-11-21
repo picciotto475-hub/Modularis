@@ -1,0 +1,35 @@
+{
+  "load_condition": { "type": "mod_loaded", "mod": "tconstruct" },
+  "translation": {
+    "translate": "material.modularis.blazing_bone"
+  },
+  "icon": {
+    "type": "item",
+    "item": "tconstruct:blazing_bone"
+  },
+  "groups": ["bone"],
+  "tier": 5,
+  "hardness": 6,
+  "density": 4.5,
+  "flexibility": 4,
+  "durability": 568,
+  "enchantability": 7,
+  "toughness": 1,
+  "mining_speed": 6,
+  "mining_level": "minecraft:incorrect_for_iron_tool",
+  "items": [
+    { "item": "tconstruct:blazing_bone", "value": 1.0 }
+  ],
+  "properties": {
+    "default": {
+      "emissive": {
+        "sky": 15,
+        "block": 15
+      }
+    }
+  },
+  "color_palette": {
+    "type": "image_generated_item",
+    "item": "tconstruct:blazing_bone"
+  }
+}

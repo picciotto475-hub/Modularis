@@ -1,0 +1,27 @@
+{
+  "load_condition": { "type": "mod_loaded", "mod": "tconstruct" },
+  "translation": {
+    "translate": "material.modularis.blazewood"
+  },
+  "icon": {
+    "type": "item",
+    "item": "tconstruct:blazewood"
+  },
+  "groups": ["wood"],
+  "tier": 1,
+  "hardness": 3,
+  "density": 3,
+  "flexibility": 3,
+  "enchantability": 15,
+  "durability": 59,
+  "mining_speed": 2,
+  "mining_level": "minecraft:incorrect_for_wooden_tool",
+  "textures": ["wood", "rough"],
+  "items": [
+    { "item": "tconstruct:blazewood", "value": 1.0 }
+  ],
+  "color_palette": {
+    "type": "image_generated_item",
+    "item": "tconstruct:blazewood"
+  }
+}

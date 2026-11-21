@@ -1,0 +1,97 @@
+{
+  "load_condition": {
+    "type": "mod_loaded",
+    "mod": "tconstruct"
+  },
+  "key": "modularis:tconstruct/manyullyn",
+  "properties": {
+    "helmet": {
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.armor",
+          "value": "-1/1",
+          "operation": "+",
+          "slot": "head"
+        },
+        {
+          "attribute": "minecraft:generic.knockback_resistance",
+          "value": "-0.05",
+          "operation": "+",
+          "slot": "head"
+        }
+      ],
+      "fake_enchants": {
+        "minecraft:protection": "max([old_level],1)"
+      }
+    },
+    "chest": {
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.armor",
+          "value": "-1.3/4",
+          "operation": "+",
+          "slot": "chest"
+        }
+      ]
+    },
+    "pants": {
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.armor",
+          "value": "-1.3/3",
+          "operation": "+",
+          "slot": "legs"
+        }
+      ]
+    },
+    "boot": {
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.armor",
+          "value": "-1/2",
+          "operation": "+",
+          "slot": "feet"
+        }
+      ]
+    },
+    "front_chest": {
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.knockback_resistance",
+          "value": "-0.05",
+          "operation": "+",
+          "slot": "chest"
+        }
+      ],
+      "fake_enchants": {
+        "minecraft:protection": "max([old_level],1)"
+      }
+    },
+    "belt": {
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.knockback_resistance",
+          "value": "-0.05",
+          "operation": "+",
+          "slot": "legs"
+        }
+      ],
+      "fake_enchants": {
+        "minecraft:protection": "max([old_level],1)"
+      }
+    },
+    "boot_left": {
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.knockback_resistance",
+          "value": "-0.05",
+          "operation": "+",
+          "slot": "feet"
+        }
+      ],
+      "fake_enchants": {
+        "minecraft:protection": "max([old_level],1)"
+      }
+    }
+  }
+}

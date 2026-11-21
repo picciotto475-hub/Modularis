@@ -1,0 +1,45 @@
+{
+  "load_condition": {
+    "type": "mod_loaded",
+    "mod": "tconstruct"
+  },
+  "translation": {
+    "translate": "material.modularis.pig_iron"
+  },
+  "icon": {
+    "type": "item",
+    "item": "tconstruct:pig_iron_ingot"
+  },
+  "groups": [
+    "metal"
+  ],
+  "tier": 4,
+  "hardness": 5.5,
+  "density": 3.8,
+  "flexibility": 1,
+  "durability": 623,
+  "armor_durability": 23,
+  "enchantability": 14,
+  "toughness": 0,
+  "armor_toughness": 1.0,
+  "mining_speed": 6.0,
+  "mining_level": "minecraft:incorrect_for_diamond_tool",
+  "items": [
+    {
+      "item": "tconstruct:pig_iron_ingot",
+      "value": 1.0
+    },
+    {
+      "item": "tconstruct:pig_iron_nugget",
+      "value": 0.11112
+    },
+    {
+      "item": "tconstruct:pig_iron_block",
+      "value": 9.0
+    }
+  ],
+  "color_palette": {
+    "type": "image_generated_item",
+    "item": "tconstruct:pig_iron_ingot"
+  }
+}

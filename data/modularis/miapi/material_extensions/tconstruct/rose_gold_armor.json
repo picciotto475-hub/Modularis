@@ -1,0 +1,19 @@
+{
+  "load_condition": {
+    "type": "mod_loaded",
+    "mod": "tconstruct"
+  },
+  "key": "modularis:tconstruct/rose_gold",
+  "properties": {
+    "boot": {
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.armor",
+          "value": "-1/2",
+          "operation": "+",
+          "slot": "feet"
+        }
+      ]
+    }
+  }
+}

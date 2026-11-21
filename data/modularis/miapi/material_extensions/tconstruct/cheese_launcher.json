@@ -1,0 +1,16 @@
+{
+  "load_condition": { "type": "mod_loaded", "mod": "tconstruct" },
+  "key": "modularis:tconstruct/cheese",
+  "properties": {
+    "blade": {
+      "attributes": [
+        { "attribute": "minecraft:generic.attack_knockback", "value": "4", "operation": "+", "slot": "mainhand" }
+      ]
+    },
+    "tool": {
+      "attributes": [
+        { "attribute": "minecraft:generic.attack_knockback", "value": "2", "operation": "+", "slot": "mainhand" }
+      ]
+    }
+  }
+}

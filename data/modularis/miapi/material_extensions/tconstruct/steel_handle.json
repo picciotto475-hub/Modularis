@@ -1,0 +1,149 @@
+{
+  "load_condition": {
+    "type": "mod_loaded",
+    "mod": "tconstruct"
+  },
+  "key": "modularis:tconstruct/steel",
+  "properties": {
+    "normal_handle": {
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.attack_damage",
+          "value": "0.05",
+          "operation": "+",
+          "target_operation": "**",
+          "slot": "mainhand"
+        },
+        {
+          "attribute": "minecraft:player.block_break_speed",
+          "value": "0.05",
+          "operation": "+",
+          "target_operation": "**",
+          "slot": "mainhand"
+        }
+      ],
+      "durability": {
+        "operation": "**",
+        "value": "0.05"
+      },
+      "gui_stat": {
+        "steel_handle_durability": {
+          "value": 5,
+          "min": 5,
+          "max": 5,
+          "header": {
+            "translate": "modularis.material.stat.tconstruct_handle_durability"
+          },
+          "description": {
+            "translate": "modularis.material.stat.tconstruct_handle_durability.description"
+          }
+        }
+      }
+    },
+    "polearm_handle": {
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.attack_damage",
+          "value": "0.05",
+          "operation": "+",
+          "target_operation": "**",
+          "slot": "mainhand"
+        },
+        {
+          "attribute": "minecraft:player.block_break_speed",
+          "value": "0.05",
+          "operation": "+",
+          "target_operation": "**",
+          "slot": "mainhand"
+        }
+      ],
+      "durability": {
+        "operation": "**",
+        "value": "0.05"
+      },
+      "gui_stat": {
+        "steel_handle_durability": {
+          "value": 5,
+          "min": 5,
+          "max": 5,
+          "header": {
+            "translate": "modularis.material.stat.tconstruct_handle_durability"
+          },
+          "description": {
+            "translate": "modularis.material.stat.tconstruct_handle_durability.description"
+          }
+        }
+      }
+    },
+    "tool_handle": {
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.attack_damage",
+          "value": "0.05",
+          "operation": "+",
+          "target_operation": "**",
+          "slot": "mainhand"
+        },
+        {
+          "attribute": "minecraft:player.block_break_speed",
+          "value": "0.05",
+          "operation": "+",
+          "target_operation": "**",
+          "slot": "mainhand"
+        }
+      ],
+      "durability": {
+        "operation": "**",
+        "value": "0.05"
+      },
+      "gui_stat": {
+        "steel_handle_durability": {
+          "value": 5,
+          "min": 5,
+          "max": 5,
+          "header": {
+            "translate": "modularis.material.stat.tconstruct_handle_durability"
+          },
+          "description": {
+            "translate": "modularis.material.stat.tconstruct_handle_durability.description"
+          }
+        }
+      }
+    },
+    "twin_handle": {
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.attack_damage",
+          "value": "0.05",
+          "operation": "+",
+          "target_operation": "**",
+          "slot": "mainhand"
+        },
+        {
+          "attribute": "minecraft:player.block_break_speed",
+          "value": "0.05",
+          "operation": "+",
+          "target_operation": "**",
+          "slot": "mainhand"
+        }
+      ],
+      "durability": {
+        "operation": "**",
+        "value": "0.05"
+      },
+      "gui_stat": {
+        "steel_handle_durability": {
+          "value": 5,
+          "min": 5,
+          "max": 5,
+          "header": {
+            "translate": "modularis.material.stat.tconstruct_handle_durability"
+          },
+          "description": {
+            "translate": "modularis.material.stat.tconstruct_handle_durability.description"
+          }
+        }
+      }
+    }
+  }
+}

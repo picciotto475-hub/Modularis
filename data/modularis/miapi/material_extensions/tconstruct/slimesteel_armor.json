@@ -1,0 +1,29 @@
+{
+  "load_condition": {
+    "type": "mod_loaded",
+    "mod": "tconstruct"
+  },
+  "key": "modularis:tconstruct/slimesteel",
+  "properties": {
+    "chest": {
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.armor",
+          "value": "-0.5/4",
+          "operation": "+",
+          "slot": "chest"
+        }
+      ]
+    },
+    "pants": {
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.armor",
+          "value": "-0.5/3",
+          "operation": "+",
+          "slot": "legs"
+        }
+      ]
+    }
+  }
+}

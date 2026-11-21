@@ -1,0 +1,42 @@
+{
+  "load_condition": { "type": "mod_loaded", "mod": "tconstruct" },
+  "key": "modularis:tconstruct/blazing_bone",
+  "properties": {
+    "blade": {
+      "immolate": "10",
+      "gui_stat": {
+        "blazing_bone_conducting": {
+          "value": 20, "min": 20, "max": 20,
+          "header": { "translate": "modularis.material.stat.blazing_bone_conducting" },
+          "description": { "translate": "modularis.material.stat.blazing_bone_conducting.description" }
+        }
+      }
+    },
+    "tool": {
+      "immolate": "5",
+      "gui_stat": {
+        "blazing_bone_conducting": {
+          "value": 10, "min": 10, "max": 10,
+          "header": { "translate": "modularis.material.stat.blazing_bone_conducting" },
+          "description": { "translate": "modularis.material.stat.blazing_bone_conducting.description" }
+        }
+      }
+    },
+    "arrow_head": {
+      "damage_command": [
+        {
+          "command": ["effect give @s tconstruct:conductive 7 0"],
+          "onRangedAttack": true,
+          "runAt": "DEFENDER"
+        }
+      ],
+      "gui_stat": {
+        "blazing_bone_conductive": {
+          "value": 7, "min": 7, "max": 7,
+          "header": { "translate": "modularis.material.stat.blazing_bone_conductive" },
+          "description": { "translate": "modularis.material.stat.blazing_bone_conductive.description" }
+        }
+      }
+    }
+  }
+}

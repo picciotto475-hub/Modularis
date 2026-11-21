@@ -1,0 +1,53 @@
+{
+  "load_condition": {
+    "type": "mod_loaded",
+    "mod": "tconstruct"
+  },
+  "translation": {
+    "translate": "material.modularis.cinderslime"
+  },
+  "icon": {
+    "type": "item",
+    "item": "tconstruct:cinderslime_ingot"
+  },
+  "groups": [
+    "metal"
+  ],
+  "tier": 5,
+  "hardness": 5.25,
+  "density": 3.8,
+  "flexibility": 1,
+  "durability": 1378.1,
+  "armor_durability": 45,
+  "enchantability": 14,
+  "toughness": 0,
+  "armor_toughness": 0.0,
+  "mining_speed": 6.5,
+  "mining_level": "minecraft:incorrect_for_netherite_tool",
+  "items": [
+    {
+      "item": "tconstruct:cinderslime_ingot",
+      "value": 1.0
+    },
+    {
+      "item": "tconstruct:cinderslime_nugget",
+      "value": 0.11112
+    },
+    {
+      "item": "tconstruct:cinderslime_block",
+      "value": 9.0
+    }
+  ],
+  "properties": {
+    "default": {
+      "emissive": {
+        "sky": 10,
+        "block": 10
+      }
+    }
+  },
+  "color_palette": {
+    "type": "image_generated_item",
+    "item": "tconstruct:cinderslime_ingot"
+  }
+}

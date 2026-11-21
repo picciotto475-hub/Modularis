@@ -1,0 +1,57 @@
+{
+  "load_condition": {
+    "type": "mod_loaded",
+    "mod": "tconstruct"
+  },
+  "key": "modularis:tconstruct/venombone",
+  "properties": {
+    "arrow_head": {
+      "damage_command": [
+        {
+          "command": [
+            "effect give @s tconstruct:venom 7 0"
+          ],
+          "onRangedAttack": true,
+          "runAt": "DEFENDER"
+        }
+      ],
+      "gui_stat": {
+        "venombone_venom": {
+          "value": 7,
+          "min": 7,
+          "max": 7,
+          "header": {
+            "translate": "modularis.material.stat.venombone_venom"
+          },
+          "description": {
+            "translate": "modularis.material.stat.venombone_venom.description"
+          }
+        }
+      }
+    },
+    "sharp": {
+      "damage_command": [
+        {
+          "command": [
+            "execute if predicate modularis:tconstruct/venombone_venom_chance run effect give @s tconstruct:venom 5 0"
+          ],
+          "onMeleeAttack": true,
+          "runAt": "DEFENDER"
+        }
+      ],
+      "gui_stat": {
+        "venombone_melee_venom": {
+          "value": 15,
+          "min": 15,
+          "max": 15,
+          "header": {
+            "translate": "modularis.material.stat.venombone_melee_venom"
+          },
+          "description": {
+            "translate": "modularis.material.stat.venombone_melee_venom.description"
+          }
+        }
+      }
+    }
+  }
+}

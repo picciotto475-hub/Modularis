@@ -1,0 +1,49 @@
+{
+  "load_condition": {
+    "type": "mod_loaded",
+    "mod": "tconstruct"
+  },
+  "key": "modularis:tconstruct/steel",
+  "properties": {
+    "helmet": {
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.armor",
+          "value": "-1",
+          "operation": "+",
+          "slot": "head"
+        }
+      ]
+    },
+    "chest": {
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.armor",
+          "value": "-0.0375/4",
+          "operation": "+",
+          "slot": "chest"
+        }
+      ]
+    },
+    "pants": {
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.armor",
+          "value": "-1.0375/3",
+          "operation": "+",
+          "slot": "legs"
+        }
+      ]
+    },
+    "boot": {
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.armor",
+          "value": "-1/2",
+          "operation": "+",
+          "slot": "feet"
+        }
+      ]
+    }
+  }
+}

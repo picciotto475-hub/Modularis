@@ -1,0 +1,27 @@
+{
+  "load_condition": { "type": "mod_loaded", "mod": "tconstruct" },
+  "translation": {
+    "translate": "material.modularis.venombone"
+  },
+  "icon": {
+    "type": "item",
+    "item": "tconstruct:venombone"
+  },
+  "groups": ["bone"],
+  "tier": 3,
+  "hardness": 5.25,
+  "density": 4.5,
+  "flexibility": 4,
+  "durability": 177.5,
+  "enchantability": 7,
+  "toughness": 1,
+  "mining_speed": 4.5,
+  "mining_level": "minecraft:incorrect_for_iron_tool",
+  "items": [
+    { "item": "tconstruct:venombone", "value": 1.0 }
+  ],
+  "color_palette": {
+    "type": "image_generated_item",
+    "item": "tconstruct:venombone"
+  }
+}

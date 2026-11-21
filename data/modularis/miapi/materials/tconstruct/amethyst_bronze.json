@@ -1,0 +1,45 @@
+{
+  "load_condition": {
+    "type": "mod_loaded",
+    "mod": "tconstruct"
+  },
+  "translation": {
+    "translate": "material.modularis.amethyst_bronze"
+  },
+  "icon": {
+    "type": "item",
+    "item": "tconstruct:amethyst_bronze_ingot"
+  },
+  "groups": [
+    "metal"
+  ],
+  "tier": 4,
+  "hardness": 4.5,
+  "density": 3.8,
+  "flexibility": 1,
+  "durability": 777,
+  "armor_durability": 28,
+  "enchantability": 14,
+  "toughness": 0,
+  "armor_toughness": 2.0,
+  "mining_speed": 7.0,
+  "mining_level": "minecraft:incorrect_for_diamond_tool",
+  "items": [
+    {
+      "item": "tconstruct:amethyst_bronze_ingot",
+      "value": 1.0
+    },
+    {
+      "item": "tconstruct:amethyst_bronze_nugget",
+      "value": 0.11112
+    },
+    {
+      "item": "tconstruct:amethyst_bronze_block",
+      "value": 9.0
+    }
+  ],
+  "color_palette": {
+    "type": "image_generated_item",
+    "item": "tconstruct:amethyst_bronze_ingot"
+  }
+}

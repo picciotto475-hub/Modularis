@@ -1,0 +1,121 @@
+{
+  "load_condition": {
+    "type": "mod_loaded",
+    "mod": "tconstruct"
+  },
+  "key": "modularis:tconstruct/slimesteel",
+  "properties": {
+    "normal_handle": {
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.attack_speed",
+          "value": "-0.05",
+          "operation": "+",
+          "target_operation": "**",
+          "slot": "mainhand"
+        }
+      ],
+      "durability": {
+        "operation": "**",
+        "value": "0.2"
+      },
+      "gui_stat": {
+        "slimesteel_handle_durability": {
+          "value": 20,
+          "min": 20,
+          "max": 20,
+          "header": {
+            "translate": "modularis.material.stat.tconstruct_handle_durability"
+          },
+          "description": {
+            "translate": "modularis.material.stat.tconstruct_handle_durability.description"
+          }
+        }
+      }
+    },
+    "polearm_handle": {
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.attack_speed",
+          "value": "-0.05",
+          "operation": "+",
+          "target_operation": "**",
+          "slot": "mainhand"
+        }
+      ],
+      "durability": {
+        "operation": "**",
+        "value": "0.2"
+      },
+      "gui_stat": {
+        "slimesteel_handle_durability": {
+          "value": 20,
+          "min": 20,
+          "max": 20,
+          "header": {
+            "translate": "modularis.material.stat.tconstruct_handle_durability"
+          },
+          "description": {
+            "translate": "modularis.material.stat.tconstruct_handle_durability.description"
+          }
+        }
+      }
+    },
+    "tool_handle": {
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.attack_speed",
+          "value": "-0.05",
+          "operation": "+",
+          "target_operation": "**",
+          "slot": "mainhand"
+        }
+      ],
+      "durability": {
+        "operation": "**",
+        "value": "0.2"
+      },
+      "gui_stat": {
+        "slimesteel_handle_durability": {
+          "value": 20,
+          "min": 20,
+          "max": 20,
+          "header": {
+            "translate": "modularis.material.stat.tconstruct_handle_durability"
+          },
+          "description": {
+            "translate": "modularis.material.stat.tconstruct_handle_durability.description"
+          }
+        }
+      }
+    },
+    "twin_handle": {
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.attack_speed",
+          "value": "-0.05",
+          "operation": "+",
+          "target_operation": "**",
+          "slot": "mainhand"
+        }
+      ],
+      "durability": {
+        "operation": "**",
+        "value": "0.2"
+      },
+      "gui_stat": {
+        "slimesteel_handle_durability": {
+          "value": 20,
+          "min": 20,
+          "max": 20,
+          "header": {
+            "translate": "modularis.material.stat.tconstruct_handle_durability"
+          },
+          "description": {
+            "translate": "modularis.material.stat.tconstruct_handle_durability.description"
+          }
+        }
+      }
+    }
+  }
+}

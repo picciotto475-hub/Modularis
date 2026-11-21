@@ -1,0 +1,135 @@
+{
+  "load_condition": {
+    "type": "mod_loaded",
+    "mod": "tconstruct"
+  },
+  "key": "modularis:tconstruct/amethyst_bronze",
+  "properties": {
+    "shovel": {
+      "module_stats": {
+        "modularis_amethyst_bronze_shovel": 1
+      },
+      "attributes": [
+        {
+          "attribute": "minecraft:player.block_break_speed",
+          "value": "(1/7)/[collect.add.module.modularis_amethyst_bronze_shovel]",
+          "operation": "+",
+          "target_operation": "**",
+          "slot": "mainhand"
+        }
+      ]
+    },
+    "axe": {
+      "module_stats": {
+        "modularis_amethyst_bronze_axe": 1
+      },
+      "attributes": [
+        {
+          "attribute": "minecraft:player.block_break_speed",
+          "value": "(1/7)/[collect.add.module.modularis_amethyst_bronze_axe]",
+          "operation": "+",
+          "target_operation": "**",
+          "slot": "mainhand"
+        }
+      ]
+    },
+    "arrow_head": {
+      "projectile_damage": "0.75",
+      "gui_stat": {
+        "amethyst_bronze_arrow_damage": {
+          "value": 0.75,
+          "min": 0.75,
+          "max": 0.75,
+          "header": {
+            "translate": "modularis.material.stat.amethyst_bronze_arrow_damage"
+          },
+          "description": {
+            "translate": "modularis.material.stat.amethyst_bronze_arrow_damage.description"
+          }
+        }
+      }
+    },
+    "helmet": {
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.attack_speed",
+          "value": "0.05",
+          "operation": "*",
+          "target_operation": "*",
+          "slot": "head"
+        }
+      ]
+    },
+    "front_chest": {
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.attack_speed",
+          "value": "0.05",
+          "operation": "*",
+          "target_operation": "*",
+          "slot": "chest"
+        }
+      ]
+    },
+    "belt": {
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.attack_speed",
+          "value": "0.05",
+          "operation": "*",
+          "target_operation": "*",
+          "slot": "legs"
+        }
+      ]
+    },
+    "boot_left": {
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.attack_speed",
+          "value": "0.05",
+          "operation": "*",
+          "target_operation": "*",
+          "slot": "feet"
+        }
+      ]
+    },
+    "chest": {
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.armor",
+          "value": "0.5/4",
+          "operation": "+",
+          "slot": "chest"
+        }
+      ]
+    },
+    "pants": {
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.armor",
+          "value": "1.5/3",
+          "operation": "+",
+          "slot": "legs"
+        }
+      ]
+    },
+    "bow_arms": {
+      "module_stats": {
+        "modularis_amethyst_bronze_bow_arms": 1
+      },
+      "bow_speed": {
+        "operation": "**",
+        "value": "0.15/[collect.add.module.modularis_amethyst_bronze_bow_arms]"
+      }
+    },
+    "crossbow_arms": {
+      "module_stats": {
+        "modularis_amethyst_bronze_crossbow_arms": 1
+      },
+      "bow_speed": {
+        "operation": "**",
+        "value": "0.15/[collect.add.module.modularis_amethyst_bronze_crossbow_arms]"
+      }
+    }
+  }
+}

@@ -1,0 +1,177 @@
+{
+  "load_condition": {
+    "type": "mod_loaded",
+    "mod": "tconstruct"
+  },
+  "key": "modularis:tconstruct/queens_slime",
+  "properties": {
+    "normal_handle": {
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.attack_damage",
+          "value": "-0.05",
+          "operation": "+",
+          "target_operation": "**",
+          "slot": "mainhand"
+        },
+        {
+          "attribute": "minecraft:generic.attack_speed",
+          "value": "-0.05",
+          "operation": "+",
+          "target_operation": "**",
+          "slot": "mainhand"
+        },
+        {
+          "attribute": "minecraft:player.block_break_speed",
+          "value": "-0.1",
+          "operation": "+",
+          "target_operation": "**",
+          "slot": "mainhand"
+        }
+      ],
+      "durability": {
+        "operation": "**",
+        "value": "0.35"
+      },
+      "gui_stat": {
+        "queens_slime_handle_durability": {
+          "value": 35,
+          "min": 35,
+          "max": 35,
+          "header": {
+            "translate": "modularis.material.stat.tconstruct_handle_durability"
+          },
+          "description": {
+            "translate": "modularis.material.stat.tconstruct_handle_durability.description"
+          }
+        }
+      }
+    },
+    "polearm_handle": {
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.attack_damage",
+          "value": "-0.05",
+          "operation": "+",
+          "target_operation": "**",
+          "slot": "mainhand"
+        },
+        {
+          "attribute": "minecraft:generic.attack_speed",
+          "value": "-0.05",
+          "operation": "+",
+          "target_operation": "**",
+          "slot": "mainhand"
+        },
+        {
+          "attribute": "minecraft:player.block_break_speed",
+          "value": "-0.1",
+          "operation": "+",
+          "target_operation": "**",
+          "slot": "mainhand"
+        }
+      ],
+      "durability": {
+        "operation": "**",
+        "value": "0.35"
+      },
+      "gui_stat": {
+        "queens_slime_handle_durability": {
+          "value": 35,
+          "min": 35,
+          "max": 35,
+          "header": {
+            "translate": "modularis.material.stat.tconstruct_handle_durability"
+          },
+          "description": {
+            "translate": "modularis.material.stat.tconstruct_handle_durability.description"
+          }
+        }
+      }
+    },
+    "tool_handle": {
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.attack_damage",
+          "value": "-0.05",
+          "operation": "+",
+          "target_operation": "**",
+          "slot": "mainhand"
+        },
+        {
+          "attribute": "minecraft:generic.attack_speed",
+          "value": "-0.05",
+          "operation": "+",
+          "target_operation": "**",
+          "slot": "mainhand"
+        },
+        {
+          "attribute": "minecraft:player.block_break_speed",
+          "value": "-0.1",
+          "operation": "+",
+          "target_operation": "**",
+          "slot": "mainhand"
+        }
+      ],
+      "durability": {
+        "operation": "**",
+        "value": "0.35"
+      },
+      "gui_stat": {
+        "queens_slime_handle_durability": {
+          "value": 35,
+          "min": 35,
+          "max": 35,
+          "header": {
+            "translate": "modularis.material.stat.tconstruct_handle_durability"
+          },
+          "description": {
+            "translate": "modularis.material.stat.tconstruct_handle_durability.description"
+          }
+        }
+      }
+    },
+    "twin_handle": {
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.attack_damage",
+          "value": "-0.05",
+          "operation": "+",
+          "target_operation": "**",
+          "slot": "mainhand"
+        },
+        {
+          "attribute": "minecraft:generic.attack_speed",
+          "value": "-0.05",
+          "operation": "+",
+          "target_operation": "**",
+          "slot": "mainhand"
+        },
+        {
+          "attribute": "minecraft:player.block_break_speed",
+          "value": "-0.1",
+          "operation": "+",
+          "target_operation": "**",
+          "slot": "mainhand"
+        }
+      ],
+      "durability": {
+        "operation": "**",
+        "value": "0.35"
+      },
+      "gui_stat": {
+        "queens_slime_handle_durability": {
+          "value": 35,
+          "min": 35,
+          "max": 35,
+          "header": {
+            "translate": "modularis.material.stat.tconstruct_handle_durability"
+          },
+          "description": {
+            "translate": "modularis.material.stat.tconstruct_handle_durability.description"
+          }
+        }
+      }
+    }
+  }
+}

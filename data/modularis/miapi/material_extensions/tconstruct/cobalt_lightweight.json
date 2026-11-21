@@ -1,0 +1,79 @@
+{
+  "load_condition": {
+    "type": "mod_loaded",
+    "mod": "tconstruct"
+  },
+  "key": "modularis:tconstruct/cobalt",
+  "properties": {
+    "blade": {
+      "module_stats": {
+        "modularis_cobalt_blade": 1
+      },
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.attack_speed",
+          "value": "0.08/[collect.add.module.modularis_cobalt_blade]",
+          "operation": "+",
+          "target_operation": "**",
+          "slot": "mainhand"
+        }
+      ]
+    },
+    "pickaxe": {
+      "module_stats": {
+        "modularis_cobalt_pickaxe": 1
+      },
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.attack_speed",
+          "value": "0.08/[collect.add.module.modularis_cobalt_pickaxe]",
+          "operation": "+",
+          "target_operation": "**",
+          "slot": "mainhand"
+        }
+      ]
+    },
+    "axe": {
+      "module_stats": {
+        "modularis_cobalt_axe": 1
+      },
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.attack_speed",
+          "value": "0.08/[collect.add.module.modularis_cobalt_axe]",
+          "operation": "+",
+          "target_operation": "**",
+          "slot": "mainhand"
+        }
+      ]
+    },
+    "shovel": {
+      "module_stats": {
+        "modularis_cobalt_shovel": 1
+      },
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.attack_speed",
+          "value": "0.08/[collect.add.module.modularis_cobalt_shovel]",
+          "operation": "+",
+          "target_operation": "**",
+          "slot": "mainhand"
+        }
+      ]
+    },
+    "hoe": {
+      "module_stats": {
+        "modularis_cobalt_hoe": 1
+      },
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.attack_speed",
+          "value": "0.08/[collect.add.module.modularis_cobalt_hoe]",
+          "operation": "+",
+          "target_operation": "**",
+          "slot": "mainhand"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "load_condition": {
+    "type": "mod_loaded",
+    "mod": "tconstruct"
+  },
+  "key": "modularis:tconstruct/cinderslime",
+  "properties": {
+    "handheld": {
+      "fake_enchants": {
+        "minecraft:unbreaking": "max([old_level],1)"
+      }
+    },
+    "chest": {
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.armor",
+          "value": "0.75/4",
+          "operation": "+",
+          "slot": "chest"
+        }
+      ]
+    },
+    "pants": {
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.armor",
+          "value": "-0.25/3",
+          "operation": "+",
+          "slot": "legs"
+        }
+      ]
+    },
+    "helmet": {
+      "fake_enchants": {
+        "minecraft:unbreaking": "max([old_level],1)"
+      }
+    },
+    "front_chest": {
+      "fake_enchants": {
+        "minecraft:unbreaking": "max([old_level],1)"
+      }
+    },
+    "belt": {
+      "fake_enchants": {
+        "minecraft:unbreaking": "max([old_level],1)"
+      }
+    },
+    "boot_left": {
+      "fake_enchants": {
+        "minecraft:unbreaking": "max([old_level],1)"
+      }
+    }
+  }
+}
