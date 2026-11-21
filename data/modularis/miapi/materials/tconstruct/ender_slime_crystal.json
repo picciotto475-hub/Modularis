@@ -1,0 +1,24 @@
+{
+  "load_condition": {
+    "type": "mod_loaded",
+    "mod": "tconstruct"
+  },
+  "translation": {
+    "translate": "material.modularis.ender_slime_crystal"
+  },
+  "icon": {
+    "type": "item",
+    "item": "tconstruct:ender_slime_crystal"
+  },
+  "enchantability": 0,
+  "items": [
+    {
+      "item": "tconstruct:ender_slime_crystal",
+      "value": 1.0
+    }
+  ],
+  "color_palette": {
+    "type": "image_generated_item",
+    "item": "tconstruct:ender_slime_crystal"
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "load_condition": {
+    "type": "mod_loaded",
+    "mod": "tconstruct"
+  },
+  "key": "modularis:tconstruct/ichor_slime_crystal",
+  "hidden_groups": [
+    "gem_melee",
+    "gem_armor"
+  ],
+  "properties": {
+    "gem_melee_handheld": {
+      "durability": [
+        {
+          "operation": "+",
+          "value": "125"
+        }
+      ],
+      "gui_stat": {
+        "ichor_slime_crystal_durability_bonus": {
+          "value": 125,
+          "min": 125,
+          "max": 125,
+          "header": {
+            "translate": "modularis.material.stat.durability_bonus"
+          },
+          "description": {
+            "translate": "modularis.material.stat.durability_bonus.description"
+          }
+        }
+      },
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.attack_speed",
+          "value": "0.025",
+          "operation": "+",
+          "slot": "mainhand",
+          "target_operation": "**"
+        },
+        {
+          "attribute": "minecraft:generic.movement_speed",
+          "value": "0.05",
+          "operation": "+",
+          "slot": "mainhand",
+          "target_operation": "**"
+        },
+        {
+          "attribute": "minecraft:player.block_break_speed",
+          "value": "0.075",
+          "operation": "+",
+          "slot": "mainhand",
+          "target_operation": "**"
+        }
+      ]
+    },
+    "gem_armor_handheld": {
+      "durability": [
+        {
+          "operation": "+",
+          "value": "125"
+        }
+      ],
+      "gui_stat": {
+        "ichor_slime_crystal_durability_bonus": {
+          "value": 125,
+          "min": 125,
+          "max": 125,
+          "header": {
+            "translate": "modularis.material.stat.durability_bonus"
+          },
+          "description": {
+            "translate": "modularis.material.stat.durability_bonus.description"
+          }
+        }
+      },
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.attack_speed",
+          "value": "0.025",
+          "operation": "+",
+          "slot": "armor",
+          "target_operation": "**"
+        },
+        {
+          "attribute": "minecraft:generic.movement_speed",
+          "value": "0.05",
+          "operation": "+",
+          "slot": "armor",
+          "target_operation": "**"
+        },
+        {
+          "attribute": "minecraft:player.block_break_speed",
+          "value": "0.075",
+          "operation": "+",
+          "slot": "armor",
+          "target_operation": "**"
+        }
+      ]
+    }
+  }
+}

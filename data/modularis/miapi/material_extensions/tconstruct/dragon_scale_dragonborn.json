@@ -1,0 +1,133 @@
+{
+  "load_condition": {
+    "type": "mod_loaded",
+    "mod": "tconstruct"
+  },
+  "key": "modularis:tconstruct/dragon_scale",
+  "properties": {
+    "arrow_head": {
+      "projectile_damage": "0.5",
+      "gui_stat": {
+        "dragon_scale_arrow_damage": {
+          "value": 0.5,
+          "min": 0.5,
+          "max": 0.5,
+          "header": {
+            "translate": "modularis.material.stat.dragon_scale_arrow_damage"
+          },
+          "description": {
+            "translate": "modularis.material.stat.dragon_scale_arrow_damage.description"
+          }
+        }
+      }
+    },
+    "helmet": {
+      "attributes": [
+        {
+          "attribute": "miapi:generic.crit_damage",
+          "value": "0.05",
+          "operation": "+",
+          "target_operation": "**",
+          "slot": "head"
+        }
+      ],
+      "fake_enchants": {
+        "minecraft:protection": "max([old_level],1)"
+      },
+      "gui_stat": {
+        "dragon_scale_crit_damage": {
+          "value": 5,
+          "min": 5,
+          "max": 5,
+          "header": {
+            "translate": "modularis.material.stat.dragon_scale_crit_damage"
+          },
+          "description": {
+            "translate": "modularis.material.stat.dragon_scale_crit_damage.description"
+          }
+        }
+      }
+    },
+    "front_chest": {
+      "attributes": [
+        {
+          "attribute": "miapi:generic.crit_damage",
+          "value": "0.05",
+          "operation": "+",
+          "target_operation": "**",
+          "slot": "chest"
+        }
+      ],
+      "fake_enchants": {
+        "minecraft:protection": "max([old_level],1)"
+      },
+      "gui_stat": {
+        "dragon_scale_crit_damage": {
+          "value": 5,
+          "min": 5,
+          "max": 5,
+          "header": {
+            "translate": "modularis.material.stat.dragon_scale_crit_damage"
+          },
+          "description": {
+            "translate": "modularis.material.stat.dragon_scale_crit_damage.description"
+          }
+        }
+      }
+    },
+    "belt": {
+      "attributes": [
+        {
+          "attribute": "miapi:generic.crit_damage",
+          "value": "0.05",
+          "operation": "+",
+          "target_operation": "**",
+          "slot": "legs"
+        }
+      ],
+      "fake_enchants": {
+        "minecraft:protection": "max([old_level],1)"
+      },
+      "gui_stat": {
+        "dragon_scale_crit_damage": {
+          "value": 5,
+          "min": 5,
+          "max": 5,
+          "header": {
+            "translate": "modularis.material.stat.dragon_scale_crit_damage"
+          },
+          "description": {
+            "translate": "modularis.material.stat.dragon_scale_crit_damage.description"
+          }
+        }
+      }
+    },
+    "boot_left": {
+      "attributes": [
+        {
+          "attribute": "miapi:generic.crit_damage",
+          "value": "0.05",
+          "operation": "+",
+          "target_operation": "**",
+          "slot": "feet"
+        }
+      ],
+      "fake_enchants": {
+        "minecraft:protection": "max([old_level],1)"
+      },
+      "gui_stat": {
+        "dragon_scale_crit_damage": {
+          "value": 5,
+          "min": 5,
+          "max": 5,
+          "header": {
+            "translate": "modularis.material.stat.dragon_scale_crit_damage"
+          },
+          "description": {
+            "translate": "modularis.material.stat.dragon_scale_crit_damage.description"
+          }
+        }
+      }
+    }
+  }
+}

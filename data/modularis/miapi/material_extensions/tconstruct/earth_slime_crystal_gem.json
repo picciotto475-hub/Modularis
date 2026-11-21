@@ -1,0 +1,55 @@
+{
+  "load_condition": {
+    "type": "mod_loaded",
+    "mod": "tconstruct"
+  },
+  "key": "modularis:tconstruct/earth_slime_crystal",
+  "hidden_groups": [
+    "gem_melee",
+    "gem_armor"
+  ],
+  "properties": {
+    "gem_melee_handheld": {
+      "durability": [
+        {
+          "operation": "+",
+          "value": "150"
+        }
+      ],
+      "gui_stat": {
+        "earth_slime_crystal_durability_bonus": {
+          "value": 150,
+          "min": 150,
+          "max": 150,
+          "header": {
+            "translate": "modularis.material.stat.durability_bonus"
+          },
+          "description": {
+            "translate": "modularis.material.stat.durability_bonus.description"
+          }
+        }
+      }
+    },
+    "gem_armor_handheld": {
+      "durability": [
+        {
+          "operation": "+",
+          "value": "150"
+        }
+      ],
+      "gui_stat": {
+        "earth_slime_crystal_durability_bonus": {
+          "value": 150,
+          "min": 150,
+          "max": 150,
+          "header": {
+            "translate": "modularis.material.stat.durability_bonus"
+          },
+          "description": {
+            "translate": "modularis.material.stat.durability_bonus.description"
+          }
+        }
+      }
+    }
+  }
+}

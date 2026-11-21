@@ -1,0 +1,45 @@
+{
+  "load_condition": {
+    "type": "mod_loaded",
+    "mod": "tconstruct"
+  },
+  "translation": {
+    "translate": "material.modularis.knightslime"
+  },
+  "icon": {
+    "type": "item",
+    "item": "tconstruct:knightslime_ingot"
+  },
+  "groups": [
+    "metal"
+  ],
+  "tier": 5,
+  "hardness": 6.25,
+  "density": 3.8,
+  "flexibility": 1,
+  "durability": 1186.7,
+  "armor_durability": 36,
+  "enchantability": 14,
+  "toughness": 0,
+  "armor_toughness": 1.0,
+  "mining_speed": 8.25,
+  "mining_level": "minecraft:incorrect_for_netherite_tool",
+  "items": [
+    {
+      "item": "tconstruct:knightslime_ingot",
+      "value": 1.0
+    },
+    {
+      "item": "tconstruct:knightslime_nugget",
+      "value": 0.11112
+    },
+    {
+      "item": "tconstruct:knightslime_block",
+      "value": 9.0
+    }
+  ],
+  "color_palette": {
+    "type": "image_generated_item",
+    "item": "tconstruct:knightslime_ingot"
+  }
+}

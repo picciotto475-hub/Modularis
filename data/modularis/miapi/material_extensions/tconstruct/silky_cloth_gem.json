@@ -1,0 +1,17 @@
+{
+  "load_condition": {
+    "type": "mod_loaded",
+    "mod": "tconstruct"
+  },
+  "key": "modularis:tconstruct/silky_cloth",
+  "hidden_groups": [
+    "gem_melee"
+  ],
+  "properties": {
+    "gem_melee_handheld": {
+      "fake_enchants": {
+        "minecraft:silk_touch": "max([old_level],1)"
+      }
+    }
+  }
+}

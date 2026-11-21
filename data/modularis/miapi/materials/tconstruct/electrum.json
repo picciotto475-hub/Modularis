@@ -1,0 +1,52 @@
+{
+  "load_condition": {
+    "type": "mod_loaded",
+    "mod": "tconstruct"
+  },
+  "translation": {
+    "translate": "material.modularis.tconstruct_electrum"
+  },
+  "icon": {
+    "type": "item",
+    "item": "tconstruct:fake_ingot"
+  },
+  "groups": [
+    "metal"
+  ],
+  "tier": 4,
+  "hardness": 4.5,
+  "density": 3.8,
+  "flexibility": 1,
+  "durability": 232.5,
+  "armor_durability": 14,
+  "enchantability": 14,
+  "toughness": 0,
+  "armor_toughness": 0.0,
+  "mining_speed": 8.0,
+  "mining_level": "minecraft:incorrect_for_iron_tool",
+  "items": [
+    {
+      "type": "neoforge:components",
+      "items": "tconstruct:fake_ingot",
+      "components": {
+        "minecraft:custom_data": {
+          "Material": "tconstruct:electrum"
+        }
+      },
+      "strict": false,
+      "value": 1.0
+    }
+  ],
+  "color_palette": {
+    "type": "grayscale_map",
+    "colors": {
+      "63": "605626",
+      "102": "7C7031",
+      "140": "B2A03E",
+      "178": "D6C044",
+      "216": "F2DE60",
+      "255": "FFF2A3"
+    },
+    "filler": "interpolate"
+  }
+}

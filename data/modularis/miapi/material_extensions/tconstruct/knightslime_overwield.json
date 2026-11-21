@@ -1,0 +1,137 @@
+{
+  "load_condition": {
+    "type": "mod_loaded",
+    "mod": "tconstruct"
+  },
+  "key": "modularis:tconstruct/knightslime",
+  "properties": {
+    "blade": {
+      "module_stats": {
+        "modularis_knightslime_blade": 1
+      },
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.attack_speed",
+          "value": "0.075/[collect.add.module.modularis_knightslime_blade]",
+          "operation": "+",
+          "target_operation": "**",
+          "slot": "mainhand"
+        }
+      ]
+    },
+    "pickaxe": {
+      "module_stats": {
+        "modularis_knightslime_pickaxe": 1
+      },
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.attack_speed",
+          "value": "0.075/[collect.add.module.modularis_knightslime_pickaxe]",
+          "operation": "+",
+          "target_operation": "**",
+          "slot": "mainhand"
+        }
+      ]
+    },
+    "axe": {
+      "module_stats": {
+        "modularis_knightslime_axe": 1
+      },
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.attack_speed",
+          "value": "0.075/[collect.add.module.modularis_knightslime_axe]",
+          "operation": "+",
+          "target_operation": "**",
+          "slot": "mainhand"
+        }
+      ]
+    },
+    "shovel": {
+      "module_stats": {
+        "modularis_knightslime_shovel": 1
+      },
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.attack_speed",
+          "value": "0.075/[collect.add.module.modularis_knightslime_shovel]",
+          "operation": "+",
+          "target_operation": "**",
+          "slot": "mainhand"
+        }
+      ]
+    },
+    "hoe": {
+      "module_stats": {
+        "modularis_knightslime_hoe": 1
+      },
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.attack_speed",
+          "value": "0.075/[collect.add.module.modularis_knightslime_hoe]",
+          "operation": "+",
+          "target_operation": "**",
+          "slot": "mainhand"
+        }
+      ]
+    },
+    "helmet": {
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.armor",
+          "value": "-1/1",
+          "operation": "+",
+          "slot": "head"
+        }
+      ],
+      "fake_enchants": {
+        "minecraft:protection": "max([old_level],1)"
+      }
+    },
+    "chest": {
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.armor",
+          "value": "-0.25/4",
+          "operation": "+",
+          "slot": "chest"
+        }
+      ]
+    },
+    "pants": {
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.armor",
+          "value": "-1.25/3",
+          "operation": "+",
+          "slot": "legs"
+        }
+      ]
+    },
+    "boot": {
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.armor",
+          "value": "-1/2",
+          "operation": "+",
+          "slot": "feet"
+        }
+      ]
+    },
+    "front_chest": {
+      "fake_enchants": {
+        "minecraft:protection": "max([old_level],1)"
+      }
+    },
+    "belt": {
+      "fake_enchants": {
+        "minecraft:protection": "max([old_level],1)"
+      }
+    },
+    "boot_left": {
+      "fake_enchants": {
+        "minecraft:protection": "max([old_level],1)"
+      }
+    }
+  }
+}

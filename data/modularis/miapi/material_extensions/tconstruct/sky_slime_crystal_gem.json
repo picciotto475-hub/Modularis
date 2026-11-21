@@ -1,0 +1,85 @@
+{
+  "load_condition": {
+    "type": "mod_loaded",
+    "mod": "tconstruct"
+  },
+  "key": "modularis:tconstruct/sky_slime_crystal",
+  "hidden_groups": [
+    "gem_melee",
+    "gem_armor"
+  ],
+  "properties": {
+    "gem_melee_handheld": {
+      "durability": [
+        {
+          "operation": "+",
+          "value": "150"
+        }
+      ],
+      "gui_stat": {
+        "sky_slime_crystal_durability_bonus": {
+          "value": 150,
+          "min": 150,
+          "max": 150,
+          "header": {
+            "translate": "modularis.material.stat.durability_bonus"
+          },
+          "description": {
+            "translate": "modularis.material.stat.durability_bonus.description"
+          }
+        }
+      },
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.gravity",
+          "value": "-0.05",
+          "operation": "+",
+          "slot": "mainhand",
+          "target_operation": "**"
+        },
+        {
+          "attribute": "minecraft:generic.safe_fall_distance",
+          "value": "1",
+          "operation": "+",
+          "slot": "mainhand"
+        }
+      ]
+    },
+    "gem_armor_handheld": {
+      "durability": [
+        {
+          "operation": "+",
+          "value": "150"
+        }
+      ],
+      "gui_stat": {
+        "sky_slime_crystal_durability_bonus": {
+          "value": 150,
+          "min": 150,
+          "max": 150,
+          "header": {
+            "translate": "modularis.material.stat.durability_bonus"
+          },
+          "description": {
+            "translate": "modularis.material.stat.durability_bonus.description"
+          }
+        }
+      },
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.gravity",
+          "value": "-0.05",
+          "operation": "+",
+          "slot": "armor",
+          "target_operation": "**"
+        },
+        {
+          "attribute": "minecraft:generic.safe_fall_distance",
+          "value": "1",
+          "operation": "+",
+          "slot": "armor"
+        }
+      ]
+    }
+  }
+}

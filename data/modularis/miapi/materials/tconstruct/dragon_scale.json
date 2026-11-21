@@ -1,0 +1,38 @@
+{
+  "load_condition": {
+    "type": "mod_loaded",
+    "mod": "tconstruct"
+  },
+  "translation": {
+    "translate": "material.modularis.dragon_scale"
+  },
+  "icon": {
+    "type": "item",
+    "item": "tconstruct:dragon_scale"
+  },
+  "groups": [
+    "fabric",
+    "wool"
+  ],
+  "tier": 5,
+  "hardness": 7.5,
+  "density": 2,
+  "flexibility": 3,
+  "durability": 2300,
+  "armor_durability": 42,
+  "enchantability": 18,
+  "toughness": 3,
+  "armor_toughness": 3.5,
+  "mining_speed": 9,
+  "mining_level": "minecraft:incorrect_for_netherite_tool",
+  "items": [
+    {
+      "item": "tconstruct:dragon_scale",
+      "value": 1.0
+    }
+  ],
+  "color_palette": {
+    "type": "image_generated_item",
+    "item": "tconstruct:dragon_scale"
+  }
+}

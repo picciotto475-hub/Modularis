@@ -1,0 +1,24 @@
+{
+  "load_condition": {
+    "type": "mod_loaded",
+    "mod": "tconstruct"
+  },
+  "translation": {
+    "translate": "material.modularis.earth_slime_crystal"
+  },
+  "icon": {
+    "type": "item",
+    "item": "tconstruct:earth_slime_crystal"
+  },
+  "enchantability": 0,
+  "items": [
+    {
+      "item": "tconstruct:earth_slime_crystal",
+      "value": 1.0
+    }
+  ],
+  "color_palette": {
+    "type": "image_generated_item",
+    "item": "tconstruct:earth_slime_crystal"
+  }
+}

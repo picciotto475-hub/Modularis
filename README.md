@@ -2,7 +2,7 @@
 
 A compatibility datapack for Truly Modular in Minecraft 1.21.
 
-**Materials created so far: 181**
+**Materials created so far: 206**
 
 ## Currently supported mods
 
@@ -28,6 +28,7 @@ A compatibility datapack for Truly Modular in Minecraft 1.21.
 - Primal
 - Quark
 - The Beyond
+- Tinkers' Construct
 - Twilight Forest
 
 ## Maybe you don't like how i did things and want plain materials only, with no special effects?

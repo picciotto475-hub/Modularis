@@ -1,0 +1,45 @@
+{
+  "load_condition": {
+    "type": "mod_loaded",
+    "mod": "tconstruct"
+  },
+  "translation": {
+    "translate": "material.modularis.hepatizon"
+  },
+  "icon": {
+    "type": "item",
+    "item": "tconstruct:hepatizon_ingot"
+  },
+  "groups": [
+    "metal"
+  ],
+  "tier": 5,
+  "hardness": 5.5,
+  "density": 3.8,
+  "flexibility": 1,
+  "durability": 1057.5,
+  "armor_durability": 32,
+  "enchantability": 14,
+  "toughness": 0,
+  "armor_toughness": 2.0,
+  "mining_speed": 8.8,
+  "mining_level": "minecraft:incorrect_for_netherite_tool",
+  "items": [
+    {
+      "item": "tconstruct:hepatizon_ingot",
+      "value": 1.0
+    },
+    {
+      "item": "tconstruct:hepatizon_nugget",
+      "value": 0.11112
+    },
+    {
+      "item": "tconstruct:hepatizon_block",
+      "value": 9.0
+    }
+  ],
+  "color_palette": {
+    "type": "image_generated_item",
+    "item": "tconstruct:hepatizon_ingot"
+  }
+}

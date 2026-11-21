@@ -1,0 +1,75 @@
+{
+  "load_condition": {
+    "type": "mod_loaded",
+    "mod": "tconstruct"
+  },
+  "key": "modularis:tconstruct/ender_slime_crystal",
+  "hidden_groups": [
+    "gem_melee",
+    "gem_armor"
+  ],
+  "properties": {
+    "gem_melee_handheld": {
+      "durability": [
+        {
+          "operation": "+",
+          "value": "225"
+        }
+      ],
+      "gui_stat": {
+        "ender_slime_crystal_durability_bonus": {
+          "value": 225,
+          "min": 225,
+          "max": 225,
+          "header": {
+            "translate": "modularis.material.stat.durability_bonus"
+          },
+          "description": {
+            "translate": "modularis.material.stat.durability_bonus.description"
+          }
+        }
+      }
+    },
+    "gem_armor_handheld": {
+      "durability": [
+        {
+          "operation": "+",
+          "value": "225"
+        }
+      ],
+      "gui_stat": {
+        "ender_slime_crystal_durability_bonus": {
+          "value": 225,
+          "min": 225,
+          "max": 225,
+          "header": {
+            "translate": "modularis.material.stat.durability_bonus"
+          },
+          "description": {
+            "translate": "modularis.material.stat.durability_bonus.description"
+          }
+        },
+        "ender_slime_crystal_blink": {
+          "value": 15,
+          "min": 15,
+          "max": 15,
+          "header": {
+            "translate": "modularis.material.stat.ender_slime_crystal_blink"
+          },
+          "description": {
+            "translate": "modularis.material.stat.ender_slime_crystal_blink.description"
+          }
+        }
+      },
+      "on_hit_potion": [
+        {
+          "potion": "minecraft:speed",
+          "amplifier": 1,
+          "duration": 60,
+          "target_self": true,
+          "probability": 0.15
+        }
+      ]
+    }
+  }
+}

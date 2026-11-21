@@ -1,0 +1,125 @@
+{
+  "load_condition": {
+    "type": "mod_loaded",
+    "mod": "tconstruct"
+  },
+  "key": "modularis:tconstruct/hepatizon",
+  "properties": {
+    "chest": {
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.armor",
+          "value": "0.5/4",
+          "operation": "+",
+          "slot": "chest"
+        }
+      ]
+    },
+    "pants": {
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.armor",
+          "value": "-0.5/3",
+          "operation": "+",
+          "slot": "legs"
+        }
+      ]
+    },
+    "helmet": {
+      "on_hit_potion": [
+        {
+          "potion": "minecraft:resistance",
+          "amplifier": 0,
+          "duration": 100,
+          "target_self": true,
+          "probability": 0.25
+        }
+      ],
+      "gui_stat": {
+        "hepatizon_resistance_chance": {
+          "value": 25,
+          "min": 25,
+          "max": 25,
+          "header": {
+            "translate": "modularis.material.stat.hepatizon_resistance_chance"
+          },
+          "description": {
+            "translate": "modularis.material.stat.hepatizon_resistance_chance.description"
+          }
+        }
+      }
+    },
+    "front_chest": {
+      "on_hit_potion": [
+        {
+          "potion": "minecraft:resistance",
+          "amplifier": 0,
+          "duration": 100,
+          "target_self": true,
+          "probability": 0.25
+        }
+      ],
+      "gui_stat": {
+        "hepatizon_resistance_chance": {
+          "value": 25,
+          "min": 25,
+          "max": 25,
+          "header": {
+            "translate": "modularis.material.stat.hepatizon_resistance_chance"
+          },
+          "description": {
+            "translate": "modularis.material.stat.hepatizon_resistance_chance.description"
+          }
+        }
+      }
+    },
+    "belt": {
+      "on_hit_potion": [
+        {
+          "potion": "minecraft:resistance",
+          "amplifier": 0,
+          "duration": 100,
+          "target_self": true,
+          "probability": 0.25
+        }
+      ],
+      "gui_stat": {
+        "hepatizon_resistance_chance": {
+          "value": 25,
+          "min": 25,
+          "max": 25,
+          "header": {
+            "translate": "modularis.material.stat.hepatizon_resistance_chance"
+          },
+          "description": {
+            "translate": "modularis.material.stat.hepatizon_resistance_chance.description"
+          }
+        }
+      }
+    },
+    "boot_left": {
+      "on_hit_potion": [
+        {
+          "potion": "minecraft:resistance",
+          "amplifier": 0,
+          "duration": 100,
+          "target_self": true,
+          "probability": 0.25
+        }
+      ],
+      "gui_stat": {
+        "hepatizon_resistance_chance": {
+          "value": 25,
+          "min": 25,
+          "max": 25,
+          "header": {
+            "translate": "modularis.material.stat.hepatizon_resistance_chance"
+          },
+          "description": {
+            "translate": "modularis.material.stat.hepatizon_resistance_chance.description"
+          }
+        }
+      }
+    }
+  }
+}

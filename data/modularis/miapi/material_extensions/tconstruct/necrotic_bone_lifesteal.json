@@ -1,0 +1,28 @@
+{
+  "load_condition": {
+    "type": "mod_loaded",
+    "mod": "tconstruct"
+  },
+  "key": "modularis:tconstruct/necrotic_bone",
+  "properties": {
+    "handheld": {
+      "module_stats": {
+        "modularis_necrotic_bone_part": 1
+      },
+      "leeching": "5/[collect.add.module.modularis_necrotic_bone_part]",
+      "gui_stat": {
+        "necrotic_bone_lifesteal": {
+          "value": 5,
+          "min": 5,
+          "max": 5,
+          "header": {
+            "translate": "modularis.material.stat.necrotic_bone_lifesteal"
+          },
+          "description": {
+            "translate": "modularis.material.stat.necrotic_bone_lifesteal.description"
+          }
+        }
+      }
+    }
+  }
+}

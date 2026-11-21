@@ -1,0 +1,13 @@
+{
+  "load_condition": {
+    "type": "mod_loaded",
+    "mod": "tconstruct"
+  },
+  "key": "miapi:metal/netherite",
+  "items": [
+    {
+      "item": "tconstruct:netherite_nugget",
+      "value": 0.11112
+    }
+  ]
+}

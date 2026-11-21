@@ -1,0 +1,279 @@
+{
+  "load_condition": {
+    "type": "mod_loaded",
+    "mod": "tconstruct"
+  },
+  "key": "modularis:tconstruct/electrum",
+  "properties": {
+    "chest": {
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.armor",
+          "value": "-1.5/4",
+          "operation": "+",
+          "slot": "chest"
+        }
+      ]
+    },
+    "pants": {
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.armor",
+          "value": "-0.5/3",
+          "operation": "+",
+          "slot": "legs"
+        }
+      ]
+    },
+    "boot": {
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.armor",
+          "value": "-1/2",
+          "operation": "+",
+          "slot": "feet"
+        }
+      ]
+    },
+    "helmet": {
+      "on_hit_potion": [
+        {
+          "potion": "minecraft:instant_damage",
+          "amplifier": 0,
+          "duration": 1,
+          "target_self": false,
+          "probability": 0.15
+        }
+      ],
+      "gui_stat": {
+        "electrum_shock_retaliation": {
+          "value": 15,
+          "min": 15,
+          "max": 15,
+          "header": {
+            "translate": "modularis.material.stat.electrum_shock_retaliation"
+          },
+          "description": {
+            "translate": "modularis.material.stat.electrum_shock_retaliation.description"
+          }
+        }
+      }
+    },
+    "front_chest": {
+      "on_hit_potion": [
+        {
+          "potion": "minecraft:instant_damage",
+          "amplifier": 0,
+          "duration": 1,
+          "target_self": false,
+          "probability": 0.15
+        }
+      ],
+      "gui_stat": {
+        "electrum_shock_retaliation": {
+          "value": 15,
+          "min": 15,
+          "max": 15,
+          "header": {
+            "translate": "modularis.material.stat.electrum_shock_retaliation"
+          },
+          "description": {
+            "translate": "modularis.material.stat.electrum_shock_retaliation.description"
+          }
+        }
+      }
+    },
+    "belt": {
+      "on_hit_potion": [
+        {
+          "potion": "minecraft:instant_damage",
+          "amplifier": 0,
+          "duration": 1,
+          "target_self": false,
+          "probability": 0.15
+        }
+      ],
+      "gui_stat": {
+        "electrum_shock_retaliation": {
+          "value": 15,
+          "min": 15,
+          "max": 15,
+          "header": {
+            "translate": "modularis.material.stat.electrum_shock_retaliation"
+          },
+          "description": {
+            "translate": "modularis.material.stat.electrum_shock_retaliation.description"
+          }
+        }
+      }
+    },
+    "boot_left": {
+      "on_hit_potion": [
+        {
+          "potion": "minecraft:instant_damage",
+          "amplifier": 0,
+          "duration": 1,
+          "target_self": false,
+          "probability": 0.15
+        }
+      ],
+      "gui_stat": {
+        "electrum_shock_retaliation": {
+          "value": 15,
+          "min": 15,
+          "max": 15,
+          "header": {
+            "translate": "modularis.material.stat.electrum_shock_retaliation"
+          },
+          "description": {
+            "translate": "modularis.material.stat.electrum_shock_retaliation.description"
+          }
+        }
+      }
+    },
+    "blade": {
+      "damage_command": [
+        {
+          "command": [
+            "execute if predicate modularis:tconstruct/electrum_shock_chance run effect give @s minecraft:slowness 2 1"
+          ],
+          "onMeleeAttack": true,
+          "runAt": "DEFENDER"
+        }
+      ],
+      "gui_stat": {
+        "electrum_shock": {
+          "value": 15,
+          "min": 15,
+          "max": 15,
+          "header": {
+            "translate": "modularis.material.stat.electrum_shock"
+          },
+          "description": {
+            "translate": "modularis.material.stat.electrum_shock.description"
+          }
+        }
+      }
+    },
+    "tm_arsenal:tool/axe_front": {
+      "damage_command": [
+        {
+          "command": [
+            "execute if predicate modularis:tconstruct/electrum_shock_chance run effect give @s minecraft:slowness 2 1"
+          ],
+          "onMeleeAttack": true,
+          "runAt": "DEFENDER"
+        }
+      ],
+      "gui_stat": {
+        "electrum_shock": {
+          "value": 15,
+          "min": 15,
+          "max": 15,
+          "header": {
+            "translate": "modularis.material.stat.electrum_shock"
+          },
+          "description": {
+            "translate": "modularis.material.stat.electrum_shock.description"
+          }
+        }
+      }
+    },
+    "tm_arsenal:tool/pickaxe_front": {
+      "damage_command": [
+        {
+          "command": [
+            "execute if predicate modularis:tconstruct/electrum_shock_chance run effect give @s minecraft:slowness 2 1"
+          ],
+          "onMeleeAttack": true,
+          "runAt": "DEFENDER"
+        }
+      ],
+      "gui_stat": {
+        "electrum_shock": {
+          "value": 15,
+          "min": 15,
+          "max": 15,
+          "header": {
+            "translate": "modularis.material.stat.electrum_shock"
+          },
+          "description": {
+            "translate": "modularis.material.stat.electrum_shock.description"
+          }
+        }
+      }
+    },
+    "tm_arsenal:tool/hammer": {
+      "damage_command": [
+        {
+          "command": [
+            "execute if predicate modularis:tconstruct/electrum_shock_chance run effect give @s minecraft:slowness 2 1"
+          ],
+          "onMeleeAttack": true,
+          "runAt": "DEFENDER"
+        }
+      ],
+      "gui_stat": {
+        "electrum_shock": {
+          "value": 15,
+          "min": 15,
+          "max": 15,
+          "header": {
+            "translate": "modularis.material.stat.electrum_shock"
+          },
+          "description": {
+            "translate": "modularis.material.stat.electrum_shock.description"
+          }
+        }
+      }
+    },
+    "tm_arsenal:tool/shovel": {
+      "damage_command": [
+        {
+          "command": [
+            "execute if predicate modularis:tconstruct/electrum_shock_chance run effect give @s minecraft:slowness 2 1"
+          ],
+          "onMeleeAttack": true,
+          "runAt": "DEFENDER"
+        }
+      ],
+      "gui_stat": {
+        "electrum_shock": {
+          "value": 15,
+          "min": 15,
+          "max": 15,
+          "header": {
+            "translate": "modularis.material.stat.electrum_shock"
+          },
+          "description": {
+            "translate": "modularis.material.stat.electrum_shock.description"
+          }
+        }
+      }
+    },
+    "tm_arsenal:tool/hoe_front": {
+      "damage_command": [
+        {
+          "command": [
+            "execute if predicate modularis:tconstruct/electrum_shock_chance run effect give @s minecraft:slowness 2 1"
+          ],
+          "onMeleeAttack": true,
+          "runAt": "DEFENDER"
+        }
+      ],
+      "gui_stat": {
+        "electrum_shock": {
+          "value": 15,
+          "min": 15,
+          "max": 15,
+          "header": {
+            "translate": "modularis.material.stat.electrum_shock"
+          },
+          "description": {
+            "translate": "modularis.material.stat.electrum_shock.description"
+          }
+        }
+      }
+    }
+  }
+}
