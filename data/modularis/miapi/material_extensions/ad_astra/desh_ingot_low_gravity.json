@@ -1,0 +1,141 @@
+{
+  "load_condition": {
+    "type": "mod_loaded",
+    "mod": "ad_astra"
+  },
+  "key": "modularis:ad_astra/desh_ingot",
+  "properties": {
+    "helmet": {
+      "module_stats": {
+        "modularis_desh_part": 1
+      },
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.gravity",
+          "value": "-0.05*min(3,[collect.add.module.modularis_desh_part])/[collect.add.module.modularis_desh_part]",
+          "operation": "*",
+          "target_operation": "*",
+          "slot": "head"
+        },
+        {
+          "attribute": "minecraft:generic.safe_fall_distance",
+          "value": "0.5*min(3,[collect.add.module.modularis_desh_part])/[collect.add.module.modularis_desh_part]",
+          "operation": "+",
+          "slot": "head"
+        }
+      ],
+      "gui_stat": {
+        "desh_low_gravity": {
+          "value": "5",
+          "min": "5",
+          "max": "15",
+          "header": {
+            "translate": "modularis.material.stat.desh_low_gravity"
+          },
+          "description": {
+            "translate": "modularis.material.stat.desh_low_gravity.description"
+          }
+        }
+      }
+    },
+    "chest": {
+      "module_stats": {
+        "modularis_desh_part": 1
+      },
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.gravity",
+          "value": "-0.05*min(3,[collect.add.module.modularis_desh_part])/[collect.add.module.modularis_desh_part]",
+          "operation": "*",
+          "target_operation": "*",
+          "slot": "chest"
+        },
+        {
+          "attribute": "minecraft:generic.safe_fall_distance",
+          "value": "0.5*min(3,[collect.add.module.modularis_desh_part])/[collect.add.module.modularis_desh_part]",
+          "operation": "+",
+          "slot": "chest"
+        }
+      ],
+      "gui_stat": {
+        "desh_low_gravity": {
+          "value": "5",
+          "min": "5",
+          "max": "15",
+          "header": {
+            "translate": "modularis.material.stat.desh_low_gravity"
+          },
+          "description": {
+            "translate": "modularis.material.stat.desh_low_gravity.description"
+          }
+        }
+      }
+    },
+    "pants": {
+      "module_stats": {
+        "modularis_desh_part": 1
+      },
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.gravity",
+          "value": "-0.05*min(3,[collect.add.module.modularis_desh_part])/[collect.add.module.modularis_desh_part]",
+          "operation": "*",
+          "target_operation": "*",
+          "slot": "legs"
+        },
+        {
+          "attribute": "minecraft:generic.safe_fall_distance",
+          "value": "0.5*min(3,[collect.add.module.modularis_desh_part])/[collect.add.module.modularis_desh_part]",
+          "operation": "+",
+          "slot": "legs"
+        }
+      ],
+      "gui_stat": {
+        "desh_low_gravity": {
+          "value": "5",
+          "min": "5",
+          "max": "15",
+          "header": {
+            "translate": "modularis.material.stat.desh_low_gravity"
+          },
+          "description": {
+            "translate": "modularis.material.stat.desh_low_gravity.description"
+          }
+        }
+      }
+    },
+    "boot": {
+      "module_stats": {
+        "modularis_desh_part": 1
+      },
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.gravity",
+          "value": "-0.05*min(3,[collect.add.module.modularis_desh_part])/[collect.add.module.modularis_desh_part]",
+          "operation": "*",
+          "target_operation": "*",
+          "slot": "feet"
+        },
+        {
+          "attribute": "minecraft:generic.safe_fall_distance",
+          "value": "0.5*min(3,[collect.add.module.modularis_desh_part])/[collect.add.module.modularis_desh_part]",
+          "operation": "+",
+          "slot": "feet"
+        }
+      ],
+      "gui_stat": {
+        "desh_low_gravity": {
+          "value": "5",
+          "min": "5",
+          "max": "15",
+          "header": {
+            "translate": "modularis.material.stat.desh_low_gravity"
+          },
+          "description": {
+            "translate": "modularis.material.stat.desh_low_gravity.description"
+          }
+        }
+      }
+    }
+  }
+}

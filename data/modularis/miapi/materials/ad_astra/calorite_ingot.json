@@ -1,0 +1,46 @@
+{
+  "load_condition": {
+    "type": "mod_loaded",
+    "mod": "ad_astra"
+  },
+  "translation": {
+    "translate": "material.modularis.calorite_ingot"
+  },
+  "icon": {
+    "type": "item",
+    "item": "ad_astra:calorite_ingot"
+  },
+  "groups": [
+    "metal"
+  ],
+  "tier": 5,
+  "hardness": 8,
+  "density": 3.8,
+  "flexibility": 1,
+  "durability": 1300,
+  "armor_durability": 42,
+  "enchantability": 15,
+  "toughness": 0,
+  "armor_toughness": 5.0,
+  "mining_speed": 9,
+  "mining_level": "minecraft:incorrect_for_netherite_tool",
+  "items": [
+    {
+      "item": "ad_astra:calorite_ingot",
+      "value": 1.0
+    },
+    {
+      "item": "ad_astra:calorite_nugget",
+      "value": 0.11112
+    }
+  ],
+  "properties": {
+    "default": {
+      "fire_proof": true
+    }
+  },
+  "color_palette": {
+    "type": "image_generated_item",
+    "item": "ad_astra:calorite_ingot"
+  }
+}

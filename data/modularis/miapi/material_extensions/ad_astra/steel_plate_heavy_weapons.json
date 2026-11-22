@@ -1,0 +1,28 @@
+{
+  "load_condition": { "type": "mod_loaded", "mod": "ad_astra" },
+  "key": "modularis:ad_astra/steel_plate",
+  "properties": {
+    "blade_large": {
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.attack_damage",
+          "value": "0.1",
+          "operation": "+",
+          "target_operation": "**",
+          "slot": "mainhand"
+        }
+      ]
+    },
+    "hammer": {
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.attack_damage",
+          "value": "0.1",
+          "operation": "+",
+          "target_operation": "**",
+          "slot": "mainhand"
+        }
+      ]
+    }
+  }
+}

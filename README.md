@@ -2,12 +2,13 @@
 
 A compatibility datapack for Truly Modular in Minecraft 1.21.
 
-**Materials created so far: 206**
+**Materials created so far: 226**
 
 ---
 
 ## Currently supported mods
 
+- Ad Astra
 - Aether
 - Aether Treasure Reforging
 - Aethersteel

@@ -1,0 +1,105 @@
+{
+  "load_condition": {
+    "type": "mod_loaded",
+    "mod": "ad_astra"
+  },
+  "key": "modularis:ad_astra/venus_cobblestone",
+  "properties": {
+    "helmet": {
+      "on_hit_potion": [
+        {
+          "potion": "minecraft:poison",
+          "amplifier": 0,
+          "duration": 80,
+          "target_self": false,
+          "probability": 0.15
+        }
+      ],
+      "gui_stat": {
+        "venus_acid": {
+          "value": "15",
+          "min": "15",
+          "max": "15",
+          "header": {
+            "translate": "modularis.material.stat.venus_acid"
+          },
+          "description": {
+            "translate": "modularis.material.stat.venus_acid.description"
+          }
+        }
+      }
+    },
+    "front_chest": {
+      "on_hit_potion": [
+        {
+          "potion": "minecraft:poison",
+          "amplifier": 0,
+          "duration": 80,
+          "target_self": false,
+          "probability": 0.15
+        }
+      ],
+      "gui_stat": {
+        "venus_acid": {
+          "value": "15",
+          "min": "15",
+          "max": "15",
+          "header": {
+            "translate": "modularis.material.stat.venus_acid"
+          },
+          "description": {
+            "translate": "modularis.material.stat.venus_acid.description"
+          }
+        }
+      }
+    },
+    "belt": {
+      "on_hit_potion": [
+        {
+          "potion": "minecraft:poison",
+          "amplifier": 0,
+          "duration": 80,
+          "target_self": false,
+          "probability": 0.15
+        }
+      ],
+      "gui_stat": {
+        "venus_acid": {
+          "value": "15",
+          "min": "15",
+          "max": "15",
+          "header": {
+            "translate": "modularis.material.stat.venus_acid"
+          },
+          "description": {
+            "translate": "modularis.material.stat.venus_acid.description"
+          }
+        }
+      }
+    },
+    "boot_left": {
+      "on_hit_potion": [
+        {
+          "potion": "minecraft:poison",
+          "amplifier": 0,
+          "duration": 80,
+          "target_self": false,
+          "probability": 0.15
+        }
+      ],
+      "gui_stat": {
+        "venus_acid": {
+          "value": "15",
+          "min": "15",
+          "max": "15",
+          "header": {
+            "translate": "modularis.material.stat.venus_acid"
+          },
+          "description": {
+            "translate": "modularis.material.stat.venus_acid.description"
+          }
+        }
+      }
+    }
+  }
+}

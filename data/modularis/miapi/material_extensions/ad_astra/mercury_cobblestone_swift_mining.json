@@ -1,0 +1,36 @@
+{
+  "load_condition": {
+    "type": "mod_loaded",
+    "mod": "ad_astra"
+  },
+  "key": "modularis:ad_astra/mercury_cobblestone",
+  "properties": {
+    "tool_head": {
+      "module_stats": {
+        "modularis_mercury_stone": 1
+      },
+      "attributes": [
+        {
+          "attribute": "minecraft:player.block_break_speed",
+          "value": "0.1/[collect.add.module.modularis_mercury_stone]",
+          "operation": "+",
+          "target_operation": "**",
+          "slot": "mainhand"
+        }
+      ],
+      "gui_stat": {
+        "mercury_mining": {
+          "value": "10",
+          "min": "0",
+          "max": "10",
+          "header": {
+            "translate": "modularis.material.stat.mercury_mining"
+          },
+          "description": {
+            "translate": "modularis.material.stat.mercury_mining.description"
+          }
+        }
+      }
+    }
+  }
+}

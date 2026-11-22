@@ -1,0 +1,33 @@
+{
+  "load_condition": {
+    "type": "mod_loaded",
+    "mod": "ad_astra"
+  },
+  "key": "modularis:ad_astra/glacio_cobblestone",
+  "properties": {
+    "sharp": {
+      "damage_command": [
+        {
+          "command": [
+            "execute if predicate modularis:ad_astra/glacio_freeze_chance run data merge entity @s {TicksFrozen:300}"
+          ],
+          "onMeleeAttack": true,
+          "runAt": "DEFENDER"
+        }
+      ],
+      "gui_stat": {
+        "glacio_freeze": {
+          "value": "20",
+          "min": "20",
+          "max": "20",
+          "header": {
+            "translate": "modularis.material.stat.glacio_freeze"
+          },
+          "description": {
+            "translate": "modularis.material.stat.glacio_freeze.description"
+          }
+        }
+      }
+    }
+  }
+}

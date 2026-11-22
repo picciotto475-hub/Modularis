@@ -1,0 +1,145 @@
+{
+  "load_condition": {
+    "type": "mod_loaded",
+    "mod": "ad_astra"
+  },
+  "key": "modularis:ad_astra/calorite_ingot",
+  "properties": {
+    "helmet": {
+      "module_stats": {
+        "modularis_calorite_part": 1
+      },
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.movement_speed",
+          "value": "0.015*min(3,[collect.add.module.modularis_calorite_part])/[collect.add.module.modularis_calorite_part]",
+          "operation": "*",
+          "target_operation": "*",
+          "slot": "head"
+        },
+        {
+          "attribute": "minecraft:generic.fall_damage_multiplier",
+          "value": "-0.06*min(3,[collect.add.module.modularis_calorite_part])/[collect.add.module.modularis_calorite_part]",
+          "operation": "*",
+          "target_operation": "*",
+          "slot": "head"
+        }
+      ],
+      "gui_stat": {
+        "calorite_jet_thrust": {
+          "value": "1.5",
+          "min": "1.5",
+          "max": "4.5",
+          "header": {
+            "translate": "modularis.material.stat.calorite_jet_thrust"
+          },
+          "description": {
+            "translate": "modularis.material.stat.calorite_jet_thrust.description"
+          }
+        }
+      }
+    },
+    "chest": {
+      "module_stats": {
+        "modularis_calorite_part": 1
+      },
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.movement_speed",
+          "value": "0.015*min(3,[collect.add.module.modularis_calorite_part])/[collect.add.module.modularis_calorite_part]",
+          "operation": "*",
+          "target_operation": "*",
+          "slot": "chest"
+        },
+        {
+          "attribute": "minecraft:generic.fall_damage_multiplier",
+          "value": "-0.06*min(3,[collect.add.module.modularis_calorite_part])/[collect.add.module.modularis_calorite_part]",
+          "operation": "*",
+          "target_operation": "*",
+          "slot": "chest"
+        }
+      ],
+      "gui_stat": {
+        "calorite_jet_thrust": {
+          "value": "1.5",
+          "min": "1.5",
+          "max": "4.5",
+          "header": {
+            "translate": "modularis.material.stat.calorite_jet_thrust"
+          },
+          "description": {
+            "translate": "modularis.material.stat.calorite_jet_thrust.description"
+          }
+        }
+      }
+    },
+    "pants": {
+      "module_stats": {
+        "modularis_calorite_part": 1
+      },
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.movement_speed",
+          "value": "0.015*min(3,[collect.add.module.modularis_calorite_part])/[collect.add.module.modularis_calorite_part]",
+          "operation": "*",
+          "target_operation": "*",
+          "slot": "legs"
+        },
+        {
+          "attribute": "minecraft:generic.fall_damage_multiplier",
+          "value": "-0.06*min(3,[collect.add.module.modularis_calorite_part])/[collect.add.module.modularis_calorite_part]",
+          "operation": "*",
+          "target_operation": "*",
+          "slot": "legs"
+        }
+      ],
+      "gui_stat": {
+        "calorite_jet_thrust": {
+          "value": "1.5",
+          "min": "1.5",
+          "max": "4.5",
+          "header": {
+            "translate": "modularis.material.stat.calorite_jet_thrust"
+          },
+          "description": {
+            "translate": "modularis.material.stat.calorite_jet_thrust.description"
+          }
+        }
+      }
+    },
+    "boot": {
+      "module_stats": {
+        "modularis_calorite_part": 1
+      },
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.movement_speed",
+          "value": "0.015*min(3,[collect.add.module.modularis_calorite_part])/[collect.add.module.modularis_calorite_part]",
+          "operation": "*",
+          "target_operation": "*",
+          "slot": "feet"
+        },
+        {
+          "attribute": "minecraft:generic.fall_damage_multiplier",
+          "value": "-0.06*min(3,[collect.add.module.modularis_calorite_part])/[collect.add.module.modularis_calorite_part]",
+          "operation": "*",
+          "target_operation": "*",
+          "slot": "feet"
+        }
+      ],
+      "gui_stat": {
+        "calorite_jet_thrust": {
+          "value": "1.5",
+          "min": "1.5",
+          "max": "4.5",
+          "header": {
+            "translate": "modularis.material.stat.calorite_jet_thrust"
+          },
+          "description": {
+            "translate": "modularis.material.stat.calorite_jet_thrust.description"
+          }
+        }
+      }
+    }
+  }
+}

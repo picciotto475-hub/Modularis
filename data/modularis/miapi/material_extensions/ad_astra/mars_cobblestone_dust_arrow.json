@@ -1,0 +1,33 @@
+{
+  "load_condition": {
+    "type": "mod_loaded",
+    "mod": "ad_astra"
+  },
+  "key": "modularis:ad_astra/mars_cobblestone",
+  "properties": {
+    "arrow_head": {
+      "damage_command": [
+        {
+          "command": [
+            "execute if predicate modularis:ad_astra/mars_dust_chance run effect give @s minecraft:blindness 3 0"
+          ],
+          "onRangedAttack": true,
+          "runAt": "DEFENDER"
+        }
+      ],
+      "gui_stat": {
+        "mars_dust": {
+          "value": "25",
+          "min": "25",
+          "max": "25",
+          "header": {
+            "translate": "modularis.material.stat.mars_dust"
+          },
+          "description": {
+            "translate": "modularis.material.stat.mars_dust.description"
+          }
+        }
+      }
+    }
+  }
+}

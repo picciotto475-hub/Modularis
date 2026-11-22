@@ -1,0 +1,30 @@
+{
+  "load_condition": { "type": "mod_loaded", "mod": "ad_astra" },
+  "translation": {
+    "translate": "material.modularis.steel_ingot"
+  },
+  "icon": {
+    "type": "item",
+    "item": "ad_astra:steel_ingot"
+  },
+  "groups": ["metal"],
+  "tier": 4,
+  "hardness": 5,
+  "density": 3.8,
+  "flexibility": 1,
+  "durability": 580,
+  "armor_durability": 37,
+  "enchantability": 14,
+  "toughness": 0,
+  "armor_toughness": 0.0,
+  "mining_speed": 7,
+  "mining_level": "minecraft:incorrect_for_diamond_tool",
+  "items": [
+    { "item": "ad_astra:steel_ingot", "value": 1.0 },
+    { "item": "ad_astra:steel_nugget", "value": 0.11112 }
+  ],
+  "color_palette": {
+    "type": "image_generated_item",
+    "item": "ad_astra:steel_ingot"
+  }
+}

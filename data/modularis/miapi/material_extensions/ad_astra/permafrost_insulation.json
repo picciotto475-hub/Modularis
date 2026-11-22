@@ -1,0 +1,81 @@
+{
+  "load_condition": {
+    "type": "mod_loaded",
+    "mod": "ad_astra"
+  },
+  "key": "modularis:ad_astra/permafrost",
+  "properties": {
+    "helmet": {
+      "fake_item_tag": [
+        "minecraft:freeze_immune_wearables"
+      ],
+      "gui_stat": {
+        "permafrost_insulation": {
+          "value": "1",
+          "min": "0",
+          "max": "1",
+          "header": {
+            "translate": "modularis.material.stat.permafrost_insulation"
+          },
+          "description": {
+            "translate": "modularis.material.stat.permafrost_insulation.description"
+          }
+        }
+      }
+    },
+    "front_chest": {
+      "fake_item_tag": [
+        "minecraft:freeze_immune_wearables"
+      ],
+      "gui_stat": {
+        "permafrost_insulation": {
+          "value": "1",
+          "min": "0",
+          "max": "1",
+          "header": {
+            "translate": "modularis.material.stat.permafrost_insulation"
+          },
+          "description": {
+            "translate": "modularis.material.stat.permafrost_insulation.description"
+          }
+        }
+      }
+    },
+    "belt": {
+      "fake_item_tag": [
+        "minecraft:freeze_immune_wearables"
+      ],
+      "gui_stat": {
+        "permafrost_insulation": {
+          "value": "1",
+          "min": "0",
+          "max": "1",
+          "header": {
+            "translate": "modularis.material.stat.permafrost_insulation"
+          },
+          "description": {
+            "translate": "modularis.material.stat.permafrost_insulation.description"
+          }
+        }
+      }
+    },
+    "boot_left": {
+      "fake_item_tag": [
+        "minecraft:freeze_immune_wearables"
+      ],
+      "gui_stat": {
+        "permafrost_insulation": {
+          "value": "1",
+          "min": "0",
+          "max": "1",
+          "header": {
+            "translate": "modularis.material.stat.permafrost_insulation"
+          },
+          "description": {
+            "translate": "modularis.material.stat.permafrost_insulation.description"
+          }
+        }
+      }
+    }
+  }
+}

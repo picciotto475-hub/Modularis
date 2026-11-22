@@ -1,0 +1,35 @@
+{
+  "load_condition": { "type": "mod_loaded", "mod": "ad_astra" },
+  "translation": {
+    "translate": "material.modularis.etrium_rod"
+  },
+  "icon": {
+    "type": "item",
+    "item": "ad_astra:etrium_rod"
+  },
+  "groups": ["rod"],
+  "tier": 4,
+  "hardness": 5,
+  "density": 3.0,
+  "flexibility": 2,
+  "durability": 850,
+  "enchantability": 18,
+  "toughness": 1,
+  "mining_speed": 5,
+  "mining_level": "minecraft:incorrect_for_wooden_tool",
+  "items": [
+    { "item": "ad_astra:etrium_rod", "value": 1.0 }
+  ],
+  "properties": {
+    "handheld": {
+      "durability": {
+        "operation": "**",
+        "value": "0.30"
+      }
+    }
+  },
+  "color_palette": {
+    "type": "image_generated_item",
+    "item": "ad_astra:etrium_rod"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "load_condition": { "type": "mod_loaded", "mod": "ad_astra" },
+  "key": "modularis:ad_astra/etrium_plate",
+  "properties": {
+    "head": {
+      "damage_command": [
+        {
+          "command": [
+            "effect give @s minecraft:haste 4 0"
+          ],
+          "onMeleeAttack": true,
+          "runAt": "ATTACKER"
+        }
+      ],
+      "gui_stat": {
+        "etrium_surge": {
+          "value": 4,
+          "min": 4,
+          "max": 4,
+          "header": {
+            "translate": "modularis.material.stat.etrium_surge"
+          },
+          "description": {
+            "translate": "modularis.material.stat.etrium_surge.description"
+          }
+        }
+      }
+    }
+  }
+}

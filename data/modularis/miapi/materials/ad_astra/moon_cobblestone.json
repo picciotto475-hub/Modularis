@@ -1,0 +1,35 @@
+{
+  "load_condition": {
+    "type": "mod_loaded",
+    "mod": "ad_astra"
+  },
+  "translation": {
+    "translate": "material.modularis.moon_cobblestone"
+  },
+  "icon": {
+    "type": "item",
+    "item": "ad_astra:moon_cobblestone"
+  },
+  "groups": [
+    "stone"
+  ],
+  "tier": 2,
+  "hardness": 3.5,
+  "density": 3.0,
+  "flexibility": 0.5,
+  "durability": 110,
+  "enchantability": 6,
+  "toughness": 1,
+  "mining_speed": 4,
+  "mining_level": "minecraft:incorrect_for_stone_tool",
+  "items": [
+    {
+      "item": "ad_astra:moon_cobblestone",
+      "value": 1.0
+    }
+  ],
+  "color_palette": {
+    "type": "image_generated_item",
+    "item": "ad_astra:moon_cobblestone"
+  }
+}

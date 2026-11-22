@@ -1,0 +1,35 @@
+{
+  "load_condition": {
+    "type": "mod_loaded",
+    "mod": "ad_astra"
+  },
+  "translation": {
+    "translate": "material.modularis.mercury_cobblestone"
+  },
+  "icon": {
+    "type": "item",
+    "item": "ad_astra:mercury_cobblestone"
+  },
+  "groups": [
+    "stone"
+  ],
+  "tier": 2,
+  "hardness": 4.5,
+  "density": 4.5,
+  "flexibility": 0,
+  "durability": 120,
+  "enchantability": 5,
+  "toughness": 1,
+  "mining_speed": 4.5,
+  "mining_level": "minecraft:incorrect_for_stone_tool",
+  "items": [
+    {
+      "item": "ad_astra:mercury_cobblestone",
+      "value": 1.0
+    }
+  ],
+  "color_palette": {
+    "type": "image_generated_item",
+    "item": "ad_astra:mercury_cobblestone"
+  }
+}

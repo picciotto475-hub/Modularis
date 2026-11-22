@@ -1,0 +1,29 @@
+{
+  "load_condition": { "type": "mod_loaded", "mod": "ad_astra" },
+  "translation": {
+    "translate": "material.modularis.steel_plate"
+  },
+  "icon": {
+    "type": "item",
+    "item": "ad_astra:steel_plate"
+  },
+  "groups": ["metal"],
+  "tier": 4,
+  "hardness": 5,
+  "density": 2.85,
+  "flexibility": 3,
+  "durability": 464,
+  "armor_durability": 30,
+  "enchantability": 14,
+  "toughness": 0,
+  "armor_toughness": 0.0,
+  "mining_speed": 7,
+  "mining_level": "minecraft:incorrect_for_diamond_tool",
+  "items": [
+    { "item": "ad_astra:steel_plate", "value": 1.0 }
+  ],
+  "color_palette": {
+    "type": "image_generated_item",
+    "item": "ad_astra:steel_plate"
+  }
+}
