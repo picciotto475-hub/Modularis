@@ -1,0 +1,25 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "orevolution"
+    }
+  ],
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "orevolution"
+      ]
+    }
+  ],
+  "type": "miapi:material_smithing",
+  "template": {
+    "item": "orevolution:basic_smithing_template"
+  },
+  "addition": {
+    "tag": "c:ingots/bronze"
+  },
+  "base": "modularis:orevolution/tin",
+  "result": "modularis:orevolution/bronze"
+}

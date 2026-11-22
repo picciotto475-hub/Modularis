@@ -1,0 +1,187 @@
+{
+  "load_condition": {
+    "type": "mod_loaded",
+    "mod": "orevolution"
+  },
+  "key": "modularis:orevolution/bronze",
+  "properties": {
+    "helmet": {
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.max_health",
+          "value": "1/1",
+          "operation": "+",
+          "slot": "head"
+        },
+        {
+          "attribute": "minecraft:generic.oxygen_bonus",
+          "value": "2/1",
+          "operation": "+",
+          "slot": "head"
+        },
+        {
+          "attribute": "minecraft:generic.armor",
+          "value": "1/1",
+          "operation": "+",
+          "slot": "head"
+        }
+      ],
+      "gui_stat": {
+        "bronze_ward": {
+          "value": "1",
+          "min": "1",
+          "max": "1",
+          "header": {
+            "translate": "modularis.material.stat.bronze_ward"
+          },
+          "description": {
+            "translate": "modularis.material.stat.bronze_ward.description"
+          }
+        },
+        "bronze_oxygen": {
+          "value": "2",
+          "min": "2",
+          "max": "2",
+          "header": {
+            "translate": "modularis.material.stat.bronze_oxygen"
+          },
+          "description": {
+            "translate": "modularis.material.stat.bronze_oxygen.description"
+          }
+        }
+      }
+    },
+    "chest": {
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.max_health",
+          "value": "1/4",
+          "operation": "+",
+          "slot": "chest"
+        },
+        {
+          "attribute": "minecraft:generic.oxygen_bonus",
+          "value": "2/4",
+          "operation": "+",
+          "slot": "chest"
+        },
+        {
+          "attribute": "minecraft:generic.armor",
+          "value": "-1/4",
+          "operation": "+",
+          "slot": "chest"
+        }
+      ],
+      "gui_stat": {
+        "bronze_ward": {
+          "value": "1",
+          "min": "1",
+          "max": "1",
+          "header": {
+            "translate": "modularis.material.stat.bronze_ward"
+          },
+          "description": {
+            "translate": "modularis.material.stat.bronze_ward.description"
+          }
+        },
+        "bronze_oxygen": {
+          "value": "2",
+          "min": "2",
+          "max": "2",
+          "header": {
+            "translate": "modularis.material.stat.bronze_oxygen"
+          },
+          "description": {
+            "translate": "modularis.material.stat.bronze_oxygen.description"
+          }
+        }
+      }
+    },
+    "pants": {
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.max_health",
+          "value": "1/3",
+          "operation": "+",
+          "slot": "legs"
+        },
+        {
+          "attribute": "minecraft:generic.oxygen_bonus",
+          "value": "2/3",
+          "operation": "+",
+          "slot": "legs"
+        },
+        {
+          "attribute": "minecraft:generic.armor",
+          "value": "-1/3",
+          "operation": "+",
+          "slot": "legs"
+        }
+      ],
+      "gui_stat": {
+        "bronze_ward": {
+          "value": "1",
+          "min": "1",
+          "max": "1",
+          "header": {
+            "translate": "modularis.material.stat.bronze_ward"
+          },
+          "description": {
+            "translate": "modularis.material.stat.bronze_ward.description"
+          }
+        },
+        "bronze_oxygen": {
+          "value": "2",
+          "min": "2",
+          "max": "2",
+          "header": {
+            "translate": "modularis.material.stat.bronze_oxygen"
+          },
+          "description": {
+            "translate": "modularis.material.stat.bronze_oxygen.description"
+          }
+        }
+      }
+    },
+    "boot": {
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.max_health",
+          "value": "1/2",
+          "operation": "+",
+          "slot": "feet"
+        },
+        {
+          "attribute": "minecraft:generic.oxygen_bonus",
+          "value": "2/2",
+          "operation": "+",
+          "slot": "feet"
+        }
+      ],
+      "gui_stat": {
+        "bronze_ward": {
+          "value": "1",
+          "min": "1",
+          "max": "1",
+          "header": {
+            "translate": "modularis.material.stat.bronze_ward"
+          },
+          "description": {
+            "translate": "modularis.material.stat.bronze_ward.description"
+          }
+        },
+        "bronze_oxygen": {
+          "value": "2",
+          "min": "2",
+          "max": "2",
+          "header": {
+            "translate": "modularis.material.stat.bronze_oxygen"
+          },
+          "description": {
+            "translate": "modularis.material.stat.bronze_oxygen.description"
+          }
+        }
+      }
+    }
+  }
+}
